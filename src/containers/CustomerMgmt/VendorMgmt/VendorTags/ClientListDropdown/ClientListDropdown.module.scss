@@ -1,0 +1,159 @@
+@import "../../../../../theme.scss";
+
+.searchDropdown{
+    background-color: $card-bg;
+    border-radius: 15px;
+    width: 100%; //12.5rem;
+    font-size: 14px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    overflow: auto;
+    max-height: 13rem;
+}
+
+.hover{
+    &:hover{
+      cursor: pointer;
+    }
+}
+
+.DropdownIconUp{
+    margin-top: 0.35rem;
+}
+
+.DropdownIconDown{
+    margin-top: 0.35rem;
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.Loader{
+    position: relative;
+    bottom: 3.15rem;
+    left: 80%;
+}
+
+.HorizontalLine{
+    border: 1px solid $primary-background;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.FirstOption{
+    color:$secondary-label ;
+    font-size: 14px;
+    // width: 100%;
+    padding: 8px 12px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+}
+
+.LastOption{
+    color:$secondary-label ;
+    font-size: 14px;
+    // width: 100%;
+    padding: 8px 12px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+
+.Options{
+    color:$secondary-label ;
+    font-size: 14px;
+    // width: 100%;
+    padding: 8px 12px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+    }
+}
+
+.SearchOption{
+    border-radius: 35px;
+    background-color: $secondary-background;
+    padding: 10px 8px 10px 10px;
+    color: $active-link;
+    font-size: 14px;
+    border: none;
+    // height: 2rem;
+    &:hover{
+        cursor: pointer;
+    }
+    position: relative;
+}
+
+.img {
+    &:hover{
+        filter : invert(100%) sepia(1) saturate(1) brightness(54%);
+    }
+}
+
+.SearchField{
+    border: 1px solid $secondary-background;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    color: $secondary-label;
+    position: inherit;
+    width: 91%;
+    margin: 0.5rem;
+    &:focus{
+        border: 1px solid $active-link;
+    }
+}
+
+.NoBorder{
+    border: none;
+    width: 85%;
+}
+
+.HrLine{
+    border-bottom: 1px solid $horizontal-line;
+    line-height: 0.1em;
+    margin: 0.5rem;
+    border-radius: 8.5px;
+    color: $secondary-label;
+}
+
+.Padding{
+    background-color: $secondary-background;
+    padding: 2px 8px;
+    border-radius: 8.5px;
+    height: max-content;
+    width: max-content;
+    font-size: 12px;
+}
+
+.SubHeading{
+    border-radius: 8.5px;
+    background-color: $primary-background;
+    color: $secondary-label;
+    font-size: 12px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: max-content;
+    height: max-content;
+    position: relative;
+    bottom: 1.25rem;
+}
+
+.SubHeadingHr{
+    border-bottom: 1px solid $primary-background;
+    margin: 3.5rem 1.5rem 0.75rem 1rem;
+}
+
+.SubHeadingHr1{
+    border-bottom: 1px solid $primary-background;
+    margin: 1rem 1.5rem 0.75rem 1rem;
+}

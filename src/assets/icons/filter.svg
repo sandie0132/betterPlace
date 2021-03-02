@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="8px" viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>0120649B-6E51-40BB-AB61-CE5D533AF907</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8.5,8 L8.5,10 L3.5,10 L3.5,8 L8.5,8 Z M9.75,5 L9.75,7 L2.25,7 L2.25,5 L9.75,5 Z M11,2 L11,4 L1,4 L1,2 L11,2 Z" id="path-1"></path>
+    </defs>
+    <g id="🚀-Initiate-BGV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-single-employee-initiateing_A2" transform="translate(-946.000000, -99.000000)">
+            <g id="action-bar-/-without_label" transform="translate(160.000000, 80.000000)">
+                <g id="All-Locations-Copy" transform="translate(752.000000, 17.000000)">
+                    <g id="icon-/-12-/-action-/-filter" transform="translate(33.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

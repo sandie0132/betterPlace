@@ -1,0 +1,123 @@
+@import "../../../theme.scss";
+
+.heading{
+    font-size: 24px;
+    color: $secondary-label;
+    font-family: "Gilroy-Light";
+    margin-top: 1rem;
+}
+
+.closeImg{
+    cursor: pointer;
+    margin-top: 5rem;
+}
+
+.modalContent{
+    background-color: $primary-background;
+    width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+}
+
+.signatureOption{
+    background-color: $card-bg;
+    padding: 3px;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 11px 0 rgba(0,0,0,0.11);
+    
+}
+
+.signatureActive{
+    font-size: 14px;
+    color: $active-link;
+    // display: inline-block;
+    background-color: $secondary-background;
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.signatureInactive{
+    font-size: 14px;
+    color: $secondary-label;
+    // display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.alignModal {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.signatureCanvasstyle {
+    border: 2px dashed $warning;
+    width: 358px;
+    height: 171px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    display: flex
+}
+
+.alignClear{
+    display: inherit;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.text{
+    font-size: 14px;
+    color: $secondary-label;
+}
+
+.uploadHeading{
+    font-size: 14px;
+    color: $primary-label;
+    text-align: center;
+    font-family: Gilroy-Bold;
+}
+
+.smallText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14px;
+    text-align: center;
+}
+
+.FileInput {
+    display: none;
+}
+
+.cropStyleBasic{
+    width: 34rem;
+    height: 17rem;
+    margin-top: 2rem;
+  }
+  
+  .cropStylePotrait{
+    margin: 0%;
+    max-width: 15rem
+  }
+
+  .blueText{
+    font-size: 14px;
+    color: $active-link;
+    text-decoration: underline;
+  }
+
+  .optionIcon{
+      margin-bottom: 3px;
+      margin-right: 6px;
+  }
+
+  

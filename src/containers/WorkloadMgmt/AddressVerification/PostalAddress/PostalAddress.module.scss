@@ -1,0 +1,31 @@
+@import '../../../../theme.scss';
+
+.WorkloadSection {
+	position: relative;
+	margin-left: 2.5rem;
+	margin-right: 4rem;
+	margin-top: 1rem;
+}
+
+.CardLayout {
+	padding: 0.5rem;
+	background-color: $card-bg;
+    box-shadow: 0px 2px 16px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 4px;
+}
+
+.padding {
+	padding: 0rem 2rem 0rem 2rem;
+}
+
+.SmallBoldText {
+	font-size: 12px;
+	font-family: 'Gilroy-Bold';
+	color: $primary-label;
+}
+
+.GreyText {
+	font-size: 12px;
+	color: $secondary-label;
+	font-family: 'Gilroy-Light';
+}

@@ -1,0 +1,162 @@
+@import "../../../../../theme.scss";
+
+.heading {
+  font-size: 24px;
+  color: $primary-label;
+  font-family: Gilroy-Light;
+}
+.idHead {
+  font-size: 16px;
+  font-family: "Gilroy";
+  color: $primary-label;
+  //margin-left: 12px;
+  margin-bottom: 0.5rem;
+  // line-height: 1;
+}
+
+.headingBold {
+  font-size: 24px;
+  color: $primary-label;
+  font-family: Gilroy-Bold;
+}
+
+.cardBg {
+  background-color: $card-bg;
+  padding: 2.5rem 1rem;
+  margin-right: 0.65rem;
+}
+
+.cardBgSmall {
+  background-color: $card-bg;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 13px 10px -10px #DCE3F1;
+  margin-right: 0.65rem;
+}
+
+.smallCardHeading {
+  font-size: 40px;
+  line-height: 2.5rem;
+}
+.cardBorderId{
+  border: 1px solid $section-border;
+  border-radius: 10px;
+  display: inline-flex;
+  padding: 20px 0px;
+}
+.smallCardTextBold {
+  font-size: 14px;
+  font-family: gilroy-bold;
+}
+
+.smallCardText {
+  font-size: 14px;
+  font-family: gilroy;
+}
+
+.downloadButton {
+  color: $card-bg;
+  background-color: $active-link;
+  font-size: 12px;
+  border-radius: 26px;
+  padding: 9px 18px;
+  &:hover {
+    cursor: pointer;
+    background-color: $add-hover;
+  }
+}
+
+.cardBorder {
+  border: 1px solid $section-border;
+  border-radius: 10px;
+  display: inline-flex;
+  padding: 30px;
+}
+
+.cardBorderSmall {
+  border: 1px solid $section-border;
+  border-radius: 10px;
+  display: inline-flex;
+  padding: 20px 30px;
+}
+
+.borderRight {
+  border-right: 1px solid $section-border;
+  width: 10rem;
+
+}
+
+.borderRightLarge{
+  border-right: 1px solid $section-border;
+  width: 16rem;
+}
+
+.red {
+  height: 12px;
+  width: 12px;
+  background-color: #ee434c;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  // margin-left: 0.75rem;
+}
+.yellow {
+  height: 12px;
+  width: 12px;
+  background-color: #ffb803;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  // margin-left: 0.75rem;
+}
+.green {
+  height: 12px;
+  width: 12px;
+  background-color: #55bb5c;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  // margin-left: 0.75rem;
+}
+
+.idCardHeading {
+  font-size: 16px;
+  font-family: "Gilroy-Light";
+}
+
+.idCardBg {
+  background-color: $card-bg;
+  padding: 1rem 0rem 1rem 2rem;
+}
+
+.achieveTat {
+  font-size: 12px;
+  padding: 0px 10px;
+  border-radius: 15px;
+  background-color: #72cedf;
+  color: $card-bg;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.agreedTat {
+  font-size: 12px;
+  padding: 0px 10px;
+  border-radius: 15px;
+  background-color: #fac0ff;
+  color: $card-bg;
+  margin-top: 10px;
+}
+
+.borderLeft {
+  border-left: 1px solid $section-border;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.smallCardTextDot {
+  font-size: 12px;
+  font-family: gilroy;
+  padding-top: 5px;
+}

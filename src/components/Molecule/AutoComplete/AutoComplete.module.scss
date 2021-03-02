@@ -1,0 +1,42 @@
+@import '../../../theme.scss';
+
+.List{
+   display: block;
+   position: absolute;
+   z-index: 20000;
+   margin-top: 0rem;
+   background-color: $card-bg;
+//    color: $active-link;
+   //margin-left: -3rem;
+   position: relative;
+    // &:hover{
+    //     //background-color: white;
+    //     cursor: pointer;
+    // }
+}
+
+.DList{
+    background-color: $card-bg;
+    padding: 0.5rem 5rem 0.5rem 1rem;
+    width: 16rem;
+    text-align: left;
+    border-bottom: 1px solid $disabled-checkbox
+}
+
+.AutoList{
+    position: absolute;
+    z-index: 20000;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    margin-top: -0.8rem;
+}
+
+.ActiveTag{
+    color: $active-link;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.InactiveTag{
+    color: $secondary-label;
+}

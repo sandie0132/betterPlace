@@ -1,0 +1,58 @@
+@import '../../../../../../theme.scss';
+
+.Hover{
+    cursor: pointer;
+}
+
+
+.tabsDocVerticalLine{
+    z-index : 0 ;
+    width:17rem;
+    margin-left: 1rem;
+}
+.widthOflabel{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.container{
+    background-color: $card-bg;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid rgba(134, 151, 168, 0.123);
+    margin-top: 1rem;
+}
+.circleZindex{
+    z-index: 1 ; 
+}
+.margin{
+        /* margin-left: 0rem; */
+        position:relative;
+        margin-right: 2rem;
+        margin-top: 0.5rem;
+}
+
+.toggleContainer{
+    display: inline-flex;
+    margin-top: 1rem;
+}
+
+.active{
+    color: $active-link;
+    font-size: 14px;
+    font-family: 'gilroy';
+    // display: inline-block;
+}
+
+.inactive{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'gilroy';
+    // display: inline-block;
+}
+
+.toggleButton{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

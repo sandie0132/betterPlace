@@ -1,0 +1,85 @@
+@import '../../../../theme.scss';
+
+.TaskCardPan {
+	border-radius: 8px;
+	background-color: $card-pan;
+	width: 41%
+}
+
+.TaskCardAadhar {
+	border-radius: 8px;
+	background-color: $card-aadhaar;
+	width: 41%
+}
+
+.TaskCardVoter {
+	border-radius: 8px;
+	background-color: $card-voter;
+	width: 41%
+}
+
+.TaskCardDl {
+	border-radius: 8px;
+	background-color: $card-dl;
+	width: 41%
+}
+
+.TaskCardCourt {
+	border-radius: 8px;
+	background-color: $card-court;
+	width: 41%
+}
+
+.TaskCardPvc {
+	border-radius: 8px;
+	background-color: $card-pvc;
+	width: 41%
+}
+
+.TaskCardRc {
+	border-radius: 8px;
+	background-color: $card-rc;
+	width: 41%
+}
+
+.TaskCardPostal {
+	border-radius: 8px;
+	background-color: $card-postal;
+	width: 41%
+}
+
+.TaskCardManual {
+	border-radius: 8px;
+	background-color: $card-manual;
+	width: 41%
+}
+
+.DocumentIcon {
+	height: 100%;
+	width: 100%;
+}
+
+.rightArrow {
+	margin-top: 1.75rem;
+	cursor: pointer;
+}
+
+.task {
+	margin-left: 1.5rem;
+	color: $secondary-label;
+	font-family: 'Gilroy';
+	font-size: 14px;
+}
+
+.count {
+	margin-left: 1.5rem;
+	color: $active-link;
+	font-family: 'Gilroy';
+	font-size: 24px;
+}
+
+.hideUnderLine {
+	&:hover {
+		text-decoration: none;
+	}
+}

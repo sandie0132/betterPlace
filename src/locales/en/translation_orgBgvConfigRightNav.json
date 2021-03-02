@@ -1,0 +1,14 @@
+{
+    "button_orgBgvConfigRightNav": {
+        "proceed": "proceed"
+    },
+    "link" : {
+        "selectServices"  : "select services" ,
+        "mapping" : "mapping",
+        "TatMapping" : "TAT mapping",
+        "clientSpoc" : "client spoc",
+        "statusManagement" : "status management",
+        "bpSpoc" : "betterplace spoc"
+    },
+    "BGVConfig": "BGV configuration"
+}

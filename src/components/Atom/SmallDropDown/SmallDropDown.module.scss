@@ -1,0 +1,68 @@
+@import "../../../theme.scss";
+
+.SearchBy{
+    font-size: 12px;
+    margin-bottom: 0.6rem;
+    padding-left: 8px;
+}
+
+.searchDropdown{
+    background-color: $card-bg;
+    font-size: 14px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    z-index: 20;
+    position: absolute;
+    max-height: 13rem;
+    overflow: auto;
+}
+
+.HorizontalLine{
+    border: 0.5px solid $primary-background;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.Options{
+    color:$secondary-label ;
+    font-size: 14px;
+    width: max-content;
+    min-width: 100%;
+    padding: 4px 10px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+    }
+}
+
+.SearchOption{
+    border-radius: 5px;
+    background-color: $primary-background;
+    padding:6px 8px 7px 8px;
+    color: $active-link;
+    font-size: 14px;
+    border: 1px solid $horizontal-line;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.dropdownHead{
+    color: $active-link;
+}
+
+.DropdownIcon{
+    margin-top: 0.35rem;
+    margin-left: 1.5rem;
+}
+
+.iconUp{
+    margin-top: 0.5rem;
+    padding-right: 16px;
+    padding-top: 6px;
+}
+
+.disabled{
+    pointer-events: none;
+    cursor: not-allowed;
+}

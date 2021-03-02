@@ -1,0 +1,98 @@
+@import '../../../../../theme.scss';
+
+.searchBar{
+    padding-right: 2rem;
+    outline: none;
+    padding-bottom: 4px;
+    font-family: 'Gilroy-Light';
+    font-size: 24px;
+    border: none;
+    color: $primary-label;//$active-link;
+    width: 88%;//24rem;
+    background-color: $card-bg;
+    z-index: 0;
+    position: inherit;
+    ::placeholder{
+        color: $secondary-label
+    }
+}
+
+.tagDropDown{
+    cursor: pointer;
+    color : $secondary-label;
+    border-bottom: 1px solid $primary-background;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    padding: 8px 16px 8px 16px;
+    &:hover{
+        background-color: $primary-background;
+    }
+}
+
+.labelText{
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+    font-weight: bold;
+    color:$secondary-label;
+    display: block;
+    margin-bottom: 8px;
+    min-height: 18px;
+}
+.tagBar{
+    border:1px solid $primary-background;
+    padding: 0px;
+    background-color: $card-bg;
+    position: relative;
+}
+.tagButtons{
+    padding: 2px 12px 2px 8px;
+    background-color: $primary-background;
+    border-radius: 12px;
+    font-size: 12px;
+    font-family: 'Gilroy-Light';
+    color:$secondary-label;
+    margin-right: 0.5rem;
+    display: inline-block;
+    // transform: translateY(-3px);
+}
+.dropdownMenu{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.11);
+    position: absolute;
+    background: $card-bg;
+    width: 91%;
+    z-index: 2;
+    max-height: 15rem;
+    overflow-y: auto;
+    overflow-x : auto;
+   
+}
+.close{
+    cursor: pointer ;  
+}
+.closeDisable{
+    cursor: default ;  
+}
+.searchText{
+    color: $active-link;
+}
+
+.iconStyle{
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.iconSize{
+    height: 14px;
+}
+
+.emptySearch{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.11);
+    padding: 0.875rem 1.5rem 0.875rem 1.5rem;
+    border-bottom: 1px solid $card-bg;
+    position: absolute;
+    background: $card-bg;
+    width: 100%;
+    z-index: 2;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}

@@ -1,0 +1,171 @@
+@import "../../../../theme.scss";
+
+.AlignCenter{
+    padding-left: 12%;
+    width: 100%;
+    padding-right: 9%;
+    margin-top: 3rem;
+    height: 100vh;
+}
+  
+@media (min-width: 1025px) {
+.AlignCenter{
+    padding-right: 25%;
+    }
+}
+
+.CardLayout{
+    padding: 2rem 2.5rem;
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+}
+
+.Heading{
+    font-size: 18px;
+    font-family: "Gilroy-Bold";
+    color: $primary-label;
+}
+
+.SearchBorder{
+    border-bottom: 1px solid $horizontal-line;
+}
+
+.SearchFocusBorder{
+    border-bottom: 1px solid $active-link;
+}
+
+.SearchBar{
+    font-size: 24px;
+    font-family: "Gilroy-Light";
+    color: $primary-label;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.SearchClose{
+    height: 0.75rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.SearchDropdown{
+    background-color: $card-bg;
+    border-radius: 4px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    cursor: pointer;
+    overflow: auto;
+    max-height: 6rem;
+    // position: absolute;
+    // top: 11.35rem;
+    // width: 70.7%;
+}
+
+// @media (min-width: 1025px) {
+//     .SearchDropdown{
+//         width: 57.25%;
+//     }
+// }
+
+.DropdownWidth{
+    width: 100%;
+}
+
+.SearchOption{
+    color: $primary-label;
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    padding: 0.75rem;
+    cursor: pointer;
+    &:hover{
+        background-color: $primary-background;
+    }
+}
+
+.SmallText{
+    font-size: 14px;
+    color: $primary-label;
+    font-family: "Gilroy-Medium";
+}
+
+.BlueText{
+    font-size: 14px;
+    color: $active-link;
+    font-family: "Gilroy-Medium";
+    cursor: pointer;
+}
+
+.GreyText{
+    font-size: 14px;
+    color: $secondary-label;
+    font-family: "Gilroy-Medium";
+}
+
+.TagsBg{
+    margin-top: 1rem;
+    border-radius: 8px;
+    background-color: $primary-background;
+    min-height: 7rem;
+    max-height: 7rem;
+    padding: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.ExpandTagsBg{
+    margin-top: 1rem;
+    border-radius: 8px;
+    background-color: $primary-background;
+    min-height: 7rem;
+    max-height: 10rem;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.GreySmallText{
+    font-size: 12px;
+    font-family: "Gilroy";
+    color: $secondary-label;
+}
+
+.SelectedWhiteTag{
+    background-color: $card-bg;
+    color: $primary-label;
+    font-size: 12px;
+    border-radius: 16px;
+    padding: 0.5rem;
+    height: max-content;
+    margin-right: 0.5rem;
+    margin-bottom: 0.55rem;
+}
+
+.FolderIcon{
+    height: 16px;
+    width: 24px;
+}
+
+.Cursor{
+    cursor: pointer;
+}
+
+.Traverse{
+    margin-left: 0rem !important;
+}
+
+.Card {
+    &:hover{
+        background-color:$secondary-background !important; 
+    }
+}
+
+.ActiveClass{
+    background-color: $secondary-background !important;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+}
+
+.SectionHead{
+    background-color: $card-bg !important;
+    color: $secondary-label !important;
+    font-size: 12px !important;
+}

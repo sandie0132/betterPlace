@@ -1,0 +1,144 @@
+@import "../../../../../../theme.scss";
+
+.alignCenter {
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 3%;
+    height: 100vh;
+}
+
+@media (min-width: 1025px) {
+    .alignCenter {
+        padding-right: 25%;
+    }
+}
+
+.container {
+    background-color: $card-bg;
+    padding: 3rem 2rem 0rem 2rem;
+}
+
+.tagDropdown {
+    width: 50% !important;
+}
+
+.tagInputField {
+    font-size: 14px;
+    margin-left: 12px !important;
+    padding-bottom: 0.5rem;
+    &::placeholder {
+        font-size: 14px;
+        font-family: "Gilroy";
+    }
+}
+.borderBottom {
+    width: 70%;
+    border-bottom: 2px solid $horizontal-line;
+    &:focus-within {
+        border-bottom: 2px solid $active-link;
+    }
+}
+
+.searchIconSize {
+    height: 22px;
+    margin-top: 10px;
+}
+
+.labelText {
+    font-size: 14px;
+    font-family: "Gilroy";
+}
+
+.subHeading {
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: 1.5rem;
+}
+
+.horizontalLine {
+    border: 1px solid $horizontal-line;
+}
+
+.alignLeft {
+    margin-left: auto;
+}
+
+.checkBoxStyle {
+    margin-top: 2px !important;
+}
+
+.warningBg {
+    background-color: $card-pvc;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+.saveBg {
+    background-color: $card-bg;
+    padding: 2px 0rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.selectedTagTab {
+    background-color: $insights-green;
+    padding: 8px 16px 7px 16px;
+    border-radius: 24px;
+    font-size: 14px;
+    color: $card-bg;
+    width: max-content;
+    margin-bottom: 4px;
+}
+
+.btn {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.required {
+    color: $danger;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.formHeader {
+    background-color: $card-bg;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+    margin-top: 1.5rem;
+}
+
+.formHeaderContent {
+    padding: 8px;
+    background-color: $primary-background;
+    width: 100%;
+}
+
+.timeHeading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.fixedHeader {
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    background-color: $primary-background;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.lineBg{
+    background-color: $card-bg;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-bottom: 2rem;
+}

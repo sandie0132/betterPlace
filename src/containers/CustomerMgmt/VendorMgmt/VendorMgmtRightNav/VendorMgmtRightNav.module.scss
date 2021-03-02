@@ -1,0 +1,30 @@
+@import "../../../../theme.scss";
+
+.show{
+  width: 20rem;
+  background-color: $card-bg;
+  box-shadow: -2px 0 4px 0 rgba(0,0,0,0.06);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.RightNavLabel{
+    padding-left: 2rem;
+  }
+  *:focus {outline:none !important}
+
+// .RightNavHeight {
+//   height: 100vh;
+//   overflow: hidden;
+// }
+
+.BgColor {
+  background-color: $card-bg;
+  box-shadow: -2px 0 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.vendorRightNavLabel {
+  color: $card-bg;
+  font-family: Gilroy-Thin;
+  font-size: 40px;
+}

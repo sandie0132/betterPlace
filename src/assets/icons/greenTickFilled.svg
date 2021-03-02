@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>5F0D03C6-A83B-49FE-8175-186929E144C0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M3.49140933,7.37525734 L0.8209139,4.7047619 L0.0666666667,5.45900914 L3.11428571,8.50662819 C3.32256534,8.71490781 3.66025333,8.71490781 3.86853295,8.50662819 L11.4875806,0.887580567 L10.7333333,0.133333333 L3.49140933,7.37525734 Z" id="path-1"></path>
+    </defs>
+    <g id="🖥-Ops_analyst-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="physical-verification_02" transform="translate(-271.000000, -823.000000)">
+            <g id="pan-details-copy" transform="translate(160.000000, 284.000000)">
+                <g id="door-number" transform="translate(40.000000, 274.000000)">
+                    <g id="Group-5" transform="translate(72.000000, 266.000000)">
+                        <g id="Group">
+                            <circle id="Oval" stroke="#36A852" stroke-width="1.5" fill="#36A852" cx="16" cy="16" r="16"></circle>
+                            <g id="icon-/-12-/-info-/-tick" transform="translate(10.600000, 11.600000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Path" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-2)" x="-1" y="-2" width="12.8" height="12.8"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

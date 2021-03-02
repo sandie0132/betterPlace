@@ -1,0 +1,363 @@
+@import "../../../theme.scss";
+
+.smallBlueContainer {
+	display: block;
+	cursor: pointer;
+	//background-color: red;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.smallBlueContainer input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.smallBlueCheckmark {
+	position: absolute;
+	height: 13px;
+	width: 13px;
+	border-radius: 4px;
+	background-color: $primary-background;
+}
+
+.smallBlueContainer:hover input ~ .smallBlueCheckmark {
+	background-color: $primary-background;
+}
+
+.smallBlueContainer input:checked ~ .smallBlueCheckmark {
+	background-color: $active-link;
+}
+
+.smallBlueCheckmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.smallBlueContainer input:checked ~ .smallBlueCheckmark:after {
+	display: block;
+}
+
+.smallBlueContainer .smallBlueCheckmark:after {
+	left: 4px;
+    top: 1px;
+    width: 4.5px;
+    height: 8px;
+	border: solid $card-bg;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+//medium15px
+
+.medium15pxContainer {
+	display: block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.medium15pxContainer input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.medium15pxCheckmark {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 4px;
+	background-color: $card-bg;
+}
+
+.medium15pxContainer:hover input ~ .medium15pxCheckmark {
+	background-color: $card-bg;
+}
+
+.medium15pxContainer input:checked ~ .medium15pxCheckmark {
+	background-color: $active-link;
+}
+
+.medium15pxCheckmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.medium15pxContainer input:checked ~ .medium15pxCheckmark:after {
+	display: block;
+}
+
+.medium15pxContainer .medium15pxCheckmark:after {
+	left: 5px;
+	top: 2px;
+	width: 5px;
+	height: 9px;
+	border: solid $card-bg;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+//line
+
+.medium15pxlineCheckMark {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 4px;
+	border: 1px solid;
+	background-color: $card-bg;
+}
+
+.medium15pxContainer:hover input ~ .medium15pxlineCheckMark {
+	background-color: $card-bg;
+}
+
+.medium15pxContainer input:checked ~ .medium15pxlineCheckMark {
+	background-color: $secondary-label;
+}
+
+.medium15pxlineCheckMark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.medium15pxContainer input:checked ~ .medium15pxlineCheckMark:after {
+	display: block;
+}
+
+.medium15pxContainer .medium15pxlineCheckMark:after {
+	bottom: 3px;
+	left: 3px;
+	width: 7px;
+	height: 10px;
+	border: solid $card-bg;
+	border-width: 0 3px 0 0;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+//medium
+
+.mediumContainer {
+	display: block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.mediumContainer input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.mediumCheckmark {
+	position: absolute;
+	height: 14px;
+	width: 14px;
+	border-radius: 4px;
+	background-color: $card-bg;
+	border: 1px solid $secondary-label;
+}
+
+.mediumContainer:hover input ~ .mediumCheckmark {
+	background-color: $card-bg;
+}
+
+.mediumContainer input:checked ~ .mediumCheckmark {
+	background-color: $active-link;
+	border: 1px solid $active-link !important;
+}
+
+.mediumCheckmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+	border: none;
+}
+
+.mediumContainer input:checked ~ .mediumCheckmark:after {
+	display: block;
+}
+
+.mediumContainer .mediumCheckmark:after {
+	left: 3.5px;
+	top: 0px;
+	width: 5px;
+	height: 9px;
+	border: solid $card-bg;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+//small
+
+.smallContainer {
+	display: block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.smallContainer input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.smallCheckmark {
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	border-radius: 3px;
+	border: 1px solid $secondary-label;
+	background-color: $card-bg;
+	// left: 16px;
+	// top: 2px;
+}
+
+.smallContainer:hover input ~ .smallCheckmark {
+	background-color: $card-bg;
+}
+
+.smallContainer input:checked ~ .smallCheckmark {
+	background-color: $active-link;
+	border: 1px solid $active-link !important;
+}
+
+.smallCheckmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+	border: none;
+}
+
+.smallContainer input:checked ~ .smallCheckmark:after {
+	display: block;
+	// border:none;
+}
+
+.smallContainer .smallCheckmark:after {
+	left: 3px;
+	top: 0px;
+	width: 4px;
+	height: 8px;
+	border: solid $card-bg;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+//small label
+
+.SmallContent {
+	font-size: 12px;
+	font-family: "Gilroy";
+	color: $secondary-label;
+	margin-bottom: 0%;
+	margin-left: 1.3rem;
+	margin-right: 10px;
+}
+
+.SmallContentActive {
+	font-size: 12px;
+	font-family: "Gilroy";
+	color: $page-title;
+	margin-bottom: 0%;
+	margin-left: 1.3rem;
+	margin-right: 10px;
+}
+
+//small circle
+
+.smallCircleContainer {
+	display: block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.smallCircleContainer input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.smallCircleCheckmark {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	border-radius: 3px;
+	border: 1px solid $primary-background;
+	background-color: $card-bg;
+	border-radius: 50%;
+	// left: 16px;
+	// top: 2px;
+}
+
+.smallCircleContainer:hover input ~ .smallCircleCheckmark {
+	background-color: $card-bg;
+}
+
+.smallCircleContainer input:checked ~ .smallCircleCheckmark {
+	background-color: $active-link;
+	border: 1px solid $active-link !important;
+}
+
+.smallCircleCheckmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+	border: none;
+}
+
+.smallCircleContainer input:checked ~ .smallCircleCheckmark:after {
+	display: block;
+	// border:none;
+}
+
+.smallCircleContainer .smallCircleCheckmark:after {
+	left: 5px;
+	top: 1.5px;
+	width: 4px;
+	height: 8px;
+	border: solid $card-bg;
+	border-width: 0 1.4px 1.4px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	// border-radius: 50%;
+}

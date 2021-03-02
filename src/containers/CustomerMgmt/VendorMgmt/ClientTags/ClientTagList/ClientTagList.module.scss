@@ -1,0 +1,115 @@
+@import "../../../../../theme.scss";
+
+.Card{
+    background-color: $card-bg;
+    border-radius: 4px;
+    padding: 1rem 0.5rem 1rem 1rem;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
+	margin-top: 2rem;
+}
+
+.actionContent {
+	color: $secondary-label;
+	font-family: "Gilroy-Medium";
+	height: 2.5rem;
+	position: relative;
+}
+
+.emptyActionContent{
+	height: 2.5rem;
+	position: relative;
+}
+
+.mainDiv {
+	margin-left: 1rem;
+	&:hover {
+		filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+	}
+}
+
+.ActiveButton {
+	font-family: "Gilroy-Medium";
+	font-size: 12px;
+	margin-top: 6px;
+	background-color: $secondary-background;
+	color: $active-link;
+	padding: 6px;
+	margin-left: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.InactiveButton {
+	color: $secondary-label;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: "Gilroy-Light";
+	font-size: 12px;
+	margin-left: 6px;
+	margin-right: 6px;
+	&:hover {
+		cursor: pointer;
+		border-bottom: 2px solid $secondary-label;
+		padding-bottom: 8px;
+		font-family: "Gilroy-Medium";
+	}
+}
+
+.FiltersMessage{
+	background-color: $primary-background;
+	font-size: 12px;
+	color: $primary-label;
+	width: 98%;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.Heading{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-SemiBold';
+}
+
+.Width1{
+    width: 18%;
+    padding-left: 2rem;
+}
+
+.Width2{
+    width: 12%;
+}
+
+.Width3{
+    width: 14%;
+}
+
+.Width4{
+    width: 14%;
+}
+
+.Width5{
+    width: 35%;
+}
+
+.WidthFuncHierarchy{
+	width: 50%;
+}
+
+.HorizontalLine{
+	border-bottom: 1px solid $horizontal-line;
+}
+
+.HrStyle{
+	margin-left: 2rem;
+	margin-right: 1rem;
+}
+
+.AssignButton{
+    font-size: 12px;
+    padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	margin-bottom: 2rem;
+}

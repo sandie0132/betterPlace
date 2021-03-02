@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>83F16CD1-35F1-4568-A75F-4B82E27F2833</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="19.5"></rect>
+        <path d="M9.30217196,0.148382924 C9.49231738,0.00684545763 9.73818153,-0.0364722316 9.96525,0.0315582113 L9.96525,0.0315582113 L17.46525,2.28155092 C17.7826375,2.37664123 18,2.66872348 18,3.00004859 L18,3.00004859 L18,17.2500024 C18,17.6642147 17.6642136,18 17.25,18 L17.25,18 L0.75,18 C0.335786438,18 0,17.6642147 0,17.2500024 L0,17.2500024 L0,9.75002673 C0,9.33581451 0.335786438,9.00002916 0.75,9.00002916 L0.75,9.00002916 L1.5,9.00002916 L1.5,16.5 L3,16.5 L3,6.75003645 C3,6.33582423 3.33578644,6.00003888 3.75,6.00003888 L3.75,6.00003888 L11.25,6.00003888 C11.6642136,6.00003888 12,6.33582423 12,6.75003645 L12,6.75003645 L12,16.5 L16.5,16.5 L16.5,3.55804679 L10.5,1.75805262 L10.5,4.50004373 L9,4.50004373 L9,0.750055884 C8.99998354,0.513016015 9.11202654,0.28992039 9.30217196,0.148382924 Z M9,14.2500121 L6,14.2500121 L6,15.7500121 L9,15.7500121 L9,14.2500121 Z M15,6 L15,15 L13,15 L13,6 L15,6 Z M9,11.2500219 L6,11.2500219 L6,12.7500219 L9,12.7500219 L9,11.2500219 Z M9,8.25003159 L6,8.25003159 L6,9.75003159 L9,9.75003159 L9,8.25003159 Z" id="path-3"></path>
+    </defs>
+    <g id="⛑-in-progress-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-159.000000, -64.000000)">
+            <g id="Group" transform="translate(159.000000, 16.000000)">
+                <g id="icon-/-40-/-info-/-address" transform="translate(0.000000, 48.000000)">
+                    <g id="icon-/-40-/-info-/-container">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use fill="#4BB752" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="icon-/-24-/-info-/-form" transform="translate(11.000000, 11.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#3F47F4" fill-rule="nonzero" xlink:href="#path-3"></use>
+                        <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-4)" x="-3" y="-3" width="24" height="24" rx="4"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

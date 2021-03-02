@@ -1,0 +1,447 @@
+@import '../../../../../../../theme.scss';
+
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+   // font-size: 12px;
+    // font-family: Gilroy-Medium;
+    // font-weight: bold;
+    color: $primary-label
+    
+}
+.CardLayoutInactive{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+   // font-size: 12px;
+    // font-family: Gilroy-Medium;
+    // font-weight: bold;
+    color: $inactive-font;
+    user-select: none;
+}
+
+.CardPadding{
+    padding: 24px 40px;
+}
+
+.CardHeading{
+    background-color: $disabled-checkbox;
+    // box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}
+
+.HeadingText{
+    color: $secondary-label;
+    font-family: Gilroy-Medium;	
+    font-size: 14px;	
+    line-height: 17px;
+    margin-bottom: 0px;
+    padding-left: 0.4rem;
+}
+
+.HeadingTextInactive{
+    color: $inactive-font;
+    font-family: Gilroy-Medium;	
+    font-size: 14px;	
+    line-height: 17px;
+    margin-bottom: 0px;
+    padding-left: 0.4rem;
+}
+
+.ApiText{
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 14px;	
+    margin: 0rem;
+    padding-right: 0.6rem;
+    line-height: 17px;
+}
+
+.ApiTextInactive{
+    color: $inactive-font;	
+    font-family: Gilroy;	
+    font-size: 14px;	
+    margin: 0rem;
+    padding-right: 0.6rem;
+    line-height: 17px;
+}
+
+.matchText{
+    color: $secondary-label;	
+    font-family: Gilroy-Bold;	
+    font-size: 14px;	
+    line-height: 17px;
+    margin: 0rem;
+   
+}
+
+.yellowMatch{
+    color: $warning;	
+}
+
+.greenMatch{
+    color: $success;
+}
+
+.redMatch{
+    color: $danger;
+}
+
+.profileText{
+    color: $primary-label;	
+    font-family: Gilroy;	
+    font-size: 24px;	
+    line-height: 29px;
+    margin: 0rem;
+}
+
+.profileTextInactive{
+    color: $inactive-font;	
+    font-family: Gilroy;	
+    font-size: 24px;	
+    line-height: 29px;
+    margin: 0rem;
+}
+
+.Label{
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 12px;	
+    line-height: 15px;
+}
+
+.LabelInactive{
+    color: $inactive-font;	
+    font-family: Gilroy;	
+    font-size: 12px;	
+    line-height: 15px;
+}
+
+.verifyIcon{
+    padding-left: 0.4rem;
+    padding-bottom: 0.3rem;
+}
+
+.horizontalLine{
+    border:1px solid $horizontal-line;
+}
+
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Medium';	
+    font-size: 12px;	
+}
+
+.smallTextInactive{
+    color:$inactive-font;	
+    font-family: 'Gilroy-Medium';	
+    font-size: 12px;	
+}
+
+.Background{
+    max-width: 28rem;
+    background-color: $primary-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $secondary-label;
+    border-radius: 20px;
+    padding: 5px 20px 5px 10px;
+    appearance: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.BackgroundInactive{
+    max-width: 28rem;
+    background-color: $inactive-add-comment-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $inactive-font;
+    border-radius: 20px;
+    padding: 5px 20px 5px 10px;
+    appearance: none;
+    border: none;
+    position: relative;
+}
+
+.addCommentImg{
+    margin-right: .4rem;
+    filter: contrast(0.5);
+}
+
+.DropDownContainer{
+    cursor: pointer;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    border-radius: 4px;
+    width: 14.80rem;
+    align-items: center;
+    background-color: $card-bg;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    position: absolute;
+    bottom: 4.5rem;
+    left: 3.5rem;
+    z-index: 1;
+}
+
+.commentCase{
+    cursor: pointer;
+    background-color: $secondary-background;
+    font-size: 12px;
+    width: 14.6rem;
+    margin-left: 0.1rem;
+    margin-top:0.1rem;
+    padding: 3px;
+}
+
+.selectCase{
+    background-color: $card-bg;
+    color: $secondary-label;
+    font-size: 12px;
+    font-family: 'Gilroy-Light';
+    width: 14.6rem;
+    margin-left: 0.1rem;
+}
+
+.BackgroundAttachment{
+    background-color: $primary-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $active-link;
+    border-radius: 20px;
+    padding: 5px 20px 5px 10px;
+    appearance: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.attachmentImg{
+    cursor: pointer;
+    margin-right: 1rem;
+    filter: contrast(0.5);
+}
+
+.Attachment{
+    background-color: $secondary-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $secondary-label; //$active-link;
+    border-radius: 20px;
+    padding: 5px 20px 5px 10px;
+    appearance: none;
+    border: none;
+    position: relative;
+}
+
+.DropDownTextContainer{
+    // height: 120px;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    border-radius: 4px;
+    width: 16rem;
+    background-color: $card-bg;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    position: absolute;
+    bottom: 5rem;
+    height: 7rem;
+    left: 9rem;
+}
+
+.WriteComment{
+    background-color: $secondary-background;
+    border: 3px solid $card-bg;
+    border-radius: 4px;
+}
+
+.Cursor{
+    margin-bottom: 2.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inputField{
+    border: 1px solid $secondary-background;
+    background-color: $secondary-background;
+    font-size: 12px;
+    height: max-content;
+    padding-bottom: 2rem;
+    width: 12rem;
+}
+
+.RadioButtonGreen {
+    appearance: none;
+    background-color: $card-bg;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 0%;
+    outline: none;
+    margin-left: 0.6rem;
+    position: absolute;
+    margin-top: 0.4rem;
+ }
+ .RadioButtonGreen:checked::before
+ {
+    background-color: $card-bg;
+ }
+ .RadioButtonGreen:checked
+ {
+     background-color: $card-bg;
+     content: url('../../../../../../../assets/icons/greenTickCircle.svg')
+ }
+ .RadioButtonLabelGreen{
+    color: $success;
+    font-family: Gilroy-Medium;    
+    font-size: 12px;    
+    margin-bottom: 0rem;
+    line-height: 15px;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1.2rem;
+ }
+ .RadioGreenContainer{
+    background-color: $success-notification;
+    border-radius: 20px;
+    width: 10.5rem;
+ }
+ .RadioButtonRed {
+    appearance: none;
+    background-color: $card-bg;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 0%;
+    outline: none;
+    margin-left: 0.6rem;
+    position: absolute;
+    margin-top: 0.4rem;
+ }
+ .RadioButtonRed:checked::before
+ {
+    background-color: $card-bg;
+ }
+ .RadioButtonRed:checked
+ {
+     background-color: $card-bg;
+     content: url('../../../../../../../assets/icons/redTickCircle.svg');
+ }
+ .RadioButtonLabelRed{
+    color: $danger;
+    font-family: Gilroy-Medium;    
+    font-size: 12px;    
+    margin-bottom: 0rem;
+    line-height: 15px;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1.8rem;
+ }
+ .RadioRedContainer{
+    background-color: $error-notification;
+    border-radius: 20px;
+    width: 10.5rem;
+ }
+ .relevantPosition{
+    width: 14rem;
+    // box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 15px;
+    position: absolute;
+    left: 42.5rem;
+    bottom: 2rem;
+    text-align: left;
+    z-index: 1;
+}
+
+//  .RadioButtonInactive:checked::before{
+//     background-color: $inactive-add-comment-background;
+//  }
+//  .RadioButtonInactive:checked{
+//     background-color: $inactive-add-comment-background;
+//     // content: url('../../../../assets/icons/redTickCircle.svg');
+// }
+//  .RadioButtonLabelInactive{
+//     color: $inactive-font;
+//     font-family: Gilroy-Medium;    
+//     font-size: 12px;    
+//     margin-bottom: 0rem;
+//     line-height: 15px;
+//     padding-top: 0.5rem;
+//     padding-left: 2rem;
+//     padding-bottom: 0.5rem;
+//     margin-left: 1.8rem;
+//  }
+//  .RadioInactiveContainer{
+//     background-color: $inactive-comment-background;
+//     border-radius: 20px;
+//     width: 10.5rem;
+//  }
+
+ .autoCommentContainer{
+    border-radius: 16px;	
+    background-color: $primary-background;
+    padding-top: 0.2rem;
+    padding-left: 0.8rem;
+    padding-bottom: 0.2rem;
+ }
+ .autoCommentContainerInactive{
+    border-radius: 16px;	
+    background-color: $inactive-add-comment-background;
+    padding-top: 0.2rem;
+    padding-left: 0.8rem;
+    padding-bottom: 0.2rem;
+ }
+
+ .autoComment{
+    color: $secondary-label;
+    font-family: Gilroy-Medium;	
+    font-size: 14px;	
+    line-height: 17px;
+    padding-left: 0.5rem;
+    padding-right: 0.8rem;
+    
+ }
+ 
+ .autoCommentInactive{
+    color: $inactive-font;
+    font-family: Gilroy-Medium;	
+    font-size: 14px;	
+    line-height: 17px;
+    padding-left: 0.5rem;
+    padding-right: 0.8rem;
+    
+ }
+
+ .hoverHand{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.redBackground{
+    background-color: $error-notification;
+    color: $primary-label;
+}
+.yellowBackground{
+    background-color: $warning-background;
+    color: $primary-label;
+
+}
+.greenBackground{
+    background-color: $success-notification;
+    color: $primary-label;
+}
+
+.height{
+    height: 1.5rem;
+}

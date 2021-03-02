@@ -1,0 +1,13 @@
+{
+    "image_alt_tagMgmt" : {
+        "search" : "search"
+    },
+    "button_tagMgmt" : {
+        "add" : " add "
+    },
+    "input_tagMgmt" : {
+        "placeholder" : {
+            "Search" : "Search"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon / 16 / info / muster roll</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nav_bar/-dashboard" transform="translate(-517.000000, 1.000000)" fill="#8697A8" fill-rule="nonzero">
+            <g id="insights-copy" transform="translate(517.000000, 0.000000)">
+                <g id="Group" transform="translate(0.500000, 0.000000)">
+                    <g id="Group" transform="translate(0.500000, 0.000000)">
+                        <g transform="translate(2.545455, 3.800000)" id="Rectangle">
+                            <rect x="3.39393939" y="5.24" width="2.12121212" height="4.34"></rect>
+                            <rect x="6.57575758" y="0" width="2.12121212" height="9.6"></rect>
+                            <rect x="0.212121212" y="7.42" width="2.12121212" height="2.18"></rect>
+                        </g>
+                        <path d="M12.3242424,0 L1.63333333,0 C0.784848485,0 0.0848484848,0.64 0.0848484848,1.44 L0.0848484848,16.5 C0.0848484848,17.32 0.784848485,18 1.63333333,18 L12.3242424,18 C13.1939394,18 13.9151515,17.32 13.9151515,16.5 L13.9151515,1.44 C13.9151515,0.66 13.1939394,0 12.3242424,0 Z M13.5333333,16.5 C13.5333333,17.12 12.9818182,17.62 12.3242424,17.62 L1.63333333,17.62 C0.996969697,17.62 0.466666667,17.12 0.466666667,16.5 L0.466666667,1.44 C0.466666667,0.84 0.975757576,0.36 1.63333333,0.36 L12.3242424,0.36 C12.9818182,0.36 13.5333333,0.84 13.5333333,1.44 L13.5333333,16.5 Z" id="Shape" stroke="#8697A8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

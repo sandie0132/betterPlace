@@ -1,0 +1,19 @@
+{
+    "image_alt_orgOpsConfigRightNav": {
+        "img": "img",
+        "IdIcon" : "IdIcon"
+    },
+    "button_orgOpsConfigRightNav": {
+        "proceed": "proceed"
+    },
+    "RightNavUrl" :
+    {
+        "l1" : "select services",
+        "l2" : "TAT mapping",
+        "l3" : "price mapping"
+    },
+    "heading" : {
+        "h1" : "ops configuration"
+    },
+    "cardheading" : "tat mapping"
+}

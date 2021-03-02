@@ -1,0 +1,213 @@
+@import '../../../../../theme.scss';
+
+.cardLink {
+	border: none;
+	height: 5.5rem;
+	&:hover {
+		text-decoration: none;
+		color: $card-link;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11), 0 2px 11px 0 rgba(0, 0, 0, 0.11);
+	}
+}
+
+.cardActive {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11), 0 2px 11px 0 rgba(0, 0, 0, 0.11);
+}
+
+.Decoration {
+	// margin-top: 1rem;
+	display: contents;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.nameDot {
+	width: 8rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: 'Gilroy';
+	margin-bottom: 2px;//0px;
+	cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+	.nameDot {
+		width: 6rem;
+	}
+}
+
+.CheckBox {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	height: 12px;
+	width: 12px;
+	border: none;
+}
+
+.empCardScroll {
+	// background-color: cornflowerblue;
+	display: flex;
+}
+
+.name {
+	color: $card-link;
+	font-family: 'Gilroy';
+	font-size: 14px;
+	line-height: 16px;
+	margin-top: 0.2rem;
+	cursor: pointer;
+}
+
+.id {
+	color: $secondary-label;
+	font-family: 'Gilroy';
+	font-size: 12px;
+	line-height: 18px;//16px;
+	cursor: pointer;
+	margin-bottom: 0rem;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.overflow {
+	white-space: nowrap;
+	overflow: hidden;
+	width: 10rem;
+	text-overflow: ellipsis;
+}
+
+.Container {
+	display: block;
+	cursor: pointer;
+	//background-color: red;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.Container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+	//background-color: red;
+}
+
+.Checkmark {
+	position: absolute;
+	height: 13px;
+	width: 13px;
+	border-radius: 4px;
+	background-color: $primary-background;
+}
+
+.Container:hover input~.Checkmark {
+	background-color: $primary-background;
+}
+
+.Container input:checked~.Checkmark {
+	background-color: $active-link;
+}
+
+.Checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.Container input:checked~.Checkmark:after {
+	display: block;
+}
+
+.Container .Checkmark:after {
+	left: 4px;
+	top: 1px;
+	width: 5px;
+	height: 9px;
+	border: solid $card-bg;
+	border-width: 0 1.5px 1.5px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.checkBx {
+	margin-left: auto;
+}
+
+.pic {
+	width: 4rem;
+}
+
+.alignCheckBox {
+	padding-right: 2.25rem;
+}
+
+.opacity{
+	opacity: 0.8;
+}
+
+.vendorIcon{
+	border-radius: 4px;
+	padding: 0px 4px;
+	margin-left: 4px;
+	height: 18px;
+  	background-color: rgba(36,180,206,0.1);
+}
+
+// .Display{
+// 	@media screen and (max-width: 850px) {
+// 		display: none;
+// 	}
+// }
+
+.numberHorizontalLine{
+	padding: 6px 4px;
+}
+
+.tooltipClass{
+    border: 1px solid #FFEFC5!important;
+	background-color: $success-notification-bgv!important;
+}
+
+.deployedCount{
+	color: #24B4CE;
+	font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    padding-left: 4px;
+    margin-left: 3px;
+    margin-top: 3px;
+    line-height: 14px;
+    border-left: 1px solid #24B4CE;
+    height: 12px;
+}
+
+.SelectAll{
+	color: $primary-label;
+  	font-family: Gilroy;
+  	font-size: 10px;
+  	font-style: italic;
+  	font-weight: 500;
+  	letter-spacing: 0;
+  	line-height: 14px;
+}
+
+.redCard {
+	position: absolute;
+    top: 0rem;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid $danger;
+    border-right: 8px solid transparent;
+    border-top: 8px solid $danger;
+    border-radius: 4px;
+}

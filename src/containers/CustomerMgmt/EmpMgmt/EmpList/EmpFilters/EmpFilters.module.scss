@@ -1,0 +1,305 @@
+@import '../../../../../theme.scss';
+
+
+.TagSearch{
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-left: 0.1rem;
+}
+.SearchHead{
+    height: 3rem;
+    width: 100%;
+}
+.ClearFilter{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+    line-height: 22px;
+    text-decoration: underline;
+    &:hover{
+        cursor: pointer
+    }
+ }
+
+.CalendarBox{
+    border-radius: 8px;
+    border: 1px solid $primary-background;
+    border-width: 0.05rem;
+}
+
+.SelectDate{
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    color: $card-link;
+    margin-bottom: 0%;
+    line-height: 0%;
+}
+
+.CalendarHeadings{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+    margin-bottom: 0%;
+    line-height: 0%;
+}
+.TagHeading{
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+    padding-bottom: 0.7rem;
+    padding-top: 0.3rem;
+    z-index: 10;
+    // position: relative;
+    line-height: 1rem;
+}
+
+.dropdownContent {
+    width: 100%;
+    margin-top: 3rem;
+    z-index: 1;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    // background-color: lightslategray;
+}
+ 
+.Filter{
+    height: 2.3rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 11px 0 rgba(0,0,0,0.11);
+    padding: 0.1rem;
+}
+
+.TagTypeActive{
+    color: $active-link;
+    font-family: 'Gilroy-Bold';
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    background-color: $primary-background;
+    border-radius: 4px;
+    height: max-content;
+    &:hover{
+        cursor: pointer;
+    }
+
+}
+
+.TagType{
+    font-size: 12px;
+    text-align: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.FilterTypeActive{
+    color: $active-link;
+    font-family: 'Gilroy-Bold';
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    background-color: $primary-background;
+    height: max-content;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.FilterType{
+    font-size: 12px;
+    text-align: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.filterIcon{
+    padding: 0.7rem;
+    height: 2.09rem;
+}
+
+.VendorIcon{
+    padding: 0.5rem 0.25rem 0.5rem 0rem;
+    height: 32px;
+}
+
+.tagIcon{
+    padding: 0.7rem;
+}
+.ModalPage{
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(251, 251, 251, 0.5) !important;
+}
+
+.CardLayout{
+    border-radius: 4px;
+    background-color: $card-bg;
+}
+
+.SearchFont{
+    margin-bottom: 0%;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+}
+
+.Headings{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+    margin-top: .2rem;
+}
+
+.Content{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    color: $card-link;
+    margin-bottom: 0%;
+}
+
+.Cross{
+    margin-left: 0.5rem;
+}
+
+.selectedTags{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    height: 25px; //line-height: 22px;
+    color: $secondary-label;
+    background-color: $primary-background;
+    border-radius: 20px;
+}
+
+.HeaderHorizontalLine{
+    width: 100%; 
+    margin-top : 0px;
+    margin-bottom : 1rem;
+    opacity: 0.18;
+    background-color: $secondary-label;
+    color: $secondary-label !important;
+}
+
+.HorizontalLine{
+    border: 0.5px solid $secondary-label;
+    background-color: $secondary-label;
+    opacity: 0.18;
+}
+
+.VerticalLine{
+    border: 0.5px solid $horizontal-line;
+    height: 3.5rem;
+    margin-right: 3%;
+}
+
+.HeaderLine{
+    margin-top: 0%;
+    border: 0.5px solid $primary-background;
+}
+
+.CheckBox{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height : 12px;
+    width : 12px;
+    border : none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    padding-bottom: 0px;
+}
+
+li {
+    display: block;
+    text-align: center;
+    padding: 1% 1% 0% 1%;
+    font-size: 14px;
+    text-decoration: none;
+    padding-bottom:2px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li:first-child{
+    padding: none;
+}
+
+.NavLinkfont{
+    // color: $secondary-label;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    border:0;
+    background-color: rgba(250, 250, 252, 0);
+    &:hover{
+        text-decoration: none;
+        color: $active-link;
+        border:2px;
+        border-color: $card-bg;
+        width: relative;
+    }
+    &:active{
+        text-decoration: none;
+        color: $active-link;
+        border:0;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.NavLinkfontActive{
+    padding-top: 8px;
+    padding-bottom: 14px;
+    border: none;
+    border-bottom: 2px solid $secondary-label;
+}
+
+.NavHead{
+    color: $secondary-label;
+}
+
+.svg {
+	width: 50px;
+    height: auto;
+}
+
+.svg:hover {
+	cursor: pointer;
+    filter: brightness(0.6) sepia(1) hue-rotate(190deg) saturate(5);  
+}
+
+.Number{
+    background-color: $secondary-label;
+    color: $card-bg;
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    border-radius: 4px;
+    width: 1.25rem;
+    margin-bottom: 0%;
+    margin-left: 0.7rem;
+}
+
+.ActiveNumber{
+    background-color: $active-link;
+    color: $card-bg;
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    border-radius: 4px;
+    width: 1.25rem;
+    margin-bottom: 0%;
+    margin-left: 0.7rem;
+}
+
+.SelectedText {
+    color: $active-link;
+    font-family: 'Gilroy-Bold';
+}

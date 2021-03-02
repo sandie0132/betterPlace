@@ -1,0 +1,177 @@
+@import "../../../../../../../theme.scss";
+
+.alignCenter{
+    // padding-left: 5%;
+    width: 100%;
+    // padding-right: 2%;
+    min-height: 100vh;
+    
+    // overflow: auto;
+}
+
+
+.CardLayout{
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+    margin-top: 8px;
+}
+
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.timeHeading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.cancelButton{
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.fixedHeader{
+    padding: 8px;
+    background-color: $card-bg;
+}
+
+.CardPaddingForm{
+    padding: 8px 40px 40px 40px;
+}
+
+.CardPaddingDone{
+    padding: 8px 8px 16px 8px;
+}
+
+.HorizotalLine{
+    border: 1px solid $horizontal-line;
+}
+
+.Heading{
+    color: $secondary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.SubHeading{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.infoContainer{
+    box-sizing: border-box;
+    border: 1px solid rgba(120,146,184,0.2);
+    border-radius: 4px;
+    background-color: $secondary-background;
+    padding: 0.5rem
+}
+
+.infoText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding-right: 1.25rem;
+    padding-left: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.infoCloseIcon{
+    right: 0.5rem;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0.6rem;
+}
+
+.checkBoxText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.whiteText{
+    color:$card-bg;
+}
+
+.blueText{
+    color:$active-link;
+}
+
+.redHeading{
+    color: $heading-red;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+}
+
+.text{
+  color: $primary-label;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-align: center;
+}
+
+.downloadButtonContainer{
+    height: 2.5rem !important;
+    padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+    border-radius: 20px;
+    background-color: $active-link;
+    min-width: 13.5rem;
+    width: max-content;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.requiredStar{
+    color: $danger;
+}
+
+.generationInfoText{
+    color: $active-link;
+    font-family: Gilroy-SemiBold;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14px;
+    text-align: right;
+}
+
+.generationInfoContainer{
+    height: 2.5rem !important;
+    padding: 0.5rem 1rem 0rem 1rem !important;
+    border-radius: 20px;
+    background-color: $secondary-background;
+    width: max-content;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+
+.checkMarkStyle{
+    margin-top: 4px;
+}

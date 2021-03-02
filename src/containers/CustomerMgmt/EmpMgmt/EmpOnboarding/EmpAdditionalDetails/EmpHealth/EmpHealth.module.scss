@@ -1,0 +1,83 @@
+@import "../../../../../../theme.scss";
+
+.formLayout {
+    background-color: $card-bg;
+    padding: 1rem 2rem 0rem 2rem;
+}
+
+.horizontalLineInactive {
+    border-top: 2px solid $disabled-background;
+    width: 63%;
+    position: absolute;
+    margin-top: 12px;
+}
+
+.opacityHeadOut {
+    opacity: 1;
+    transition: ease-out 0.2s;
+}
+.opacityHeadIn {
+    opacity: 0;
+    display: none;
+    transition: ease-in-out 0.2s;
+}
+
+.formHead {
+    border-radius: 12px;
+    color: $card-bg;
+    background-color: $disabled-background;
+    padding: 4px 8px;
+    position: relative;
+    font-size: 12px;
+}
+
+.iconLabelPosition {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    font-size: 14px;
+    line-height: 16px;
+    color: $secondary-label;
+}
+
+.InputText {
+    text-align: left;
+    outline: none;
+    border: none;
+    width: inherit;
+    padding-top: 4%;
+    color: $secondary-label;
+    font-size: 12px;
+    &:focus {
+        outline: none;
+        border: none;
+    }
+}
+
+.InputUnit {
+    color: $secondary-label;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 2%;
+    right: 0%;
+    font-size: 12px;
+    margin-right: 18%;
+}
+
+.InputPlace {
+    background-color: $card-bg;
+    padding: 3%;
+    border-radius: 5px;
+    border: 1px solid $primary-background;
+    //margin-left: 30%;
+}
+.InputPlaceFocus {
+    background-color: $card-bg;
+    padding: 3%;
+    border-radius: 5px;
+    border: 1px solid $active-link;
+}
+
+
+.showOpacity {
+    opacity: 0.3;
+}

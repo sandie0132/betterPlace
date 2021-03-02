@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: portal-ui-uat-service
+spec:
+  selector:
+    app: portal-ui-uat
+  type: ClusterIP
+  ports:
+  - protocol: TCP
+    port: 9050
+    targetPort: 80

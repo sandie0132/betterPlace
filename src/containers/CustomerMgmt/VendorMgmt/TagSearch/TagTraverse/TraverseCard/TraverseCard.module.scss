@@ -1,0 +1,124 @@
+@import "../../../../../../theme.scss";
+.FolderAlign {
+    display: inline-flex;
+    color: $card-link;
+    font-size: 14px;
+    margin-bottom: 4px;
+    padding: 10px;
+    width: 15rem;
+    //position: absolute;
+    z-index: 0;
+    &:hover {
+        background-color: $card-bg;
+        border-radius: 4px;
+        cursor: pointer;
+        // width:15rem;
+    }
+}
+.EditButton {
+    //xmargin-left:1.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: $secondary-label;
+}
+.FolderActive {
+    background-color: $card-bg;
+    //border: 1px dotted rgba(120, 146, 184, 0.356);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 6px;
+    width: 15rem !important ;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+}
+.dropdown {
+    position: absolute;
+    background-color: $card-bg;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 5rem;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    //z-index: 9999;
+    display: inline-table;
+    margin-left: 2px;
+}
+
+.UnorderedList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.List {
+    width: 100%;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.List:hover {
+    color: $active-link;
+    background-color: $primary-background;
+    cursor: pointer;
+}
+
+.arrow {
+    transform: rotate(90deg);
+    margin-left: 0.5rem;
+    //position: absolute;
+}
+
+.disableSelection {
+    cursor: not-allowed;
+}
+
+.RadioButton {
+    height: 12px;
+    width: 12px;
+    background-color: #ff8095;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.verticalLine {
+    border-left: 1px solid $horizontal-line;
+    height: 1rem;
+    margin-top: 2px;
+}
+
+.disabled{
+    cursor: not-allowed !important;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	border: 1px solid $success-notification-bgv-border;
+	background-color: $success-notification-bgv;
+    color: $card-link;
+    font-size: 10px;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px;
+	position: absolute;
+    z-index: 10;
+    //top position of tooltip
+    width: max-content;
+	bottom: 100%;
+    margin-left: -145px;
+	/* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}

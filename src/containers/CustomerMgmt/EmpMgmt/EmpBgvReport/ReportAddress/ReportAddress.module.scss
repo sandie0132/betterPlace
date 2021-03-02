@@ -1,0 +1,46 @@
+@import '../../../../../theme.scss';
+
+.BgStyle{
+    height: 7rem;	
+    background-color: $success-notification;
+    border-radius: 4px;
+    padding: 1rem 1.25rem;
+}
+
+.serviceName {
+	font-family: 'Gilroy-Bold';
+	color: $secondary-label;
+	font-size: 14px;
+}
+
+.addressText{
+    // height: 60px;
+    // width: 304px;
+    color: $primary-label;	
+    font-family: 'Gilroy-Medium';	
+    font-size: 14px;	
+    line-height: 20px;
+    word-break: break-word;
+    // overflow: hidden;
+}
+
+.statusIcon {
+	height: 12px;
+	width: 12px;
+	margin-left: 4px;
+}
+
+.sectionHeading {
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+}
+
+.horizontalLine {
+    border-bottom: 1px solid $horizontal-line;
+    width: 97%;
+}
+
+.imgSize {
+	height: 32px;
+}

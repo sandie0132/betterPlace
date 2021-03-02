@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="6px" viewBox="0 0 8 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.80713083,4.85953583 L1.13807119,3.19047619 L0.666666667,3.66188071 L2.57142857,5.56664262 C2.70160334,5.69681738 2.91265833,5.69681738 3.04283309,5.56664262 L7.80473785,0.804737854 L7.33333333,0.333333333 L2.80713083,4.85953583 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12.9″-iPad-Pro" transform="translate(-425.000000, -740.000000)">
+            <g id="Group" transform="translate(425.000000, 739.000000)">
+                <rect id="Rectangle" fill-opacity="0" fill="#D4D4D4" x="0" y="0" width="8" height="8"></rect>
+                <g id="icon-/-12-/-info-/-tick" transform="translate(0.000000, 1.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Path" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#4BB752" mask="url(#mask-2)" x="0" y="-1" width="8" height="8"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

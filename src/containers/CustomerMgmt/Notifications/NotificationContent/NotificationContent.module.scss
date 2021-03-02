@@ -1,0 +1,189 @@
+@import "../../../../theme.scss";
+
+.circleProgressAlign {
+	width: 5.25rem;
+	height: 5.25rem;
+	margin-left: 0.75rem;
+	// margin-top: 1.75rem;
+	margin-right: 1.5rem;
+}
+
+.headingLarge {
+	font-size: 24px;
+	font-family: "gilroy";
+	color: $primary-label;
+}
+
+.textProgress {
+	color: $active-link;
+	font-family: "gilroy";
+	font-size: 14px;
+	font-weight: 500;
+	padding: 3px 14px 3px 14px;
+	border-radius: 16px;
+	line-height: 18px;
+	background-color: $secondary-background;
+}
+
+.textSuccess {
+	color: $success;
+	font-family: "gilroy";
+	font-size: 14px;
+	font-weight: 500;
+	padding: 3px 14px 3px 14px;
+	border-radius: 16px;
+	line-height: 18px;
+	background-color: $success-notification;
+}
+
+.textError {
+	color: $danger;
+	font-family: "gilroy";
+	font-size: 14px;
+	font-weight: 500;
+	padding: 3px 14px 3px 14px;
+	border-radius: 16px;
+	line-height: 18px;
+	background-color: $error-notification-bgv;
+}
+
+.progressLoader {
+	height: 5.5rem;
+	width: 5.5rem;
+	background-color: $secondary-background;
+	border-radius: 50%;
+}
+
+.alignIcon {
+	position: absolute;
+	margin-top: -6.5%;
+	margin-left: 4.25%;
+}
+
+.absoluteRight {
+	position: absolute;
+	right: 14px;
+	margin-top: 3rem;
+}
+
+.textNormal {
+	color: $primary-label;
+	font-family: "gilroy";
+	font-size: 14px;
+	border-radius: 16px;
+	line-height: 18px;
+}
+
+.illustrator {
+	height: 7rem;
+	// position: fixed;
+	top: 0.5rem;
+	margin-right: 2rem;
+}
+
+.CancelButton {
+	color: $secondary-label !important;
+	border-radius: 32px !important;
+	background-color: $card-bg !important;
+	padding-bottom: 10px !important;
+	min-width: 120px !important;
+	font-size: 14px !important;
+	text-align: center !important;
+	outline: none !important;
+	border-bottom: 1px solid $active-link !important;
+	border: none !important;
+	margin-left: 1rem !important;
+	position: initial !important;
+	padding-top: 10px !important;
+	cursor: pointer !important;
+	&:visited {
+		border: 0px !important;
+		background: $card-bg !important;
+	}
+	&:active {
+		border: none !important;
+		outline: none !important;
+	}
+}
+
+.maxWidth {
+	max-width: 70%
+}
+
+//VendorApprovalNotification
+.Logo {
+	height: 112px;
+	width: 112px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+}
+
+.Heading {
+	font-size: 24px;
+	font-family: 'Gilroy';
+	line-height: 27px;
+}
+
+.Details {
+	font-size: 14px;
+	font-family: 'Gilroy';
+}
+
+.BlueText {
+	color: $active-link;
+	font-family: 'Gilroy';
+	font-size: 14px;
+	cursor: pointer;
+	width: max-content;
+}
+
+.IgnoreDefaultButton{
+    color: $secondary-label !important;
+    border-radius: 32px !important;
+    background-color: $card-bg !important;
+    padding-bottom: 10px !important;
+    min-width: 120px !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    outline: none !important;
+    border: none !important;
+    margin-left: 1rem !important;
+    position: initial !important;
+    padding-top: 10px !important;
+}
+
+.IgnoreButton {
+	padding-top: 0.75rem !important;
+	padding-right: 1.75rem !important;
+}
+
+.absoluteRight {
+	position: absolute;
+	right: 2rem; //0;
+}
+
+.absoluteRightButton {
+	position: absolute;
+	right: 2rem;
+	bottom: 1rem;
+}
+
+.margin{
+	width: 100%;
+	margin-top: 1.25rem;
+	margin-left: 1rem;
+}
+
+.boldFont{
+	font-family: 'Gilroy-Medium'!important;
+}
+
+.textMaxWidth{
+	max-width: 65%;
+}
+
+.viewProfilesButton{
+	margin-top: 2rem;
+	margin-left: 1rem;
+}

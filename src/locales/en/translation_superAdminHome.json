@@ -1,0 +1,11 @@
+{
+    "heading_superAdminHome" : {
+        "h1" : "Hello",
+        "h2" : "Welcome to Engage Operations.",
+        "h3" : "Your one-stop-shop to manage operations for your organisations’services including Background Verification, Attendance, Payroll, Compliance and other suite of solutions provided by Betterplace." ,
+        "h4" : "Click on the below link to view your personalised dashboard."
+    },
+    "button_superAdminHome" : {
+        "goTo" : "go to client"
+    }
+}

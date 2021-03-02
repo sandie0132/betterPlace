@@ -1,0 +1,13 @@
+@import '../../../../theme.scss';
+
+.SectionAli{   
+    // overflow-y: visible;
+    // overflow-x: visible;
+    // height: 40rem;
+    display: inline-flex;    
+}
+
+.scroll{
+    white-space: nowrap;
+    overflow: auto;  
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="2px" viewBox="0 0 8 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>EC57D24D-E217-4005-A78C-3DDCDB676748</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="2 5.33333333 2 6.66666667 10 6.66666667 10 5.33333333"></polygon>
+    </defs>
+    <g id="👨🏻‍💻-BGV-Configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bgv-configuration-2_mapping" transform="translate(-810.000000, -271.000000)">
+            <g id="section" transform="translate(160.000000, 120.000000)">
+                <g id="Group-3" transform="translate(648.000000, 146.000000)">
+                    <g id="icon-/-12-/-info-/-checkbox-copy">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Path" fill="#EBECFD" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#0059B2" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

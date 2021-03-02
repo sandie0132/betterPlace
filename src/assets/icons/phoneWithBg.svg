@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BB402E86-3D88-482D-B85E-89A5FD328B68</title>
+    <defs>
+        <path d="M10.4810769,9.63960092 L8.87518912,11.2220953 L4.77515251,7.12205871 L6.35764692,5.5161709 C6.55338434,5.31705785 6.60938271,5.01939661 6.49938338,4.76276596 L4.85152506,0.916616487 C4.71688768,0.603136136 4.37286361,0.435662288 4.04307683,0.523057007 L1.01569621,1.32256071 C0.704150067,1.40317035 0.490093898,1.68895963 0.500353464,2.01060176 C0.692893583,5.52916694 2.15587559,8.85828224 4.61759111,11.3796567 C7.13977105,13.8417283 10.4699608,15.3045082 13.9893982,15.4962063 C14.3110404,15.5064659 14.5968296,15.2924097 14.6774393,14.9808636 L15.476943,11.953483 C15.5643377,11.6236962 15.3968639,11.2796721 15.0833835,11.1450347 L11.237234,9.49717642 C10.9797111,9.38610418 10.6805456,9.44245291 10.4810769,9.63960092 Z" id="path-1"></path>
+    </defs>
+    <g id="profille_view-mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="attendance-_profile_04" transform="translate(-744.000000, -2407.000000)">
+            <g id="Group-29" transform="translate(160.000000, 446.000000)">
+                <g id="section-copy" transform="translate(40.000000, 1882.000000)">
+                    <g id="references_father_info" transform="translate(0.000000, 46.000000)">
+                        <g id="father" transform="translate(544.000000, 33.000000)">
+                            <circle id="Oval" fill="#E5EEF7" opacity="0.5" cx="20" cy="20" r="20"></circle>
+                            <g id="icon-/-16-/-info-/-location-copy" transform="translate(20.000000, 20.000000) scale(-1, -1) rotate(-180.000000) translate(-20.000000, -20.000000) translate(12.000000, 12.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Path" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <rect id="Rectangle" fill="#0059B2" mask="url(#mask-2)" x="-2" y="-2" width="20" height="20"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

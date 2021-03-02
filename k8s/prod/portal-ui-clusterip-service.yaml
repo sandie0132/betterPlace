@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: portal-ui-prod-service
+spec:
+  selector:
+    app: portal-ui-prod
+  type: ClusterIP
+  ports:
+  - protocol: TCP
+    port: 10050
+    targetPort: 80

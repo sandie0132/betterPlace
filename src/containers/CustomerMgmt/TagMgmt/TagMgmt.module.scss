@@ -1,0 +1,15 @@
+@import '../../../theme.scss';
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    // overflow: auto;
+}
+
+.HorizontalLine{
+    border:0.07rem solid  $horizontal-line;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.2 (101010) - https://sketch.com -->
+    <title>2966C1A7-F51F-41C3-B00D-FD3FC406FAAE</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="6 6.58578644 2 2.58578644 0.585786438 4 6 9.41421356 11.4142136 4 10 2.58578644"></polygon>
+    </defs>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-dashboard_empty" transform="translate(-931.000000, -53.000000)">
+            <g id="header" transform="translate(160.000000, 32.000000)">
+                <g id="All-Locations" transform="translate(677.000000, 18.000000)">
+                    <g id="icon-/-12-/-action-/-down-arrow" transform="translate(94.000000, 1.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Path" fill="#0059B2" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

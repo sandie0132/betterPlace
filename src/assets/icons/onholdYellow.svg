@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>66FAFF2B-728B-4C60-97C7-499FE431B8D7</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M15.9093166,12.9750758 L8.57598327,0.308409098 C8.44736114,0.115716394 8.23099338,0 7.9993166,0 C7.76763982,0 7.55127206,0.115716394 7.42264993,0.308409098 L0.0893165997,12.9750758 C-0.0297110547,13.1812374 -0.0297762607,13.4352239 0.0891455222,13.6414466 C0.208067305,13.8476694 0.427928333,13.9748317 0.665983266,13.9750758 L15.3326499,13.9750758 C15.5707049,13.9748317 15.7905659,13.8476694 15.9094877,13.6414466 C16.0284095,13.4352239 16.0283443,13.1812374 15.9093166,12.9750758 L15.9093166,12.9750758 Z M8.8033166,4.64174243 L8.48798327,9.04174243 L7.51064993,9.04174243 L7.2133166,4.64174243 L8.8033166,4.64174243 Z M7.9993166,11.9750758 C7.45918211,11.9750758 7.0213166,11.5372103 7.0213166,10.9970758 C7.0213166,10.4569413 7.45918211,10.0190758 7.9993166,10.0190758 C8.53945109,10.0190758 8.9773166,10.4569413 8.9773166,10.9970758 C8.9773166,11.5372103 8.53945109,11.9750758 7.9993166,11.9750758 Z" id="path-1"></path>
+    </defs>
+    <g id="🖥-Ops_analyst-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact-details_updation_09" transform="translate(-605.000000, -922.000000)">
+            <g id="Group-2" transform="translate(159.000000, 674.000000)">
+                <g id="section-title" transform="translate(0.000000, 64.000000)">
+                    <g id="Group-2">
+                        <g id="Group-13" transform="translate(40.000000, 32.000000)">
+                            <g id="Group-4">
+                                <g id="text-field-/-normal-copy" transform="translate(273.000000, 151.000000)">
+                                    <g id="header_missing-data" transform="translate(133.000000, 0.000000)">
+                                        <g id="icon-/-16-/-info-/-onhold" transform="translate(0.000000, 1.000000)">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                            <rect id="Rectangle" fill="#FFB803" mask="url(#mask-2)" x="0" y="-1" width="16" height="16"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

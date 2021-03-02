@@ -1,0 +1,94 @@
+@import "../../../../../../theme.scss";
+
+.searchBar{
+    // border: 1px solid $primary-background;
+    // border-radius: 4px;
+    padding: 0px 8px 8px 0px;
+    margin-left: 8px;
+    font-size: 14px;
+    width: 93%;
+    // width: 50%;
+    // margin-top: 1.5rem;
+    // margin-bottom: 1rem;
+    border: none;
+
+    &::placeholder{
+        font-family: "Gilroy-Light";
+        color: $timeline-text;
+        font-size: 14px;
+    }
+    &:focus{
+        border: none;
+        // border-bottom: 2px solid $horizontal-line;
+        border-radius: 0px;
+        // box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);;
+        // border: 5rem;
+    }
+}
+
+.searchBorder{
+    border: 1px solid $primary-background;
+    border-radius: 4px;
+    width: 60%;
+    padding: 8px 8px 0px 8px;
+    // box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);;
+    // padding: ;
+}
+
+.searchBorderfocus{
+    width: 60%;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);;
+    padding:  8px 8px 0px 8px;
+    // position: absolute;
+    // z-index: 3;
+    // padding: ;
+}
+
+.searchDropdown{
+    // margin-top:2.5rem;
+    // color: $secondary-label;
+    background-color: $card-bg;
+    // padding: 8px 8px 4px 32px;
+    // padding-left: 24px;
+    margin-right: 16px;
+    z-index: 2;
+    width: 55.8%;
+    position: absolute;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.11);
+
+}
+
+.searchOption{
+    color: $secondary-label;
+    padding: 7px 8px 6px 8px;
+    padding-left: 24px;
+    margin-left: 8px;
+    margin-right: 8px;
+    // width: 55%;
+    border-top: 1px solid $horizontal-line;
+    &:hover{
+        cursor: pointer;
+        color: $primary-label;
+        background-color: $primary-background;
+    }
+}
+
+.searchOptionFont{
+    font-size: 14px;
+    margin-right: 8px;
+    font-family: "Gilroy"
+}
+.imgRotate{
+    transform: rotate(-90deg);
+    height: 7px;
+    padding-left: 2px;
+}
+
+
+.searchOptionFontActive{
+    font-size: 14px;
+    margin-right: 8px;
+    font-family: "Gilroy";
+    color: $active-link;
+
+}

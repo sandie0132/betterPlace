@@ -1,0 +1,203 @@
+@import '../../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    // overflow: auto;
+}
+
+.ContainerPadding64{
+    padding-top: 24px;   
+}
+
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+.CardPadding{
+    padding: 40px 40px;
+}
+
+.FormBackGround{
+    width: 100%;
+    background-color:$primary-background;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    right:0;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.AlignLeft{
+    margin-left: 10rem ;
+    margin-right: 2rem;
+    
+}
+
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Bold';	
+    font-size: 14px;	
+    line-height: 30px;
+}
+
+.Arrow{
+    padding-right:1rem;
+}
+
+.tableStyle{
+    width: 100%;
+    font-size: 14px;
+}
+.tableHead{
+    color: $secondary-label;
+    border-bottom: 2px solid $primary-background ;
+    height: 3rem;
+}
+.tableHeadContent30{
+    padding-left: 2rem;
+    width:30%;
+}
+.tableHeadContent10{
+    padding-left: 0rem;
+    width:10%;
+}
+
+.tableBodyContent{
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-Bold';
+    height: 3.5rem;
+    
+}
+.checkmark {
+    position: absolute;
+   
+    height: 14px;
+    width: 14px;
+    border-radius: 5px;
+    background-color: $card-bg;
+    border: 1px solid $secondary-label;
+  }
+  
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: $active-link;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 4px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid $card-bg;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  
+
+.tableData{
+    color: $secondary-label;
+    font-size: 12px;
+    background-color: $primary-background;
+    font-family: 'Gilroy-Light';
+    padding: 5px 10px 4px 10px;
+    border-radius: 10px;
+}
+
+.horizonalLineTop{
+    width: 95%;
+    margin-top: 7rem;
+    
+    border: 1px solid $primary-background;
+}
+.imgDisable{
+    cursor: default;
+    
+}
+.imgEnable{
+    cursor: pointer;
+}
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+}
+
+.HideErrorNotificationCard{
+    display: none;
+} 
+
+.Options{	
+    font-family: 'Gilroy-Medium';	
+    font-size: 14px;
+    padding-left: 1.2rem;
+    margin-top:1rem;
+}
+
+.OptionWithHeading{
+    color:$secondary-label;
+    font-family: 'Gilroy-Light';	
+    font-size: 12px;
+    width: max-content;
+    margin-bottom: 0%;
+}
+
+.SubHeading{
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+    margin-bottom: 0%;
+    line-height: 19px;
+}
+
+.PaddingLeft{
+    padding-left: 3rem;
+}
+.Icon{
+    position: absolute;
+    
+}
+
+.PaddingLeftArrow{
+    padding-left: 16%;
+    margin-top: 16px;
+}
+
+.paddingY{
+    padding-bottom: 24px;
+    padding-top: 1rem;
+    min-width: 16rem;
+}

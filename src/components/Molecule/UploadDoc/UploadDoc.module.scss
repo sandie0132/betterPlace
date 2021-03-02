@@ -1,0 +1,197 @@
+@import '../../../theme.scss';
+
+.FileInput{
+   display: none;
+}
+.backdrop {
+   position: fixed;
+   top: 0px;
+   left: 10%;
+   width: 100%;
+   height: 100%;
+   z-index: 9998;
+   background: rgba(0, 0, 0, 0.8);
+}
+.cropContainer{
+   position : absolute;
+   background-color : $card-bg;
+   box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+   left: 25%;
+   width: 40%;
+   max-height: 75%;
+}
+.ImageCropView{
+   max-height: 60%;
+}
+.saveButton{
+   border-radius: 32px;
+   height: 3%;
+   width:auto;
+   font-size: 14px;
+   line-height: 17px;
+   text-align: center;
+   color: $card-bg;
+   padding-top:1%;
+   border: 0px;
+   background-color:$danger;
+}
+.saveButton{
+   border-radius: 32px;
+   height: 3%;
+   width:auto;
+   font-size: 14px;
+   text-align: center;
+   color: $card-bg;
+   margin-top: 0.5%;
+   padding-left: 2%;
+   padding-right: 2%;
+   font-family: Gilroy;
+   border: 0px;
+   background-color: $active-link;
+}
+.cancelButton{
+ text-align: center;
+ background-color: transparent;
+ font-family: Gilroy;
+ color:$active-link ;
+ font-size: 14px;
+ border: 0px;
+ padding-top:1%;
+ text-decoration: underline;
+}
+.cropStyle{
+   margin:0%
+}
+.pdfView{
+   height: 112px;    
+   width: 178px;
+}
+.deleteIcon{
+   width: 5%;
+   margin-top: 2%;
+}
+.uploadLoaderIcon{
+   height: auto;
+   width: 20%;
+}
+.Label {
+   font-size: 12px;
+   font-family: Gilroy-Medium;
+   font-weight: bold;
+   color:$primary-label;
+   display: block;
+   margin-bottom: 8px;
+   min-height: 18px;
+}
+.LabelWithValue {
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+    font-weight: bold;
+    color:$secondary-label;
+    display: block;
+}
+
+// @keyframes loader {
+//      from {left: -200px; width: 30%;}
+//      50% {width: 30%;}
+//      70% {width: 70%;}
+//      80% { left: 50%;}
+//      95% {left: 120%;}
+//      to {left: 100%;}
+// }
+.Fit{
+   object-fit: contain;
+}
+
+.DropZone{
+    background-color:$active-link;
+    opacity: 0.5;
+   position: absolute;
+   // left: 100%;
+   // right: 0%;
+   //  top: 50%;
+    bottom: 10%;
+   // height: 30rem;
+   // width: 30rem;
+   height: 300px;
+  width: 700px;
+  background-color: $card-bg;
+  border: 2px dashed rgb(187, 186, 186);
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10rem;
+//   font-size: 16px;
+
+}
+.Size{
+   height: 8rem;
+   width: 8rem;
+}
+
+.errorMessage{
+   font-size: 12px;
+   font-family: Gilroy-Medium;
+   font-weight: bold;
+   color: $danger;
+   min-height: 1.2rem;
+   position: absolute;
+   width: 8rem;
+ }
+
+ .Loader {
+   height: 120px;	
+   width: 120px;	
+   border-radius: 4px;	
+   align-content: center;
+   background-color:  $primary-background;
+ }
+
+ .TextLoader {
+    padding-top: 2.8rem;
+    padding-left: 1.5rem;
+    font-family: Gilroy;
+    font-size: 14px;
+ }
+
+ .FileName {
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    align-self: center;
+    font-family: Gilroy;
+    font-size: 14px;
+ }
+
+ .loading {
+   width: 6.75rem;
+   height: 4px;
+   top: 4.5rem;
+   margin-left: 0.34rem;
+   position: relative;
+   overflow: hidden;
+   align-self: center;
+   background-color: $loading;
+ }
+ .loading:before{
+   display: block;
+   position: absolute;
+   content: "";
+   left: -200px;
+   align-self: center;
+   width: 200px;
+   height: 4px;
+   padding-top: 4rem;
+   background-color: $uploadDoc-bg;
+   animation: load 1s linear infinite;
+ }
+ 
+ @keyframes load {
+     from {left: -200px; width: 30%;}
+     50% {width: 30%;}
+     70% {width: 70%;}
+     80% { left: 50%;}
+     95% {left: 120%;}
+     to {left: 100%;}
+ }

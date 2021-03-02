@@ -1,0 +1,91 @@
+@import '../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    // overflow: auto;
+}
+
+.CardLayout{
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    border:none;
+    &:hover{
+        box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    }
+}
+
+.DisabledCardLayout{
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    border: none;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}
+
+.CardPadding{
+    padding: 8px 40px 40px 40px;
+}
+
+.ShowSuccessNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $success-notification;
+}
+
+.HideSuccessNotificationCard{
+    display: none;
+}
+
+.SuccessNotificationCard{
+    font-size: 12px;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+}
+
+.HideErrorNotificationCard{
+    display: none;
+}
+
+.AddMoreButton{
+    font-size: 14px;
+    color: $secondary-label;
+    &:hover{
+        cursor: pointer;
+    } 
+}
+
+.CloseButton{
+    margin: 0;
+    padding: 0;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.HorizotalLine{
+    border: 1px solid $horizontal-line;
+}
+
+.emptyNotification{
+    background-color: transparent;
+    min-height: 1.5rem;
+}
+
+div[disabled]
+{
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.addStyle {
+    height: 40px;
+}

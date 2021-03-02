@@ -1,0 +1,68 @@
+@import '../../../../theme.scss';
+
+.RightNavLabel{
+  font-size: 24px;
+  padding-left: 2rem;
+}
+
+.Spacing{
+  bottom:5%;
+  position: fixed;
+  left:80%;
+}
+
+.OrgRightNavLabel{
+  color: $card-bg;
+  font-family: Gilroy-Thin;
+  font-size: 40px;
+  padding-top: 2rem;
+}
+
+.Width{
+  width: 70%;
+}
+
+.LargeButtonWidth{
+  min-width: 90% !important;
+  margin-bottom: 5rem !important;
+}
+
+.openView{
+  position: fixed;
+  right: 0;
+}
+
+.removeDisplay{
+  display: none;
+}
+
+.closeButton{
+  position: fixed;
+  top: 2rem;
+  right: 22rem;
+  cursor: pointer;
+}
+
+.show{
+  width: 20rem;
+  background-color: $card-bg;
+  box-shadow: -2px 0 4px 0 rgba(0,0,0,0.06);
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100vh;
+}
+
+.textContain{
+  word-break: break-word;
+}
+
+.labelScroll{
+  max-height: 12rem;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.labelScroll::-webkit-scrollbar {
+  display: none;
+}

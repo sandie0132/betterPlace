@@ -1,0 +1,184 @@
+@import '../../../../../../../theme.scss';
+
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+   // font-size: 12px;
+    // font-family: Gilroy-Medium;
+    // font-weight: bold;
+    color: $primary-label
+    
+}
+
+.CardPadding{
+    padding: 32px 40px 40px 40px;
+}
+
+.verticalLine {
+    border-right: 2px solid $horizontal-line;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.rightDivPadding{
+    padding-left: 1.5rem;
+}
+
+.leftDivPadding{
+    padding-right: 1.5rem;
+}
+
+.heading{
+    font-size: 14px;
+    color: $primary-label;
+    font-family: 'Gilroy';
+    line-height: 1rem;
+    margin-left: 0.5rem;
+}
+
+.img{
+    height: 50%;
+    filter: brightness(0.1) sepia(1) hue-rotate(260deg) saturate(1);  
+}
+
+.smallSecondaryText{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+    line-height: 14px;
+}
+
+.marginTop{
+    margin-top: 0.5rem;
+}
+
+.upDownBackground{
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    height: 11.125rem;
+    border: 2px dashed rgba(0,88,184,0.25);
+    background-color: rgba(0,89,178,0.02);
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.smallPrimaryText{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    color: $primary-label;
+    line-height: 1rem;
+}
+
+.spacing{
+    margin-top: 1rem;
+}
+
+.RadioButton
+{
+    appearance: none;
+    background-color: $card-bg;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid $secondary-label;
+    cursor: pointer;     
+}
+.RadioButton:checked::before
+{
+    background-color: $card-bg;
+}
+
+.RadioButton:checked
+{
+     background-color: $card-bg;
+     border: 3px solid $active-link;
+}
+
+.downloadButton{
+    background-color: $active-link;
+    height: 2rem;
+    width: 11.125rem;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.browse{
+    margin-top: 2.625rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.browseLink{
+    color: $active-link;
+    font-size: 12px;
+    font-family: 'Gilroy';
+    text-decoration: underline;
+}
+
+.downloadText{
+    color: $card-bg;
+    font-size: 12px;
+    font-family: 'Gilroy';
+    margin-top: 0.5rem;
+    padding-right: 2.5rem;
+}
+
+.downloadSuccessText{
+    color: $success;
+    font-family: Gilroy;
+    font-size: 12px;
+    margin-top: 0.5rem;
+    padding-right: 2rem;
+}
+
+.greenFilter{
+    filter: invert(100%) brightness(0.6) sepia(1) hue-rotate(100deg) saturate(4) ;
+}
+
+.downloadSuccess {
+    background-color: $success-notification;
+    border-radius: 20px;
+    height: 2rem;
+    width: 11.125rem;
+    margin-top: 1.5rem;
+}
+
+.verticalLineDisabled{
+    height: 1.9rem;
+    border-left: 2px dashed $horizontal-line;
+    margin-left: 1.25rem;
+}
+
+.inactiveCircle{
+    position: absolute;
+    z-index: 999;
+}
+
+.stepNumber{
+    background-color: $disabled-background;
+    color: $card-bg;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    margin-left: 0.8rem;
+}
+
+.numberFont{
+    // padding-left: 35%;
+    padding-top: 0.2rem;
+    font-size: 8px;
+}
+
+.paddingExcelUploadData{
+    padding: 2rem 0rem 2rem 0rem;
+}

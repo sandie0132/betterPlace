@@ -1,0 +1,23 @@
+@import '../../../theme.scss';
+
+.Button{
+    color: $primary-background;
+    background-color: $active-link;
+    border-radius: 20px;
+    font-size: 12px;
+    width : 9rem;
+    height : 2rem;
+    padding-top : 0.5rem;
+    &:hover{
+      text-decoration: none;
+      color:$card-bg;
+      background-color: $active-link;
+    }
+}
+
+.Text{
+    color: $primary-label;    
+    font-family: 'Gilroy';    
+    font-size: 14px;
+    line-height: 1rem;
+}

@@ -1,0 +1,19 @@
+@import '../../../../../theme.scss';
+
+.Heading{
+    font-size: 18px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.Timeline{
+    margin-top: 10rem;
+    width: 20rem;
+}
+
+.RightNavAlign{
+    background-color: $primary-background;
+    overflow-x: hidden;
+}

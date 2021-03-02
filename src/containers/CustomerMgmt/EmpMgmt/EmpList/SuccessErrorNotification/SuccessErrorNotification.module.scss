@@ -1,0 +1,43 @@
+@import '../../../../../theme.scss';
+
+.SuccessNotificationCard{
+    font-size: 12px;
+    height:5px;
+    padding-top:0.2rem;
+    
+}
+.IconSuccess{
+    height:absolute;
+    padding: 2%;
+    padding-top: 1%;
+    margin-bottom: 0px;
+    
+}
+.IconCancel{
+    padding:0px;
+    padding-right:1rem;
+    cursor: pointer;
+}
+
+.NotificationCard{
+    background-color: $success-notification;
+    border: 2px solid rgba(54,168,82,0.5);
+    color: $secondary-label;
+    font-size: 12px;
+    line-height: 2rem;
+    width: 97%;
+}
+
+.ErrorNotificationCard{
+    background-color: $error-notification;
+    border: 2px solid rgba(240, 74, 74, 0.753);
+    color: $secondary-label;
+    font-size: 12px;
+    line-height: 2rem;
+    width: 97%;
+}
+
+.imgClose{
+    cursor: pointer;
+    margin-top: 0.75rem;
+}

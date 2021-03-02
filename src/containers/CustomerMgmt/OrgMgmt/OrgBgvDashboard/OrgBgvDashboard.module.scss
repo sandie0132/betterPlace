@@ -1,0 +1,320 @@
+@import "../../../../theme.scss";
+.alignCenter{
+  padding-left: 2%;
+  width: 100%;
+  margin-top: 1rem;
+  padding-right: 5%;
+  // height: 100vh;
+  overflow: auto;
+}
+
+@media (min-width: 1025px) {
+  .alignCenter{
+      padding-right: 25%;
+  }
+  .width{
+    margin-left: 0rem;
+    padding-left: 1rem;
+    width: 85% !important;
+    position: absolute;
+  }
+}
+.OrgName{
+  color: $page-title;	
+  font-family: 'Gilroy-Bold';	
+  font-size: 24px;
+  font-weight:normal;
+}
+
+.LinkButton{
+  justify-content:flex-end;
+  border-radius: 20px;
+  padding:5px 10px 5px 10px;
+  background-color: $secondary-background;
+  color: $active-link;
+  font-size:12px;
+  font-weight:bold;
+  font-family: 'Gilroy-Medium';
+  &:hover{
+    text-decoration: none;
+    color:$active-link;
+  }
+  &:active{
+      text-decoration: none;
+      color:$active-link;
+  }
+}
+
+.PlusColor{
+  background-color: $secondary-background;
+}
+
+.svg {
+	width: 50px;
+  height: auto;
+}
+.svg:hover {
+	cursor: pointer;
+  filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);  
+}
+
+.svgRed {
+	width: 50px;
+  // height: auto;
+  border-bottom:2px solid $secondary-label;
+  padding-bottom: 13px; 
+  filter: brightness(0.6) sepia(1) hue-rotate(322deg) saturate(10);
+}
+.svgRedHover:hover {
+	cursor: pointer;
+  filter: brightness(0.6) sepia(1) hue-rotate(322deg) saturate(10);
+}
+
+.svgGreen {
+	width: 50px;
+  // height: auto;
+  padding-bottom: 13px; 
+  border-bottom:2px solid $secondary-label;
+  filter: brightness(0.6) sepia(1) hue-rotate(100deg) saturate(4) 
+}
+.svgGreenHover:hover {
+	cursor: pointer;
+  filter: brightness(0.6) sepia(1) hue-rotate(100deg) saturate(4) 
+}
+
+.svgYellow {
+	width: 50px;
+  // height: auto;
+  padding-bottom: 13px; 
+  border-bottom:2px solid $secondary-label;
+  filter: brightness(0.9) sepia(1) hue-rotate(12deg) saturate(10)
+}
+.svgYellowHover:hover {
+	cursor: pointer;
+  filter: brightness(0.9) sepia(1) hue-rotate(12deg) saturate(10)
+}
+
+.svgProgress{
+  height: auto;
+  &:hover{
+    cursor: pointer;
+    filter: brightness(0.5) saturate(10)
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.NavLinkfontActive{
+  padding-bottom: 14px; 
+  border-bottom:2px solid $secondary-label;
+  filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.NavLinkfont{
+  color: $secondary-label;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border:0;
+  background-color: rgba(250, 250, 252, 0);
+  font-family: 'Gilroy';
+  &:hover{
+    text-decoration: none;
+    border:2px;
+    border-color: $card-bg;
+    width: relative;
+     
+  }
+  &:active{
+    text-decoration: none;
+    color: $active-link;
+    border:0;
+  }
+  
+  &:focus{
+    outline: none;
+  }
+}
+
+
+.hr1{
+  border:1px solid white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+.MarginBottom{
+  margin-bottom:13rem;
+}
+
+.Height{
+  height: 45%;
+}
+
+.imgSize{
+  height: 23.5px !important;
+  padding-left: 0.7rem !important;
+  margin-top: 0.2rem !important;
+}
+
+.TagSearch{
+  font-size: 16px;
+  margin-left: 0.1rem !important;
+  font-family: 'Gilroy';
+  color: $secondary-label;
+  width: 20rem;
+  padding-top:7px;
+  border-radius: 25px;
+  
+}
+
+.BarStyle{
+  border-radius: 25px;
+}
+
+.BellIcon{
+  margin-top: 4px;
+}
+.NotificationBell{    
+  &:hover{
+      cursor: pointer;
+  }
+  padding : 8px 10px 0px 8px;
+  
+  
+  margin-left: 1rem !important;
+  
+}
+.notificationBellActive{
+  
+  padding : 8px 10px 0px 8px;
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+  background-color: $card-bg;
+  margin-left: 1rem !important;
+  z-index: 999;
+  &:hover{
+      cursor: pointer;
+  }
+}
+
+.NotificationCount{
+  line-height: 17px;
+  background-color: $danger;
+  color:$card-bg;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-left: -4px;
+  margin-top: -4px;
+  border:  1px solid $card-bg;
+  text-align: center;
+  
+}
+
+.NotificationCountZero{
+  line-height: 17px;
+  background-color: $secondary-label;
+  color:$card-bg;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-left: -4px;
+  margin-top: -4px;
+  border:  1px solid $card-bg;   
+  text-align: center;
+}
+
+.width{
+  margin-left: 0rem;
+  padding-left: 1rem;
+  width: 96%;
+  position: absolute;
+}
+
+.donwloadTab{
+  background-color: $card-bg;
+  font-size: 14px;
+  color: $secondary-label;
+  padding: 6px 14px 4px 14px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.donwloadTabOpen{
+  background-color: $card-bg;
+  font-size: 14px;
+  color: $secondary-label;
+  padding: 6px 14px 4px 14px;
+  border-radius: 18px 18px 0px 0px;
+  border-bottom: 1px solid $primary-background;
+  z-index: 100;
+  position: inherit;
+  cursor: pointer;
+  
+}
+
+.downloadMenu{
+  background-color: $card-bg;
+  border-radius: 0px 0px 18px 18px ;
+  position: absolute;
+  font-size: 14px;
+  width: max-content;
+  z-index: 99;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}
+
+.downloadOption{
+  color: $secondary-label;
+  
+  &:hover{
+    background-color: $primary-background !important;
+    cursor: pointer;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+  }
+}
+
+
+.over{
+  padding: 8px 20px 8px 14px;
+  &:hover{
+    filter: brightness(25%);
+  }
+}
+
+.defaultColor{
+  color: $secondary-label !important;
+}
+
+.dropdown{
+  width: 17.625rem !important;
+}
+
+.smallDropdown{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 14rem !important;
+}
+
+.smallDropdownMenu{
+  width: 14rem !important;
+}
+
+.wordBreak{
+  word-break: break-all;
+}
+
+.column5{
+  flex: 0 0 39%;
+  max-width: 25%;
+  // max-width: 39%;
+}

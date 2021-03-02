@@ -1,0 +1,326 @@
+@import "../../../../../theme.scss";
+
+.form {
+	height: 100vh;
+	overflow: auto;
+}
+
+.alignCenter {
+	padding-left: 3%;
+	width: 100%;
+	padding-right: 3%;
+	// margin-top: 0.6rem;
+	// height: 100vh;
+	// overflow: auto;
+}
+
+.ManagerCard {
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+}
+
+.SpocCard {
+	margin-top: 1rem;
+	background-color: $primary-background;
+	border-radius: 8px;
+}
+
+.Name {
+	color: $primary-label;
+	font-family: "Gilroy-Medium";
+	font-size: 14px;
+}
+
+.Details {
+	font-size: 12px;
+	font-family: "Gilroy-Light";
+	color: $secondary-label;
+	//width: 10rem;
+}
+
+.BorderRight {
+	border-right: 1px solid $secondary-label;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+
+.Image {
+	height: 3.5rem;
+	width: 3.5rem;
+	border-radius: 50%;
+}
+
+.RadioButton {
+	appearance: none;
+	background-color: $card-bg;
+	position: relative;
+	z-index: 1;
+	width: 16px;
+	height: 16px;
+	margin-top: 0.2rem;
+	float: right;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+}
+
+.Cross {
+	//margin-top:0.4rem;
+	// left: 10.5rem;
+	//top:0.06rem;
+	// float:right;
+	cursor: pointer;
+	// z-index:99;
+	// position:absolute;
+}
+
+.ContainerPadding64 {
+	padding-top: 24px;
+}
+
+.PaddingRight16px {
+	padding-right: 16px;
+}
+
+.terminateButton {
+	min-width: 6.5rem !important;
+	padding-left: 0.8rem !important;
+	padding-right: 0.8rem !important;
+	font-size: 12px !important;
+	color: $danger !important;
+	background-color: $error-notification !important;
+	&:hover {
+		color: $danger !important;
+	}
+}
+
+.labelStyle {
+	line-height: 20px;
+}
+
+.terminateBlock {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: $secondary-label;
+	font-size: 14px;
+}
+
+.CardLayout {
+	background-color: $card-bg;
+	border-radius: 4px;
+	margin-bottom: 3rem;
+	border: none;
+	flex-wrap: nowrap;
+	//box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+	// &:hover{
+	//     box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+	// }
+}
+
+.DisabledCardLayout {
+	background-color: $card-bg;
+	border-radius: 4px;
+	margin-bottom: 3rem;
+	border: none;
+}
+
+.CardPadding {
+	padding: 0px 40px 40px 40px;
+}
+
+.FormPaddingLeft {
+	padding: 0 0 0 3.5rem;
+}
+
+.DropDownPadding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.SubmitPadding {
+	padding-left: 33rem;
+	padding-top: 30px;
+}
+
+.SubmitPaddingEdit {
+	padding-left: 42rem;
+	padding-top: 30px;
+}
+
+.EditButton {
+	background-color: $secondary-label;
+	border-radius: 20px;
+	padding: 10px;
+	padding-right: 15px;
+	cursor: pointer;
+	font-size: 14px;
+	width: 12%;
+	text-align: right;
+	color: $card-bg;
+	&:hover {
+		text-decoration: none;
+		color: $card-bg;
+	}
+}
+
+// .MarginLeft{
+//     margin-left: 16px !important;
+// }
+.ShowSuccessNotificationCard {
+	display: block;
+	min-height: 1.5rem;
+	background-color: $success-notification;
+}
+
+.HideSuccessNotificationCard {
+	display: none;
+}
+
+.SuccessNotificationCard {
+	font-size: 12px;
+}
+
+.ShowErrorNotificationCard {
+	display: block;
+	min-height: 1.5rem;
+	background-color: $error-notification;
+}
+
+.HideErrorNotificationCard {
+	display: none;
+}
+
+.emptyNotification {
+	background-color: transparent;
+	min-height: 1.5rem;
+}
+
+.formBackground {
+	width: 100%;
+	background-color: $primary-background;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	position: fixed;
+	overflow-y: auto;
+}
+
+.MarginLeft {
+	margin-left: 10rem;
+}
+
+.smallTextHead {
+	color: $secondary-label;
+	font-family: "Gilroy-Bold";
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.ContainerPaddingTop {
+	padding-top: 2.5rem;
+	margin-bottom: 3rem;
+}
+
+.PaddingLeftArrow {
+	margin-top: 16px;
+	padding-left: 15%;
+}
+
+.HorizontalLine {
+	border: 1px solid $primary-background;
+}
+
+.formHeader {
+	background-color: $primary-background;
+	padding: 8px;
+	font-family: "Gilroy-Light";
+}
+
+.timeHeading {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.cancelButton {
+	background-color: transparent;
+	min-width: 6rem;
+}
+
+.disabledCancelButton {
+	background-color: transparent;
+	min-width: 6rem;
+	cursor: unset;
+}
+
+.notificationHeader {
+	padding: 8px;
+	background-color: $card-bg;
+}
+
+.fixedHeader {
+	// padding: 8px;
+	//
+	margin-left: 3%;
+	padding-top: 1rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: $primary-background;
+	width: 94%;
+	flex: 0 0 94%;
+}
+
+.subHeading{
+  color: $primary-label;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  letter-spacing: 0;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+// @media (max-width: 1200px) {
+// 	.fixedHeader {
+//         width: 81%;
+//         flex: 0 0 81%
+// 	}
+// }
+
+
+
+.activeHorizontalLine{
+    border: 1px solid $active-link;
+    width: 17.25rem;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.activePointer{
+    position: absolute;
+    height: 0rem;
+    width: 0rem;
+    border-left: 6px solid $active-link;
+    border-top: 6px solid $active-link;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    transform: rotate(45deg);
+    margin-right: 1rem;
+    margin-top:0.6rem;
+}
+
+.horizontalLine{
+    border: 1px solid $horizontal-line;
+    // border: 1px solid $primary-background;
+    position: absolute;
+    width: 91%;
+    margin-top: 0px;
+}
+
+.sliderMaxWidth{
+	max-width: 52.5rem !important;
+}
+
+.iconMarginTop{
+	top : 9rem;
+}

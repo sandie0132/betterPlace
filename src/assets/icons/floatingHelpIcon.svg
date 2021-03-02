@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.2 (101010) - https://sketch.com -->
+    <title>64307859-A039-4D70-905F-DE9E38A81A27</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-dashboard_empty" transform="translate(-1304.000000, -788.000000)">
+            <g id="right-side-bar" transform="translate(1080.000000, 128.000000)">
+                <g id="floating-help" transform="translate(224.000000, 660.000000)">
+                    <rect id="Rectangle" fill="#0059B2" x="0" y="0" width="72" height="72" rx="36"></rect>
+                    <g id="voice-recognition" transform="translate(25.000000, 26.000000)">
+                        <path d="M0,2 L0,14 C0,15.1045695 0.8954305,16 2,16 L7,16 L11,21 L15,16 L20,16 C21.1045695,16 22,15.1045695 22,14 L22,2 C22,0.8954305 21.1045695,0 20,0 L2,0 C0.8954305,0 0,0.8954305 0,2 Z" id="Path" fill="#FFFFFF"></path>
+                        <path d="M5,6 L5,10" id="Path" stroke="#0059B2" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M9,4 L9,12" id="Path" stroke="#0059B2" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M13,7 L13,9" id="Path" stroke="#0059B2" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M17,5 L17,11" id="Path" stroke="#0059B2" stroke-width="2" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+@import "../../../../theme.scss";
+.BackgroundImage {
+  background-color: $card-bg;
+  height: 100vh;
+  text-align: center;
+}
+
+.errorCode {
+  font-size: 108px;
+  font-family: "Gilroy";
+  color: $primary-label;
+  margin-left: auto;
+}
+
+.errorHeading {
+  font-size: 53px;
+  font-family: "Gilroy";
+  color: $primary-label;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1rem;
+  margin-right: auto;
+}
+
+.lineHeight{
+  line-height: 102px;
+  margin-top: 3rem;
+}
+
+.errorText {
+  font-size: 24px;
+  font-family: "Gilroy-Light";
+  color: $primary-label;
+  font-weight: bolder;
+  min-height: 72px;
+}
+
+.button {
+  font-size: 24px;
+  font-family: "Gilroy-Light";
+  color: $primary-label;
+  border: 1px solid $primary-label;
+  border-radius: 27px;
+  padding: 0.5rem 1.5rem;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  margin-top: 4rem;
+}

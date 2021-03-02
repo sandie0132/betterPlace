@@ -1,0 +1,93 @@
+@import '../../../theme.scss';
+
+.ModalPage{
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(243, 247, 253, 0.637) !important;
+}
+
+.canv{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+    border: 2px dashed $secondary-label;
+    border-radius: 5px;
+    width: 95%;
+}
+.attachBtn{
+    background-color: $primary-background;
+    color: $secondary-label;
+    font-size: 14px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 5px 15px 5px 10px;
+    height: fit-content;
+}
+
+.attachBtnInactive{
+    background-color: $inactive-comment-background;
+    color: $inactive-font;
+    font-size: 14px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 5px 15px 5px 10px;
+    height: fit-content;
+}
+
+.container{
+    background-color: $disabled-checkbox;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+
+}
+.txt{
+    font-size: 14px;
+    text-align: center;
+    color: $primary-label;
+}
+.cancel{
+    margin-left: 1rem;
+    background-color: $secondary-background;
+    color: $secondary-label;
+    padding: 9px 30px 9px 30px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    &:hover{
+        box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    }
+}
+
+.AlignMiddle{
+    text-align: center;
+}
+
+.plusFilter{
+    filter: contrast(0.5);
+}
+
+.ImgPadding{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 6rem;
+    cursor: pointer;
+}
+
+.UploadFileActive{
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.UploadFileDisabled{
+    margin-top: 1rem;
+    text-decoration: underline;
+    font-size: 14px;
+    color: $secondary-label;
+}

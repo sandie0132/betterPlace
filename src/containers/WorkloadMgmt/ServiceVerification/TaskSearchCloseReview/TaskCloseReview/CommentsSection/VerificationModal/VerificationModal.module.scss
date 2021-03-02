@@ -1,0 +1,94 @@
+@import  '../../../../../../../theme.scss';
+
+.backdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background-color: rgba(243, 247, 253, 0.9);
+}
+
+.closeStyle{
+    margin-top: 74px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Container {
+    width : 45.5rem;
+    max-height: 60%;
+    left : 25%;
+    right : 25%;
+    text-align: left;
+    border-radius : 4px;
+    background-color : $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    margin-left : auto;
+    margin-right: auto;
+    margin-top : 48px;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.Label{
+    color: $secondary-label;	
+    font-family: 'Gilroy';
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.hoverDiv{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Light';	
+    font-size: 12px;	
+}
+
+.BoxWidth{
+    width: 18.75rem;
+}
+
+.TextAreaWidth{
+    width: 38.9rem;
+}
+
+.WriteComment{
+    background-color: $card-bg;
+    border: 1px solid $secondary-background;
+    border-radius: 0.25rem;
+}
+
+.FocusWriteComment{
+    background-color: $card-bg;
+    border: 1px solid $active-link;
+    border-radius: 0.25rem;
+}
+
+.inputField{
+    font-size: 0.75rem;
+    height: max-content;
+    width: 35.9rem;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    overflow-y: hidden;
+}
+
+.Cursor{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 0.625rem;
+}
+
+.img16px {
+    height: 16px;
+}

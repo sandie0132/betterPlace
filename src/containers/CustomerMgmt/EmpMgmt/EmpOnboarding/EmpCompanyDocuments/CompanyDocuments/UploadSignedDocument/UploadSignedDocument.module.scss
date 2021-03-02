@@ -1,0 +1,139 @@
+@import "../../../../../../../theme.scss";
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+    // border-top: 2px solid $horizontal-line;
+}
+
+.timeHeading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Container{
+    padding: 40px;
+    align-self: center;
+    text-align: center;
+    min-height: 420px;
+}
+
+.companyIcon{
+    height: 90px;
+    align-self: center;
+    width: 110px;
+}
+
+.infoIcon{
+    height: 16px;
+    width: 16px;
+}
+
+.Heading{
+    color: $active-link;
+    font-family: Gilroy;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.text{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+}
+
+.blueText{
+    color: $active-link;
+}
+.greyText{
+    color: $secondary-label;
+}
+
+.GenerateButton{
+    margin-top: 42px;
+}
+
+.GenerationContainer{
+    box-sizing: border-box;
+    height: 131px;
+    width: 800px;
+    padding: 32px 80px 32px 80px;
+    border: 2px dashed #ADC9E6;
+    border-radius: 4px;
+    margin-top: 36px;
+}
+
+.downloadButtonContainer{
+    height: 2.5rem !important;
+    padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+    border-radius: 20px;
+    background-color: $secondary-background;
+    width: max-content;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.Loading{
+    width: 300px;
+    height: 4.8px;
+    top: 8px;
+    border-radius: 2.5px;
+    margin-left: 8px;
+    position: relative;
+    overflow: hidden;
+    // align-self: center;
+    background-color: $secondary-background;
+}
+
+.Loading::before{
+    display: block;
+    position: absolute;
+    content: "";
+    padding-top: 4rem;
+    background-color: #00B216;
+    animation: load 1s linear infinite;
+}
+
+@keyframes load {
+    from {left: 0px; width: 0%;}
+    10% {left: 0px; width: 10%}
+    20% {left: 0px; width: 20%}
+    30% {left: 0px; width: 30%}
+    40% {left: 0px; width: 40%}
+    50% {left: 0px; width: 50%}
+    60% {left: 0px; width: 60%}
+    70% {left: 0px; width: 70%}
+    80% {left: 0px; width: 80%}
+    90% {left: 0px; width: 90%}
+    to {left: 0%; width: 100%;}
+}
+
+.LoadingComplete{
+    width: 300px;
+    height: 4.8px;
+    top: 8px;
+    border-radius: 2.5px;
+    margin-left: 8px;
+    position: relative;
+    overflow: hidden;
+    // align-self: center;
+    background-color: #00B216;
+}
+
+.UploadContainer{
+    width: 820px;
+}
+
+.cancelButton {
+    background-color: transparent;
+    min-width: 6rem;
+}

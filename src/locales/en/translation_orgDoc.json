@@ -1,0 +1,46 @@
+{
+    "image_alt_orgDocuments": {
+        "add": "add"
+    },
+    "button_orgDocuments": {
+        "Save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete": "delete"
+    },
+    "input_orgDocuments": {
+        "label": {
+            "DocumentId": "document Id",
+            "Name": "name",
+            "Established": "established on",
+            "IssuedOn": "issued on",
+            "state": "state",
+            "address": "address",
+            "pincode": "pincode",
+            "validFrom": "valid from",
+            "validTill": "valid till",
+            "docType": "document type"
+        },
+        "placeholder": {
+            "address": "address",
+            "state": "state",
+            "pincode": "pincode"
+        }
+    },
+    "label": {
+        "l1": "add more"
+    },
+    "warning_orgDocuments_cancel": {
+        "text": "cancel?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, cancel",
+        "cancelText": "keep"
+    },
+    "warning_orgDocuments_delete": {
+        "text": "delete?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, delete",
+        "cancelText": "cancel, keep"
+    },
+    "cardHeader": "documents"
+}

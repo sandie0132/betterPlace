@@ -1,0 +1,22 @@
+{
+    "image_alt_tagCard": {
+        "img": "img"
+    },
+    "li": {
+        "l1": " edit",
+        "l2" : " delete"
+    },
+    "warning_tagCardDelete" : {
+        "text" : "are you sure?",
+        "para" : "do you want to delete ",
+        "confirmText" : "yes, delete" ,
+        "cancelText" : "don't delete"
+
+    },
+    "warning_tagCardCannotDelete" : {
+        "text" : "You can't delete ",
+        "para" : " has sub tags.",
+        "cancelText" : "okay"
+
+    }
+}

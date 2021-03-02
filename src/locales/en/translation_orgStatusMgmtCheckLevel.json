@@ -1,0 +1,27 @@
+{
+    "image_alt_orgStatusMgmtCheckLevel": {
+        "img": "img",
+        "red": "red",
+        "yellow": "yellow",
+        "green": "green"
+    },
+    "label_orgStatusMgmtCheckLevel": {
+        "IdSection": "ID verification",
+        "addressSection": "address verification",
+        "criminalSection": "legal verification",
+        "careerSection": "career verification",
+        "healthSection": "health & reference verification"
+    },
+    "text_orgStatusMgmtCheckLevel": {
+        "if": "if  ",
+        "is": "  is ",
+        "yellow": "yellow",
+        "thenId": "then, make it",
+        "next": "next",
+        "redInfo": "red case is invalid document",
+        "greenInfo": "green case is every thing is correct",
+        "yellowInfo": "yellow case is not verifiable/partially verifiable"
+    },
+    "bottomHeading": "editing any of above rules will override following betterplace verification rules",
+    "cardHeader": "verification status management"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>4047158B-F06B-4312-95C6-7249BF2F62C7</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="19.5"></rect>
+        <path d="M18.9090909,4 L32,4 L32,28 L0,28 L0,4 L13.0909091,4 L18.9090909,4 Z M17.3333333,16 L26.6666667,16 L26.6666667,13.3333333 L17.3333333,13.3333333 L17.3333333,16 Z M17.3333333,21.3333333 L26.6666667,21.3333333 L26.6666667,18.6666667 L17.3333333,18.6666667 L17.3333333,21.3333333 Z M10.3047619,9.33333333 L5.33333333,9.33333333 L5.33333333,22.6666667 L7.96190474,22.6666667 L7.96190474,18.2857143 L10.3047619,18.2857143 C11.5873079,18.2857143 12.6666622,17.8539726 13.5428571,16.9904762 C14.4190519,16.1269798 14.8571428,15.066673 14.8571428,13.8095238 C14.8571428,12.5523747 14.4190519,11.4920678 13.5428571,10.6285714 C12.6666622,9.76507505 11.5873079,9.33333333 10.3047619,9.33333333 Z M10.3047618,15.8285713 L7.96190468,15.8285713 L7.96190468,11.7904762 L10.3047618,11.7904762 C10.8634947,11.7904762 11.3269821,11.9809504 11.6952379,12.3619047 C12.0634937,12.742859 12.2476188,13.2253938 12.2476188,13.8095237 C12.2476188,14.3809552 12.0634937,14.8603154 11.6952379,15.247619 C11.3269821,15.6349225 10.8634947,15.8285713 10.3047618,15.8285713 Z" id="path-3"></path>
+    </defs>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-add-Documents" transform="translate(-160.000000, -2333.000000)">
+            <g id="passport" transform="translate(160.000000, 2333.000000)">
+                <g id="section-title">
+                    <g id="icon-/-40-/-info-/-container-with-icon">
+                        <g id="icon-/-40-/-info-/-container">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use fill="#6A54CD" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="icon-/-24-/-info-/-form" transform="translate(4.000000, 4.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#9A5A1E" xlink:href="#path-3"></use>
+                            <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-4)" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

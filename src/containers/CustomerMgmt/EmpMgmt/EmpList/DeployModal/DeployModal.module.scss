@@ -1,0 +1,171 @@
+@import '../../../../../theme.scss';
+
+.backdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background-color: $default-theme; // rgba(243, 247, 253, 0.9);
+    overflow-y: auto;
+}
+
+.closeStyle{
+    margin-top: 74px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Container {
+    width : 40.5rem;
+    left : 25%;
+    right : 25%;
+    text-align: left;
+    border-radius : 4px;
+    background-color : $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    margin: 16px auto;
+    overflow-y: auto;
+}
+
+.CardPadding{
+    padding: 1.5rem 2rem 2rem 2rem;
+    // max-height: calc(100vh - 210px);
+    // overflow-y: auto;
+}
+
+.HorizontalLine {
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    border: 1px solid $horizontal-line;
+}
+
+.mediumText {
+    color: $primary-label;
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.greyTextSmall {
+	font-size: 12px;
+	color: $secondary-label;
+	font-family: Gilroy;
+    text-align: center;
+}
+
+.profilePicUrl {
+	height: 2.2rem;
+	width: 2.2rem;
+	border-radius: 50%;
+	margin-left: 0.2rem;
+}
+
+.countcircle {
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    background-color: $primary-background;
+    margin-left: 0.2rem;
+    font-size: 10px;
+    color: $secondary-label;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainHeading{
+    color: $secondary-label;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Gilroy-Light;
+}
+
+.Cursor {
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.greyBg {
+    background-color: $default-theme;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.HelpText{
+    font-size: 14px;
+    color: $secondary-label;
+    font-family: Gilroy-Medium;
+}
+
+.GreyHeading{
+    font-size: 12px;
+    color: $secondary-label;
+    font-family: Gilroy-Medium;
+}
+
+.NoBorder{
+    border: none;
+    outline: none;
+    width: 92%;
+}
+
+.SearchBorder{
+    border: 1px solid $horizontal-line;
+    border-radius: 6px;
+    padding: 0.25rem 0.5rem;
+    width: 100%;
+    color: $primary-label;
+    font-size: 18px;
+    font-family: Gilroy-Light;
+}
+
+.TagBarStyle{
+    margin-bottom: 1.5rem;
+    position: relative !important;
+    z-index: auto;
+}
+
+.TagSearchBar{
+    background-color: $card-bg !important;
+    color: $primary-label !important;
+    font-size: 18px !important;
+    width: 89% !important;
+}
+
+.SearchDropdown{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.11);
+    border-radius: 4px;
+    position: absolute;
+    background: $card-bg;
+    width: 36.5rem; // 40.5%;
+    z-index: 999;
+    // min-height: 3rem;
+    max-height: 8rem;
+    overflow-y: auto;
+    overflow-x : auto;
+    // margin-top: 0.25rem;
+}
+
+.PrimaryText {
+    color: $primary-label!important;
+}
+
+.dateLabel {
+    font-family: 'Gilroy-Medium'!important;
+    color: $secondary-label!important;
+    font-weight: none!important;
+}
+
+.Option{
+    padding: 0.5rem;
+    &:hover{
+        background-color: $primary-background;
+    }
+}

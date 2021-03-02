@@ -1,0 +1,58 @@
+@import "../../../../../../theme.scss";
+
+
+.TagDropdownMenu {
+    margin-top: 5px;
+    max-height: 10.75rem !important;
+    width: 92.5% !important;
+    z-index: 1 !important;
+    // position: inherit !important;
+}
+
+.tagSearch {
+    width: 100%;
+    background-color: $card-bg;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+.placeholderText {
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    &::placeholder{
+        color: $page-title !important;
+    }
+}
+
+.filterCard {
+    padding: 2rem;
+    background-color: $card-bg;
+    border-radius: 4px;
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.07);
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    position: relative;
+}
+
+.dropdownMenu {
+    width: 17.5rem;
+}
+
+.optionDropdown {
+    width: 17.5rem;
+    padding: 10px 16px;
+    background-color: $card-bg !important;
+}
+
+.filterText{
+    font-size: 12px;
+    color: $secondary-label;
+    font-family: "gilroy";
+    font-weight: inherit;
+}
+
+.defaultColor{
+    color: $page-title !important;
+}

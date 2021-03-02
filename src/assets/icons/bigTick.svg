@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon / 32 / info / notofication_congrats</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,0 C37.254834,0 48,10.745166 48,24 C48,37.254834 37.254834,48 24,48 C10.745166,48 0,37.254834 0,24 C0,10.745166 10.745166,0 24,0 Z M24,1.45454545 C11.5484893,1.45454545 1.45454545,11.5484893 1.45454545,24 C1.45454545,36.4515107 11.5484893,46.5454545 24,46.5454545 C36.4515107,46.5454545 46.5454545,36.4515107 46.5454545,24 C46.5454545,11.5484893 36.4515107,1.45454545 24,1.45454545 Z M31.9103254,18 L33,19.0606602 L21.9926247,29.7749459 C21.6917194,30.0678391 21.2038554,30.0678391 20.9029501,29.7749459 L20.9029501,29.7749459 L16.5,25.4892316 L17.5896746,24.4285714 L21.4477874,28.1839556 L31.9103254,18 Z" id="path-1"></path>
+    </defs>
+    <g id="📤-excel-uploade" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="excel-uploade_updated_08" transform="translate(-240.000000, -1022.000000)">
+            <g id="icon-/-32-/-info-/-notofication_congrats" transform="translate(240.000000, 1022.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#36A852" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#4BB752" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="48" height="48"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

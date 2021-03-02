@@ -1,0 +1,123 @@
+@import "../../../theme.scss";
+
+// .Custom{
+//     position: relative;
+// }
+
+.empListDropdown{
+    background-color: $card-bg;
+    border-radius: 18px;
+    width: 60%;
+    font-size: 14px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    z-index: 20;
+    position: absolute;
+    top: 0
+}
+
+.searchDropdown{
+    background-color: $card-bg;
+    border-radius: 18px;
+    width: 100%; //12.5rem;
+    font-size: 14px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    z-index: 20;
+    position: absolute;
+    top: 0;
+}
+
+.hover{
+    &:hover{
+      cursor: pointer;
+    }
+}
+
+.DropdownIconUp{
+    margin-top: 0.35rem;
+}
+
+.DropdownIconDown{
+    margin-top: 0.35rem;
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.HorizontalLine{
+    border: 1px solid $primary-background;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.DefaultOption{
+    color: $active-link;
+    font-size: 14px;
+    padding: 10px 10px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.FirstOption{
+    color:$secondary-label ;
+    font-size: 14px;
+    // width: 100%;
+    padding: 10px 10px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+}
+
+.LastOption{
+    color:$secondary-label ;
+    font-size: 14px;
+    // width: 100%;
+    padding: 10px 10px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+    }
+}
+
+.Options{
+    color:$secondary-label ;
+    font-size: 14px;
+    // width: 100%;
+    padding: 10px 10px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+    }
+}
+
+.SearchOption{
+    border-radius: 35px;
+    background-color: $secondary-background;
+    padding: 10px 8px 10px 10px;
+    color: $active-link;
+    font-size: 14px;
+    border: none;
+    // height: 2rem;
+    &:hover{
+        cursor: pointer;
+    }
+    position: relative;
+}
+
+.img {
+    &:hover{
+        filter : invert(100%) sepia(1) saturate(1) brightness(54%);
+    }
+}
+
+.separator{
+    border-right: 2px solid $primary-background;
+    height: 2.5rem;
+    top: -0.75rem;
+    position: absolute;
+}

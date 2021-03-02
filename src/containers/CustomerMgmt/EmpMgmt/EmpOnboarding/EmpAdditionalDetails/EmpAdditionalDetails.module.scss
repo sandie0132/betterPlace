@@ -1,0 +1,136 @@
+@import "../../../../../theme.scss";
+
+@media (min-width: 1025px) {
+    .formScroll {
+        padding-right: 0rem;
+    }
+}
+
+.centerContent {
+    // width:;
+    position: -webkit-sticky;
+    position: fixed;
+    // margin-right: 10rem;
+    background-color: $primary-background;
+    z-index: 1;
+    margin-left: 2rem;
+    padding-top: 1rem;
+
+}
+
+.formScroll {
+    width: 94%;
+    // margin-top: 13rem;
+    margin-left: 2rem;
+    padding-top: 18rem;
+    padding-right: 0rem;
+}
+
+.fixedHeading {
+    
+    // padding-right: 32rem;
+    // margin-left: 2rem;
+    background-color: $primary-background;
+    z-index: 97;
+}
+
+
+.FormLayout {
+    width: 100%;
+    padding-top: 0rem;
+    background-color: $primary-background;
+}
+
+
+.formHeader {
+    background-color: $card-bg;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.notificationBar {
+    background-color: $primary-background;
+    padding: 8px;
+}
+
+.timeHeading {
+    background-color: $primary-background;
+}
+
+
+.alignCenter {
+    padding-left: 5%;
+    // width: 100%;
+    padding-right: 2%;
+    // margin-top: 1rem;
+    // height: 100vh;
+    // overflow: auto;
+}
+
+.scroll {
+    // position: fixed;
+    width: 80%;
+    z-index: 97;
+    padding-left: 1.5%;
+    margin-left: 2%;
+    background-color: $primary-background;
+    padding-top: 1rem;
+}
+
+.alignCenter {
+    padding-left: 5%;
+    width: 100%;
+    padding-right: 3%;
+}
+
+.positionHeading {
+    // position: fixed;
+    width: 63%;
+    background-color: $primary-background;
+    z-index: 99;
+}
+.CardLayout {
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    border: none;
+    flex-wrap: nowrap;
+    padding: 8px;
+    margin-top: 14px;
+}
+
+.cancelButton {
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.formPadding {
+    padding: 1rem 1.5rem;
+    background-color: $card-bg;
+}
+
+.contentHeading {
+    background-color: $card-bg;
+    padding-left: 1.5rem;
+}
+
+.horizontalLine {
+    border-top: 2px solid $secondary-background;
+    width: 88%;
+    position: absolute;
+    margin-top: 12px;
+}
+
+.formHeadActive {
+    border-radius: 12px;
+    color: $active-link;
+    background-color: $secondary-background;
+    padding: 4px 8px;
+    // z-index: ;
+    position: relative;
+    font-size: 12px;
+}
+
+.warningImg {
+    float: right;
+    margin-right: 3.9%;
+}

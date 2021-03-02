@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>66C21E3B-E828-4520-8D3B-513E9F89EED6</title>
+    <g id="attendance-configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="orglevel_configuration_01-copy" transform="translate(-200.000000, -487.000000)">
+            <g id="ID-verification" transform="translate(200.000000, 152.000000)">
+                <g id="time-tolerance" transform="translate(0.000000, 331.000000)">
+                    <g id="icon-/-32-/-info-/-edit-log" transform="translate(0.000000, 4.000000)">
+                        <circle id="Oval" fill="#E5EEF7" cx="16" cy="16" r="16"></circle>
+                        <g id="icon-/-48-/-info-/-verification-/-pan" transform="translate(8.000000, 8.000000)" fill="#0059B2" fill-rule="nonzero">
+                            <g id="Rectangle" transform="translate(0.776495, 0.260870)">
+                                <g transform="translate(0.223505, 0.239130)" id="Mask">
+                                    <path d="M12.2692308,13.3846154 L1.11538462,13.3846154 L1.11538462,2.23076923 L7.80769231,2.23076923 L7.80769231,1.11538462 L1.11538462,1.11538462 C0.499692308,1.11538462 0,1.61507692 0,2.23076923 L0,13.3846154 C0,14.0003077 0.499692308,14.5 1.11538462,14.5 L12.2692308,14.5 C12.8849231,14.5 13.3846154,14.0003077 13.3846154,13.3846154 L13.3846154,6.69230769 L12.2692308,6.69230769 L12.2692308,13.3846154 Z" id="Path"></path>
+                                    <polygon id="Path" points="4.46153846 10.0563077 6.80942308 10.0563077 12.5001154 4.36561538 10.1343846 1.99988462 4.46153846 7.67273077"></polygon>
+                                    <path d="M14.1731923,1.11538462 L13.3846154,0.326807692 C12.9485,-0.109307692 12.2424615,-0.109307692 11.8074615,0.326807692 L10.9229615,1.21130769 L13.2886923,3.57703846 L14.1731923,2.69253846 C14.6093077,2.25642308 14.6093077,1.55038462 14.1731923,1.11538462 Z" id="Path"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

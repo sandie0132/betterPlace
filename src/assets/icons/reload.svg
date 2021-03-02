@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>reload</title>
+    <desc>Created with Sketch.</desc>
+    <g id="🤖-BGV-OPs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Reload-after-timeout" transform="translate(-978.000000, -364.000000)">
+            <g id="reload" transform="translate(916.000000, 354.000000)">
+                <g transform="translate(60.000000, 8.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M13.9025,7.95125 C13.9025,10.84575 11.8251875,13.263875 9.0831875,13.794 L9.0831875,15.3979375 L4.7231875,12.8979375 L9.0831875,10.3979375 L9.0831875,11.8663125 C10.7816875,11.3744375 12.0275,9.8060625 12.0275,7.9511875 C12.0275,5.7035625 10.198875,3.8749375 7.95125,3.8749375 C5.703625,3.8749375 3.875,5.7035625 3.875,7.9511875 C3.875,8.5565625 4.00425,9.13875 4.25925,9.6816875 L2.562125,10.4788125 C2.189125,9.684625 2,8.83425 2,7.95125 C2,4.66975 4.6698125,2 7.9513125,2 C11.2328125,2 13.9025,4.66975 13.9025,7.95125 Z" id="Path" fill="#0059B2" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

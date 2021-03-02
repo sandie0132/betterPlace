@@ -1,0 +1,100 @@
+@import '../../../../../theme.scss';
+
+.Footer{
+    background-color: $card-bg;
+    color: $secondary-label;
+    width: 100%;
+    padding: 1.5rem 2.5rem 1rem 10rem;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    border-top : 1px solid $horizontal-line;
+    z-index: 5;
+}
+
+.FileInput{
+    display: none;
+}
+
+.AlignRight{
+    font-size: 14px;
+    float: right;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.8rem;
+}
+
+.border{
+    border : 2px dashed $secondary-background;
+    padding : 0.5rem 1rem 1rem 0.5rem;
+    width: 71%;
+    display: flex;
+}
+
+.mediumSecondary{
+    font-size : 18px;
+    color: $secondary-label;
+    font-family: 'Gilroy';
+}
+
+.browse {
+    text-decoration: underline;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.ProgressBarSlider {
+    -webkit-appearance: none;
+    width: 20rem;
+    height: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.ProgressBarSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    // height: 22px;
+    // width: 22px;
+    // border-radius: 50%;
+    // background-color: $slider-background;	
+    // box-shadow: 0 0 8px 0 rgba(0,0,0,0.33);
+    // cursor: pointer;
+
+}
+
+.activeText{
+    font-size: 18px;
+    font-family: 'Gilroy';
+    color: $active-link;
+}
+
+.smallGreenText{
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: $success;
+}
+
+.smallRedText{
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: $danger;
+}
+
+.smallSecondary{
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+}
+
+.error{
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: $active-link;
+    text-decoration: underline;
+    &:hover{
+        cursor: pointer;
+    }
+}

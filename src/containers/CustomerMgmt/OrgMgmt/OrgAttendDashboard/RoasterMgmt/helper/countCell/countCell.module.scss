@@ -1,0 +1,54 @@
+@import '../../../../../../../theme.scss';
+
+
+.plus{
+    font-size: 14px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.disabled{
+    cursor: not-allowed;
+}
+
+.countBar{
+    height: 4px;
+    width: 38px;
+    margin:auto;
+    border-radius: 3px;
+}
+
+.tooltipData{
+    width: 250px;
+    text-align: left;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.tooltipTitle{
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+}
+
+.tableHead{
+    color: $disabled-label;
+    border-bottom: 1px solid $disabled-label;
+}
+
+.tooltipValue{
+    padding: 10px 0;
+}
+
+.tableTotal{
+    border-top: 1px solid $disabled-label;
+}
+
+.tooltip::before{
+    border: 0 !important;
+}
+
+.tooltipClass::before{
+    border: 0 !important;
+}

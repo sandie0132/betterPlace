@@ -1,0 +1,305 @@
+@import"../../../../../theme.scss";
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    // height: 100vh;
+    // overflow: auto;
+}
+
+.cardLayout {
+	background-color: $card-bg;
+	border-radius: 4px;
+	margin-bottom: 3rem;
+	border: none;
+	flex-wrap: nowrap;
+    // box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    // padding: 2rem 2rem 2.5rem 2.5rem;
+}
+
+.fixedHeaderTop{
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    background-color: $primary-background;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.fixedHeader{
+    padding: 8px;
+    background-color: $card-bg;
+    width: 100%;
+}
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.timeHeading { 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.heading{
+    color: $primary-label;
+    font-size: 14px;
+    font-family: Gilroy-SemiBold !important;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.subHeading{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+
+.textContainer{
+    width: 24.5rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.textIcon{
+    width:32px;
+    height: 32px;
+    margin-right: 12px;
+    margin-top: 1rem !important;
+}
+
+.text{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    
+}
+
+.alignSelfCenter{
+    // align-self: center;
+    margin-top: 1.5rem;
+}
+
+.tooltipIcon{
+    margin-left: 8px;
+    margin-top: 1.55rem;
+}
+
+.cancelButton{
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.valueContainer{
+    width: 9rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.dropdownMenu {
+    width: 8.75rem;
+    margin-top: -2.3rem;
+}
+
+.dropDownStyle{
+   width: 8.75rem;
+}
+.dropDownStyle div{
+    background-color: $card-bg;
+    color: $secondary-label;
+}
+
+.inputContainer{
+    color: $secondary-label !important;
+}
+
+.inputContainer input{
+    color: $secondary-label !important;
+    font-size: 12px !important;
+    text-align: center !important;
+
+}
+.inputContainer input:focus{
+    color: $primary-label;
+    font-size: 12px;
+    text-align: center;
+}
+
+.filterText{
+    font-size: 12px;
+    color: $secondary-label;
+    font-family: "gilroy";
+    font-weight: inherit;
+}
+
+.defaultColor{
+    color: $page-title !important;
+}
+
+.optionDropdown {
+    width: 8.75rem;
+    padding: 10px 16px;
+    background-color: $card-bg !important;
+}
+
+.requiredStar{
+    color: $danger;
+}
+.errorMessage{
+    color: $danger;
+    font-family: Gilroy;
+    font-size: 12px;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+}
+
+.HideErrorNotificationCard{
+    display: none;
+}
+
+.blankNotification{
+    min-height: 1.5rem;
+    background-color: $card-bg;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+// stylings for history pill
+
+.pill{
+    height: fit-content;
+    width: 178px;
+    border-radius: 36px 0 0 36px;
+    font-family: Gilroy;
+    font-size: 12px;
+    padding: 4px 10px 10px 10px;
+    margin: 0 5px 0 0;
+    box-shadow: 1px 2.8px 2.2px 4px rgba(0, 0, 0, 0.034),
+    1px 6.7px 5.3px 4px rgba(0, 0, 0, 0.048)
+}
+
+.iconPill{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    margin: 1px 5px 2px 0;
+    padding: 18px;
+    background-color: $disabled-checkbox;
+}
+
+.titlePill{
+    color: $secondary-label;
+}
+
+.bodyPill{
+    color: $primary-label;
+}
+
+.footerPill{
+    margin-top: 4px;
+    color: $active-link;
+    cursor: pointer;
+}
+
+.pillExtended{
+    padding: 10px 2px 10px 13px;
+    margin: 5px 0 0 0;
+    border-top: 1px solid $disabled-checkbox;
+    border-bottom: 1px solid $disabled-checkbox;
+    color: $secondary-label;
+    font-family: Gilroy-Bold;
+}
+
+.pillDateBold{
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy-Bold;
+    color: black;
+}
+
+.pillTimeBold{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.pillDate{
+    margin: 0;
+    padding: 0;
+}
+
+.pillTime{
+    margin: 0;
+    padding: 0;
+}
+
+.historyDT{
+    text-align: right;
+    padding: 0 10px 0 0;
+    border-right: 4px solid $active-link;
+    flex: 8;
+    font-family: Gilroy;
+    height: fit-content;
+    color: $secondary-label;
+    font-size: 13px;
+}
+
+.historyBulletin{
+ background-color: $active-link;
+ height: 10px;
+ width: 10px;
+ border-radius: 10px;
+ cursor: pointer;
+}
+
+.historyTimeLine{
+    height: 30px;
+    width: 3px;
+    margin: 0px 0 0 3px;
+    background-color: $active-link;
+}
+
+.firstTimeLine{
+    height: 0px !important;
+    margin-top: 20px !important;
+}
+
+.historyList{
+    max-height: 400px;
+    overflow: hidden scroll;
+}
+
+.tooltipTitle{
+    font-family: Gilroy-Bold;
+}
+
+.tooltipTitleArea{
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid $error-notification-bgv-font;
+    opacity: 1;
+}
+.tooltipBody{
+    margin: 10px 0 0 0;
+    color: $error-notification-bgv-font;
+
+}
+
+.toolTipclass{
+    z-index: 100;
+}

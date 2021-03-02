@@ -1,0 +1,24 @@
+{
+    "noVendorMsg1": "there are no vendors added yet for ",
+    "noVendorMsg2": "you can add a vendor from below",
+    "noClientMsg1": "there are no clients for ",
+    "noClientMsg2": "you can see clients if any organisation adds ",
+    "noInsightMsg1": "work in progress...",
+    "noInsightMsg2": "please come back later",
+    "noClientMsg3": " as a vendor",
+    "emptySearch": "there are no ",
+    "named": " named ",
+    "added": " added for ",
+    "Heading": "search from vendor name or any idcard listed below",
+    "smallHeading": "pan card, tin number, cin number or vendor name",
+    "placeholder": "enter pan, tin or cin number",
+    "button_vendorOnboarding": {
+        "select": "add new vendor",
+        "next": "next"
+    },
+    "image_alt_vendorOnboarding": {
+        "close": "close",
+        "IdImage": "IdImage",
+        "warning": "warning"
+    }
+}

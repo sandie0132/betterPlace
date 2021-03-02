@@ -1,0 +1,47 @@
+{
+    "reassignModal": {
+        "text": " task to another agency will create new request to the selected agency",
+        "agencyType": "select agency type",
+        "agency": "select an agency",
+        "assign": "assign",
+        "assignTask": "assign task to",
+        "reassignTask": "reject & reassign task to"
+    },
+    "postalAddress": {
+        "state": "state",
+        "city": "city",
+        "pincode": "pincode"
+    },
+    "physicalAddress": {
+        "verifier": "verifier",
+        "state": "state",
+        "city": "city",
+        "pincode": "pincode",
+        "verificationDetails": "verification details",
+        "houseType": "house type",
+        "residenceSince": "residence since",
+        "residenceTill": "residence till",
+        "duration": "duration of stay",
+        "durationPlaceholder": "enter duration",
+        "latitude": "latitude",
+        "latitudePlaceholder": "enter latitude",
+        "longitude": "longitude",
+        "longitudePlaceholder": "enter longitude",
+        "refDetails": "reference details",
+        "refType": "reference type",
+        "name": "name",
+        "namePlaceholder": "enter name",
+        "mobile": "mobile",
+        "mobilePlaceholder": "enter mobile",
+        "idType": "ID type"
+    },
+    "dashboard": "dashboard",
+    "successNotif": "current task has been successfully assigned to",
+    "verificationStatus": "verification status",
+    "trackingNo": "tracking number",
+    "candidate": "candidate",
+    "assignedTo": "assigned to",
+    "reassign": "re-assign",
+    "notAssigned": "not assigned yet",
+    "comments": "comments"
+}

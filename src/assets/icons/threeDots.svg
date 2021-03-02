@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4px" height="16px" viewBox="0 0 4 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>3dots</title>
+    <desc>Created with Sketch.</desc>
+    <g id="🏂-on-boarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-BGV-Client-onboarding_fun&amp;role_E3" transform="translate(-804.000000, -387.000000)" fill="#8697A8" fill-rule="nonzero">
+            <g id="3dots" transform="translate(804.000000, 387.000000)">
+                <circle id="Oval" transform="translate(2.000000, 8.000000) rotate(90.000000) translate(-2.000000, -8.000000) " cx="2" cy="8" r="2"></circle>
+                <circle id="Oval" transform="translate(2.000000, 2.000000) rotate(90.000000) translate(-2.000000, -2.000000) " cx="2" cy="2" r="2"></circle>
+                <circle id="Oval" transform="translate(2.000000, 14.000000) rotate(90.000000) translate(-2.000000, -14.000000) " cx="2" cy="14" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

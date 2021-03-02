@@ -1,0 +1,41 @@
+{
+    "image_alt_orgAccessManagement": {
+        "img": "img",
+        "leftArrow": "left arrow",
+        "folder": "folder",
+        "delete": "delete",
+        "upArrow": "upArrow",
+        "downArrow": "downArrow"
+    },
+    "button_orgAccessManagement": {
+        "Save": "save"
+    },
+    "input_orgAccessManagement": {
+        "placeholder": {
+            "addOrg": "add organisation"
+        }
+    },
+    "tag_orgAccessManagement": {
+        "placeholder": {
+            "role": "search tag or any function"
+        }
+    },
+    "warning_orgAccessManagement_change": {
+        "text": "are you sure?",
+        "para": "Warning: you are trying to change tag without saving",
+        "confirmText": "yes, change",
+        "cancelText": "cancel, keep"
+    },
+    "warning_orgAccessManagement_delete": {
+        "text": "delete?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, delete",
+        "cancelText": "cancel, keep"
+    },
+    "cardHeader": "access management",
+    "tagList": "tags with access",
+    "newTags": "new tags",
+    "access": "access",
+    "select": "select a role from above to add access to it",
+    "all": "all"
+}

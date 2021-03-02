@@ -1,0 +1,66 @@
+@import '../../../../../../theme.scss';
+
+.SpocCard {
+	background-color: $primary-background;
+    border-radius: 4px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.9rem;
+    width: 49%;//26rem;
+}
+
+.Name {
+	color: $primary-label;
+	font-family: 'Gilroy-Medium';
+	font-size: 14px;
+}
+
+.Details {
+	font-size: 12px;
+	font-family: 'Gilroy-Light';
+	color: $secondary-label;
+	line-height: 20px;
+}
+
+.BorderRight {
+	border-right: 1px solid $secondary-label;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+
+.Image {
+	// height: 100%;
+	width: 100%;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+}
+
+.RadioButton {
+	appearance: none;
+	background-color: $card-bg;
+	position: relative;
+	z-index: 1;
+	width: 16px;
+	height: 16px;
+	float: right;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+}
+
+.Cross {
+	right: 0rem;
+	cursor: pointer;
+	z-index: 2;
+	position: absolute;
+}
+
+.Default{
+	right: 0rem;
+	cursor: default;
+	z-index: 2;
+	position: absolute;
+}
+
+.emailSize {
+	height: 10px;
+}

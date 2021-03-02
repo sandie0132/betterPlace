@@ -1,0 +1,33 @@
+@import "../../../theme.scss";
+
+.alignContent{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 9999;
+    background-color: $primary-background;
+}
+.centerContent{
+    width: 100%;
+    height:100vh;
+    overflow: auto;
+}
+
+.closeNav{
+    position: absolute;
+    right: 20rem;
+    top:2rem;
+    cursor: pointer;
+    z-index: 999;
+}
+.openView{
+    position: absolute;
+    right: 0;
+    background-color: $card-bg;
+    top: 0;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    height: 100%;
+}
+.removeDisplay{
+    display: none;
+}

@@ -1,0 +1,103 @@
+@import '../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    // overflow: auto;
+}
+
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap; 
+}
+
+.CardPadding{
+    padding: 8px 40px 40px 40px;
+}
+
+.emptyNotification{
+    background-color: transparent;
+    min-height: 1.5rem;
+}
+
+.ShowSuccessNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $success-notification;
+}
+
+.HideSuccessNotificationCard{
+    display: none;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;  
+}
+
+.HideErrorNotificationCard{
+    display: none;
+} 
+
+.image{
+    position: absolute;
+    top: 8.25%;
+    left: 25%;
+    width: 7%;
+}
+
+.HorizontalLine{
+    border: 1px solid $horizontal-line;
+}
+
+.Input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: $secondary-label;
+    box-sizing: border-box;
+    align-self: flex-start;
+}
+
+.LabelWithValue {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    color:$secondary-label;
+    display: block;
+    margin-bottom: 8px;
+    min-height: 18px;
+}
+
+.requiredStar{
+    color: $danger;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid $primary-background;
+    background-color: $primary-background;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    height:40px;
+    border-radius: 4px;
+    &:focus{
+        outline: none;
+        border: 1px solid $active-link;
+    }
+    &::placeholder{
+        outline: none;
+        font: inherit;
+        color:$secondary-label;
+    }
+}

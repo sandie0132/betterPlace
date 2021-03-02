@@ -1,0 +1,215 @@
+@import '../../../../../theme.scss';
+
+.alignCenter {
+	padding-left: 14%;
+	width: 100%;
+	padding-right: 3%;
+	margin-top: 1rem;
+	height: 100vh;
+}
+
+.configFilterCard{
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: $card-bg;
+}
+
+.labelText{
+    font-size: 24px;
+    color: $page-title;
+    font-family: "Gilroy";
+    margin-bottom: 16px !important;
+}
+
+.tagDropdown{
+    width: 60% !important
+}
+
+.tagInputField{
+    width: 34rem;
+}
+
+.sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-bottom: 24px;
+}
+
+.holidayListContainer{
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.Heading{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-SemiBold';
+}
+
+.headingWidth1{
+    width: 128px;
+    margin-right: 32px;
+}
+.headingWidth2{
+    width: 106px;
+    margin-right: 32px;
+}
+.headingWidth3{
+    width: 184px;
+    margin-right: 32px;
+}
+
+.headingWidth4{
+    width: 184px;
+    margin-right: 32px;
+}
+
+@media (max-width: 1024px) {
+    .headingWidth1 {
+        margin-right: 24px;
+    }
+    .headingWidth2 {
+        margin-right: 24px;
+    }
+    .headingWidth3 {
+        margin-right: 24px;
+    }
+    .headingWidth4 {
+        margin-right: 24px;
+    }   
+}
+
+
+.listBoldText{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.listText{
+    color: $primary-label;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 16px;
+}
+.listSmallText{
+    color: #8697A8;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+
+.locationNameContainer{
+    padding: 5px 8px 5px 8px;
+    background-color: $secondary-background;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    border-radius: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    height: 24px;
+    color: $secondary-label;
+    margin: 2px 4px 2px 4px;
+}
+
+.textElipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80px;
+}
+
+.tooltiptext {
+    background-color: $card-bg !important;
+    color: $secondary-label !important;
+    text-align: center;
+    width: fit-content !important;
+    max-width: 100px;
+    border-radius: 6px !important;
+    padding: 8px 16px 8px 16px !important;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11) !important;
+}
+
+.tooltiptext::before{
+    border: 0 !important;
+}
+
+// .locationNameContainer:hover .tooltiptext {
+//     visibility: visible;
+// }
+
+.editContainer{
+    padding: 6px 10px;
+    background-color: $secondary-background;
+    color: $active-link;
+    font-size: 12px;
+    border-radius: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    text-decoration: none !important;
+}
+
+.dropdownMenu {
+    width: 8.75rem;
+    margin-top: -2.7rem;
+}
+
+.dropDownStyle{
+   width: 8.75rem;
+}
+.dropDownStyle div{
+    background-color: $card-bg;
+    color: $primary-label;
+}
+.optionDropdown {
+    width: 8.75rem;
+    padding: 10px 16px;
+    background-color: $card-bg !important;
+}
+
+
+.greenNotificationContainer{
+    box-sizing: border-box;
+    height: 38px;
+    border: 1px solid $success;
+    background-color: $success-notification;
+    padding: 12px 16px 12px 16px;
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    line-height: 14px;
+}
+.greenNotificationContainer img{
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+.redNotificationContainer{
+    box-sizing: border-box;
+    height: 38px;
+    border: 1px solid $danger;
+    background-color: $error-notification;
+    padding: 12px 16px 12px 16px;
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    line-height: 14px;
+}
+.redNotificationContainer img{
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+}

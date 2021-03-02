@@ -1,0 +1,33 @@
+@import '../../../theme.scss';
+
+.lock{
+    position: relative;
+    margin-top: 0.55rem;
+    margin-left: -1rem;
+}
+
+.fontStyle{
+    color: $card-bg;
+    font-size: 14px;
+    font-family: 'Gilroy-Light';
+}
+
+.iconState{
+    background-color: $active-link;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 2px;
+    // background-color: magenta;
+    height: 24px;
+    width: 24px;
+}
+
+.iconCity{
+    background-color: $dashboard-intro-backgound;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 2px;
+    // background-color: magenta;
+    height: 24px;
+    width: 24px;
+}

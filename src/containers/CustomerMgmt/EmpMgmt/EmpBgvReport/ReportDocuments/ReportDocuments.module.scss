@@ -1,0 +1,59 @@
+@import '../../../../../theme.scss';
+
+.BgStyle {
+	height: 5rem;
+	background-color: $success-notification;
+	border-radius: 4px;
+	padding: 1rem 1.25rem;
+}
+
+.serviceName {
+	font-family: 'Gilroy-Bold';
+	color: $secondary-label;
+	font-size: 14px;
+}
+
+.docNumber {
+	font-family: 'Gilroy-Medium';
+	color: $primary-label;
+	font-size: 18px;
+	// line-height: 29px;
+	white-space: nowrap;
+	width: 10rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1364px) {
+	.docNumber {
+		font-family: 'Gilroy';
+		color: $primary-label;
+		font-size: 20px;
+		// line-height: 29px;
+		white-space: nowrap;
+		width: 8rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+.sectionHeading {
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+}
+
+.statusIcon {
+	height: 12px;
+	width: 12px;
+	margin-left: 4px;
+}
+
+.horizontalLine {
+	border-bottom: 1px solid $horizontal-line;
+    width: 97%;
+}
+
+.imgSize {
+	height: 32px;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>79975D5A-9981-4576-AF22-0D1CF6E7348D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-5.4%" y="-13.2%" width="110.9%" height="127.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.106042395 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="BGV-configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05_OPs-clients-verify_configuration_mapping_6" transform="translate(-514.000000, -410.000000)">
+            <g id="search-or-select-function" transform="translate(251.000000, 151.000000)">
+                <g id="form-field-/-entered" filter="url(#filter-1)">
+                    <g id="teams" transform="translate(271.000000, 198.000000)">
+                        <g id="Group-2" transform="translate(0.000000, 67.000000)">
+                            <g id="Group-9" transform="translate(8.000000, 8.000000)">
+                                <circle id="Oval" fill="#FFFFFF" cx="12" cy="12" r="12"></circle>
+                                <polygon id="Path" fill="#6A54CD" fill-rule="nonzero" points="6 12.25 7.2 11 10 13.25 16.8 8 18 9.25 10 16.75"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

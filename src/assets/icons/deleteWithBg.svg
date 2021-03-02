@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <defs>
+        <path d="M13,6.33333333 L13,13 C13,13.9166667 12.25,14.6666667 11.3333333,14.6666667 L11.3333333,14.6666667 L4.66666667,14.6666667 C3.75,14.6666667 3,13.9166667 3,13 L3,13 L3,6.33333333 L13,6.33333333 Z M10.5,1.33333333 C11,1.33333333 11.3333333,1.66666667 11.3333333,2.16666667 L11.3333333,2.16666667 L11.3333333,3.83333333 L14.6666667,3.83333333 L14.6666667,5.5 L1.33333333,5.5 L1.33333333,3.83333333 L4.66666667,3.83333333 L4.66666667,2.16666667 C4.66666667,1.66666667 5,1.33333333 5.5,1.33333333 L5.5,1.33333333 Z M9.66666667,3 L6.33333333,3 L6.33333333,3.83333333 L9.66666667,3.83333333 L9.66666667,3 Z" id="path-1"></path>
+    </defs>
+    <g id="⛑-in-progress-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8" transform="translate(-696.000000, -359.000000)">
+            <g id="popup" transform="translate(470.000000, 311.000000)">
+                <g id="Group-5" transform="translate(226.000000, 48.000000)">
+                    <circle id="Oval" fill="#FDEBEC" cx="24" cy="24" r="24"></circle>
+                    <g id="icon-/-12-/-info-/-delete-1" transform="translate(16.000000, 16.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#D72639" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#EE3942" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

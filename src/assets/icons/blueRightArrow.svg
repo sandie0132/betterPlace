@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon / 12 / info / arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.952381,4.39052429 L13.894,7.33252429 L14,7.33333333 L14,7.43852429 L14.5618567,8 L14,8.56052429 L14,8.66666667 L13.894,8.66652429 L10.952381,11.6094757 L10.0095719,10.6666667 L12.009,8.66652429 L2,8.66666667 L2,7.33333333 L12.009,7.33252429 L10.0095719,5.33333333 L10.952381,4.39052429 Z" id="path-1"></path>
+    </defs>
+    <g id="🖥-Ops_analyst-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="excel-uploade_1-copy-4" transform="translate(-1276.000000, -727.000000)">
+            <g id="icon-/-12-/-info-/-arrow-right" transform="translate(1274.000000, 723.000000)">
+                <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Path" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#0059B2" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

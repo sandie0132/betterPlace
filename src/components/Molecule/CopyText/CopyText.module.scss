@@ -1,0 +1,23 @@
+@import '../../../theme.scss';
+
+.copyCard{
+    line-height: 14px;
+    max-height: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius : 1rem;
+    margin-left : 0.5rem;
+    border : none;
+    background-color : $card-bg;
+    color: $success;
+    font-family: 'Gilroy-Medium';
+    font-size: 0.5rem;
+    z-index: 99999;
+    box-shadow: 0 0.125rem 1rem 0 rgba(0,0,0,0.11);
+}
+
+.hover{
+    &:hover{
+        cursor: pointer;
+    }
+}

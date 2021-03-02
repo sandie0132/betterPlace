@@ -1,0 +1,13 @@
+{
+    "image_alt_tagInfoForm": {
+        "search": "search",
+        "question": "questionIcon"
+    },
+    "cancel": "cancel",
+    "save": "save",
+    "done": "done",
+    "input_tagInfoForm":{
+        "name":"name",
+        "code":"code"
+    }
+}

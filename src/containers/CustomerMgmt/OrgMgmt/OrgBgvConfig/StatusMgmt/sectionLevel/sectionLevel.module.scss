@@ -1,0 +1,94 @@
+@import '../../../../../../theme.scss';
+
+.FormBackground{
+    width: 100%;
+    background-color:$primary-background;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    right:0;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.alignLeft {
+    margin-top : 4rem;
+    margin-left : 10rem;
+    margin-right : 2rem;
+}
+.cardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+    padding : 2rem 3rem 2rem 3rem;
+}
+
+.sectionName{
+    color: $secondary-label;	
+    font-family: 'Gilroy-Medium';	
+    font-size: 14px;
+}
+
+.Text{
+    color: $primary-label;	
+    font-family: Gilroy-Medium;	
+    font-size: 14px;
+    padding-top: 0.5rem;
+}
+.TextBold{
+    color: $primary-label;	
+    font-family: Gilroy-Bold;	
+    font-size: 14px;
+    padding-top: 0.5rem;
+}
+
+.GreenCard{
+    margin-top:0.4rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius : 16px;
+    margin-left : 1rem;
+    margin-right : 1rem;
+    border : none;
+    background-color : $success-notification ;
+    padding-top :0px;
+    padding-bottom : 0px;
+    height: 24px;	
+    width: 74px;
+}
+
+.HorizontalLine{
+    margin-top : 1.5rem;
+    margin-bottom : 1.5rem;
+    border: 1px solid $horizontal-line;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+}
+
+.HideErrorNotificationCard{
+    display: none;
+} 
+
+.smallText{
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 12px;
+}
+.warning{
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.MarginTop{
+    margin-top: auto;
+}

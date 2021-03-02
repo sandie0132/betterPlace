@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>49A84506-7654-4640-81CA-A88B08C980E8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8,16 C12.418278,16 16,12.418278 16,8 C16,3.581722 12.418278,0 8,0 C3.581722,0 0,3.581722 0,8 C0,12.418278 3.581722,16 8,16 Z M7.33333333,4 L7.33333333,9.69696999 L8.66666667,9.69696999 L8.66666667,4 L7.33333333,4 Z M8.06060608,12.1212122 C8.46226773,12.1212122 8.78787883,11.7956011 8.78787883,11.3939394 C8.78787883,10.9922778 8.46226773,10.6666667 8.06060608,10.6666667 C7.65894443,10.6666667 7.33333333,10.9922778 7.33333333,11.3939394 C7.33333333,11.7956011 7.65894443,12.1212122 8.06060608,12.1212122 Z" id="path-1"></path>
+    </defs>
+    <g id="🔐-login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_login_d" transform="translate(-560.000000, -311.000000)">
+            <g id="warning-copy" transform="translate(560.000000, 311.000000)">
+                <g id="icon-/-12-/-info-/-warning">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#0059B2" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#0059B2" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

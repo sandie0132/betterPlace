@@ -1,0 +1,42 @@
+@import'../../../../../theme.scss';
+
+.container{
+  padding: 24px 40px;
+  background-color: $card-bg;
+  margin: 0 33px;
+}
+
+.sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    // line-height: 22px;
+}
+
+.mediumText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.greyText{
+  color: $secondary-label;
+  font-family: Gilroy;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.horizontalLine{
+    border-bottom: 1px solid $horizontal-line;
+    width: 100%;
+}
+
+.emptyInfo{
+  color: $secondary-label;
+  background-color: $primary-background;
+  font-size: 14px;
+  border-radius: 8px;
+  width: max-content;
+}

@@ -1,0 +1,126 @@
+@import '../../../../../theme.scss';
+
+.backdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background-color: rgba(243, 247, 253, 0.9);
+    overflow-y: auto;
+}
+
+.closeStyle{
+    margin-top: 74px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Container {
+    // height : 27.5rem; 14.5rem;
+    width : 40.5rem;
+    left : 25%;
+    right : 25%;
+    text-align: left;
+    border-radius : 4px;
+    background-color : $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    margin-left : auto;
+    margin-right: auto;
+    margin-top : 16px;
+    overflow-y: auto;
+}
+
+.CardPadding{
+    padding: 2rem;
+    // max-height: calc(100vh - 210px);
+    // overflow-y: auto;
+}
+
+.HorizontalLine {
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    border: 1px solid $horizontal-line;
+}
+
+.Heading {
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: $primary-label;
+    line-height: 1.5rem;
+}
+
+.countcircle {
+	height: 2.2rem;
+	width: 2.2rem;
+	border-radius: 50%;
+	background-color: $primary-background;
+	margin-left: 0.2rem;
+	font-size: 10px;
+	color: $secondary-label;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.MainHeading{
+    color: $secondary-label;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Gilroy-Light;
+}
+
+// .imgColor{
+//     filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+//     margin-right: 0.4rem;
+// }
+
+.Border{
+    border: 1px solid $horizontal-line;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+// .greenFilter{
+//     filter: invert(100%) brightness(0.6) sepia(1) hue-rotate(100deg) saturate(4) ;
+// }
+
+.BottomLine{
+    border: 1px solid $horizontal-line;
+}
+
+.SelectAll{
+    font-size: 14px;
+    color: $secondary-label;
+    font-family: Gilroy;
+}
+
+.sectionIcon {
+    height: 1rem;
+    cursor: pointer;
+}
+
+.padding {
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+.mediumText {
+    color: $primary-label;
+    font-family: "Gilroy";
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.profilePicUrl {
+	height: 2.2rem;
+	width: 2.2rem;
+	border-radius: 50%;
+	margin-left: 0.2rem;
+}

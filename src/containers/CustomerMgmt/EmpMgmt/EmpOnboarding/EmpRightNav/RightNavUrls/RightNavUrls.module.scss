@@ -1,0 +1,100 @@
+@import "../../../../../../theme.scss";
+
+.navHead {
+    margin-bottom: 1.5rem;
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    position: relative;
+    &:hover {
+        color: $active-link;
+        cursor: pointer;
+    }
+}
+
+.navHeadInactive {
+    margin-bottom: 1.5rem;
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    position: relative;
+    &:hover {
+        cursor: not-allowed;
+    }
+}
+
+.navHeadActive {
+    margin-bottom: 1.5rem;
+    color: $active-link;
+    font-family: "Gilroy-Bold";
+    font-size: 12px;
+    position: relative;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.activeCircle {
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 50%;
+}
+.sectionHeadDone {
+    color: $secondary-label;
+    font-family: "Gilroy";
+    font-size: 14px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    &:hover {
+        color: $active-link;
+    }
+}
+
+.sectionHeadActive {
+    color: $active-link;
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    &:hover {
+        color: $active-link;
+    }
+}
+
+.sectionHeadInactive {
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    margin-bottom: 2rem;
+    cursor: not-allowed;
+}
+
+.inactive {
+    cursor: not-allowed !important;
+    opacity: 0.65;
+}
+
+.ring {
+    height: 10px;
+    width: 10px;
+    border: 2px solid $primary-background;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 4px;
+}
+
+.smallTick{
+    height: 10px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.alignSection{
+
+    display: inline-flex;
+    width: 10rem;
+    // background-color: mediumaquamarine;
+}
+
+.alignLoader{
+    bottom: 2rem !important;
+}

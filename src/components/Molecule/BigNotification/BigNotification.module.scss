@@ -1,0 +1,44 @@
+@import '../../../theme.scss';
+
+.WarningContainer{
+    box-sizing: border-box;	
+    //width: 55.06rem;
+    padding-right: 3rem;
+    border: 1px solid rgba(254,188,2,0.5);	
+    border-radius: 4px;	
+    background-color: $warning-background;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}
+
+.SuccessContainer{
+    box-sizing: border-box;	
+    //width: 55.06rem;
+    padding-right: 3rem;
+    border: 1px solid rgba(54,168,82,0.5);
+    border-radius: 4px;	
+    background-color: $success-notification;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}
+
+
+
+.Heading{
+    color: $primary-label;
+    font-family: Gilroy-Light;	
+    font-size: 24px;	
+    line-height: 29px;
+    padding-top: 1rem;
+}
+
+.Message{
+   color: $primary-label;	
+   font-family: Gilroy;
+   font-size: 14px;	
+   line-height: 20px;
+}
+
+.IconPadding{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}

@@ -1,0 +1,27 @@
+@import '../../../theme.scss';
+
+.checkboxWrapper{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.labelStyle{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    color:$secondary-label;
+    display: block;
+    margin-bottom: 8px;
+    min-height: 18px;
+}
+
+.requiredStar{
+    color: $danger;
+    padding: 0 0 0 3px;
+}
+
+.disabledClass{
+    color: $disabled-label;
+    pointer-events: none;
+}

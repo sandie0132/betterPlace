@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.2 (101010) - https://sketch.com -->
+    <title>945A82BA-73EB-49B8-8605-568DEAE87BB8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M7.5,6.5 L9.5,6.5 L6,10.5 L2.5,6.5 L4.5,6.5 L4.5,2.5 L7.5,2.5 L7.5,6.5 Z M11,1 L8.5,1 L8.5,0 L12,0 L12,3.5 L11,3.5 L11,1 Z M1,1 L1,3.5 L0,3.5 L0,0 L3.5,0 L3.5,1 L1,1 Z M11,11 L11,8.5 L12,8.5 L12,12 L8.5,12 L8.5,11 L11,11 Z M1,11 L3.5,11 L3.5,12 L0,12 L0,8.5 L1,8.5 L1,11 Z" id="path-1"></path>
+    </defs>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-add-employee-Aadhar_3" transform="translate(-584.000000, -1571.000000)">
+            <g id="employee-basic-information" transform="translate(160.000000, 120.000000)">
+                <g id="Group-6" transform="translate(40.000000, 1449.000000)">
+                    <g id="icon-/-12-/-info-/-download" transform="translate(384.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#0059B2" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

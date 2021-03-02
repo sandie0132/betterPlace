@@ -1,0 +1,114 @@
+@import '../../../theme.scss';
+
+.WorkloadSection {
+	position: relative;
+	margin-left: 2.5rem;
+	margin-right: 4rem;
+	margin-top: 1rem;
+}
+
+.Dashboard {
+	font-size: 24px;
+	font-family: 'Gilroy-Bold';
+	color: $primary-label;
+}
+
+.InputText{
+	outline: none;
+	border: none;
+}
+
+.SearchBar{
+    border: none;
+    outline: none;
+    background-color: $primary-background;
+    color: $card-link;
+    font-size: 24px;
+    font-family: 'Gilroy-Thin';
+    width: 88%;
+    // border-bottom: 1px solid $primary-background;
+    // &:focus{
+    //   border-bottom: 1px solid $active-link;
+    // }
+}
+
+.Focus{
+  border-bottom: 1px solid $active-link;
+}
+
+.NoFocus{
+  border-bottom: 1px solid $primary-background;
+}
+
+.CloseSearch{
+  height: 0.75rem;
+  margin-top: 1rem; 
+  cursor: pointer;
+}
+
+.SearchBy{
+  font-size: 14px;
+  color: $primary-label;
+  font-family: "Gilroy";
+  right: 10rem;
+  position: absolute;
+}
+//search dropdown css
+.SelectedOption{
+  background-color: $secondary-background;
+  color: $active-link;
+  border-radius: 16px;
+  font-size: 14px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  max-width: 9rem;
+  min-width: 9rem;
+}
+
+.Icon{
+  cursor: pointer;
+  margin-top: 0.35rem;
+  float: right;
+  filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.DropdownIconDown{
+  margin-top: 0.35rem;
+}
+
+.SearchDropdown{
+  background-color: $card-bg;
+  border-radius: 16px;
+  width: 8.8rem;
+  font-size: 14px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+  z-index: 20;
+  position: absolute;
+  // left: 4.5rem;
+}
+
+.FirstOption{
+  color:$secondary-label ;
+  font-size: 14px;
+  padding: 10px 15px;
+  &:hover{
+      background-color: $primary-background;
+      color: $primary-label;
+      cursor: pointer;
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+  }
+}
+
+.LastOption{
+  color: $secondary-label ;
+  font-size: 14px;
+  padding: 10px 15px;
+  &:hover{
+      background-color: $primary-background;
+      color: $primary-label;
+      cursor: pointer;
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+  }
+}

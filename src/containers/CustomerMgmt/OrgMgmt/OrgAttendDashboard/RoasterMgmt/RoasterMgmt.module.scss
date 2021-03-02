@@ -1,0 +1,319 @@
+@import "/../../../../../theme.scss";
+.alignCenter {
+    padding-left: 9%;
+    width: 100%;
+    padding-right: 0%;
+    height: 100vh;
+}
+
+@media (min-width: 1025px) {
+    .alignCenter {
+        padding-right: 5%;
+        padding-left: 11%;
+    }
+}
+
+.siteHeading {
+    font-size: 24px;
+    color: $primary-label;
+}
+
+.siteNumber {
+    background-color: #e8ebf0;
+    padding: 10px 16px;
+    font-size: 14px;
+}
+
+.topSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.dateSelectorArea {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+    padding: 0;
+}
+
+.dateSelector {
+    border: 1px solid #d4dde8;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    color: $secondary-label;
+    border-radius: 5px;
+}
+
+.week {
+    border-right: 1px solid #d4dde8;
+    border-left: 1px solid #d4dde8;
+    font-size: 14px;
+    padding: 10px 12px 6px 12px;
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.download {
+    background-color: #e5eef7;
+}
+
+.commonTable {
+    background-color: $card-bg;
+    border: 2px solid #ecf1f7;
+    border-radius: 2px;
+    border-collapse: separate;
+    border-spacing: 0px;
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+.searchInput {
+    font-size: 12px !important;
+    background-color: $default-theme !important;
+    color: $secondary-label !important;
+}
+
+.searchInputWrapper {
+    background-color: $default-theme !important;
+    // margin: 8px !important;
+    margin-right: 6px;
+    padding: 0 !important;
+    text-align: left;
+    width: 85% !important;
+    // display: inline-block;
+}
+.searchCell {
+    padding: 8px;
+}
+
+.tdCell {
+    text-align: center;
+    border: 1px solid #ecf1f7;
+    font-family: "Gilroy-Medium";
+    width: 134px;
+}
+
+.tdCellToday {
+    border-left: 2px solid $success !important;
+    border-right: 2px solid $success;
+}
+
+.tdCellTopToday {
+    border-top: 2px solid $success;
+}
+
+.tdCellTopPublish {
+    border-top: 2px dashed $active-link;
+}
+
+.tdCellPublish {
+    border-left: 2px dashed $active-link;
+    border-right: 2px dashed $active-link;
+}
+
+.tdCellPublishThinLeft {
+    border-left: 1px dashed $active-link !important;
+}
+
+.tdCellPublishThinRight {
+    border-right: 1px dashed $active-link !important;
+}
+
+.cellWidth {
+    width: 134px;
+}
+
+.holiday {
+    background-color: #e6eaee;
+}
+
+.countTitle {
+    color: $primary-label;
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+}
+
+.countTitleCell {
+    padding: 10px 7px 5px 8px;
+}
+
+.firstCell {
+    min-width: 260px !important;
+    position: relative;
+}
+
+.countTable {
+    max-height: 300px;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+
+.countTableScroll {
+    width: 100.4%;
+    overflow-y: scroll;
+}
+
+.shiftTime {
+    font-size: 14px;
+    color: $secondary-label;
+    font-family: "Gilroy-Medium";
+}
+
+.shiftName {
+    font-size: 14px;
+    color: $primary-label;
+    font-family: "Gilroy-Medium";
+}
+
+.countNameCell {
+    padding: 10px 7px 5px 16.5px;
+}
+
+.tabAlignCenter {
+    text-align: center;
+}
+.expandIcon {
+    float: right;
+    margin: 20px -35px;
+    cursor: pointer;
+}
+
+.edited {
+    font-family: "Gilroy-Bold";
+    font-style: italic;
+}
+
+.opacity {
+    -webkit-filter: brightness(70%);
+    filter: brightness(85%);
+}
+
+.popUpWidth {
+    width: 500px !important;
+}
+
+.filterIcon {
+    background-color: $primary-background;
+    padding: 10px 6px 2px 6px;
+    height: inherit;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.filterCount {
+    position: absolute;
+    background-color: $active-link;
+    color: $card-bg;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 10px;
+    margin-left: 14px;
+    margin-top: -8px;
+    min-width: 16px;
+}
+
+.hoverClass:hover {
+    -webkit-filter: brightness(65%);
+    filter: brightness(65%);
+}
+
+.hoverClass {
+    height: 100px;
+}
+
+.tdDate {
+    cursor: pointer;
+    height: 100%;
+}
+
+.tdDate :hover {
+    background-color: $secondary-background;
+}
+
+.resetDiv {
+    background-color: $secondary-background;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.copyDiv {
+    background-color: $secondary-background;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.copyOption {
+    color: $disabled-label;
+    padding: 4px 5px;
+    background-color: $secondary-background;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.tooltip {
+    font-style: normal;
+}
+
+.disabled {
+    cursor: not-allowed !important;
+}
+
+.pasteMessage {
+    position: absolute;
+    top: 180px;
+    padding: 5px;
+    background-color: #dcf3dd;
+    color: $success;
+    text-align: center;
+    font-size: 12px;
+    // margin: 0 0 0 10px;
+}
+
+.emptyShiftContainer {
+    height: 246px;
+    text-align: center;
+    margin-top: -1px;
+    background-color: $card-bg;
+}
+
+.smallDropdownIcon {
+    width: 16px;
+    height: 16px;
+}
+
+.smallDropdownContainer {
+    position: absolute;
+    top: 18px;
+    left: 232px;
+    cursor: pointer;
+}
+
+.emptyStateBg {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.emptyStateText {
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.boldText {
+    font-family: "Gilroy-Bold";
+}
+
+.tooltipClass::before{
+    border: 0 !important;
+}

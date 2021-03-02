@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>9DC98059-115B-4663-954E-1C07AEA2EE61</title>
+    <defs>
+        <path d="M8,7 L10.1591307,7 C10.3053241,7 10.4495661,7.00761053 10.5913271,7.02239365 L16,7.02235241 L16,8.02391779 L12.8199368,8.0241462 C13.2559847,8.44363913 13.5578948,8.96654277 13.6663456,9.54380388 L16,9.54358529 L16,10.5451507 L13.6569341,10.5454493 C13.3718585,11.9201441 11.9872854,12.9759841 10.3165735,13.038712 L10.1591307,13.0416627 L9.69510645,13.0416627 L14.1445453,16.5380566 L13.3885777,17.2857143 L8.06706391,13.104039 L8.06706391,12.0400973 L10.1591307,12.0400973 C11.2736358,12.0400973 12.2131949,11.4004929 12.4911062,10.5451601 L8,10.5451507 L8,9.54358529 L12.5056173,9.54338159 C12.2748009,8.75808125 11.4888752,8.14521064 10.5148178,8.02358071 L8,8.02391779 L8,7 L10.1591307,7 L8,7 Z" id="path-1"></path>
+    </defs>
+    <g id="profille_view-mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="attendance-_profile_01" transform="translate(-200.000000, -704.000000)">
+            <g id="Group-29" transform="translate(160.000000, 412.000000)">
+                <g id="Group-5" transform="translate(40.000000, 113.000000)">
+                    <g id="Group-12" transform="translate(0.000000, 64.000000)">
+                        <g id="annual" transform="translate(0.000000, 115.000000)">
+                            <rect id="Rectangle" fill="#976CA7" opacity="0.200000003" x="0" y="0" width="24" height="24" rx="12"></rect>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#976CA7" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

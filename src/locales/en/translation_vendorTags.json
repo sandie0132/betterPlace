@@ -1,0 +1,49 @@
+{
+    "image_alt_vendorTags": {
+        "search": "search",
+        "clear": "clear",
+        "close": "close",
+        "folder": "folder"
+    },
+    "label": "/configure vendor",
+    "removeLabel": "remove",
+    "assign": "assign",
+    "search": "search any",
+    "selectedFilter": "selected filter",
+    "selectMore": "please select one or more filter above",
+    "clearFilter": "clear all filters",
+    "view": "view",
+    "tagsFrom": "tags from",
+    "tag": "tag",
+    "assigned": "and filter assigned", 
+    "vendorTagList": {
+        "unassign": "unassign",
+        "showingResults": "showing assigned tag(s) based on selected tags",
+        "noResults": "no results found",
+        "tagName": "tag name",
+        "country": "country",
+        "state": "state",
+        "city": "city",
+        "hierarchy": "hierarchy",
+        "emptyState": "there are no assigned tags from",
+        "to": "to",
+        "assign": "assign"
+    },
+    "vendorTagsAssignment": {
+        "back": "back to view assigned ",
+        "search": "search any ",
+        "tag": " tag",
+        "tags": "tags",
+        "selectedSites": "sites selected",
+        "selectedRoles": "roles selected",
+        "clear": "clear all tags",
+        "display": "selected tags will be displayed here",
+        "assign": "assign",
+        "warningText": "are you sure?",
+        "warningPara": "are you sure you want to clear all tags assigned?",
+        "confirmText": "yes, clear",
+        "cancelText": "no, continue",
+        "emptyState":"There are no tags shared between",
+        "and": " and " 
+    }
+}

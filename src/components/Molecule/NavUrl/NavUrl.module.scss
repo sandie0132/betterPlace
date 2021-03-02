@@ -1,0 +1,72 @@
+@import '../../../theme.scss';
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../../../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+    src: url('../../../assets/fonts/Gilroy-Bold.eot');
+    src: url('../../../assets/fonts/Gilroy-Bold.woff') format("woff");
+    // src : url('../../../assets/fonts/Gilroy-Bold.otf') format("opentype"),
+  }
+
+  @font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../../../assets/fonts/Gilroy-Medium.ttf') format('truetype');
+    src: url('../../../assets/fonts/Gilroy-Medium.eot');
+    src: url('../../../assets/fonts/Gilroy-Medium.woff') format("woff"),
+    // url('../../../assets/fonts/Gilroy-Medium.otf') format("opentype"),
+  }
+
+.DefaultLink{
+    background-color:$secondary-background;
+    border-radius: 20px;
+    outline:none !important;
+    height: 40px;
+    // width:fit-content ;
+    color: $active-link;
+    width:13rem ;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    text-align: left;
+    &:hover{
+      color: $active-link;
+    }   
+}
+
+.DisabledLink{
+    padding: 10px;
+    height: 40px;
+    outline:none !important;
+    font-family: Gilroy;
+    font-size: 14px;
+    text-align: left;
+    width:13rem ;
+    color: $secondary-label; 
+    cursor: not-allowed;
+    &:hover{
+      color: $secondary-label;
+    }  
+}
+
+.EnabledLink{
+  padding: 10px;
+  height: 40px;
+  font-family: Gilroy;
+  font-size: 14px;
+  width:13rem ;
+  outline:none !important;
+  text-align: left;
+  color: $secondary-label; 
+  &:hover{
+    cursor: pointer;
+    color: $active-link;
+  } 
+  &:focus{
+    outline:none !important
+  }
+}
+
+.imgPosition{
+ float:right;
+ margin-top: .16rem;
+}
+*:focus {outline:none !important}

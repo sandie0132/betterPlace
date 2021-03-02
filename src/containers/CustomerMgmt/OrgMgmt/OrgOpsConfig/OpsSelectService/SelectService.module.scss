@@ -1,0 +1,168 @@
+@import '../../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    // overflow: auto;
+}
+
+
+.ContainerPadding64{
+    padding-top: 24px;   
+}
+
+.ContainerPaddingTop{
+    padding-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.PaddingRight16px{
+    padding-right: 16px; 
+}
+.Label{
+    font-family: 'Gilroy-Medium';	
+    font-size: 14px;	
+    line-height: 17px;
+    color: $secondary-label;
+    margin-left: 0.65rem;
+}
+.DropDownContainer{
+    border-radius: 8px;
+    background-color: $secondary-background;
+    // height:216px;
+    width:14.25rem;
+    text-align: left;
+    align-items: left;
+    margin-right: 1.4rem;
+}
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+.CardPadding{
+    padding: 40px;
+}
+
+.FormBackGround{
+    width: 100%;
+    background-color:$primary-background;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    right:0;
+    height: 100%;
+    position:fixed;
+    overflow-y: auto;
+}
+
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Bold';	
+    font-size: 14px;	
+    line-height: 30px;
+}
+
+.Arrow{
+    padding-right:1rem;
+}
+
+.rc{
+    width: 14rem;
+    cursor: pointer;
+}
+
+.address{
+    width: 15rem; //13.75rem;
+    cursor: pointer;
+}
+
+.legalVerifyWidth{
+    width: 20.75rem;
+    cursor: pointer;
+}
+
+.smallLabel{
+    color: $secondary-label;	
+    font-family: 'Gilroy';
+    font-size: 12px;	
+    line-height: 15px;
+}
+
+.HorizontalLine{
+    border: 1px solid $horizontal-line;
+    margin-left: 0.65rem;
+}
+
+.dropdownHorizontalLine {
+    border: 1px solid $horizontal-line;
+    width: 90%;
+    margin-top:0%;
+    margin-bottom: 0%;
+}
+
+.RadioButton {
+    appearance: none;
+    background-color: $card-bg;
+    width: 16px;
+    height: 16px;
+    float: right;
+    border-radius: 50%;
+    cursor: pointer;     
+    margin-right: 0%;
+    outline: none;
+}
+
+.RadioButton:checked::before
+{
+    background-color: $card-bg;
+}
+
+.RadioButton:checked
+{
+     background-color: $card-bg;
+     border: 4px solid $active-link;
+}
+
+.Hide{
+    display: none;
+}
+
+.Idcard{
+    width : 12.5rem;
+    cursor: pointer;
+}
+
+.PaddingLeftArrow{
+    padding-left: 15%;
+    margin-top: 16px;
+}
+
+.legalIcon{
+    position: relative;
+    float: left;
+    top: 22%;
+    left: 5%;
+    height: 1.5rem;
+}
+
+.customWidth{
+    margin-top: 0.5rem;
+    width: 33%; //12.3rem;
+    position: relative;
+}
+
+.primaryLabel{
+    font-family: 'Gilroy';	
+    font-size: 12px;	
+    line-height: 17px;
+    color: $primary-label;
+    margin-left: 0.65rem;
+}

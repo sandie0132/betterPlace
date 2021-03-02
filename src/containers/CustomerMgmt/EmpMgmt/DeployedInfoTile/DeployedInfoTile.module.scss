@@ -1,0 +1,110 @@
+@import '../../../../theme.scss';
+
+.tile{
+    position: relative;
+    height: 7.375rem;
+    min-width: 17.25rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    padding: 0rem 1rem 1rem 0rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.tileInActive{
+    background-color: $primary-background;
+}
+
+.tileActive{
+    background-color: $secondary-background;
+}
+
+.terminatedTile{
+    position: absolute;
+    height: 0rem;
+    width: 0rem;
+    border-left: 10px solid $danger;
+    border-top: 10px solid $danger;
+    border-top-left-radius: 6px;
+}
+
+.terminatedTileInActive{
+    border-right: 10px solid $primary-background;
+    border-bottom: 10px solid $primary-background;
+}
+
+.terminatedTileActive{
+    border-right: 10px solid $secondary-background;
+    border-bottom: 10px solid $secondary-background;
+}
+
+.paddingLeft{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.description{
+    font-size: 0.875rem;
+    font-family: 'Gilroy-Medium';
+    color: $secondary-label;
+    line-height: 1rem;
+    max-width: 11rem;
+}
+
+.activeStatus{
+    font-size: 12px;
+    font-family: 'Gilroy-Medium';
+    color: $card-bg;
+    line-height: 0.875rem;
+    background-color: $success;
+    border : 1px solid $success;
+    border-radius: 11.5px;
+    padding: 0px 4px 0px 4px;
+    max-height: 1rem;
+}
+
+.inActiveStatus{
+    font-size: 12px;
+    font-family: 'Gilroy-Medium';
+    color: $danger;
+    line-height: 0.875rem;
+    background-color: $red-theme;
+    border : 1px solid $red-theme;
+    border-radius: 11.5px;
+    padding: 0px 4px 0px 4px;
+    max-height: 1rem;
+}
+
+.brandLogo{
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-family: 'Gilroy';
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    text-align: center;
+}
+
+.orgName{
+    color: $primary-label;
+    font-family: 'Gilroy-Bold';
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+.duration{
+    color: $primary-label;
+    font-family: 'Gilroy';
+    font-size: 0.75rem;
+}
+
+.horizontalLine{
+    margin-top: 1rem;
+    border: 1px solid $horizontal-line;
+    width: 17.25rem;
+}
+
+.vendorIconMargin{
+    margin-top : 0.25rem;
+}

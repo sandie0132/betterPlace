@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>inprogress</title>
+    <desc>Created with Sketch.</desc>
+    <g id="👨🏻‍💼-client-admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="client-dashboard_daily-report_01" transform="translate(-185.000000, -319.000000)">
+            <g id="profile-verification" transform="translate(161.000000, 180.000000)">
+                <g id="summery" transform="translate(0.000000, 44.000000)">
+                    <g id="details" transform="translate(24.000000, 24.000000)">
+                        <g id="Group-6" transform="translate(0.000000, 16.000000)">
+                            <g id="initiated">
+                                <g transform="translate(0.000000, 55.000000)" id="inprogress">
+                                    <g>
+                                        <g id="noun_clock_2093330">
+                                            <circle id="Oval" fill="#E5EEF7" cx="12" cy="12" r="12"></circle>
+                                            <g id="noun_thumbs-up_2064355" transform="translate(6.000000, 6.000000)" fill="#0059B2">
+                                                <g id="Group">
+                                                    <path d="M3.5,10.747 C3.2905,10.905 3.0315,11 2.75,11 L1.25,11 C0.561,11 0,10.439 0,9.75 L0,6.25 C0,5.561 0.561,5 1.25,5 L3.5,5 L3.5,10.747 Z" id="Path"></path>
+                                                    <path d="M12,6.875 C12,7.3085 11.752,7.689 11.3825,7.875 C11.4595,8.0285 11.5,8.198 11.5,8.375 C11.5,8.809 11.2515,9.1895 10.882,9.3755 C10.9965,9.6035 11.03,9.866 10.9725,10.1265 C10.8605,10.633 10.384,11 9.8395,11 L5.25,11 C4.922,11 4.407,10.8965 4,10.7045 L4,5.3455 L4.06,5.315 L5.5,2.1955 L5.5,0.5 C5.5,0.424 5.5345,0.352 5.5935,0.3045 C5.6095,0.2925 5.9805,0 6.5,0 C7.0785,0 8,0.9155 8,2 C8,2.684 7.755,3.5355 7.602,4 L10.6905,4 C11.3635,4 11.936,4.498 11.9945,5.1335 C12.027,5.49 11.908,5.8325 11.6745,6.088 C11.881,6.2945 12,6.5745 12,6.875 Z" id="Path"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

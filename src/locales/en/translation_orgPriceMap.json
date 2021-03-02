@@ -1,0 +1,39 @@
+{
+    "image_alt_orgPriceMap": {
+        "img": "img",
+        "IdIcon" : "IdIcon"
+    },
+    "button_orgPriceMap": {
+        "save" : "save"
+    },
+    "text" : {
+        
+    },
+    "label" : {
+        "l1" : "configure OPS",
+        "l2" : "verifications",
+        "l3" : "pricing/verification",
+        "l4" : "{{type}}",
+        "l5" : "{{service}}",
+        "l6" : "{{service}}",
+        "l7" : "INR",
+        "l8" : "ID verification",
+        "l9" : "address verification",
+        "l10" : "legal verification",
+        "l11" : "career verification",
+        "l12" : "health & reference verification",
+        "l13" :"court verification"
+    },
+    "span" : {
+    },
+    "div" : {
+        "rupee" : "{{rupee}}"
+    },
+    "input_orgPriceMap": {
+        "label": {
+        },
+        "placeholder": {
+        }
+    },
+    "cardheading" : "price mapping"
+}

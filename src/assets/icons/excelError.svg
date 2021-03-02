@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>03F43DDC-D4C8-442B-BE03-ED597160A5EA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="9 0.906428571 8.09357143 0 4.5 3.59357143 0.906428571 0 0 0.906428571 3.59357143 4.5 0 8.09357143 0.906428571 9 4.5 5.40642857 8.09357143 9 9 8.09357143 5.40642857 4.5"></polygon>
+    </defs>
+    <g id="⛑-in-progress-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="excel-uploade_7B" transform="translate(-387.000000, -267.000000)">
+            <g id="Group-2" transform="translate(160.000000, 128.000000)">
+                <g id="Group-6" transform="translate(228.000000, 40.000000)">
+                    <g id="Group-7" transform="translate(0.000000, 2.000000)">
+                        <g id="Group-1" transform="translate(0.000000, 98.000000)">
+                            <circle id="Oval" stroke="#EE3942" cx="12" cy="12" r="12"></circle>
+                            <g id="icon-/-16-/-info-/-close" transform="translate(8.000000, 8.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Path" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <rect id="Rectangle" fill="#EE3942" mask="url(#mask-2)" x="0" y="0" width="9" height="9"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

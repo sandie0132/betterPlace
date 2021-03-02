@@ -1,0 +1,143 @@
+@import'../../../../../theme.scss';
+
+.attendContainer{
+  padding: 40px;
+  background-color: $card-bg;
+  margin: 0 33px;
+}
+
+.sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.leaveListContainer{
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.Heading{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-SemiBold';
+}
+
+.headingWidth1{
+    width: 130px;
+    margin-right: 24px;
+}
+.headingWidth2{
+    width: 220px;
+    margin-right: 24px;
+}
+.headingWidth3{
+    width: 124px;
+    margin-right: 24px;
+}
+
+.headingWidth4{
+    width: 124px;
+    margin-right: 24px;
+}
+.headingWidth5{
+    width: 98px;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+}
+
+@media (max-width: 1024px) {
+    .headingWidth1 {
+        width: 124px;
+    }
+    .headingWidth2 {
+        width: 214px;
+    }
+    .headingWidth3 {
+        margin-right: 24px;
+    }
+    .headingWidth4 {
+        margin-right: 24px;
+    }   
+}
+
+.Text{
+    color: $primary-label;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    align-self: center;
+}
+
+.boldText{
+    font-family: Gilroy-SemiBold !important;
+}
+
+.blueText{
+    color: $active-link;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.leaveIcon{
+    border-radius: 50%;
+}
+
+.progressBarContainer{
+  height: 16px;
+  width: 120px;
+  border-radius: 0 7px 7px 0;
+  padding: 4px 4px 4px 0;
+  position: relative;
+}
+.progressBar{
+    height: 8px;
+    border-radius: 0 7px 7px 0;
+    position: absolute;
+    z-index: 111;
+    top: 4px;
+    left: 0;
+    // background-color: #976CA7;
+}
+
+.dropdownIcon{
+    transform: rotate(180deg);
+    padding-right: 8px;
+}
+
+
+.historyActiveContainer{
+    background-color: $card-bg;
+    box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.11) !important;
+    width: 130px;
+    height: 42px;
+    position: absolute;
+    right: -16px;
+    top: -8px;
+}
+
+.historyContainer{
+  background-color: $card-bg;
+  width: calc(100% + 40px);
+  z-index: 100;
+  padding: 32px 4px 32px 24px;
+  margin-left: -24px;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.11) !important;
+}
+
+.emptyInfo{
+    color: $secondary-label;
+    background-color:$primary-background;
+    font-size: 14px;
+    border-radius: 8px;
+    width: max-content;
+    padding-right: 8px;
+    align-self: center;
+    padding-left: 8px;
+}

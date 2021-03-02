@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="15px" viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon / 24 / info / salary</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21.97,5 C22.385826,5.00547187 22.72,5.34413802 22.72,5.76 L22.72,5.76 L22.72,19.14 C22.72,19.5542136 22.3842136,19.89 21.97,19.89 L21.97,19.89 L2.75,19.89 C2.33578644,19.89 2,19.5542136 2,19.14 L2,19.14 L2,5.76 C2,5.34413802 2.33417402,5.00547187 2.75,5 L2.75,5 Z M21.84,10.87 L2.84,10.87 L2.84,19.01 L21.84,19.01 L21.84,10.87 Z M5.47,14.43 C6.48068109,14.43 7.3,15.2493189 7.3,16.26 C7.3,17.2706811 6.48068109,18.09 5.47,18.09 C4.45931891,18.09 3.64,17.2706811 3.64,16.26 C3.64,15.2493189 4.45931891,14.43 5.47,14.43 Z M21.84,5.88 L2.84,5.88 L2.84,7.65 L21.84,7.65 L21.84,5.88 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="left-bar-/-client" transform="translate(-18.000000, -245.000000)">
+            <g id="client_nev">
+                <g id="salary" transform="translate(16.000000, 240.000000)">
+                    <g id="icon-/-24-/-info-/-salary">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#768094" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

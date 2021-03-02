@@ -1,0 +1,56 @@
+@import '../../../../../theme.scss';
+
+.BgStyle {
+	height: 5rem;
+	background-color: $success-notification;
+	border-radius: 4px;
+	padding: 1rem 1.25rem;
+}
+
+.serviceName {
+	font-family: 'Gilroy-Bold';
+	color: $secondary-label;
+	font-size: 14px;
+}
+
+.addressText{
+    height: 60px;	
+    width: 304px;	
+    color: $primary-label;	
+    font-family: 'Gilroy';	
+    font-size: 14px;	
+    line-height: 20px;
+}
+
+.caseStatus{
+    height: 29px;	
+    white-space: nowrap;
+    width: 15rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: $primary-label;	
+    font-family: 'Gilroy';	
+    font-size: 18px;	
+    line-height: 29px;
+}
+
+.sectionHeading {
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+}
+
+.statusIcon {
+	height: 12px;
+	width: 12px;
+	margin-left: 4px;
+}
+
+.horizontalLine {
+    border-bottom: 1px solid $horizontal-line;
+    width: 97%;
+}
+
+.imgSize {
+	height: 32px;
+}

@@ -1,0 +1,65 @@
+@import"../../../../../../theme.scss";
+
+.formLayout{
+    background-color: $card-bg;
+    padding: 1rem 2rem 0rem 2rem;
+  //  height: 10rem;
+    
+  
+}
+
+.HorizontalLine{
+    border: 1px solid $primary-background;
+}
+
+.horizontalLine{
+    border-top: 2px solid $secondary-background;
+    width: 63%;
+    position: absolute;
+    margin-top: 12px;
+}
+
+.horizontalLineInactive{
+    border-top: 2px solid $disabled-background;
+    width: 63%;
+    position: absolute;
+    margin-top: 12px;
+}
+
+.formHeadActive{
+    border-radius: 12px;
+    color: $active-link;
+    background-color: $secondary-background;
+    padding: 4px 8px;
+    // z-index: ;
+    position: relative;
+    font-size: 12px;
+}
+
+.formHead{
+    border-radius: 12px;
+    color: $card-bg;
+    background-color: $disabled-background;
+    padding: 4px 8px;
+    // z-index: ;
+    position: relative;
+    font-size: 12px;
+}
+.opacityHeadOut{
+    opacity: 1;
+    transition: ease-out 0.2s;
+}
+.opacityHeadIn{
+    opacity: 0;
+    display: none;
+    transition: ease-in-out 0.2s;
+}
+
+.formSubHead{
+    color: $secondary-label;
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+    margin-bottom: 1rem;
+    letter-spacing: 0.4px;
+
+}

@@ -1,0 +1,51 @@
+{
+    "image_alt_orgContact": {
+        "add": "add"
+    },
+    "button_orgContact": {
+        "Save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete" : "delete",
+        "addMore" : "add more"
+    },
+    "input_orgContact": {
+        "label": {
+            "fullName" : "full name" ,
+            "phoneNumber" : "mobile number",
+            "email" : "email",
+            "designation" : "designation",
+            "label" : "person label",
+            "contactType":"contact type"
+        },
+        "placeholder": {
+            "fullName": "enter name",
+            "phoneNumber" : "+91 1234554321",
+            "email" : "name.last@company.com",
+            "designation" : "enter designation",
+            "label" : "label",
+            "legalName" : "enter legal name",
+            "website" : "https://www.company.com",
+            "addressLine1" : "address line 1",
+            "addressLine2" : "address line 2",
+            "city" : "city",
+            "state" : "state",
+            "pincode" : "pin code",
+            "country" : "country"   
+        }
+    },
+    "warning_orgContact_cancel" : {
+        "text" : "cancel?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, cancel" ,
+        "cancelText" : "keep"
+
+    },
+    "warning_orgContact_delete" : {
+        "text" : "delete?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, delete" ,
+        "cancelText" : "cancel, keep"
+    },
+    "cardHeader" : "contact person"
+}

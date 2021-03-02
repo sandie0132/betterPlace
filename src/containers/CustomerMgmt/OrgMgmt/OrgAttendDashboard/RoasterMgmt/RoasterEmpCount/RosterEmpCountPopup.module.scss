@@ -1,0 +1,237 @@
+@import'../../../../../../theme.scss';
+
+.backDrop{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background: rgba(244, 247, 251, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.alignCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.formContainer{
+    position: absolute;
+    height: max-content;
+    width: 880px;
+    top: 144px;
+    border-radius: 4px;
+    background-color: $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    margin: auto;
+    padding: 40px 40px 8px 24px;
+    // overflow: auto;
+    // max-height: 30rem;
+}
+
+.closeIcon{
+    position: fixed;
+    top: 100px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: $card-bg;
+    padding: 24px 32px 56px 16px;
+    position: relative;
+    // margin-top: 1.5rem;
+}
+
+.scrollableForm{
+    max-height: 26rem;
+    overflow-y: overlay;
+    overflow-x: hidden;
+}
+
+.fixedTopHeader{
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    background-color: $primary-background;;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.fixedHeader{
+    padding: 8px;
+    margin-top: 16px;
+    background-color: $card-bg;
+    width: 100%;
+}
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.timeHeading { 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.horizontalLine {
+    border: 1px solid $horizontal-line;
+    width: 98%;
+    margin-left: 1rem;
+}
+
+.subHeading{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.infoText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+
+.blueText{
+    color: $active-link;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    width: fit-content;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.deleteButton{
+    margin-top: 40px;
+    cursor: pointer;
+}
+.cancelButton{
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.checkMarkStyle{
+    margin-top: 4px;
+}
+
+.checkBoxText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.removeContainer{
+    height: 112px;
+    border-radius: 0 0 4px 4px;
+    background-color: $card-pvc;
+    width: 100%;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.removeContainerText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.bubble {
+    position: relative;
+    height: fit-content;
+    padding: 24px 24px 24px 8px;
+    margin-left: 16px;
+    margin-top: 16px;
+    background: $card-bg;
+    border: $secondary-label solid 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.bubble:after {
+    content: "";
+    position: absolute;
+    top: -17px;
+    left: 21px;
+    border-style: solid;
+    border-width: 18px 18px 0;
+    border-color: $card-bg transparent;
+    display: block;
+    width: 0px;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+
+.bubble:before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 20px;
+    border-style: solid;
+    border-width: 19px 19px 0px;
+    border-color: $secondary-label transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+    transform: rotate(180deg);
+}
+
+.fixedFooterContainer{
+    position: sticky;
+    bottom: 0;
+    z-index: 7;
+    background-color: $primary-background;;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.fixedHeader{
+    padding: 8px;
+    margin-top: 16px;
+    background-color: $card-bg;
+    width: 100%;
+}
+
+.formFooter {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+    width: 864px;
+    margin-left: -16px;
+    margin-top: 24px;
+}
+
+.timeFooter { 
+    margin-top: auto;
+    margin-bottom: auto;
+}

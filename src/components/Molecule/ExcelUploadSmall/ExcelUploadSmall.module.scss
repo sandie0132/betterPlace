@@ -1,0 +1,26 @@
+@import '../../../theme.scss';
+
+.FileInput{
+    display: none;
+}
+
+.browse{
+    margin-top: 2.625rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.browseLink{
+    color: $active-link;
+    font-size: 12px;
+    font-family: 'Gilroy-Medium';
+    text-decoration: underline;
+}
+
+.smallSecondaryText{
+    font-size: 12px;
+    font-family: 'Gilroy-Medium';
+    color: $secondary-label;
+    line-height: 14px;
+}

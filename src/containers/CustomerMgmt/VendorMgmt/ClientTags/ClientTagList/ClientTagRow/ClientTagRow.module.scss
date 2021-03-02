@@ -1,0 +1,39 @@
+@import "../../../../../../theme.scss";
+
+.TagName{
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-SemiBold';
+    word-break: break-word;
+    line-height: 16px;
+    width: 14.45%;
+    margin-left: 2rem;
+}
+
+.Details{
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    word-break: break-word;
+    line-height: 16px;
+}
+
+.CountryWidth{
+    width: 12%;
+}
+
+.StateWidth{
+    width: 14%;
+}
+
+.CityWidth{
+    width: 14.15%;
+}
+
+.HierarchyWidth{
+    width: 36%;
+}
+
+.FunctHierarchy{
+    width: 50%;
+}

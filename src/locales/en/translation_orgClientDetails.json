@@ -1,0 +1,17 @@
+{
+    "image_alt_orgClientDetails": {
+        "img": "img",
+        "tick": "tick",
+        "vendorPhone": "vendor phone",
+        "vendorMail": "vendor mail",
+        "vendorProfile": "vendor profile"
+    },
+    "label": {
+        "l1": " / configure client",
+        "l2": "verified by bpss",
+        "l3": "company address",
+        "l4": "contact person",
+        "l5": " uploaded contract agreement"
+    },
+    "cardheading": "client details"
+}

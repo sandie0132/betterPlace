@@ -1,0 +1,12 @@
+@import '../../../../theme.scss';
+
+.FormBackgroundColor{
+    background-color:$card-bg;
+    border-radius: 4px;
+    margin-top: 0.75rem;
+}
+
+.Cards{
+    background-color:$card-bg;
+    width: 100%;
+}

@@ -1,0 +1,263 @@
+@import '../../../theme.scss';
+
+.hover{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.FileInput{
+    display: none;
+}
+
+.addMore{
+    margin-top: 6.063rem;
+    margin-bottom: 6rem;
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+    height: 2.948rem;
+    // width: 3rem
+}
+
+.emptyPicBackground{
+    background: $primary-background;
+    width: 100%;
+    height: 15.125rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.picStyle{
+    height: 15.125rem;
+    width: 100%;
+}
+
+.preAddedImgStyle{
+    height: 11.688;
+    width: 100%;
+}
+
+.preAddedImgUrl {
+    height: 11.688rem;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.imageUrl{
+    height: 15.125rem;
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    position: absolute;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background: rgba(0, 0, 0, 0.8);
+}
+  
+.cropContainer{
+    position : absolute;
+    background-color : $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    left: 30%;
+    width: 40%;
+    //height: 75%;
+    max-height: 80%;
+    //top: 15%;
+}
+
+.ImageCropView{
+    max-height: 60%;
+}
+
+.cropStyleBasic{
+    margin:0%
+}
+
+.cropStylePotrait{
+    margin: 0%;
+    max-width: 15rem
+}
+
+.saveButton{
+  
+    border-radius: 32px;
+    height: 3%;
+    width:5rem;
+    font-size: 14px;
+    text-align: center;
+    color: $card-bg; 
+    margin-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: Gilroy;
+    border: 0px;
+    background-color: $active-link 
+}
+
+.cancelButton{
+    text-align: center;
+    background-color: transparent;
+    font-family: Gilroy;
+    color:$active-link ;
+    font-size: 14px;
+    border: 0px;
+    padding-top:1%;
+    text-decoration: underline;
+}
+
+.addressBackground{
+    // margin-right: 0.5rem;
+    background: $card-bg;
+    width: 31.7%;
+    height: 19.625rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.6875rem 0 rgba(0,0,0,0.15);
+    margin-top: 1rem;
+}
+
+.addressLineIcon{
+    margin-right: 0.5rem;
+}
+
+.addressLine{
+    margin-top: 1.5rem;
+    // margin-bottom: 1.5rem;
+    // margin-right: 4.125rem;
+    // margin-left: 4.063rem;
+    text-align: center;
+}
+
+.ticks{
+    height: 2rem;
+    width: 7rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.094rem;
+    margin-left: 4.531rem;
+}
+
+.tickImage{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.smallPrimaryText {
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-Bold';
+    line-height: 16px;
+}
+
+.smallSecondaryText {
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-Bold';
+    line-height: 16px;
+}
+
+.approve{
+    background-color: $success-notification;
+    border-radius: 20px;
+    color : $success;
+    font-size: 14px;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reject {
+    background-color: $error-notification;
+    border-radius: 20px;
+    color : $danger;
+    font-size: 14px;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.greenFilter {
+    height: 10px;
+    cursor: pointer;
+    filter: brightness(0.8) sepia(1) hue-rotate(100deg) saturate(4);
+}
+
+.redFilter {
+    height: 10px;
+    cursor: pointer;
+    filter: brightness(0.8) sepia(1) hue-rotate(322deg) saturate(10);
+}
+
+.greenFilIcon{
+    &:hover{
+        background-color: $card-bg;
+        content: url('../../../assets/icons/greenTickFilled.svg');
+    }
+}
+
+.redFillIcon{
+    &:hover{
+        background-color: $card-bg;
+        content: url('../../../assets/icons/redTickFilled.svg');
+    }
+}
+
+.onImgHover{
+    position: absolute;
+    margin-left: 6.5rem;
+    margin-top: 7rem;
+    cursor: pointer;
+}
+
+.circularProgress{
+    width: 20%;
+    position: absolute;
+    top: 6.063rem;
+    left: 6.5rem;
+    z-index: 9999;
+}
+
+.transperancy{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 15.125rem;
+    z-index: 9998;
+}
+
+.percentage{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+}
+
+.loader{
+    opacity: 1;
+    height: 11rem;
+    width: 11rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+  
+.loaderBackground{
+    // position: absolute;
+    height: 100%;
+    width: 100%;
+    // margin-top: 2rem;
+}
+
+.loaderImg{
+    position: absolute;
+    bottom: 6rem;
+    left: 5rem;
+}
+
+.disabled{
+    opacity: 0.4;
+}

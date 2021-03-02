@@ -1,0 +1,60 @@
+{
+    "image_alt_empAddNew": {
+        "img": "img",
+        "editId": "editId",
+        "downloadIcon": "downloadIcon"
+    },
+    "texts_empAddNew": {
+        "addNew": "all employees",
+        "number": "number",
+        "verifyInfo": "verify your information fetched from the ",
+        "Indicate": "please indicate that you have read the ",
+        "consentPolicy": "consent policy",
+        "text": "cancel?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, cancel",
+        "keep": "keep"
+    },
+    "label_empAddNew": {
+        "firstName": "first name *",
+        "middleName": "middle name",
+        "lastName": "last name",
+        "dob": "date of birth",
+        "gender": "gender",
+        "phoneNumber": "phone number *",
+        "emailId": "email address",
+        "currentAddress": "current address *",
+        "permanentAddress": "permanent address *",
+        "city": "city",
+        "pincode": "pincode",
+        "state": "state",
+        "landmark": "landmark",
+        "doorNo": "door no.",
+        "street": "street",
+        "locality": "locality",
+        "poName": "post office",
+        "district": "district*"
+    },
+    "placeholder_empAddNew": {
+        "firstName": "first name",
+        "lastName": "last name",
+        "middleName": "middle name",
+        "phoneNumber": "+91 9876543210",
+        "emailId": "name@mail.com",
+        "city": "city *",
+        "pincode": "pincode *",
+        "state": "state *",
+        "landmark": "landmark",
+        "doorNo": "door no.",
+        "street": "street",
+        "locality": "locality *",
+        "poName": "post office",
+        "district": "district *"
+    },
+    "buttons_empAddNew": {
+        "save": "save",
+        "cancel": "cancel"
+    },
+    "cardHeader": "employee basic information",
+    "sameAddress": "permanent address same as current address"
+}

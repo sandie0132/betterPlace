@@ -1,0 +1,277 @@
+@import '../../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    // overflow: auto;
+}
+
+.ContainerPadding64{
+    padding-top: 24px;   
+}
+
+.ContainerPaddingTop{
+    padding-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+.addressCheckBox{
+    font-size: 12px;
+}
+.PaddingRight16px{
+    padding-right: 16px; 
+}
+.Label{
+    font-family: 'Gilroy-Medium';	
+    font-size: 14px;	
+    line-height: 17px;
+    color: $secondary-label;
+}
+.DropDownContainer{
+    border-radius: 8px;
+    background-color: $secondary-background;
+    // height:216px;
+    width:14.25rem;
+    text-align: left;
+    align-items: left;
+    margin-right: 1.4rem;
+}
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+.CardPadding{
+    padding: 40px 40px;
+}
+
+.FormBackGround{
+    width: 100%;
+    background-color:$primary-background;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    right:0;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+}
+.AlignLeft{
+    margin-left: 10rem ;
+    margin-right: 2rem;
+}
+
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Bold';	
+    font-size: 14px;	
+    line-height: 30px;
+}
+
+.Arrow{
+    padding-right:1rem;
+}
+
+.rc{
+    width: 14rem;
+}
+
+.address{
+    width: 15rem; //13.75rem;
+}
+
+.legalVerifyWidth{
+    width: 20.75rem;
+}
+
+.smallLabel{
+    color: $secondary-label;	
+    font-family: Gilroy;
+    font-size: 12px;	
+    line-height: 25px;
+    margin-bottom: 0%;
+}
+
+.HorizontalLine{
+    border: 1px solid $horizontal-line;
+    margin-left: 0.5rem;
+}
+
+.dropdownHorizontalLine {
+    border: 1px solid $horizontal-line;
+    width: 90%;
+    margin-top:0%;
+    margin-bottom: 0%;
+}
+
+.RadioButton {
+    appearance: none;
+    background-color: $primary-background;
+    width: 16px;
+    height: 16px;
+    float: right;
+    border-radius: 50%;
+    cursor: pointer;     
+    margin-right: 0%;
+    outline: none;
+    margin-left: .5rem;
+}
+
+.RadioButton:checked::before
+{
+    background-color: $card-bg;
+}
+.textColor{
+    color: $active-link;
+    font-size: 14px;
+}
+.disabledText{
+    color: rgba(134, 151, 168, 0.5);	
+    font-size: 14px;
+}
+.RadioButton:checked
+{
+     background-color: $card-bg;
+     border: 4px solid $active-link;
+}
+
+.Hide{
+    display: none;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+}
+
+.HideErrorNotificationCard{
+    display: none;
+} 
+.tabs{
+    width: 13rem;
+}
+
+.expiryDaysText{
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+    color: $secondary-label;
+    display: flex;
+    align-self: center;
+}
+
+.expiryText{
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+    color: $secondary-label;
+    display: flex;
+    align-self: center;
+}
+.expiryDisabledText{
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+    color: $secondary-label;
+    display: flex;
+    align-self: center;
+    color: rgba(134, 151, 168, 0.5);
+}
+
+.PaddingLeftArrow{
+    padding-left: 15%;
+    margin-top: 16px;
+}
+
+.textOpacity{
+    color: rgba(134, 151, 168, 0.5);	
+}
+
+.legalImgStyle{
+    position: relative;
+}
+
+.checkBoxLabel{
+    line-height: 24px;
+}
+
+.legalIcon{
+    position: relative;
+    float: left;
+    top: 22%;
+    left: 5%;
+    height: 1.5rem;
+}
+
+.MediumSecondaryText{
+    font-size: 14px;
+    color: $secondary-label;
+    font-family: 'Gilroy';
+}
+
+.MediumSecondaryDisabledText{
+    font-size: 14px;
+    color: rgba(134, 151, 168, 0.5);
+    font-family: 'Gilroy-Medium';
+}
+
+.invertDropdown{
+    transform: rotate(180deg);
+}
+
+.greyImage{
+    opacity: 0.3;
+}
+
+.marginLeft{
+    margin-left: 0.5rem
+}
+
+.viewDetails{
+    align-self: center;
+    margin-left: 1.5rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    border: 1px solid $horizontal-line;
+    border-radius: 6px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.box::after{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-top: 1px solid $horizontal-line;
+    border-left: 1px solid $horizontal-line;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    transform: rotate(45deg);
+    margin-top: -2rem;
+    margin-left: 18.5rem;
+    background: $card-bg;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+.checkMarkStyle{
+    margin-top: 2px;
+}
+
+.paddingY{
+    padding-bottom: 24px;
+    padding-top: 1rem;
+    min-width: 16rem;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>profile icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.25">
+        <g id="left-bar-/-client" transform="translate(-40.000000, -828.000000)" fill="#8697A8">
+            <g id="profile" transform="translate(40.000000, 828.000000)">
+                <g id="profile-icon">
+                    <path d="M32,0 C36.418278,-8.11624501e-16 40,3.581722 40,8 L40,32 C40,36.418278 36.418278,40 32,40 L8,40 C3.581722,40 5.41083001e-16,36.418278 0,32 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 L32,0 Z M20,20.287478 L19.7200947,20.2912723 C14.3266615,20.4376685 10,24.8017995 10,30.1640212 L10,30.1640212 L30,30.1640212 C30,24.7093474 25.5228571,20.287478 20,20.287478 L20,20.287478 Z M20,9 C16.8440871,9 14.2857143,11.526788 14.2857143,14.643739 C14.2857143,17.7606899 16.8440871,20.287478 20,20.287478 C23.1559129,20.287478 25.7142857,17.7606899 25.7142857,14.643739 C25.7142857,11.526788 23.1559129,9 20,9 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

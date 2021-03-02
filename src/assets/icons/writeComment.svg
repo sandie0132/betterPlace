@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60.1 (101010) - https://sketch.com -->
+    <title>2BD8C841-ED42-43DB-A3DE-39FF02F28B54</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M6.75,3 C6.75,2.17275 7.42275,1.5 8.25,1.5 L9,1.5 L9,0 L8.25,0 C7.35,0 6.5505,0.4065 6,1.0365 C5.4495,0.4065 4.65,0 3.75,0 L3,0 L3,1.5 L3.75,1.5 C4.57725,1.5 5.25,2.17275 5.25,3 L5.25,3.75 L5.25,6.75 L3,6.75 L3,8.25 L5.25,8.25 L5.25,9 C5.25,9.82725 4.57725,10.5 3.75,10.5 L3,10.5 L3,12 L3.75,12 C4.65,12 5.4495,11.5935 6,10.9635 C6.5505,11.5935 7.35,12 8.25,12 L9,12 L9,10.5 L8.25,10.5 C7.42275,10.5 6.75,9.82725 6.75,9 L6.75,8.25 L9,8.25 L9,6.75 L6.75,6.75 L6.75,3.75 L6.75,3 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-/-16-/-info-/-onhold-icon-/-12-/-info-/-write">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Path" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <rect id="Rectangle" fill="#8697A8" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+        </g>
+    </g>
+</svg>

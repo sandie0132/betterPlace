@@ -1,0 +1,11 @@
+{
+    "image_alt_verificationModal": {
+        "close": "close",
+        "cursor": "cursor"
+    },
+    "select": "select a comment",
+    "other": "write",
+    "writeComment": "or write your comment",
+    "char": "characters left",
+    "done": "done"
+}

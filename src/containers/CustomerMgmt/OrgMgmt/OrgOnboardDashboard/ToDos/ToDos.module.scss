@@ -1,0 +1,77 @@
+@import"../../../../../theme.scss";
+
+.taskContainer{
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex: 0 0 48.7%;
+    background-color: #F4F0F6;
+    cursor: pointer;
+}
+
+.taskTypeContainer{
+    width: 6.25rem;
+    height: 3.5rem;
+    padding: 12px 10px 12px 10px;
+    font-family: "Gilroy-SemiBold";
+    color: $card-bg;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 8px;
+    background-color: #976CA7;
+    cursor: pointer;
+}
+
+.taskHeading{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.taskCount{
+  color: $active-link;
+  font-family: Gilroy;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+.arrowIcon{
+    bottom: 10px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.additionalContainer{
+    background-color: $card-additional;
+}
+.additionalInnerContainer{
+    background-color: $box-additional;
+}
+
+.employmentContainer{
+    background-color: $card-employment;
+}
+.employmentInnerContainer{
+    background-color: $box-employment;
+}
+
+.companyContainer{
+    background-color: $card-company;
+}
+.companyInnerContainer{
+    background-color: $box-company;
+}
+
+.governmentContainer{
+    background-color: $card-government;
+}
+.governmentInnerContainer{
+    background-color: $box-government;
+}
+

@@ -1,0 +1,155 @@
+@import '../../../../../theme.scss';
+
+.alignCenter {
+	padding-left: 14%;
+	width: 100%;
+	padding-right: 3%;
+    height: 100vh;
+}
+
+.configFilterCard{
+    padding: 0.5rem 2rem 2rem 2rem;
+    background-color: $card-bg;
+}
+
+.labelText{
+    font-size: 24px;
+    color: $page-title;
+    font-family: "Gilroy";
+    margin-bottom: 16px !important;
+}
+
+.tagDropdown{
+    width: 60% !important
+}
+
+.tagInputField{
+    width: 34rem;
+}
+
+.clearFilter{
+    font-size: 14px;
+    color: $secondary-label;
+    font-family: "Gilroy";
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.siteListContainer{
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 1.5rem 0.5rem 1rem 2rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+.blankScreenContainer{
+    height: 28rem;
+    max-height: 28rem;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 3rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+}
+
+.Heading{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-SemiBold';
+}
+
+.headingWidth1{
+    width: 10.75rem;
+}
+.headingWidth2{
+    width: 8.75rem;
+}
+.headingWidth3{
+    width: 34rem;
+    padding-left:14px;
+}
+
+.listBoldText{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.listText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.listWidth1{
+    width: 10.75rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right:20px;
+}
+.listWidth2{
+    width: 8.75rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.listWidth3{
+    width: 23.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 14px
+}
+
+.editContainer{
+    padding: 6px 10px;
+    background-color: $secondary-background;
+    color: $active-link;
+    font-size: 12px;
+    border-radius: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    text-decoration: none !important;
+}
+
+.selectedTagTab{
+    background-color: $insights-green;
+    padding: 8px 16px 7px 16px;
+    border-radius: 24px;
+    font-size: 14px;
+    color: $card-bg;
+    width: max-content;
+    margin-bottom: 4px;
+    margin-right: 8px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.heading{
+    font-size: 18px;
+}
+
+.btn{
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.pagination{
+    width: max-content;
+    margin-left: auto;
+    padding-top: 14px;
+    margin-top: 0 !important;
+}
+
+.fixedHeader {
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    background-color: $primary-background;
+    width: 100%;
+    padding-top: 1rem;
+}

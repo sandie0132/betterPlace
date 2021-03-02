@@ -1,0 +1,66 @@
+@import "../../../../../../theme.scss";
+
+.alignCenter{
+    // padding-left: 5%;
+    width: 100%;
+    // padding-right: 2%;
+    height: 100vh;
+    // overflow: auto;
+}
+
+
+.CardLayout{
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+    margin-top: 8px;
+}
+
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.timeHeading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.cancelButton{
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.fixedHeader{
+    padding: 8px;
+    background-color: $card-bg;
+}
+
+.CardPadding{
+    padding: 8px 40px 40px 40px;
+}
+
+.headingRed{
+    color: $heading-red;
+    font-family: Gilroy-SemiBold;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 29px;
+    text-align: center;
+}
+
+.subHeading{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+  }

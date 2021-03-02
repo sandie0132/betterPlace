@@ -1,0 +1,191 @@
+
+@import '../../../../../../theme.scss';
+
+.Container{
+    height: calc(100vh - 13rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Heading{
+    overflow-x: hidden;
+}
+
+.FilterHeadings{
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: $primary-label;
+}
+
+.ActiveNum{
+    background-color: $secondary-background;
+    font-size: 12px;
+    font-family: Gilroy-Light;
+    color: $active-link;
+    padding: 0.15rem;
+    border-radius: 4px;
+}
+
+.InactiveNum{
+    background-color: $primary-background;
+    font-size: 12px;
+    font-family: Gilroy-Light;
+    color: $secondary-label;
+    padding: 0.15rem;
+    border-radius: 4px;
+}
+
+.GreyLightText{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: Gilroy-Light;
+}
+
+.GreyMediumText{
+    color: $secondary-label;
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+}
+
+.GreyBoldText{
+    color: $secondary-label;
+    font-size: 12px;
+    font-family: Gilroy-Bold;
+}
+
+.SearchBar{
+    border-radius: 4px;
+    border: 1px solid $primary-background;
+}
+
+.SearchIcon{
+    height: 14px;
+    width: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.SearchQuery{
+    font-size: 14px;
+    color: $primary-label;
+    outline: none;
+    border: none;
+    background-color: $card-bg;
+    width: 88%;
+}
+
+.SelectAll{
+    font-size: 12px;
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+}
+
+.ArrowIcon{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.RadioButton {
+    appearance: none;
+    background-color: $card-bg;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    outline: none;
+    border: 1px solid $secondary-label;
+}
+
+.RadioButton:checked::before {
+    background-color: $card-bg;
+}
+
+.RadioButton:checked {
+    background-color: $card-bg;
+    border: 3px solid $active-link;
+}
+
+.Cursor{
+    cursor: pointer;
+}
+
+.SearchDropdown{
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    border-radius: 4px;
+    position: absolute;
+    background: $card-bg;
+    width: 18rem;
+    z-index: 10;
+    min-height: 2rem;
+    max-height: 5rem;
+    overflow-y: auto;
+    overflow-x : auto;
+}
+
+.Option{
+    font-size: 14px;
+    padding: 0.25rem 0.5rem;
+    &:hover{
+        background-color: $primary-background;
+    }
+}
+
+.BlueText{
+    color: $active-link;
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+}
+
+.BlackText{
+    color: $primary-label;
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+}
+
+.PositionRelative{
+    position: relative;
+}
+
+// tagsharing filters
+.dropdownMenu{
+    width: 18.25rem !important;
+    max-height: 70vh !important;
+}
+
+.TagSearch{
+    font-size: 14px !important;
+    margin-left: 0.1rem !important;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+    width: 82% !important;
+}
+
+.imgSize{
+    height: 21px !important;
+    padding-left: 0.7rem !important;
+    margin-top: 0.2rem !important;
+}
+
+.emptyTagSearch{
+    width: 18rem!important;
+    padding: 5px !important;
+}
+
+.tagButtons{
+    padding: 2px 12px 2px 8px;
+    background-color: $primary-background;
+    border-radius: 12px;
+    font-size: 12px;
+    font-family: 'Gilroy-Light';
+    color:$secondary-label;
+    margin-right: 0.5rem;
+    display: inline-block;
+}
+
+.tooltipClass{
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11)!important;
+	background-color: $success-notification-bgv!important;
+}

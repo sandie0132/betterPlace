@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="20px" viewBox="0 0 12 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon / 16 / info / male</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.8333333,7 C10.4526215,7 9.33333333,5.88071187 9.33333333,4.5 C9.33333333,3.11928813 10.4526215,2 11.8333333,2 C13.2140452,2 14.3333333,3.11928813 14.3333333,4.5 C14.3333333,5.88071187 13.2140452,7 11.8333333,7 Z M15.1666667,7.83333333 C16.545,7.83333333 17.6666667,8.955 17.6666667,10.3333333 L17.6666667,14.5 C17.6666667,14.9608333 17.2941667,15.3333333 16.8333333,15.3333333 C16.3725,15.3333333 16,14.9608333 16,14.5 L16,10.3333333 C16,9.87333333 15.6266667,9.5 15.1666667,9.5 L15.1666667,21.1666667 C15.1666667,21.6275 14.7941667,22 14.3333333,22 C13.8725,22 13.5,21.6275 13.5,21.1666667 L13.5,17 L10.1666667,17 L10.1666667,21.1666667 C10.1666667,21.6275 9.79416667,22 9.33333333,22 C8.8725,22 8.5,21.6275 8.5,21.1666667 L8.5,9.5 C8.04,9.5 7.66666667,9.87333333 7.66666667,10.3333333 L7.66666667,14.5 C7.66666667,14.9608333 7.29416667,15.3333333 6.83333333,15.3333333 C6.3725,15.3333333 6,14.9608333 6,14.5 L6,10.3333333 C6,8.955 7.12166667,7.83333333 8.5,7.83333333 L15.1666667,7.83333333 Z" id="path-1"></path>
+    </defs>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-add-employee-Basic-information_1" transform="translate(-214.000000, -379.000000)">
+            <g id="Basic-information" transform="translate(160.000000, 121.000000)">
+                <g id="type-of-employees" transform="translate(40.000000, 228.000000)">
+                    <g id="male" transform="translate(0.000000, 20.000000)">
+                        <g id="icon-/-24-/-info-/-male" transform="translate(8.000000, 8.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#8697A8" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

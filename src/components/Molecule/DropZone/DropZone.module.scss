@@ -1,0 +1,147 @@
+@import '../../../theme.scss';
+
+  .Icon{
+    opacity: 0.3;
+    height: 70%;
+    width: 70%;
+    margin-left: 20%;
+  }
+
+  .FileInput{
+    display: none;
+  }
+
+  .backdrop {
+    position: fixed;
+    top: 0px;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background: rgba(0, 0, 0, 0.8);
+   }
+  
+   .cropContainer{
+    position : absolute;
+    background-color : $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    left: 25%;
+    width: 40%;
+    max-height: 75%;
+   }
+  
+   .saveButton{
+    
+      border-radius: 32px;
+      height: 3%;
+      width:auto;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: $card-bg; 
+      padding-top:1%;
+      border: 0px;
+      background-color: red;
+      
+   }
+  
+    .ImgPreview{
+      height:auto;	
+      width: 80%;	
+      border-radius: 10%;	
+      object-fit: cover;
+      margin-left: 17%;
+  }
+  
+  
+  .MarginLeft {
+    position: absolute;
+    top: 30%;
+    left:28%;
+  }
+  
+  .MarginLeft:hover {
+    cursor: pointer;
+  }
+  
+  
+  
+  .Label {
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+    font-weight: bold;
+    color:$primary-label;
+    display: block;
+    margin-bottom: 8px;
+    min-height: 18px;
+  }
+  
+  .LabelWithValue {
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+    font-weight: bold;
+    color:$secondary-label;
+    display: block;
+  }
+  
+  .ImageCropView{
+    max-height: 60%;
+  }
+  
+  .cropStyle{
+    margin:0%
+  }
+
+  .pdfView{
+    height: 112px;	
+    width: 178px;
+  }
+
+  .pdfIcon{
+    width: 10%;
+    margin-right: 4%;
+   
+  }
+  .pdfFileName{
+    margin-top: 3%;
+    width: 7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+  }
+
+  .deleteIcon{
+    width: 5%;
+    margin-top: 2%;
+  }
+
+  .uploadLoaderIcon{
+    height: auto;
+    width: 20%;
+  }
+
+  .removeOption{
+    position: absolute;
+    object-fit: cover;
+    height: 7.2rem;
+    width: 63%;
+    background-color: rgba(45,45,45,0.58);
+    border-radius: 5%;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .removeText{
+    color: white;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    opacity: 0.85;
+    padding-left: 4.5rem;
+    margin-top: 3rem;
+    position: absolute;
+  }
+  
+
+
+  

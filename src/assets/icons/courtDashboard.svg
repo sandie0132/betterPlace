@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-dashboard_1__main" transform="translate(-612.000000, -877.000000)">
+            <g id="Insights" transform="translate(160.000000, 418.000000)">
+                <g id="address-copy" transform="translate(452.000000, 459.000000)">
+                    <g id="header">
+                        <g id="district-court">
+                            <g id="icon">
+                                <rect id="Rectangle" fill="#F0EDFA" x="0" y="0" width="24" height="24" rx="12"></rect>
+                                <g id="temple-25" transform="translate(6.000000, 6.000000)" fill="#6A54CD" fill-rule="nonzero">
+                                    <path d="M11.5,11 L11.5,6.5 L12,6.5 L12,5.5 L0,5.5 L0,6.5 L0.5,6.5 L0.5,11 L0,11 L0,12 L12,12 L12,11 L11.5,11 Z M10.5,11 L9,11 L9,6.5 L10.5,6.5 L10.5,11 Z M6.5,6.5 L8,6.5 L8,11 L6.5,11 L6.5,6.5 Z M5.5,11 L4,11 L4,6.5 L5.5,6.5 L5.5,11 Z M1.5,6.5 L3,6.5 L3,11 L1.5,11 L1.5,6.5 Z" id="Shape"></path>
+                                    <path d="M6.5,1.55 L6.5,0.5 C6.5,0.2 6.3,0 6,0 C5.7,0 5.5,0.2 5.5,0.5 L5.5,1.55 C3.75,1.7 2.35,2.9 1.75,4.5 L10.2,4.5 C9.65,2.9 8.25,1.7 6.5,1.55 Z" id="Path"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

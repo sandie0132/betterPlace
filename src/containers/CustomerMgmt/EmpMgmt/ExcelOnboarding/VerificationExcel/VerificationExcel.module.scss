@@ -1,0 +1,80 @@
+@import '../../../../../theme.scss';
+
+.VerificationTab{
+	margin: 1rem 0rem 1rem 4rem;
+}
+
+.VerifyBg{
+	background-color: $secondary-background;
+	border-radius: 8px;
+	padding: 1rem;
+}
+
+.VerifyIcon{
+	height: 32px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.VerifyHeading{
+	margin: 0rem;
+	font-size: 24px;
+	font-family: 'Gilroy-Light';
+}
+
+.VerifySubHeading{
+	margin: 0rem;
+	font-size: 12px;
+}
+
+.HorizontalLine {
+	border: 0.25px solid $card-bg;
+	width: 100%;
+}
+
+.StepLoader{
+	position: relative;
+    margin-top: -0.75rem;
+}
+
+.FlexContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ProcessHeading {
+	font-size: 18px;
+	margin-bottom: 0%;
+	font-family: 'Gilroy-Light';
+	color: $primary-label;
+}
+
+.ProcessSubheading {
+	font-size: 12px;
+	margin-bottom: 0%;
+	font-family: 'Gilroy-Light';
+	color: $primary-label;
+}
+
+.SuccessImage {
+	height: 32px;
+	margin-top: 1rem;
+}
+
+//progressbar
+.ProgressBarLayout {
+	width: 35rem;
+	padding-bottom: 0% !important;
+}
+
+.ProgressBarMessage {
+	font-size: 12px;
+	font-family: "Gilroy-Light";
+	color: $card-link;
+}
+
+.ProgressBarErrorMessage {
+	font-size: 12px;
+	font-family: "Gilroy-Light";
+	color: $danger;
+}

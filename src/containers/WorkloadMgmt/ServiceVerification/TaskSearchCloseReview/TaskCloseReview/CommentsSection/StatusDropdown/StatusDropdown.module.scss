@@ -1,0 +1,86 @@
+@import "../../../../../../../theme.scss";
+
+.dropdownStatus{
+    box-shadow: 0 0.25rem 1rem 0 rgba(0, 0, 0, 0.11);
+    border-radius: 1.25rem;
+    right: 3vw;
+    bottom: 0vh;
+    border-radius: 1rem;
+    overflow: hidden;
+    perspective: 1px;
+    width: 12.3rem;
+    position: absolute;
+    z-index: 20 !important;
+}
+
+.hover{
+    &:hover{
+      cursor: pointer;
+    }
+}
+
+.DropdownIconUp{
+    margin-top: 0.35rem;
+}
+
+.HorizontalLine{
+    border: 1px solid $primary-background;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.defaultOption{
+    color: $active-link;
+    font-size: 14px;
+    padding: 5px 10px 5px 5px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.otherFilter{
+    color: $secondary-label;
+    font-size: 14px;
+    width: 100%;
+    padding: 5px 5px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+    }
+}
+
+.greenFilter{
+    color: $secondary-label;
+    font-size: 14px;
+    width: 100%;
+    padding: 5px 5px;
+    &:hover{
+        background-color: $success-notification;
+        color: $success;
+        cursor: pointer;
+    }
+}
+
+.yellowFilter{
+    color: $secondary-label;
+    font-size: 14px;
+    width: 100%;
+    padding: 5px 5px;
+    &:hover{
+        background-color: $warning-background;
+        color: $brown;
+        cursor: pointer;
+    }
+}
+
+.redFilter{
+    color: $secondary-label;
+    font-size: 14px;
+    width: 100%;
+    padding: 5px 5px;
+    &:hover{
+        background-color: $error-notification;
+        color: $danger;
+        cursor: pointer;
+    }
+}

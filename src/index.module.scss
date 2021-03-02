@@ -1,0 +1,78 @@
+@import'./theme.scss';
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  src: url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-Regular.eot');
+  src: url('./assets/fonts/Gilroy-Regular.woff') format("woff"),
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  src: url('./assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-Bold.eot');
+  src: url('./assets/fonts/Gilroy-Bold.woff') format("woff"),
+  
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  src: url('./assets/fonts/Gilroy-Medium.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-Medium.eot');
+  src: url('./assets/fonts/Gilroy-Medium.woff') format("woff"),
+  
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  font-style: normal;
+  src: url('./assets/fonts/Gilroy-Light.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-Light.eot');
+  src: url('./assets/fonts/Gilroy-Light.woff') format("woff"),
+}
+
+@font-face {
+  font-family: 'Gilroy-Thin';
+  font-style: normal;
+  src: url('./assets/fonts/Gilroy-Thin.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-Thin.eot');
+  src: url('./assets/fonts/Gilroy-Thin.woff') format("woff"),
+  
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  font-style: normal;
+  src: url('./assets/fonts/Gilroy-SemiBold.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-SemiBold.eot');
+  src: url('./assets/fonts/Gilroy-SemiBold.woff') format("woff"),
+}
+
+// html{
+//   height: 100%;
+// }
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy';
+  overflow-x: auto;
+  // min-height: 768px;
+  min-width: 768px;
+}
+
+code {
+  font-family: 'Gilroy';
+}
+
+body::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $scrollbar;
+  border-radius: 4px;
+}

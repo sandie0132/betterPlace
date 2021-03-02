@@ -1,0 +1,20 @@
+{
+    "image_alt_clientAdminHome" : {
+        "icon" : "icon",
+        "insight" : "insight",
+        "red" : "red",
+        "yellow" : "yellow",
+        "green" : "green",
+        "addEmployee" : "add employee"
+    },
+    "span" : {
+        "s1" : "dashboard tour",
+        "s2" : "insights ",
+        "s3" : "red " ,
+        "s4" : "yellow " ,
+        "s5" : "green " ,
+        "s6" : "Welcome,",
+        "s7" : "This is your dashboard, you can login here to see status for background verification, daily progress,you can take action against any profile and you can share report too",
+        "s8" : "add more employees"
+    }
+}

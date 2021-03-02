@@ -1,0 +1,70 @@
+@import '../../../../../theme.scss';
+
+.backdrop {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9998;
+	background-color: rgba(243, 247, 253, 1);
+	overflow-y: auto;
+}
+
+.closeModal {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 4.6rem;
+	cursor: pointer;
+}
+
+.modalContainer {
+	padding: 40px;
+	box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+	background-color: $card-bg;
+	border-radius: 4px;
+	margin-bottom: 3rem;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3rem;
+	width: 60%;
+}
+
+.greySmallText {
+	font-size: 12px;
+	color: $secondary-label;
+	font-family: Gilroy-Medium;
+}
+
+.smallLabel {
+	font-size: 14px;
+	color: $primary-label;
+	font-family: Gilroy-Medium;
+}
+
+.mediumText {
+	font-size: 24px;
+	color: $primary-label;
+	font-family: Gilroy;
+	line-height: 32px;
+}
+
+.horizontalLine {
+	border-bottom: 1px solid $primary-background;
+}
+
+.resultIcon {
+	width: 24px;
+	height: 24px;
+}
+
+.commentBg {
+	background-color: $primary-background;
+	color: $secondary-label;
+	border-radius: 16px;
+    padding: 0.25rem 0.5rem;
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+}

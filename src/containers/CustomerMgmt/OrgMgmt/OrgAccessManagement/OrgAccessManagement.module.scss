@@ -1,0 +1,484 @@
+@import "../../../../theme.scss";
+
+.alignCenter {
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    // overflow: auto;
+}
+
+.SearchCard {
+    padding: 8px 10px 6px 8px;
+    margin-top: 0.5rem;
+    width: 96%;
+    border-radius: 2px;
+    font-size: 14px;
+    display: inline-flex;
+    font-family: "Gilroy-Light";
+    &:hover {
+        background-color: $secondary-background;
+        cursor: pointer;
+    }
+    position: relative;
+}
+
+.searchCardLabel {
+    color: $primary-label;
+    font-family: "Gilroy";
+    font-size: 14px;
+}
+
+.HorizontalLine {
+    background-color: $primary-background;
+    height: 2px;
+}
+.group7 {
+    font-family: "Gilroy";
+    font-size: 18px;
+    color: $primary-label;
+    width: 34%;
+}
+.group8 {
+    font-family: "Gilroy";
+    font-size: 18px;
+    color: $secondary-label;
+    width: 34%;
+}
+.onCheck {
+    font-family: "Gilroy";
+    font-size: 11px;
+    color: $secondary-label;
+    width: 34%;
+}
+
+.SaveButtonAlign {
+    float: right !important;
+}
+.optionsContainer {
+    color: $secondary-label;
+    font-family: "Gilroy";
+    font-size: 12px;
+    padding-right: 0px !important;
+}
+
+.a {
+    list-style-type: circle;
+    padding-inline-start: 2vw;
+}
+// @media (max-width:768px){
+//     a{
+//       padding-inline-start: 20px;
+//     }
+// }
+
+.CheckBox {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 12px;
+    width: 12px;
+}
+
+.hoverPoint {
+    top: 2px !important;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.searchBar {
+    border: 1px solid $primary-background;
+    padding: 8px;
+    width: 15rem;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.CardLayout {
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border: none;
+    flex-wrap: nowrap;
+}
+.SearchBar {
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    // margin-bottom: 1rem;
+    border: none;
+    flex-wrap: nowrap;
+    // height: 10rem;
+}
+.saveBar {
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    //margin-top: 5rem;
+}
+.selectedTag {
+    float: right;
+    margin-top: 0.5rem;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.CardScroll {
+    //padding: 1.25rem 1.25rem 0rem 1.25rem;
+    height: 55vh;
+    // width: 41rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.CardPadding {
+    padding: 0rem 1.25rem 0rem 1.25rem;
+}
+.Selected {
+    background-color: $secondary-background;
+}
+.TagListHeading {
+    color: $secondary-label;
+    font-size: 12px;
+    padding-left: 8px;
+}
+.tagAccessHead {
+    margin-left: 1.5rem;
+    font-size: 24px;
+}
+.emptyNotification {
+    background-color: transparent;
+    min-height: 1.5rem;
+}
+
+.ShowSuccessNotificationCard {
+    display: block;
+    min-height: 1.5rem;
+    background-color: $success-notification;
+}
+
+.HideSuccessNotificationCard {
+    display: none;
+}
+
+.SuccessNotificationCard {
+    font-size: 12px;
+}
+
+.ShowErrorNotificationCard {
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+}
+.HideErrorNotificationCard {
+    display: none;
+}
+
+.VerticalDivider {
+    border-right: 2px solid $primary-background;
+    width: 16rem;
+    height: 73vh;
+    overflow: auto;
+    position: sticky;
+}
+.toggleText {
+    font-family: "Gilroy-Light";
+    display: flex;
+    margin-top: 0.8rem;
+    // justify-content: flex-start;
+}
+.orgSearchDrop {
+    background-color: $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    position: absolute;
+    width: 15rem;
+    height: 7rem;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.OrgOption {
+    color: $secondary-label;
+    //position: inherit;
+    padding: 5px;
+    border-bottom: 1px solid $primary-background;
+    width: 15rem;
+    margin-left: 0.5rem;
+    //position: absolute;
+    &:hover {
+        color: $active-link;
+        cursor: pointer;
+    }
+}
+.searchBox {
+    margin-bottom: 2rem;
+    background-color: $card-bg;
+    width: 15rem;
+    z-index: 1;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    box-shadow: none;
+}
+
+.EditButton {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: $secondary-label;
+}
+.tagDropDown {
+    position: absolute;
+    background-color: $card-bg;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 5rem;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    right: 1.3vw;
+    bottom: 0.1rem;
+    // z-index: 51;
+    // display: inline-table;
+    // margin-left: 6.2rem;
+    &:hover {
+        //background-color: $primary-background;
+        cursor: pointer;
+        color: $danger;
+    }
+}
+.dropdown {
+    position: absolute;
+    background-color: $card-bg;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 5rem;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    //z-index: 9999;
+    display: inline-table;
+    margin-left: 2px;
+    &:hover {
+        //background-color: $primary-background;
+        border-radius: 4px;
+        cursor: pointer;
+        color: $danger;
+    }
+}
+.UnorderedList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.List {
+    width: 100%;
+    text-align: left;
+    padding-left: 5px;
+    &:hover {
+        background-color: $primary-background;
+    }
+}
+.FlagCard {
+    background-color: $primary-background;
+    padding: 0.5rem 0rem 0.5rem 0.8rem;
+    width: max-content;
+    margin-right: 1rem;
+    border-radius: 4px;
+    display: inline-block;
+    color: $secondary-label;
+    margin-bottom: 1rem;
+    &:hover {
+        background-color: $secondary-background;
+        color: $active-link;
+        cursor: pointer;
+    }
+}
+
+.image {
+    padding-left: 8px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.ActiveOrg {
+    background-color: $secondary-background;
+    color: $active-link;
+}
+
+.formBackground {
+    width: 100%;
+    background-color: $primary-background;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.PaddingLeftArrow {
+    padding-left: 15%;
+    margin-top: 16px;
+}
+
+.ContainerPadding64 {
+    margin-top: 24px;
+}
+
+.horizontalLine {
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+    background-color: $horizontal-line;
+    height: 2px;
+}
+
+.AlignHeading {
+    padding-top: 1.25rem;
+}
+
+.OptionsPadding {
+    padding-left: 15px;
+}
+
+.animContainer {
+    width: 12rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.animContainer span {
+    position: absolute;
+    white-space: nowrap;
+    transform: translateX(0);
+    transition: 4s;
+}
+
+.animContainer:hover span {
+    transform: translateX(calc(5rem - 100%));
+}
+
+.Container {
+    display: block;
+    cursor: pointer;
+    //background-color: red;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    //background-color: red;
+}
+
+.Checkmark {
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    border-radius: 4px;
+    // margin-left: 80%; //15%; //3rem;
+    margin-top: 0.5rem;
+
+    border: 1px solid $secondary-label;
+    background-color: $card-bg;
+}
+
+.Container:hover input ~ .Checkmark {
+    background-color: $primary-background;
+}
+
+.Container input:checked ~ .Checkmark {
+    background-color: $active-link;
+    border: none;
+}
+
+.Checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.Container input:checked ~ .Checkmark:after {
+    display: block;
+}
+
+.Container .Checkmark:after {
+    left: 4px;
+    top: 1px;
+    width: 5px;
+    height: 9px;
+    border: 1px solid $card-bg;
+    border-width: 0 1.5px 1.5px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.ImgDiv {
+    position: absolute;
+    right: 0vw;
+    z-index: 50;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.threeDots {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    // border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: $primary-label;
+    color: $card-bg;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: -20%;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    // margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    border-color: $primary-label transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.checkMarkStyle {
+    margin-top: 10px;
+}
+
+.checkMarkStyleAll{
+    margin-top: 2px;
+}

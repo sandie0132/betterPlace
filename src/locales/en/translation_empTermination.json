@@ -1,0 +1,38 @@
+{
+    "image_alt_empTermination": {
+        "img": "img",
+        "icon": "icon",
+        "location": "location",
+        "phone": "phone",
+        "close": "close",
+        "loader": "loader"
+    },
+    "label_empTermination": {
+        "addEmployee": "add employee",
+        "loading": "loading..."
+    },
+    "label_terminationCard_empTermination": {
+        "dateInput": "employee termination date",
+        "radioButton": "type of exit"
+    },
+    "terminationCardTexts_empTermination": {
+        "terminateConfirm": "are you sure you want to terminate ",
+        "terminating": "terminating ",
+        "info": "please fill the information below to terminate",
+        "employees": "employee(s)",
+        "reason": "reason for termination",
+        "viewFullProfile": "View Full Profile",
+        "from": "from"
+    },
+    "terminateCardButtons": {
+        "no": "no",
+        "yes": "yes",
+        "terminate": "terminate"
+    },
+    "infoCardButtons_empTermination": {
+        "terminate": "terminate",
+        "onboard": "onboard",
+        "yesContinue": "yes, continue"
+    },
+    "view": "view full profile"
+}

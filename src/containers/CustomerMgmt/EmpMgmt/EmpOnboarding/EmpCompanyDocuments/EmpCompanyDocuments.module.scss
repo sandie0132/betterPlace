@@ -1,0 +1,23 @@
+@import "../../../../../theme.scss";
+
+.form {
+	height: 100vh;
+	overflow: auto;
+}
+
+.fixedHeader{
+    margin-left: 3%;
+	padding-top: 1rem;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: $primary-background;
+	width: 95%;
+	flex: 0 0 95%;
+}
+
+.container{
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+}

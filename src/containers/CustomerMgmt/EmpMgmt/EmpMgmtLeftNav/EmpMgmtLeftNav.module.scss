@@ -1,0 +1,141 @@
+@import '../../../../theme.scss';
+
+.Nav_Link{
+    margin-bottom: 27%;
+    margin-left: 0.75rem;
+}
+
+.NavLinkfont{
+    color: $secondary-label;
+    padding: 10px 1rem 10px 0.5rem;
+    font-size: 12px;
+    border:0;
+    font-family: 'Gilroy';
+    &:hover{
+        text-decoration: none;
+        filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+    }
+}
+
+.NavLinkfontActive{
+    background-color: $primary-background;
+    color: $active-link;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-family: 'Gilroy-Bold';
+    &:hover{
+        filter: none;
+        text-decoration: none;
+    }
+}
+
+// .NavHead{
+//     color: $secondary-label;
+// }
+
+// .NavHead :hover{
+//     color : $active-link;
+// }
+
+.downLink{
+    margin-top: 1rem;
+    padding-left: 1.75rem;
+}
+
+.downLinkActive{
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    border-left: 4px solid $active-link;
+}
+
+ .Border{
+    color: $secondary-label;
+    border-top: 2px solid $primary-background;
+    border-bottom: 2px solid $primary-background;
+    padding: 0.35rem 0rem 0.5rem 0rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+.svg {
+	width: 25%;
+    height: auto;
+    padding-left: 0px 6px;
+}
+
+.svg:hover {
+    // filter: brightness(0.6) sepia(1) hue-rotate(190deg) saturate(5);
+    cursor: pointer; 
+}
+
+.openMenu{
+    border-radius: 4px;
+    background-color: $card-bg;
+    width: 8.25rem;
+    // min-height: 4rem;
+    color: $card-link;
+    position: absolute;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    left: 5rem;
+    bottom: 1rem;
+}
+
+.ProfileDiv{
+    &:hover{
+        background-color: $primary-background !important;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+}
+
+.LogoutDiv{
+    &:hover{
+        background-color: $primary-background !important;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+}
+
+.Hover{
+    color: $secondary-label;
+    font-size: 12px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    &:hover{
+        cursor: pointer;
+        filter: brightness(25%);
+    }
+}
+
+.icon{
+    position: relative;
+    left: -0.25rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.Space{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom{
+    position: absolute;
+    bottom: 5rem;
+}
+
+.ProfileImage{
+    width: 50%;
+    border-radius: 4px;
+    // margin-left: 0.45rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.Cursor{
+    cursor: pointer;
+}

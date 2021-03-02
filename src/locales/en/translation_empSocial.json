@@ -1,0 +1,53 @@
+{
+    "image_alt_empSocial": {
+        "addImage": "add"
+    },
+    "label_empSocial": {
+        "label" : "add more"
+    },
+    "input_empSocial": {
+        "customSelectLabel" : "platform *",
+        "placeholder": {
+            "profileUrl": "http://www.website.com"
+            
+        },
+        "label" : {
+            "profileUrl" : "profile url *"
+        }
+    },
+    "button_empSocial" : {
+        "cancel" : "cancel",
+        "save" : "save",
+        "delete" : "delete",
+        "edit" : "edit"
+    },
+    "warning_cancel_empSocial" : {
+        "text" : "cancel?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, cancel",
+        "cancelText" : "keep"
+    },
+    "warning_delete_empSocial" : {
+        "text" : "delete?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, delete" ,
+        "cancelText" : "keep"
+    },
+    "customSelectOptions_empSocial" : {
+        "value" :{
+            "select" : "",
+            "facebook" : "facebook",
+            "linkedIn" : "linkedIn",
+            "twitter" : "twitter",
+            "instagram" : "instagram"
+        },
+        "label" : {
+            "select" : "select platform",
+            "facebook" : "facebook",
+            "linkedIn" : "linkedIn",
+            "twitter" : "twitter",
+            "instagram" : "instagram"
+        }
+    },
+    "cardHeader" : "social"
+}

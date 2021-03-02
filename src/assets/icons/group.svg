@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>01076C38-2658-4B85-BE31-C553DADBF87E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M6,1.33333333 C7.1045695,1.33333333 8,2.22876383 8,3.33333333 L8,4.21333333 L14,4.21333345 C15.1045695,4.21333345 16,5.10876395 16,6.21333345 L16,12.9333334 C16,14.0379029 15.1045695,14.9333334 14,14.9333334 L2,14.9333334 C0.8954305,14.9333334 1.3527075e-16,14.0379029 0,12.9333334 L0,6.21333345 C-1.67691013e-17,6.07640334 0.0137607993,5.94268725 0.0399749443,5.81349261 C0.013831458,5.68466516 1.6812099e-17,5.55061446 0,5.41333326 L0,3.33333333 C-1.3527075e-16,2.22876383 0.8954305,1.33333333 2,1.33333333 L6,1.33333333 Z" id="path-1"></path>
+    </defs>
+    <g id="location-&amp;-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-BGV-Client-onboarding_location-&amp;-site_D1" transform="translate(-817.000000, -585.000000)">
+            <g id="add-section" transform="translate(805.000000, 174.000000)">
+                <g id="cta" transform="translate(0.000000, 347.000000)">
+                    <g id="Group-2">
+                        <g id="text-input-/-small-/--add-fun-role" transform="translate(12.000000, 63.000000)">
+                            <g id="add-group">
+                                <g id="group">
+                                    <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+                                    <rect id="Rectangle-6" fill="#000000" opacity="0.600000024" style="mix-blend-mode: multiply;" x="0.960000038" y="2.9333334" width="13.2800001" height="7.04000028" rx="1"></rect>
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Combined-Shape" fill="#6A54CD" xlink:href="#path-1"></use>
+                                    <rect id="Rectangle" fill="#0059B2" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                                    <path d="M10.1066667,12.6843333 C9.561,12.5 9.28066667,12.0976667 9.13833333,11.7733333 C9.92433333,11.302 10.3333333,10.1833333 10.3333333,9.33333333 C10.3333333,8.22866667 9.438,7.33333333 8.33333333,7.33333333 C7.22866667,7.33333333 6.33333333,8.22866667 6.33333333,9.33333333 C6.33333333,10.184 6.74266667,11.3033333 7.52966667,11.774 C7.388,12.101 7.10833333,12.5063333 6.564,12.683 C5.604,12.994 4.66666667,13.0956667 4.66666667,14.6666667 L4.66666667,15.3333333 L12,15.3333333 L12,14.6666667 C12,13.119 11.1043333,13.0213333 10.1066667,12.6843333 Z" id="Path" fill="#000000" opacity="0.200000003" mask="url(#mask-2)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

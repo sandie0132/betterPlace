@@ -1,0 +1,26 @@
+{
+    "image_alt_orgList": {
+        "search": "search",
+        "starred": "starred",
+        "active_inactive": "active_inactive",
+        "deactivate_inactive": "deactivate_inactive",
+        "allclients": "allclients"
+    },
+    "button_orgList": {
+        "starred": "starred",
+        "active": "active",
+        "inactive": "inactive",
+        "all": "all",
+        "addClient": "add client"
+    },
+    "input_orgList": {
+        "label": {},
+        "placeholder": {
+            "searchClient": "search client"
+        }
+    },
+    "noClientStarred": "no client starred",
+    "noClientStarredDescription": " there are no clients added as starred here. please add clients to see here",
+    "noSearchResults": "no search results found with the name",
+    "tryAgain": "please check or try again"
+}

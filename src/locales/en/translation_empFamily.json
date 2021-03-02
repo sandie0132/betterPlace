@@ -1,0 +1,37 @@
+{
+    "image_alt_empEducation": {
+        "add":"add"
+    },
+    "button_empFamily": {
+        "save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete": "delete"
+    },
+    "warning_empFamily_cancel" : {
+        "text" : "cancel?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, cancel" ,
+        "cancelText" : "keep"
+    },
+    "warning_empFamily_delete" : {
+        "text" : "delete?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, delete" ,
+        "cancelText" : "keep"
+    },
+    "input_empFamily" : {
+        "label": {
+            "name" : "name *",
+            "dob": "date of birth",
+            "relationship": "relationship *",
+            "mobile":"mobile"
+        },
+        "placeholder": {
+            "name" : "name",
+            "mobile":"+91 1234554321"
+        }
+    },
+    "cardHeader": "family and references",
+    "label":"add more"
+}

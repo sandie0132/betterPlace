@@ -1,0 +1,74 @@
+ @import '../../../theme.scss';
+
+.defaultContainer{
+    border: 1px solid $primary-background;	
+    border-radius: 4px;	
+    background-color: $card-bg ;
+    height: 3rem;
+    width: 16rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.defaultLabel{
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 12px;
+    line-height: 15px;
+    width: 11rem;
+    margin-bottom: 0rem;
+    &:hover{
+        cursor: pointer;
+        color: $primary-label;
+    }
+
+}
+
+.activeContainer{
+    border: 1px solid $active-link;	
+    border-radius: 4px;	
+    background-color: $card-bg;
+    height: 3rem;
+    width: 16rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    &:hover{
+        cursor: pointer;
+        border: 1px solid $active-link;
+    }
+}
+
+.activeLabel{
+    color: $primary-label;	
+    font-family: Gilroy;	
+    font-size: 12px;	
+    line-height: 15px;
+    width: 11rem;
+    margin-bottom: 0rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.RadioButton
+{
+    appearance: none;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    cursor: pointer;     
+}
+.RadioButton:checked::before
+{
+    background-color: $card-bg;
+}
+
+.RadioButton:checked
+{
+    background-color: $card-bg;
+    content: url('../../../assets/icons/purpleTick.svg');     
+}

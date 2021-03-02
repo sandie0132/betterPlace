@@ -1,0 +1,64 @@
+@import '../../../theme.scss';
+
+.SearchBorder{
+    border: 1px solid $horizontal-line;
+    border-radius: 6px;
+    padding: 0.25rem 0.5rem;
+    width: 100%;
+    color: $primary-label;
+    font-size: 18px;
+    font-family: Gilroy-Light;
+}
+
+.NoBorder{
+    border: none;
+    outline: none;
+    width: 92%;
+    font-weight: 800;
+    color: $active-link;
+    background-color: $card-bg;
+}
+
+.disabledInput{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.Cursor {
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.Option{
+    padding: 0.75rem 2rem;
+    font-size: 14px;
+    border-bottom: 1px solid $primary-background;
+    &:hover{
+        background-color: $primary-background;
+    }
+}
+
+.SearchDropdown{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.11);
+    border-radius: 4px;
+    position: absolute;
+    background: $card-bg;
+    width: 36.5rem; // 40.5%;
+    z-index: 999;
+    // min-height: 3rem;
+    max-height: 8rem;
+    overflow-y: auto;
+    overflow-x : auto;
+    // margin-top: 0.25rem;
+}
+
+.GreyHeading{
+    font-size: 12px;
+    color: $secondary-label;
+    font-family: Gilroy-Medium;
+}
+
+.requiredStar{
+    color: $danger;
+}

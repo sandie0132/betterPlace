@@ -1,0 +1,485 @@
+
+@import '../../../../../../../theme.scss';
+
+.ContainerPadding64{
+    padding-top: 1rem;   
+}
+
+.AlignLeft{
+margin-left: 10rem ;
+margin-right: 2rem;
+
+}
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+    color: $primary-label
+    
+}
+
+.CardPadding{
+    padding: 2rem;
+}
+
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Medium';	
+    font-size: 12px;	
+}
+.smallTextInactive{
+    color:$inactive-font;	
+    font-family: 'Gilroy-Medium';	
+    font-size: 12px;	
+}
+
+.FormBackGround{
+    width: 100%;
+    background-color:$primary-background;
+    z-index: 1;
+    top:0;
+    left: 0;
+    right:0;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.disable{
+    user-select: none;
+}
+
+.SubHeading{
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+    float: left;
+    justify-content: center;
+}
+
+.OptionWithHeading{
+    color:$secondary-label;
+    font-family: 'Gilroy-Light';    
+    font-size: 12px;
+    float : left;
+    line-height: 5px;
+}
+
+.Background{
+    max-width: 28rem;
+    background-color: $primary-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $secondary-label;
+    border-radius: 20px;
+    padding: 5px 20px 5px 10px;
+    appearance: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.InactiveBackground{
+    max-width: 28rem;
+    background-color: $inactive-add-comment-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $inactive-font;
+    border-radius: 20px;
+    padding: 5px 20px 5px 10px;
+    appearance: none;
+    border: none;
+    position: relative;
+
+}
+
+.addCommentImg{
+    margin-right: .4rem;
+    filter: contrast(0.5);
+}
+
+.DropDownContainer{
+    cursor: pointer;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    border-radius: 4px;
+    width: 14.80rem;
+    align-items: center;
+    background-color: $card-bg;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    position: absolute;
+    bottom: 4.5rem;
+    left: 3.5rem;
+}
+
+.commentCase{
+    cursor: pointer;
+    background-color: $secondary-background;
+    font-size: 12px;
+    width: 14.6rem;
+    margin-left: 0.1rem;
+    margin-top:0.1rem;
+    padding: 3px;
+}
+
+.selectCase{
+    background-color: $card-bg;
+    color: $secondary-label;
+    font-size: 12px;
+    font-family: 'Gilroy-Light';
+    width: 14.6rem;
+    margin-left: 0.1rem;
+}
+
+.BackgroundAttachment{
+    background-color: $primary-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $secondary-label;
+    border-radius: 20px;
+    padding: 5px 20px 5px 10px;
+    appearance: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+.BackgroundAttachmentInactive{
+    background-color: $inactive-add-comment-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $inactive-font;
+    border-radius: 20px;
+    padding: 5px 20px 5px 10px;
+    appearance: none;
+    border: none;
+    position: relative;
+}
+
+.attachmentImg{
+    cursor: pointer;
+    margin-right: 1rem;
+    filter: contrast(0.5);
+}
+.attachmentImgInactive{
+    margin-right: 1rem;
+}
+
+.Attachment{
+    background-color: $secondary-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $secondary-label; //$active-link;
+    border-radius: 20px;
+    padding: 5px 20px 5px 10px;
+    appearance: none;
+    border: none;
+    position: relative;
+}
+
+.DropDownTextContainer{
+    // height: 120px;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    border-radius: 4px;
+    width: 16rem;
+    background-color: $card-bg;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    position: absolute;
+    bottom: 5rem;
+    height: 7rem;
+    left: 9rem;
+}
+
+.WriteComment{
+    background-color: $secondary-background;
+    border: 3px solid $card-bg;
+    border-radius: 4px;
+}
+
+.Cursor{
+    margin-bottom: 2.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inputField{
+    border: 1px solid $secondary-background;
+    background-color: $secondary-background;
+    font-size: 12px;
+    height: max-content;
+    padding-bottom: 2rem;
+    width: 12rem;
+}
+
+.inactiveStatus{
+    background-color: $primary-background;
+    font-size: 14px;
+    font-style: 'Gilroy';
+    color: $loader-secondary;
+    border-radius: 20px;
+    margin-bottom: 0rem;
+    padding-left: 8rem;
+}
+
+.redStatus{
+    width:13rem;
+    background-color: $error-notification;
+    color: $danger;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    // margin-right: 3rem;
+    padding-left: 1rem;
+    border-radius: 20px;
+}
+
+.yellowStatus{
+    width:13rem;
+    background-color: $warning-background;
+    color: $brown ;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    // margin-right: 3rem;
+    padding-left: 1rem;
+    border-radius: 20px;
+}
+
+.greenStatus{
+    width:13rem;
+    background-color: $success-notification;
+    color: $success;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    // margin-right: 3rem;
+    padding-left: 1rem;
+    border-radius: 20px;
+}
+
+.CardHeading{
+    background-color: $disabled-checkbox;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    margin-right: -0.95rem;
+    margin-left: -0.95rem;
+
+}
+
+.imgClose{
+    float: right;
+    cursor: pointer;
+}
+
+.statusAlign{
+    line-height:2.5rem;
+    // cursor: pointer;
+}
+
+.selectStatus{
+    width:14rem;
+    background-color: $disabled-checkbox;
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    padding-left: 1rem;
+    border-radius: 20px;
+}
+
+.ImageInvert{
+    // margin-left:4rem;
+    // float:left;
+    cursor: pointer;
+    position: absolute;
+    right: 5.5rem;
+    margin-top: 1rem;
+    transform: rotate(180deg);
+}
+
+.selectAnyCaseStatus{
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    margin-top: .35rem;
+}
+
+.redSelectStatus{
+    cursor: pointer;
+    background-color: $error-notification;
+    color: $danger;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+}
+
+.yellowSelectStatus{
+    cursor: pointer;
+    background-color:$warning-background;
+    color: $brown ;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    // margin-right: 3rem;
+}
+
+.greenSelectStatus{
+    cursor: pointer;
+    background-color: $success-notification;
+    color: $success;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 15px;
+}
+
+.defaultSelectStatus{
+    background-color: $card-bg;
+    color: $active-link;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.dropdownStatus{
+    width: 11.5rem;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 15px;
+    position: absolute;
+    left: 38rem;
+    bottom: 2rem;
+    text-align: left;
+}
+
+.redBackground{
+    background-color: $error-notification;
+    color: $primary-label;
+}
+.yellowBackground{
+    background-color: $warning-background;
+    color: $primary-label;
+
+}
+.greenBackground{
+    background-color: $success-notification;
+    color: $primary-label;
+}
+
+.Sticky{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    padding-right: 1.5rem;
+    padding-left: 1.2rem;
+    left: 9rem;
+    width: 64%;
+    background-color: $primary-background;
+}
+
+.red{
+    background-color: $error-notification;
+    border: 1px solid $card-bg;
+    width: 14.6rem;
+    margin-left: 0.1rem;
+    font-size: 12px;
+}
+
+.yellow{
+    background-color: $warning-background;
+    border: 1px solid $card-bg;
+    width: 14.6rem;
+    margin-left: 0.1rem;
+    font-size: 12px;
+}
+
+.green{
+    background-color: $success-notification;
+    border: 1px solid $card-bg;
+    width: 14.6rem;
+    margin-left: 0.1rem;
+    font-size: 12px;
+}
+
+.Timer{
+    display: flex;
+    line-height: 0.1rem;
+    margin-top: 3rem;
+    float: right;
+    position: inherit;
+    right: 2.5rem;
+}
+
+.TimerValue{
+    z-index:999;
+    position: absolute;
+    right: 2.25rem;
+    bottom: 1.9rem;
+    font-size : 14px;
+    font-size : 'Gilroy-Medium';
+}
+
+.close{
+    position: absolute;
+    right: 1.2rem;
+    top:2rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.hoverHand{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.Profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.fullNameActive{
+    color: $card-link;
+    font-size: 14px;
+    font-family: 'Gilroy';
+}
+
+.fullNameInactive{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'Gilroy';
+}
+
+.VerifiedLabel{
+    color:$secondary-label;
+    font-size: 0.875rem;
+    font-family: 'Gilroy-Medium';
+    float: left;
+    justify-content: center;
+}
+
+.VerifiedLabelInactive{
+    color:$secondary-label;
+    font-size: 0.875rem;
+    font-family: 'Gilroy-Medium';
+    float: left;
+    justify-content: center;
+}
+
+.commentSmallLabel{
+    color: $secondary-label;	
+    font-family: 'Gilroy';
+    font-size: 0.75rem;	
+    line-height: 0.9375rem;
+}
+.commentSmallLabelInactive{
+    color: $inactive-font;	
+    font-family: 'Gilroy';
+    font-size: 0.75rem;	
+    line-height: 0.9375rem;
+}

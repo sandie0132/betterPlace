@@ -1,0 +1,206 @@
+@import '../../../../../theme.scss';
+.HeadCard{
+    background-color:$card-bg;
+    border-radius:4px;
+
+}
+
+.smallLabel{
+    color:$card-bg;	
+    font-family: Gilroy;	
+    font-size: 12px;	
+    line-height: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+    
+}
+
+.smallButton{
+    background-color:$secondary-label;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 6rem;
+   
+}
+
+.CardPadding{
+    box-shadow:$card-link;
+    background-color: $card-bg;
+}
+
+.CardLayout{
+    background-color: $card-bg;
+    border-radius: 4px; 
+    margin-bottom: 3rem;
+    border: none;
+    padding:1rem;
+}
+
+.Card{  
+    padding-right: 3rem;
+    padding-left: 3rem;
+    // margin-left: 2%;
+}
+
+.box{
+    height: 104px;	
+    width: 104px;	
+    border-radius: 5px;	
+    background-color: $secondary-background;
+    position: absolute;
+    top:5rem;
+    right:5rem;
+   
+}
+
+.boxLabel{
+    height: 24px;	
+    width: 59px;	
+    color: $active-link;	
+    font-family: Gilroy;	
+    font-size: 24px;	
+    line-height: 29px;	
+    text-align: center;
+    margin-top:38%;
+    margin-left:20%;
+}
+
+
+.smallText{
+    color:$secondary-label;	
+    font-family: Gilroy;	
+    font-size: 12px;	
+    line-height: 15px;
+}
+
+.icon{
+    margin-top: 1rem;
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    margin-right:1rem;
+}
+
+.smallIcon{
+    transform: rotate(-90deg);
+    height: 10px;	
+    width: 10px;
+    filter: grayscale(100%) brightness(300%);
+    float: right;
+    margin-top:6%;
+}
+
+.tileDiv{
+    width: 50%;
+}
+
+.orgHeading{
+    color: $primary-label;	
+    font-family:'Gilroy-Light';	
+    font-size: 24px;
+   // font-weight: 100%;
+   margin: 0px;
+}
+.secondHeading{
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 12px;	
+    //line-height: 16px;
+}
+
+.tagText{
+    color: $page-title;	
+    font-family: Gilroy;	
+    font-size: 14px;	
+    line-height: 17px;
+    padding-top: 0.5rem
+}
+.tagSecondaryText{
+    margin-top: 0.5rem;
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 14px;	
+    line-height: 17px;
+}
+
+.Line{
+    box-sizing: border-box;	
+    height: 1px;	
+   // width: 880px;	
+    border: 1px solid $card-bg;
+}
+.verticalLine {
+    border-left: 2px solid $primary-label;
+    display: inline;   
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.SmallText{
+    color:$secondary-label;
+    font-size: 14px;
+
+}
+
+.hireContainer{
+    border-radius: 13px;	
+    background-color: $primary-background;
+    height: 1.62rem;
+    width: max-content;
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.statusText{
+    color: $primary-label;	
+    font-family: Gilroy-Medium;	
+    font-size: 14px;	
+    line-height: 17px;
+    margin-top: 0.29rem;
+    margin-bottom: 0rem;
+}
+
+.roleText{
+    color: $secondary-label;	
+    font-family: Gilroy-Medium;	
+    font-size: 12px;	
+    line-height: 15px;
+    margin-bottom: 0rem;
+    margin-top: 0.4rem;
+    padding-right: 1rem;
+}
+
+.statusIcon{
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+.statusVerticleLine{
+    border-left: 1px solid $primary-label;
+    display: inline;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.OnboardButton{
+    min-width: 7.5rem !important;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+}
+.terminateButton{
+    min-width: 6.5rem !important;
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+    font-size: 12px !important;
+    color: $danger !important;
+    background-color: $error-notification !important;
+    &:hover{
+        color: $danger !important;
+    }
+
+}
+.ButtonContainer{
+    margin-top: auto;
+    margin-left: auto;
+}

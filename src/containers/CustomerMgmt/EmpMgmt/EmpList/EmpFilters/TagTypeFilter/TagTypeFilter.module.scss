@@ -1,0 +1,81 @@
+@import '../../../../../../theme.scss';
+
+.EmptyTag{
+    font-size: 12px;
+    font-family: 'Gilroy-Light';
+    color: $secondary-label;
+    text-align: center;
+    padding: 1rem;
+}
+
+.tagContainer{
+    height: calc(100vh - 13rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.TagSearch{
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-left: 0.1rem !important;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+}
+.SearchHead{
+    height: 2.5rem; //3rem;
+    width: 100%;
+}
+.ClearFilter{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+    line-height: 22px;
+    text-decoration: underline;
+    &:hover{
+        cursor: pointer
+    }
+ }
+
+.Headings{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+    margin-top: .2rem;
+}
+
+
+.Cross{
+    margin-left: 0.5rem;
+    cursor: pointer;
+    
+}
+
+.selectedTags{
+    font-size: 12px;
+    color: $secondary-label;
+    background-color: $primary-background;
+    border-radius: 20px;
+    margin-left: 1rem;
+    margin-top: 4px;
+    padding: 0.2rem 0.2rem;
+}
+
+.HorizontalLine{
+    border: 0.5px solid $secondary-label;
+    background-color: $secondary-label;
+    opacity: 0.18;
+}
+
+.dropdownMenu{
+    width: 19.25rem;
+    max-height: 70vh !important;
+    margin-top: 1rem;
+    margin-left: 0px;
+}
+
+.imgSize{
+    height: 21px !important;
+    // height: 23.5px !important;
+    padding-left: 0.7rem !important;
+    margin-top: 0.2rem !important;
+}

@@ -1,0 +1,254 @@
+@import '../../../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 3%;
+    width: 100%;
+    padding-right: 2%;
+    overflow: auto;
+}
+
+.CardLayout{
+    background-color: $card-bg;
+    border-radius: 4px;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.timeHeading {
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.CardPadding{
+    padding: 8px 40px 40px 40px;
+}
+
+.ShowSuccessNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $success-notification;
+}
+
+.HideSuccessNotificationCard{
+    display: none;
+}
+
+.SuccessNotificationCard{
+    font-size: 12px;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+}
+
+.HideErrorNotificationCard{
+    display: none;
+} 
+
+.HorizotalLine{
+    border: 1px solid $horizontal-line;
+}
+
+.emptyNotification{
+    background-color: transparent;
+    min-height: 1.5rem;
+}
+.warninContainer{
+    // position: absolute;
+    // right: 0rem;
+    //position: absolute;
+    float: right;
+    right: 23.8rem;
+    margin-top: 1.65rem;
+    // margin-right: 1.25rem;
+}
+
+.autosaveContainer{
+    height: 56px;
+    margin-top: 8px;
+    background-color: $primary-background;
+    position: absolute;
+    width: 98%;
+    align-self: center;
+}
+
+.autosaveText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.image{
+    position: relative;
+    top: 0.8rem;
+    right: 5.5rem
+    // position: absolute;
+    // top: 4.8%; //4.6rem;
+    // left: 25%;
+    // width: 7%;
+}
+.HorizotalLine{
+    border: 1px solid $horizontal-line;
+}
+.ConsentFont{
+    color:$secondary-label;	
+    font-size: 14px;
+}
+
+.ConsentLink{
+    color:$active-link;	
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer; 
+}
+
+.ConsentLinkLoading{
+    color:$active-link;	
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: progress; 
+}
+
+.cancelButton{
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.Cursor{
+    cursor: pointer;
+}
+
+.fixedHeader{
+    padding: 8px;
+    // position: fixed;
+    // z-index: 98;
+    background-color: $card-bg;
+    width: 100%;
+}
+.Input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: $secondary-label;
+    box-sizing: border-box;
+    align-self: flex-start;
+}
+
+.LabelWithValue {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    color:$secondary-label;
+    display: block;
+    margin-bottom: 8px;
+    min-height: 18px;
+}
+
+.requiredStar{
+    color: $danger;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid $primary-background;
+    background-color: $primary-background;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    height:40px;
+    border-radius: 4px;
+    &:focus{
+        outline: none;
+        border: 1px solid $active-link;
+    }
+    &::placeholder{
+        outline: none;
+        font: inherit;
+        color:$secondary-label;
+    }
+}
+
+
+/////new
+
+
+.innerContainer{
+    height: 25.75rem;
+    width: 42rem;
+    background-color: $default-theme;
+    position: relative;
+}
+
+.innerWhiteContainer{
+    height: 18rem;
+    background-color: $card-bg;
+    position: absolute;
+    top: 0px;
+    width: 40rem;
+    margin: 16px;
+}
+
+.innerLoadingContainer{
+    height: 18rem;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    width: 40rem;
+    margin: 16px;
+    z-index: 1
+}
+
+.text{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+}
+
+.blueText{
+    color: $active-link;
+}
+
+.greyText{
+    color: $secondary-label;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.signatureButtonContainer{
+    bottom: 2rem;
+    position: absolute;
+    left: 17rem;
+}
+
+.showImageContainer{
+    width: 22.5rem;
+    height: 10.75rem;
+    background-color: $digital-signature;
+}
+
+.deleteIcon{
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+}

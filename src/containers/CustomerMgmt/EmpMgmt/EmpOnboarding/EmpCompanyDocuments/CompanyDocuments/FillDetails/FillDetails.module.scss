@@ -1,0 +1,154 @@
+@import "../../../../../../../theme.scss";
+
+.alignCenter {
+    // padding-left: 3%;
+    width: 100%;
+    // padding-right: 3%;
+}
+
+.CardLayout {
+    padding: 25px;
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    position: relative;
+    // margin-top: 1rem;
+    // height: 35rem;
+}
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+    // border-top: 2px solid $horizontal-line;
+}
+
+.blueText{
+    color: $active-link;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.innerLoadingContainer {
+    height: 18rem;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    width: 40rem;
+    margin: 16px;
+    z-index: 1;
+}
+
+.timeHeading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cancelButton {
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.positionHeading {
+    position: fixed;
+    width: 63%;
+    background-color: $primary-background;
+    z-index: 99;
+}
+
+.searchBar {
+    background-color: $card-bg !important;
+}
+.requiredStar {
+    color: $danger;
+}
+
+.defaultLabel {
+    color: $page-title;
+    font-size: 12px;
+    margin-bottom: 0%;
+    line-height: 35px;
+}
+
+.dropdownMenu {
+    width: 20.5rem;
+}
+
+.smallHeading {
+    font-size: 14px;
+    color: $secondary-label;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    &:hover {
+        color: $active-link;
+    }
+}
+
+.disable {
+    opacity: 0.3;
+}
+
+.signatureImg {
+    border: 1px solid $primary-background;
+    border-radius: 4px;
+}
+
+.crossAlign {
+    position: absolute;
+    margin-left: 21rem;
+}
+
+.addText {
+    color: $active-link;
+    font-size: 14px;
+    margin-left: 0.5rem;
+}
+
+.addSignBox {
+    background-color: $primary-background;
+    padding: 12px 26px 12px 20px;
+    border-radius: 4px;
+    border: 2px dashed $secondary-background;
+    cursor: pointer;
+}
+
+.changeSign {
+    font-size: 14px;
+    color: $active-link;
+    padding: 8px 2px;
+    width: max-content;
+    margin-top: 2px;
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.headingRed {
+    color: $blue;
+    font-family: Gilroy-SemiBold;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.subHeading {
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 0.5rem;
+}

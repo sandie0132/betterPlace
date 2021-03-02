@@ -1,0 +1,87 @@
+@import '../../../../../theme.scss';
+
+.Footer{
+    background-color: $card-bg;
+    color: $secondary-label;
+    width: 100%;
+    padding: 15px 25px 15px 25px;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    font-size: 14px;
+    border-top : 1px solid $horizontal-line;
+
+}
+.BottomSearch{
+    background-color: $primary-background;
+    height: 14rem;
+    width:110%;
+    position: sticky;
+    left:0;
+    margin-left: -10%;
+    bottom: 4rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.11);
+}
+
+.verticalLine{
+    height: 3rem;
+    border-left: 2px solid $primary-background;
+    position: absolute;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    top: 10px;
+}
+.FooterButton{
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding: 9px 15px 9px 15px;
+    border-radius: 25px;
+    background-color: $secondary-label;
+    color: $card-bg;
+    margin-left: 1rem; 
+}
+.FooterButtonInactive{
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding: 9px 15px 9px 15px;
+    border-radius: 25px;
+    background-color: $disabled-checkbox;
+    color: $secondary-label;
+    margin-left: 1rem;
+}
+.dropdownMenu{
+    max-height: 12rem !important;
+    position: absolute;
+    bottom : 3rem;
+}
+.tagSearch{
+    position: relative;
+    display: inline-block;
+    padding-left: 3rem;
+    width:100%;
+    background-color: $card-bg;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.closeImg{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+   &:hover{
+       cursor: pointer;
+   }
+}
+
+.Number{
+    color: $card-bg;
+    background-color:  $secondary-label;
+    padding: 2px 6px 0px 6px;
+    border-radius: 4px;
+}
+.AlignRight{
+    position: absolute;
+    right: 2.5rem;
+}
+*:focus {outline:none !important}

@@ -1,0 +1,164 @@
+@import '../../../../../theme.scss';
+
+.VerifyActive {
+	background-color: $secondary-background;
+	color: $active-link;
+	border-radius: 8px;
+	padding: 1rem;
+}
+
+.VerifyInactive {
+	background-color: $primary-background;
+	color: $active-link;
+	border-radius: 8px;
+	padding: 1rem;
+	// opacity: 0.4;
+	// cursor: default;
+}
+
+.ProdLabel {
+	font-size: 12px;
+}
+
+.serviceOps {
+	font-size: 18px;
+	color: $card-link;
+	font-family: 'Gilroy-Bold';
+}
+
+.AlignRight {
+	height: 10px;
+	margin-left: 16px;
+}
+
+.LinkBg {
+	font-size: 14px;
+	color: $active-link !important;
+	text-decoration: none;
+	cursor: pointer;
+	width: 100%;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.configTab {
+	padding: 4px 8px;
+	border-radius: 4px;
+	width: max-content;
+	font-size: 12px;
+	display: flex;
+	&:hover {
+		background-color: $card-bg;
+		cursor: pointer;
+	}
+}
+
+
+
+.inactiveConfigTab{
+	padding: 4px 8px;
+	border-radius: 4px;
+	width: max-content;
+	font-size: 12px;
+	opacity: 0.4;
+	cursor: default;
+}
+
+.dashboardTab {
+	padding: 6px;
+	border-radius: 4px;
+	background-color: $card-bg;
+	font-size: 14px;
+	display: flex;
+	cursor: pointer;
+	&:hover {
+		color: $card-bg;
+		background-color: $active-link;
+	}
+}
+
+.inactiveDashboardTab{
+	padding: 6px;
+	border-radius: 4px;
+	background-color: $card-bg;
+	font-size: 14px;
+	opacity: 0.4;
+	cursor: default;
+}
+
+.redDot {
+	height: 6px;
+	width: 6px;
+	background-color: $danger;
+	border-radius: 50%;
+    display: inline-block;
+    &:hover{
+        box-shadow: 0 0 0 0.5px $danger;
+    }
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	border: 1px solid $success-notification-bgv-border;
+	background-color: $success-notification-bgv;
+    color: $card-link;
+    font-size: 10px;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px 0;
+	position: absolute;
+    z-index: 1;
+    
+    //top position of tooltip
+	width: 120px;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+	/* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.configImg{
+	background: url('../../../../../assets/icons/configActive.svg');
+	height: 16px;
+	width: 16px;
+	margin-right: 12px;
+}
+
+.dashboardImg{
+	height: 16px;
+	width: 16px;
+	margin-right: 12px;
+	margin-top: 2px;
+	background: url('../../../../../assets/icons/dashboardActive.svg');
+}
+
+.rightArrow{
+	height: 16px;
+	width: 16px;
+	margin-top: 3px;
+	background: url('../../../../../assets/icons/dashboardActiveArrow.svg');
+}
+
+.configTab:hover .configImg{
+	background: url('../../../../../assets/icons/configHover.svg');
+}
+
+.dashboardTab:hover .dashboardImg{
+	background: url('../../../../../assets/icons/dashboardHover.svg');	
+}
+
+.dashboardTab:hover .rightArrow{
+	background: url('../../../../../assets/icons/dashboardHoverArrow.svg');	
+}
+

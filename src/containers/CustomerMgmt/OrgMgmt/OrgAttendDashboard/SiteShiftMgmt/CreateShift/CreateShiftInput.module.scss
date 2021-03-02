@@ -1,0 +1,101 @@
+@import'../../../../../../theme.scss';
+
+.Label{
+  color: $secondary-label;
+  font-family: Gilroy;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+.Input{
+    width: 272px !important;
+}
+
+.inputContainer{
+    color: $primary-label;
+    padding: 8px !important;
+    margin: 0px !important;
+    width: fit-content !important;
+}
+
+.inputContainer input{
+    color: $primary-label;
+    font-size: 12px;
+    width: 48px !important;
+    text-align: center;
+
+
+}
+.inputContainer input:focus{
+    color: $primary-label;
+    font-size: 12px;
+    text-align: center;
+}
+
+.dropdownMenu {
+    width: 80px;
+    margin-top: -40px;
+    font-size: 12px !important;
+}
+.dropdownMenu div label{
+    font-size: 12px !important;
+}
+
+.dropDownStyle{
+   width: 80px;
+}
+.dropDownStyle div{
+    background-color: $card-bg;
+    color: $primary-label;
+}
+
+.optionDropdown {
+    width: 80px;
+    height: 40px;
+    padding: 10px 16px;
+    font-size: 12px !important;
+    background-color: $card-bg !important;
+}
+
+.optionDropdown img{
+    margin-left: 0px;
+}
+
+.dropdownMenuLarge {
+    width: 140px;
+    margin-top: -40px;
+    font-size: 12px !important;
+}
+.dropdownMenuLarge div label{
+    font-size: 12px !important;
+}
+
+.dropDownStyleLarge{
+   width: 140px;
+}
+.dropDownStyleLarge div{
+    background-color: $card-bg;
+    color: $primary-label;
+}
+
+.optionDropdownLarge {
+    width: 140px;
+    height: 40px;
+    padding: 10px 16px;
+    font-size: 12px !important;
+    background-color: $card-bg !important;
+}
+
+.optionDropdownLarge img{
+    margin-left: 0px;
+}
+
+.requiredStar{
+    color: $danger;
+}
+.errorMessage{
+    color: $danger;
+    font-family: Gilroy;
+    font-size: 12px;
+}

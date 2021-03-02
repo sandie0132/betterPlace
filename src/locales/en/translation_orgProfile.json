@@ -1,0 +1,65 @@
+{
+    "image_alt_orgProfile": {
+        "img": "img",
+        "icon": "icon",
+        "right": "right"
+    },
+    "button_orgProfile": {
+        "goTo": "go to client"
+    },
+    "text": {
+        "t1": "organisation list",
+        "t2": "company address",
+        "t3": "contact person"
+    },
+    "label": {
+        "l1": "{{label}}",
+        "l2": "dashboard",
+        "l3": "configuration",
+        "l4": "enable ",
+        "l5": "{{legalName}}",
+        "l6": "{{addressLine1} {addressLine2} {city} {state} {country} {pincode}}",
+        "l7": "employees",
+        "l8": "edit org",
+        "l9": "all clients",
+        "l10": "edit configuration",
+        "l11": "products",
+        "l12": "services",
+        "l13": "platform services"
+    },
+    "subHeading": {
+        "services": "services",
+        "products": "products"
+    },
+    "span": {
+        "s1": "{{label}} is disabled because of inactivity"
+    },
+    "input_orgProfile": {
+        "label": {},
+        "placeholder": {}
+    },
+    "rightNav": {
+        "l1": "contact person",
+        "l2": "location & sites",
+        "l3": "function & roles",
+        "l4": "all employees",
+        "l5": "custom tags",
+        "l6": "vendors"
+    },
+    "productCard": {
+        "verify": "verify",
+        "config": "configuration",
+        "configIncomplete": "configuration is not completed yet",
+        "dashboard": "dashboard",
+        "warningText": "warning!",
+        "warningPara": "disabling will erase your existing configuration",
+        "warningDisable": "disable",
+        "warningCancel": "cancel",
+        "alertText": "alert",
+        "alertPara": "this action cannot be performed",
+        "alertOk": "okay",
+        "operations": "operations",
+        "onboard": "onboard",
+        "vendor": "vendors"
+    }
+}

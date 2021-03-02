@@ -1,0 +1,194 @@
+@import '../../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    // overflow: auto;
+}
+
+.ContainerPadding64{
+    padding-top: 24px;   
+}
+
+.ContainerPaddingTop{
+    padding-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.PaddingRight16px{
+    padding-right: 16px; 
+}
+
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+.CardPadding{
+    padding: 40px 40px;
+}
+
+.FormBackGround{
+    width: 100%;
+    background-color:$primary-background;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    right:0;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+}
+.AlignLeft{
+    margin-left: 10rem ;
+    margin-right: 1rem;
+}
+
+.Arrow{
+    padding-right:1rem;
+}
+
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Bold';	
+    font-size: 14px;	
+    line-height: 50px;
+}
+
+.Heading1{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Medium';	
+    font-size: 14px;
+    line-height: 10px;
+    margin-left: 3.5%;
+    margin-right: 22%;
+}
+
+.Heading2{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Medium';	
+    font-size: 14px;
+    line-height: 10px;
+    margin-left: 18.5%;
+    margin-right: 22%;
+}
+
+.Options{	
+    font-family: 'Gilroy-Medium';	
+    font-size: 14px;
+    padding-left: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.PaddingLeft{
+    padding-left: 0.8rem;
+    margin-top: 1.2rem;
+}
+
+.OptionType{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Light';	
+    font-size: 12px;
+    padding-left: 25%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.TATLabel{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Light';	
+    font-size: 14px;
+    margin-top:7%;
+}
+
+.HorizontalLine{
+    border: 1px solid $horizontal-line;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 1rem;
+}
+
+.OptionWithHeading{
+    color:$secondary-label;
+    font-family: 'Gilroy-Light';	
+    font-size: 12px;
+    margin-bottom: 0rem;
+    margin-top:0rem;
+    padding-top:0rem;
+    padding-bottom:0rem;
+    float : left;
+    // padding-left: 0%;
+}
+
+.SubHeading{
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+    margin-bottom: 0%;
+    float: left;
+    justify-content: center;
+    // margin-left: 0.3rem;
+    padding-bottom: 0%;
+    line-height: 14px;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+}
+
+.HideErrorNotificationCard{
+    display: none;
+}
+
+.InputField{
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+}
+
+.PaddingLeftArrow{
+    padding-left: 15%;
+    margin-top: 16px;
+}
+
+.Label{
+    font-family: 'Gilroy-Medium';	
+    font-size: 14px;	
+    line-height: 17px;
+    color: $secondary-label;
+}
+
+.smallLabel{
+    color:$secondary-label;
+    font-family: 'Gilroy-Medium';	
+    font-size: 12px;
+    float: left;
+    padding-left: 1%;
+    line-height: 14px;
+}
+
+.TatUnit{
+    margin-top: 0.9rem;
+}
+
+.paddingY{
+    padding-bottom: 24px;
+    padding-top: 1rem;
+    min-width: 16rem;
+}
+
+.serviceIcon {
+    height: 32px;
+}

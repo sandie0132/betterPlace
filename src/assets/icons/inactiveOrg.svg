@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon / 16 / info / deactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,0 C3.581722,-2.705415e-16 5.41083001e-16,3.581722 0,8 C-5.41083001e-16,12.418278 3.581722,16 8,16 C12.418278,16 16,12.418278 16,8 C15.9952234,3.58370203 12.416298,0.00477656508 8,0 Z M8,2 C9.24489724,2.00005386 10.4585438,2.38983815 11.4706667,3.11466667 L3.11466667,11.4706667 C1.81040522,9.64311816 1.63753986,7.23969379 2.66683802,5.24430492 C3.69613618,3.24891605 5.75477845,1.99658896 8,2 L8,2 Z M8,14 C6.75510276,13.9999461 5.54145623,13.6101619 4.52933333,12.8853333 L12.8853333,4.52933333 C14.1895948,6.35688184 14.3624601,8.76030621 13.333162,10.7556951 C12.3038638,12.751084 10.2452216,14.003411 8,14 Z" id="path-1"></path>
+    </defs>
+    <g id="🏂-on-boarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_OPs--all_clients-multy" transform="translate(-401.000000, -119.000000)">
+            <g id="nav" transform="translate(160.000000, 119.000000)">
+                <g id="insights-copy" transform="translate(241.000000, 0.000000)">
+                    <g id="icon-/-16-/-info-/-deactive">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

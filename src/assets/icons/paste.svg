@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>paste-enable</title>
+    <g id="roster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Publish-functionalitv2_03" transform="translate(-945.000000, -4.000000)">
+            <g id="Group-3" transform="translate(160.000000, 4.000000)">
+                <g id="paste-enable" transform="translate(785.000000, 0.000000)">
+                    <path d="M4,0 L28,0 C30.209139,-4.05812251e-16 32,1.790861 32,4 L32,28 C32,30.209139 30.209139,32 28,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#E5EEF7"></path>
+                    <g id="todo" transform="translate(8.000000, 8.000000)" stroke="#7D97AC" stroke-linecap="square">
+                        <polyline id="Path" points="10.7826087 1.04347826 14.2608696 1.04347826 14.2608696 15.6521739 0.347826087 15.6521739 0.347826087 1.04347826 3.82608696 1.04347826"></polyline>
+                        <polyline id="Path" points="5.2173913 10.0869565 6.60869565 11.4782609 9.39130435 8.69565217"></polyline>
+                        <path d="M3.82608696,0.347826087 L3.82608696,4.52173913 L5.91304348,4.52173913 C5.91304348,3.75304348 6.53565217,3.13043478 7.30434783,3.13043478 C8.07304348,3.13043478 8.69565217,3.75304348 8.69565217,4.52173913 L10.7826087,4.52173913 L10.7826087,0.347826087 L3.82608696,0.347826087 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

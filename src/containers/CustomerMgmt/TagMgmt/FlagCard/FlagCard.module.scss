@@ -1,0 +1,34 @@
+@import '../../../../theme.scss';
+
+.FlagCard{
+    background-color: rgba(235,236,253,0.2);
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    width:auto;
+    margin-top:1rem;
+    margin-right:1rem;	
+    border-radius: 4px;
+    border: 1px solid  rgba(235,236,253,0.2);
+    &:hover{
+        border: 1px solid $secondary-background;
+        cursor: pointer;
+    }
+}
+.selectedFlagCard{
+    background-color: $secondary-background;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    width:auto;
+    margin-top:1rem;
+    margin-right:1rem;	
+    border-radius: 4px;
+    border: 1px solid  rgba(235,236,253,0.2);
+    &:hover{
+        border: 1px solid $secondary-background;
+        cursor: pointer;
+    }
+}
+
+.CountryText{
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy';
+}

@@ -1,0 +1,30 @@
+@import '../../../theme.scss';
+.Tabs{
+    padding: 8px 20px;
+    background-color:$secondary-label;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.closeButton{
+    
+    padding-left: 2rem;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.TabButton{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+span[disabled]
+{
+  pointer-events: none;
+}
+
+.tagName{
+    color: $card-bg;
+    font-size: 14px;
+    word-break: break-all;
+}

@@ -1,0 +1,113 @@
+@import "../../../../../../theme.scss";
+
+.filterCard {
+    width: 100%;
+    background-color: $card-bg;
+    position: absolute;
+    z-index: 99;
+    top: 4.3rem;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+}
+
+.filterCard:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid $card-bg;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    left: 18.5%;
+    top: -16px;
+  }
+
+.filterCardClosed {
+    width: 100%;
+    background-color: $card-bg;
+    margin: 12px 0px;
+    padding: 8px 16px;
+    display: inline-flex;
+}
+
+.smallText {
+    font-size: 14px;
+}
+
+.smallTextBold {
+    font-family: "gilroy-bold";
+    padding-right: 6px;
+}
+
+.removeText {
+    font-size: 12px;
+    color: $danger;
+    text-decoration: underline;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.smalHeading {
+    font-size: 14px;
+    font-family: "gilroy-bold";
+    margin-bottom: 16px;
+}
+
+.card {
+    padding: 0px 16px 36px 16px;
+    margin-top: 16px;
+}
+
+.placeholderText {
+    font-size: 18px !important;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.selectedTagTab {
+    background-color: $primary-background;
+    padding: 2px 6px 2px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: $secondary-label;
+    width: max-content;
+    margin-bottom: 4px;
+    margin-right: 8px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.btn {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.footer {
+    display: inline-flex;
+    background-color: $primary-background;
+    width: 98%;
+    margin: 8px !important;
+    padding: 8px;
+}
+
+.resetButton {
+    font-size: 14px;
+    text-decoration: underline;
+    color: $secondary-label;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.borderLeft{
+    border-left: 2px solid $secondary-label;
+}

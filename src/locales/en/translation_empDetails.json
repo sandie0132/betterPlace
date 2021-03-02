@@ -1,0 +1,19 @@
+{
+    "button_empDetails": {
+        "terminate":"terminate",
+        "save": "save",
+        "edit": "edit",
+        "cancel": "cancel"
+    },
+    "warning_empDetails_cancel" : {
+        "text" : "cancel?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, cancel" ,
+        "cancelText" : "keep"
+    },
+    "label":"do you want to terminate the employee ?",
+    "empSearch":{
+        "label":"select reporting manager",
+        "placeholder":"start searching manager here"
+    }
+}

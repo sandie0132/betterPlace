@@ -1,0 +1,31 @@
+{
+    "button_empContact": {
+        "save": "save",
+        "edit": "edit",
+        "cancel": "cancel"
+    },
+    "warning_empContact_cancel": {
+        "text": "cancel?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, cancel",
+        "cancelText": "keep"
+    },
+    "input_empContact": {
+        "label": {
+            "mobileNumberOne": "mobile number 1 *",
+            "primaryNumber1": "primary number",
+            "mobileNumberTwo": "mobile number 2",
+            "primaryNumber2": "primary number",
+            "email1": "email 1 *",
+            "primaryNumber3": "primary email",
+            "email2": "email 2",
+            "primaryNumber4": "primary email"
+        },
+        "placeholder": {
+            "mobileNumber": "mobile number",
+            "email": "email"
+        }
+    },
+    "cardHeader": "contact details",
+    "profile": "'s profile"
+}

@@ -1,0 +1,117 @@
+{
+    "image_alt_docVerification": {
+        "card": "card",
+        "todo": "todo",
+        "red": "red",
+        "yellow": "yellow",
+        "green": "green",
+        "search": "search",
+        "reload": "reload",
+        "timer": "timer",
+        "profile": "profile",
+        "lock": "lock"
+    },
+    "dashboard": "dashboard",
+    "todo": "todo's for",
+    "searchByName": "search task by name/emp id",
+    "searchByPhone": "search task by phonenumber",
+    "downloadTasks": "download all tasks",
+    "reload": "reload",
+    "taskPicked": "task picked up by",
+    "reference": {
+        "name": "reference name",
+        "relation": "relation",
+        "dob": "date of birth",
+        "mobile": "mobile number"
+    },
+    "police": {
+        "name": "full name",
+        "city": "police verification city",
+        "downloadTasks": "download police verification tasks",
+        "tasks": "police verification tasks",
+        "downloadExcel": "download excel",
+        "uploadTasks": "upload police verification tasks",
+        "wait": "please wait while uploading excel",
+        "success": "successfully uploaded excel",
+        "process": "processing open tasks",
+        "updating": "updating 45/128 tasks",
+        "updated": "updated 50/60 tasks status",
+        "confirm": "confirmation",
+        "updateFail": "4/60 tasks update failed because of error in excel",
+        "fileName": "employeeDetails.xlsx"
+    },
+    "manualAddress": {
+        "address": "full address",
+        "addressLine1": "address line 1",
+        "addressLine2": "address line 2",
+        "pincode": "pincode",
+        "district": "district",
+        "state": "state"
+    },
+    "health": {
+        "name": "full name",
+        "bloodGroup": "blood group"
+    },
+    "education": {
+        "board": "board of university",
+        "qualification": "qualification",
+        "course": "course",
+        "year": "graduation year",
+        "start": "start date",
+        "end": "end date",
+        "percent": "cgpa/percentage",
+        "verifier": "verifier contact number",
+        "verifierMail": "verifier email"
+    },
+    "employment": {
+        "company": "company name",
+        "hrName": "hr name",
+        "hrMobile": "hr mobile number",
+        "hrMail": "hr email id",
+        "empVerified": "employee verified as",
+        "hrCase": "case by hr",
+        "hrNoResponse": "no response by hr",
+        "reportName": "reporting manager name",
+        "reportMobile": "reporting manager number",
+        "reportMail": "reporting manager email id",
+        "reportCase": "case by reporting manager",
+        "reportNoResponse": "no response by reporting manager",
+        "empId": "emp id",
+        "designation": "designation",
+        "joining": "date of joining",
+        "relieving": "date of relieving",
+        "salary": "renumeration/salary"
+    },
+    "documents": {
+        "name": "full name",
+        "dob": "date of birth",
+        "number": "number"
+    },
+    "crc": {
+        "caseList": "case list",
+        "name": "full name",
+        "pincode": "address pincode",
+        "match": "matching case details",
+        "review": "review",
+        "noCases": "no cases found",
+        "type": "name",
+        "address": "address",
+        "district": "district name and state",
+        "comments": "comments",
+        "relevant": "relevant",
+        "nonrelevant": "non-relevant"
+    },
+    "globaldb": {
+        "name": "full name",
+        "dob": "date of birth",
+        "gender": "gender",
+        "nationality": "nationality",
+        "country": "country"
+    },
+    "commentsSection": {
+        "selectStatus": "select status",
+        "comments": "comments",
+        "link": "google link",
+        "linkPlaceholder": "http://"
+    }
+}

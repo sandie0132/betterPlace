@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon / client left bar icon / verify</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,3.01980663e-14 C5.372583,3.01980663e-14 3.01980663e-14,5.372583 3.01980663e-14,12 C3.01980663e-14,18.627417 5.372583,24 12,24 C18.627417,24 24,18.627417 24,12 C24,8.81740212 22.7357179,5.76515517 20.4852814,3.51471863 C18.2348448,1.26428208 15.1825979,3.01980663e-14 12,3.01980663e-14 Z" id="path-1"></path>
+        <path d="M11.3636364,7.09086 L11.3636364,9.72727273 L8.72722364,9.72727273 L8.72722364,8.72727273 L10.3636364,8.72727273 L10.3636364,7.09086 L11.3636364,7.09086 Z M2.63636364,7.09086 L2.63636364,8.72727273 L4.27277636,8.72727273 L4.27277636,9.72727273 L1.63636364,9.72727273 L1.63636364,7.09086 L2.63636364,7.09086 Z M13,4.36363636 L13,5.36363636 L0,5.36363636 L0,4.36363636 L13,4.36363636 Z M4.27277636,0 L4.27277636,1 L2.63636364,1 L2.63636364,2.63641273 L1.63636364,2.63641273 L1.63636364,0 L4.27277636,0 Z M11.3636364,0 L11.3636364,2.63641273 L10.3636364,2.63641273 L10.3636364,1 L8.72722364,1 L8.72722364,0 L11.3636364,0 Z" id="path-3"></path>
+    </defs>
+    <g id="🚀-Initiate-BGV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-514.000000, -178.000000)">
+            <g id="form-field" transform="translate(514.000000, 178.000000)">
+                <g id="verify">
+                    <g id="icon-/-client-left-bar-icon-/-verify">
+                        <g id="container">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="base" fill="#F3F7FD" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#0059B2" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                        <g id="icon" transform="translate(6.000000, 7.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#8697A8" fill-rule="nonzero" xlink:href="#path-3"></use>
+                            <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-4)" x="-6" y="-7" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

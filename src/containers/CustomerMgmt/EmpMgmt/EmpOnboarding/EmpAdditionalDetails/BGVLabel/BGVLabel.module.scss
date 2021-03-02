@@ -1,0 +1,100 @@
+@import "../../../../../../theme.scss";
+
+.background {
+    border-radius: 26px;
+    padding: 4px 8px;
+}
+
+.text {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 14px;
+    font-family: "gilroy-Thin";
+    font-weight: bolder;
+}
+
+.progressBG {
+    border: 1px solid rgba(130, 152, 170, 0.26);
+    background-color: rgba(130, 152, 170, 0.1);
+}
+
+.progressText {
+    color: $secondary-label;
+    margin-right: 0.5rem;
+}
+
+.yellowBG {
+    border: 1px solid $warning;
+    background-color: $warning-background;
+}
+
+.yellowText {
+    color: $warning;
+}
+
+.greenBG {
+    border: 1px solid $success;
+    background-color: $success-notification;
+}
+
+.greenText {
+    color: $success;
+}
+
+.redBG {
+    border: 1px solid $danger;
+    background-color: $error-notification;
+}
+
+.redText {
+    color: $danger;
+}
+
+// for tooltip
+.tooltip {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	border: 1px solid $success-notification-bgv-border;
+	background-color: $success-notification-bgv;
+    color: $card-link;
+    font-size: 10px;
+	border-radius: 4px;
+	padding: 5px 10px;
+	position: absolute;
+    z-index: 1;
+    
+    //top position of tooltip
+    width: max-content;
+    height: max-content;
+    bottom: 0%;
+    left: 0%;
+    top: 5%;
+    margin-left: -150px;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.BlackSmallText{
+    color: $primary-label;
+    font-size: 10px;
+    font-family: 'Gilroy-Medium';
+}
+
+.YellowHr{
+    border: 1px solid $warning;
+    opacity: 10%;
+    margin: 0.5rem 0rem;
+}
+
+.YellowSmallText{
+    color: $warning;
+    font-size: 10px;
+    font-family: 'Gilroy-Medium';
+}

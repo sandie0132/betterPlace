@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>icon / 24 / info / arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.0143579,11 L15.0143579,8 L16.4285714,6.58578644 L20.842785,11 L21,11 L21,11.157215 L21.842785,12 L21,12.842785 L21,13 L20.842785,13 L16.4285714,17.4142136 L15.0143579,16 L18.0143579,13 L3,13 L3,11 L18.0143579,11 Z" id="path-1"></path>
+    </defs>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-add-employee-Entity-business-asociate" transform="translate(-162.000000, -22.000000)">
+            <g id="header-with-back" transform="translate(160.000000, 16.000000)">
+                <g id="icon-/-24-/-info-/-arrow-right" transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) ">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Path" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#8697A8" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

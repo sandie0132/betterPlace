@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2C6F8553-3A6A-4D12-8EFD-781730C999B4</title>
+    <defs>
+        <polygon id="path-1" points="8.16666667 3.88888889 5.11111111 3.88888889 5.11111111 0.833333333 3.88888889 0.833333333 3.88888889 3.88888889 0.833333333 3.88888889 0.833333333 5.11111111 3.88888889 5.11111111 3.88888889 8.16666667 5.11111111 8.16666667 5.11111111 5.11111111 8.16666667 5.11111111"></polygon>
+    </defs>
+    <g id="profille_view-mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="attendance-_profile_02" transform="translate(-200.000000, -749.000000)">
+            <g id="Group-5" transform="translate(176.000000, 529.000000)">
+                <g id="Group-12" transform="translate(0.000000, 106.000000)">
+                    <g id="annual" transform="translate(24.000000, 114.000000)">
+                        <rect id="Rectangle" fill="#BFD554" opacity="0.300000012" x="2" y="2" width="19.2" height="19.2" rx="9.6"></rect>
+                        <g id="icon-/-12-/-info-/-add" transform="translate(7.000000, 7.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Path" fill="#EBECFD" xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#BFD554" mask="url(#mask-2)" x="-1" y="-1" width="11" height="11"></rect>
+                        </g>
+                        <rect id="Rectangle" stroke="#BFD554" x="0.5" y="0.5" width="22" height="22" rx="11"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

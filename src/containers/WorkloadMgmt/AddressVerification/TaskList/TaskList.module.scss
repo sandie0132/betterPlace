@@ -1,0 +1,249 @@
+@import '../../../../theme.scss';
+
+.Card{
+    background-color: $card-bg;
+    border-radius: 4px;
+    padding: 1rem 0.5rem 1rem 1rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
+}
+
+.Cursor{
+	cursor: pointer;
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+.Heading{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-SemiBold';
+}
+
+.Width1{
+    width: 32%;
+    padding-left: 2rem;
+}
+
+.Width2{
+    width: 17%;
+}
+
+.Width3{
+    width: 18%;
+}
+
+.Width4{
+    width: 16%;
+}
+
+.Width5{
+    width: 11%;
+}
+
+.Profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.EmpName{
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-SemiBold';
+    word-break: break-word;
+    line-height: 16px;
+    width: 23%;
+}
+
+.EmpDetails{
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    word-break: break-word;
+    line-height: 16px;
+}
+
+.PincodeWidth{
+    width: 17%;
+}
+
+.AssignWidth{
+    width: 18%;
+}
+
+.StatusWidth{
+    width: 16%;
+}
+
+.TATWidth{
+    width: 10%;
+}
+
+.Container {
+	display: block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.Container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.Checkmark {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 4px;
+	background-color: $card-bg;
+}
+
+.Container:hover input~.Checkmark {
+	background-color: $card-bg;
+}
+
+.Container input:checked~.Checkmark {
+	background-color: $active-link;
+}
+
+.Checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.Container input:checked~.Checkmark:after {
+	display: block;
+}
+
+.Container .Checkmark:after {
+	left: 5px;
+	top: 2px;
+	width: 5px;
+	height: 9px;
+	border: solid $card-bg;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.Line {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 4px;
+	border: 1px solid;
+	background-color: $card-bg;
+}
+
+.Container:hover input~.Line {
+	background-color: $card-bg;
+}
+
+.Container input:checked~.Line {
+	background-color: $secondary-label;
+}
+
+.Line:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.Container input:checked~.Line:after {
+	display: block;
+}
+
+.Container .Line:after {
+	left: 3px;
+	width: 7px;
+	height: 10px;
+	border: solid $card-bg;
+	border-width: 0 3px 0 0;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.actionContent {
+	color: $secondary-label;
+	font-family: "Gilroy-Medium";
+	height: 2.5rem;
+	position: relative;
+}
+
+.mainDiv {
+	margin-left: 1rem;
+	&:hover {
+		filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+	}
+}
+
+.ActiveButton {
+	font-family: "Gilroy-Medium";
+	font-size: 12px;
+	margin-top: 6px;
+	background-color: $secondary-background;
+	color: $active-link;
+	padding: 6px;
+	margin-left: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.InactiveButton {
+	color: $secondary-label;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: "Gilroy-Light";
+	font-size: 12px;
+	margin-left: 6px;
+	margin-right: 6px;
+	&:hover {
+		cursor: pointer;
+		border-bottom: 2px solid $secondary-label;
+		padding-bottom: 8px;
+		font-family: "Gilroy-Medium";
+	}
+}
+
+.filtersMessage{
+	background-color: $primary-background;
+	font-size: 12px;
+	color: $primary-label;
+	width: 98%;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.Link {
+    text-decoration: none;
+    &:hover{
+    text-decoration: none;
+    }
+}
+
+.DownloadLoader{
+	bottom: 2rem;
+	right: 2rem;
+}
+
+.dash {
+    height: 1rem;
+}

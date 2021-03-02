@@ -1,0 +1,32 @@
+@import '../../../../../../theme.scss';
+
+.smallText{
+    color: $primary-label;	
+    font-family: Gilroy-Medium;	
+    font-size: 14px;	
+    line-height: 16px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    word-break: word-break;
+}
+
+.greyBoldText{
+    color: $secondary-label;	
+    font-family: Gilroy-Bold;	
+    font-size: 14px;	
+    line-height: 0px;
+}
+
+.mediumText{   
+    font-size: 18px;
+    color: $primary-label;
+    word-break: word-break;
+    line-height: 1px;
+}
+
+.greyContent{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 16px;
+}

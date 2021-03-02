@@ -1,0 +1,94 @@
+@import "../../../theme.scss";
+
+.Container {
+    box-shadow: 0 0.125rem 1rem 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 0.25rem;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+    padding: 2rem;
+}
+
+.EmptyContainer{
+    background-color: $card-bg;
+    border: none;
+    flex-wrap: nowrap;
+    padding: 2rem;
+}
+
+.Image{
+  display: flex;
+  justify-content: center;
+  margin-top: 0rem;
+}
+
+.Bold{
+    font-size: 14px;
+    line-height: 22px;
+    color: $secondary-label;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+}
+
+.Medium{
+    font-size: 14px;
+    line-height: 22px;
+    color: $secondary-label;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+}
+
+.Text{
+    font-size: 14px;
+    line-height: 22px;
+    color: $secondary-label;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: 'Gilroy';
+}
+
+.Heading{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-Bold';
+}
+
+.Width1{
+    width: 32%;
+}
+
+.Width2{
+    width: 17%;
+}
+
+.Width3{
+    width: 18%;
+}
+
+.Width4{
+    width: 16%;
+}
+
+.Width5{
+    width: 11%;
+}
+
+.VendorEmptyState{
+	height: 12rem;
+	margin-top: 2rem;
+}
+
+.VendorInfo{
+    color: $card-link;
+    font-size: 14px;
+    line-height: 24px;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	width: 100%;
+}

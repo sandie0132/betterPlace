@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55 (78076) - https://sketchapp.com -->
+    <title>DA18F282-2FC5-446F-AA27-43C5A65F311E</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="🏂-on-boarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-BGV-Client-onboarding_location_B" transform="translate(-199.000000, -468.000000)" stroke="#0059B2">
+            <g id="section" transform="translate(160.000000, 119.000000)">
+                <g id="upload-logo" transform="translate(40.000000, 350.000000)">
+                    <g id="Security-Guard">
+                        <g id="add">
+                            <path d="M20,0 L20,0 C31.045695,-2.02906125e-15 40,8.954305 40,20 L40,20 C40,31.045695 31.045695,40 20,40 L20,40 C8.954305,40 1.3527075e-15,31.045695 0,20 L0,20 C-1.3527075e-15,8.954305 8.954305,2.02906125e-15 20,0 Z" id="Rectangle" fill="#EBECFD" stroke-dasharray="2,2"></path>
+                            <g id="i-add" transform="translate(16.000000, 16.000000)" stroke-linecap="square" stroke-width="2">
+                                <path d="M4,0 L4,8" id="Path"></path>
+                                <path d="M8,4 L0,4" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

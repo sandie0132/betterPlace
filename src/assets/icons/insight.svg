@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon / 16 / info / insight</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.6981435,12.9734129 C11.3938937,14.852119 9.27935608,16 6.96470588,16 C3.13196729,16 4.35207426e-14,12.8680327 4.35207426e-14,9.03529412 C4.35207426e-14,5.20255553 3.13196729,2.07058824 6.96470588,2.07058824 L6.96470588,-3.55271368e-15 C11.9717647,-3.55271368e-15 16,4.02823529 16,9.03529412 C16,10.9176471 15.3976471,12.6870588 14.4188235,14.1552941 L12.6981436,12.973413 Z M6.96470588,3.95294118 C4.17156212,3.95294118 1.88235294,6.24215035 1.88235294,9.03529412 C1.88235294,11.8284379 4.17156212,14.1176471 6.96470588,14.1176471 C8.64826465,14.1176471 10.1876704,13.2836942 11.1465226,11.9076531 L6.96470588,9.03529412 L6.96470588,3.95294118 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="left-bar" transform="translate(-16.000000, -126.000000)">
+            <g id="Left-Bar">
+                <g id="insights" transform="translate(16.000000, 126.000000)">
+                    <g id="icon-/-16-/-info-/-insight">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#0059B2" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="57px" viewBox="0 0 56 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61 (101010) - https://sketch.com -->
+    <title>0574068C-D500-4822-B651-E9B048441AEB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="56" height="56" rx="28"></rect>
+        <polygon id="path-3" points="26.6666667 14.2222222 17.7777778 14.2222222 17.7777778 5.33333333 14.2222222 5.33333333 14.2222222 14.2222222 5.33333333 14.2222222 5.33333333 17.7777778 14.2222222 17.7777778 14.2222222 26.6666667 17.7777778 26.6666667 17.7777778 17.7777778 26.6666667 17.7777778"></polygon>
+    </defs>
+    <g id="🖥-Ops_analyst-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="physical-verification_04" transform="translate(-572.000000, -700.000000)">
+            <g id="pan-details-copy" transform="translate(160.000000, 332.000000)">
+                <g id="door-number" transform="translate(312.000000, 276.000000)">
+                    <g id="Group">
+                        <g id="icon-/-40-/-info-/-add-more" transform="translate(100.000000, 92.000000)">
+                            <g id="add-more" transform="translate(0.000000, 0.800000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Rectangle" fill="#E5EEF7" xlink:href="#path-1"></use>
+                                <g id="icon-/-12-/-info-/-add" mask="url(#mask-2)">
+                                    <g transform="translate(12.000000, 12.000000)">
+                                        <mask id="mask-4" fill="white">
+                                            <use xlink:href="#path-3"></use>
+                                        </mask>
+                                        <use id="Path" stroke="none" fill="#EBECFD" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                        <rect id="Rectangle" stroke="none" fill="#0059B2" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="0" width="32" height="32"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

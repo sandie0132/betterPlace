@@ -1,0 +1,123 @@
+@import '../../../theme.scss';
+
+.RadioButtonContainer{
+    border-radius: 20px;
+    background-color: $secondary-background;
+    height:40px; //2.5rem
+    //width:124px; //7rem
+    text-align: center;
+    align-items: center;
+    margin-left: 0.5rem; //0.3rem
+}
+
+.RadioButton{
+    appearance: none;
+    //display: inline-block;
+    position: relative;
+    background-color: $card-bg;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    top: 30%;
+    right:10%;
+    float: right;
+    border-radius: 50%;
+    margin-right: 0%;
+    outline: none;
+}
+
+.RadioButtonSimple{
+    appearance: none;
+    position: relative;
+    background-color: #F5F7FB;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 0%;
+}
+
+.RadioButton:checked::before, .RadioButtonSimple::before{
+    background-color: $card-bg;
+}
+
+.RadioButton:checked, .RadioButtonSimple:checked{
+     background-color: $card-bg;
+     border: 4px solid $active-link;
+}
+
+.IconDisabled{
+    position: relative;
+    float: left;
+    left: 10%;
+    top: 25%;
+}
+
+.IconActive{
+    position: relative;
+    float: left;
+    left: 10%;
+    top: 25%;
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.inactiveLabel{
+    position: relative;
+    float: left;
+    color: $disabled-label;
+    font-family: Gilroy;	
+    font-size: 14px;
+    line-height: 17px;
+    width: max-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 12px;
+    &:hover{
+        cursor: default;
+    }
+}
+
+.LabelDisabled{
+    //padding: 10%;
+    position: relative;
+    float: left;
+    //padding: 10%;
+    //margin-left: 10%;
+    color: $disabled-label;
+    font-family: Gilroy;	
+    font-size: 14px;
+    line-height: 17px;
+    width: max-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 12px;
+    &:hover{
+        cursor: pointer;
+        color: $active-link;
+    }
+}
+
+.LabelActive{
+    position: relative;
+    float: left;
+    color: $active-link;
+    font-family: Gilroy;	
+    font-size: 14px;
+    line-height: 17px;
+    width: max-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 12px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.LabelActiveSimple{
+    margin:0 15px 0 5px;
+    font-family: Gilroy;	
+    font-size: 14px;
+    &:hover{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,138 @@
+@import '../../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 3%;
+    width: 100%;
+    // margin-top: 1rem;
+    padding-right: 5%;
+    // height: 100vh;
+    overflow: auto;
+}
+
+@media (min-width: 1025px) {
+    .alignCenter{
+        padding-right: 25%;
+    }
+}
+.ContainerPadding64{
+    padding-top: 1rem;   
+}
+
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+.CardPadding{
+    padding: 40px 40px;
+}
+
+.Arrow{
+    padding-right:1rem;
+}
+
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Bold';	
+    font-size: 14px;	
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.UploadDoc{
+    background-color: $secondary-background;
+    border-radius: 20px;
+}
+
+.UploadDocText{
+    color: $active-link;
+    font-size: 14px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.SubmitPadding{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.Border{
+    padding: 30px 30px;
+    border-radius: 4px;
+    border: 1px solid $primary-background;
+    border-width: 0.1rem;
+}
+
+.OrgHeading{
+    font-size: 24px;
+    color: $card-link;
+}
+
+.Italic{
+    color: $secondary-label;
+    font-size: 14px;
+}
+
+.smallLabel{
+    color:$card-link;	
+    font-family: 'Gilroy';	
+    font-size: 14px;	
+    line-height: 20px;
+    margin-bottom: 0%;
+}
+
+.HorizontalLine{
+    border: 1px solid $horizontal-line;
+}
+
+.smallCardHeading{
+    color:$secondary-label;	
+    font-family: 'Gilroy';	
+    font-size: 14px;
+}
+
+.contactInfo{
+    color:$secondary-label;	
+    font-family: 'Gilroy';	
+    font-size: 12px;
+    margin-bottom: 0%;
+    // line-height: 17px;
+}
+
+.contactBackground{
+    background-color: $primary-background;
+    border-radius: 4px;
+}
+
+.contactName{
+    color:$secondary-label;	
+    font-family: 'Gilroy';	
+    font-size: 12px;
+    margin-bottom: 0%;
+}
+
+.contactLabel{
+    color:$secondary-label;	
+    font-family: 'Gilroy';	
+    font-size: 12px;
+    margin-bottom: 0%;
+}
+
+.image{
+    position: absolute;
+    top: 5.6rem;
+    left: 25%;
+    width: 7%;
+}
+
+.LabelWithValue {
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+    font-weight: bold;
+    color:$secondary-label;
+}

@@ -1,0 +1,24 @@
+{
+    "image_alt_orgLeftNav": {
+        "insight": "insight",
+        "starred_active" : "starred_active" ,
+        "users" : "users",
+        "profile" : "profile",
+        "threeDots": "threeDots",
+        "todo": "todo",
+        "insights":"insights",
+        "accountSettings":"account settings",
+        "logout":"log out"
+    },
+    "span" : {
+        "insight" : "insight",
+        "clients" : "clients",
+        "users" : "users",
+        "todo": "todo's",
+        "allClients": "all clients",
+        "insights":"insights"
+    },
+    "logout" : "log out",
+    "accountSettings": "account settings",
+    "profile":"profile"
+}

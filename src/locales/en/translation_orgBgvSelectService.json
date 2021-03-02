@@ -1,0 +1,39 @@
+{
+    "image_alt_orgBgvSelectService": {
+        "img": "img"
+    },
+    "button_orgBgvSelectService": {
+        "next": "next"
+    },
+    "label": {
+        "l1": "include civil case",
+        "l2": "select scope *",
+        "l3": "state level",
+        "l4": "all over india",
+        "l5": "court type",
+        "l6": "district court",
+        "l7": "high court",
+        "l8": "supreme court",
+        "l9": "apply same to ",
+        "l10": "address",
+        "l11": "configure BGV",
+        "l12": "ID verification",
+        "l13": "address verification",
+        "l14": "legal verification",
+        "l15": "career verification",
+        "l16": "health & reference verification",
+        "l17": "add address manual review",
+        "viewDetails": "view details",
+        "hideDetails": "hide details",
+        "expiryDays": "expiry days *",
+        "approval": "approval",
+        "autoTrigger": "auto trigger",
+        "postal": "postal",
+        "physical": "physical",
+        "manualReview": "is manual address review needed?",
+        "yes": "yes",
+        "no" : "no",
+        "verificationPref": "verification preference"
+    },
+    "cardheading": "select services"
+}

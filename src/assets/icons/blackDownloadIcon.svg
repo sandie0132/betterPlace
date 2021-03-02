@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>AF41E337-4D26-48FF-8569-38C442C7513E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M16,11.3333333 L16,16 L11.3333333,16 L11.3333333,14.6666667 L14.6666667,14.6666667 L14.6666667,11.3333333 L16,11.3333333 Z M1.33333333,11.3333333 L1.33333333,14.6666667 L4.66666667,14.6666667 L4.66666667,16 L0,16 L0,11.3333333 L1.33333333,11.3333333 Z M10,3.33333333 L10,8.66666667 L12.6666667,8.66666667 L8,14 L3.33333333,8.66666667 L6,8.66666667 L6,3.33333333 L10,3.33333333 Z M16,0 L16,4.66666667 L14.6666667,4.66666667 L14.6666667,1.33333333 L11.3333333,1.33333333 L11.3333333,0 L16,0 Z M4.66666667,0 L4.66666667,1.33333333 L1.33333333,1.33333333 L1.33333333,4.66666667 L0,4.66666667 L0,0 L4.66666667,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-/-12-/-info-/-upload" transform="translate(8.000000, 8.000000) scale(1, -1) translate(-8.000000, -8.000000) ">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#FFFFFF" transform="translate(8.000000, 8.000000) scale(1, -1) translate(-8.000000, -8.000000) " xlink:href="#path-1"></use>
+            <rect id="Rectangle" fill="#262D33" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+        </g>
+    </g>
+</svg>

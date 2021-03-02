@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: portal-ui-uat-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: portal-ui-uat
+  template:
+    metadata:
+      labels:
+        app: portal-ui-uat
+    spec:
+      containers:
+        - name: portal-ui-uat-container
+          image: asia.gcr.io/engineering-274207/betterplace/portal-ui:uat
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+      restartPolicy: Always

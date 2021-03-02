@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>E311B01C-5CB4-4EF4-8DD3-B58DC03573A7</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M6.20144797,0.0988833939 C6.32821158,0.00452477753 6.49212102,-0.0243537755 6.6435,0.021 L6.6435,0.021 L11.6435,1.521 C11.8550917,1.58439374 12,1.77911588 12,2 L12,2 L12,11.5 C12,11.7761424 11.7761424,12 11.5,12 L11.5,12 L0.5,12 C0.223857625,12 0,11.7761424 0,11.5 L0,11.5 L0,6.5 C0,6.22385763 0.223857625,6 0.5,6 L0.5,6 L1,6 L1,11 L2,11 L2,4.5 C2,4.22385763 2.22385763,4 2.5,4 L2.5,4 L7.5,4 C7.77614237,4 8,4.22385763 8,4.5 L8,4.5 L8,11 L11,11 L11,2.372 L7,1.172 L7,3 L6,3 L6,0.5 C5.99998903,0.341972909 6.07468436,0.19324201 6.20144797,0.0988833939 Z M6,9.5 L4,9.5 L4,10.5 L6,10.5 L6,9.5 Z M10,4 L10,10 L9,10 L9,4 L10,4 Z M6,7.5 L4,7.5 L4,8.5 L6,8.5 L6,7.5 Z M6,5.5 L4,5.5 L4,6.5 L6,6.5 L6,5.5 Z" id="path-1"></path>
+    </defs>
+    <g id="🖥-Ops_analyst-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="physical-verification_01" transform="translate(-281.000000, -1092.000000)">
+            <g id="pan-details-copy" transform="translate(160.000000, 284.000000)">
+                <g id="door-number-copy" transform="translate(40.000000, 605.000000)">
+                    <g id="Group-10" transform="translate(81.000000, 203.000000)">
+                        <g id="thumbnail">
+                            <rect id="Rectangle" fill="#F0FAFB" x="0" y="0" width="24" height="24" rx="12"></rect>
+                            <g id="icon-/-12-/-info-/-security" transform="translate(6.000000, 6.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Combined-Shape" fill="#3F47F4" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <rect id="Rectangle" fill="#72CEDF" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

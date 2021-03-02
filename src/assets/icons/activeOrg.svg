@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="11px" viewBox="0 0 16 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon / 16 / info / active</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.86514982,11.0983363 L10.6137634,3 L11.9198027,4.0883661 L3.97939254,13.6168583 L6.57252031e-14,9.63746577 L1.20213965,8.43532611 L3.86514982,11.0983363 Z M7.94534711,11.0983363 L14.6939607,3 L16,4.0883661 L8.05958983,13.6168583 L6.12029593,11.6775644 L7.32243559,10.4754248 L7.94534711,11.0983363 Z" id="path-1"></path>
+    </defs>
+    <g id="🏂-on-boarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_OPs--all_clients-multy" transform="translate(-279.000000, -122.000000)">
+            <g id="nav" transform="translate(160.000000, 119.000000)">
+                <g id="insights" transform="translate(119.000000, 0.000000)">
+                    <g id="icon-/-16-/-info-/-active">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

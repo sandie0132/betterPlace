@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pen-tool</title>
+    <g id="🧑‍💻-Onboarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="document-generation_2" transform="translate(-500.000000, -264.000000)">
+            <g id="Group-9" transform="translate(385.000000, 128.000000)">
+                <g id="popup" transform="translate(0.000000, 92.000000)">
+                    <g id="Group-8" transform="translate(15.000000, 32.000000)">
+                        <g id="pen-tool" transform="translate(100.000000, 12.000000)">
+                            <rect id="Rectangle" fill="#F5F5F4" fill-rule="nonzero" opacity="0" x="0" y="0" width="16" height="16" rx="2"></rect>
+                            <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(2.000000, 2.000000)">
+                                <polyline id="Path" stroke="#0059B2" stroke-width="0.8" points="5.71764706 2.19909502 1.31945701 3.95837104 0 11.8751131 7.91674208 10.5556561 9.6760181 6.15746606"></polyline>
+                                <line x1="0" y1="11.8751131" x2="3.78244344" y2="8.09266968" id="Path" stroke="#0059B2" stroke-width="0.8"></line>
+                                <path d="M4.71030903,2.59502895 L12.0029011,2.59502895 C12.223815,2.59502895 12.4029011,2.77411505 12.4029011,2.99502895 L12.4029011,4.04225105 C12.4029011,4.26316495 12.223815,4.44225105 12.0029011,4.44225105 L4.71030903,4.44225105 C4.48939513,4.44225105 4.31030903,4.26316495 4.31030903,4.04225105 L4.31030903,2.99502895 C4.31030903,2.77411505 4.48939513,2.59502895 4.71030903,2.59502895 Z" id="Rectangle" fill="#0059B2" transform="translate(8.356605, 3.518640) rotate(-135.000000) translate(-8.356605, -3.518640) "></path>
+                                <circle id="Oval" stroke="#0059B2" stroke-width="0.8" cx="4.39819005" cy="7.47692308" r="1"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

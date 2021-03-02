@@ -1,0 +1,23 @@
+{
+    "image_alt_empMgmtLeftNav" : {
+        "img" : "img",
+        "profile" : "profile",
+        "threeDots":"threeDots",
+        "accSettings":"profile",
+        "logout":"logout"
+    },
+    "label_empMgmtLeftNav" : {
+        "org" : "org",
+        "onboard" : "onboard",
+        "verify" : "verify",
+        "train" : "train",
+        "attend" : "attend",
+        "salary" : "salary",
+        "ensure" : "ensure",
+        "support" : "support",
+        "employee" : "employee",
+        "logout" : "log out",
+        "profile":"profile",
+        "accSettings":"profile"
+    }
+}

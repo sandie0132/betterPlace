@@ -1,0 +1,26 @@
+{
+    "image_alt_orgBgvServiceMapping": {
+        "img": "img",
+        "IdIcon": "IdIcon"
+    },
+    "button_orgBgvServiceMapping": {
+        "next": "next"
+    },
+    "label": {
+        "l1": "configure BGV",
+        "l2": "ID verification",
+        "l3": "legal verification",
+        "l4": "career verification",
+        "l5": "health & reference verification",
+        "l6": "court verification",
+        "l7": "address verification",
+        "l8": "verification"
+    },
+    "th": {
+        "t1": "verifications",
+        "t2": "all tags",
+        "t3": "include tags",
+        "t4": "exclude tags"
+    },
+    "cardHeader": "mapping services"
+}

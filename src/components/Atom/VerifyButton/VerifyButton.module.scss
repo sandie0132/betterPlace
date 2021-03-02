@@ -1,0 +1,41 @@
+@import"../../../theme.scss";
+
+.button{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0.6rem 1rem;  
+    font-size: 14px;
+    color: white;
+}
+
+.enableBg{
+    background-color: $active-link;
+    &:hover{
+        background-color: $add-hover;
+    }
+}
+
+.successBg{
+    background-color: $success;
+}
+
+.arrowIcon{
+    height: 8px;
+    margin-left: 1rem;
+    // margin-left: auto;
+}
+
+.inProgress{
+    margin-right: 5rem;
+}
+
+.stepLoader{
+    bottom: 1.8rem !important;
+    right: 3rem !important;
+}
+
+.disableBg{
+    background-color: $disabled-background;
+    cursor: not-allowed !important;
+}

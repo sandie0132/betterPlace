@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7AFE4E1E-86EA-4203-A0EF-4F785D0FEAA0</title>
+    <defs>
+        <polygon id="path-1" points="7.6694738 4 -2.27318164e-13 12 16 12"></polygon>
+    </defs>
+    <g id="👮🏻‍♂️-Employee-Onboarding_OA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="updated-employee-details_01" transform="translate(-983.000000, -319.000000)">
+            <g id="form" transform="translate(135.000000, 128.000000)">
+                <g id="Group-6" transform="translate(848.000000, 191.000000)">
+                    <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#262D33" transform="translate(8.000000, 8.000000) scale(1, -1) rotate(-270.000000) translate(-8.000000, -8.000000) " xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

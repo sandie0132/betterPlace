@@ -1,0 +1,272 @@
+@import '../../../theme.scss';
+
+.downloadBg{
+    // height: 24px;
+    // width: 7rem;	
+    // margin-left: "25vw";
+    margin-right: 12px;
+    padding: 3px;
+    border-radius: 20px;	
+    background-color: $secondary-background;
+    // cursor: pointer;
+}
+
+.downloadLabel{
+    color: $active-link;	
+    font-family: Gilroy;
+    font-size: 12px;	
+    line-height: 25px;
+    // cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 0px;
+}
+
+.imgColor{
+    // filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+    // margin-right: 0.4rem;
+    // margin-top: 0.25rem;
+    height: 16px;
+}
+
+.fadedColor{
+    color: #262D33;
+}
+
+.excelDownload{
+    background-color: $secondary-background;
+    border-radius: 20px;
+    padding: 0.2rem 0rem 0.2rem 1rem;
+    height: 2rem;
+    width: 10rem;
+}
+
+.downloadSuccess {
+    background-color: $success-notification;
+    border-radius: 20px;
+    padding: 0.2rem 0rem 0.2rem 1rem;
+    height: 2rem;
+    width: 10rem;
+}
+
+.downloadFail {
+    background-color: $error-notification;
+    border-radius: 20px;
+    padding: 0.2rem 0rem 0.2rem 1rem;
+    height: 2rem;
+    width: 10rem;
+}
+
+.hover {
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.downloadText{
+    color: $active-link;	
+    font-family: "Gilroy";	
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 0.2rem;
+    padding-right: 1.3rem;
+}
+
+.downloadZip{
+    color: $active-link;	
+    font-family: "Gilroy";	
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 0.2rem;
+    padding-right: 2.1rem;
+}
+
+.downloadSuccessText{
+    color: $success;
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0.2rem;
+    margin-left: 0.6rem;
+}
+
+.downloadFailText{
+    color: $danger;
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0.2rem;
+    margin-left: 0.6rem;
+}
+
+.Border{
+    border: 1px solid $horizontal-line;
+    border-radius: 6px;
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
+
+.greenFilter{
+    filter: invert(100%) brightness(0.6) sepia(1) hue-rotate(100deg) saturate(4) ;
+}
+
+.ImgRotate{
+    transform: rotate(180deg);
+}
+
+.DownloadErrorExcel{
+    min-width: 11rem;
+    font-size: 14px;
+    color: $card-link;
+    background-color: $card-bg;
+    line-height: 45px;
+    padding-left: 0.5rem;
+    border-radius: 30px;
+    height: 2.8rem;
+    &:hover{
+      color: $card-link;
+      cursor: pointer;
+    }
+  }
+
+.downloadBgOps{
+    background-color: $secondary-background;
+    border-radius: 20px;
+    padding: 0.25rem 1rem 0rem 1rem;
+    height: 1.95rem;
+}
+
+.downloadBgOpsLoading{
+    background-color: $secondary-background;
+    border-radius: 20px;
+    padding: 0.25rem 1rem 0rem 0rem;
+    height: 1.95rem;
+}
+
+.textOps{
+    color: $active-link;	
+    font-family: "Gilroy";
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.empNotification{
+    background-color: $primary-background;
+    font-family: "Gilroy";
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 16px;
+    color: $secondary-label;
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    max-width: 10rem;
+    &:hover{
+        background-color: rgba(250, 250, 252, 0.2);
+        filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+    }
+}
+
+.tasksExcelDownload{
+    background-color: $active-link;
+    height: 2rem;
+    width: 11.125rem;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}
+
+.whiteText{
+    color: $card-bg;
+    font-size: 12px;
+    font-family: 'Gilroy';
+    margin-top: 0.5rem;
+    padding-right: 2.5rem;
+}
+
+.tasksSuccess{
+    background-color: $success-notification;
+    border-radius: 20px;
+    height: 2rem;
+    width: 11.125rem;
+    margin-top: 1.5rem;
+}
+
+.tasksSuccessText{
+    color: $success;
+    font-family: Gilroy;
+    font-size: 12px;
+    margin-top: 0.5rem;
+    padding-right: 2rem;
+}
+
+.downloadBgDoc{
+    background-color: $active-link;
+    border-radius: 30px;
+    padding:0.55rem 1.2rem 0.55rem 1.4rem;
+    &:hover{
+        background-color: $add-hover;
+    }
+}
+
+.textDoc{
+    color: $card-bg;	
+    font-family: "Gilroy";
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.imgSizeDoc{
+    height: 16px;
+    margin-top: 4px;
+}
+
+.whiteLoader{
+    margin-left: 1rem;
+    margin-top: 0.25rem;
+}
+.whiteFont{
+    color: $card-bg;
+}
+
+// .tooltipClass{
+//     border: 1px solid #FFEFC5!important;
+//     background-color: $success-notification-bgv!important;
+// }
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	border: 1px solid $success-notification-bgv-border;
+	background-color: $success-notification-bgv;
+    color: $card-link;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+    font-family: Gilroy;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px 0;
+	position: absolute;
+    z-index: 2;
+    
+    //top position of tooltip
+	width: 20rem;
+	bottom: 100%;
+	// left: 50%;
+	margin-left: -160px;
+	/* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.opacity {
+    opacity: 0.4
+}
+

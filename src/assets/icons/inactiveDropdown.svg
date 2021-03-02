@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="7px" viewBox="0 0 11 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>up arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="🤖-BGV-OPs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="up-arrow" transform="translate(-1.000000, -3.000000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="12" height="12"></rect>
+            <g id="Path" transform="translate(6.500000, 6.328428) scale(-1, 1) rotate(-180.000000) translate(-6.500000, -6.328428) translate(1.000000, 2.828428)" fill="#CCCDCF">
+                <polygon id="path-1" points="5.41421356 4 1.41421356 0 0 1.41421356 5.41421356 6.82842712 10.8284271 1.41421356 9.4142136 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

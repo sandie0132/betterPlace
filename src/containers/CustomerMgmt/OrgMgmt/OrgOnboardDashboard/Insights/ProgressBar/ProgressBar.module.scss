@@ -1,0 +1,60 @@
+@import "../../../../../../theme.scss";
+
+.ProgressBar{
+    padding: 4px;
+    border-radius: 0px 4px 4px 0px;
+    animation: animate 3s ease-in;   
+    &:hover{
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11), 0 2px 11px 0 rgba(0, 0, 0, 0.11);
+    }
+}
+@keyframes animate {
+    from {width: 0px;}
+  }
+
+.textBold{
+    color: $page-title;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+}
+
+.textBoldGrey{
+    color: $disabled-label;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+}
+
+.progressTitle{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    background-color: $card-bg;
+    padding: 3px 14px 1px 14px;
+    border-radius: 20px;
+    width: max-content;
+    border: 2px solid;
+}
+
+.noDataLabel{
+    font-size: 12px;
+    color: $secondary-label;
+    background-color: $secondary-background;
+    padding: 8px 16px 8px 16px;
+    border-radius: 24px;
+    width: max-content;
+}
+
+.labelColumn{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.barColumn{
+    flex: 0 0 65%;
+    max-width:65%;
+    cursor: pointer;
+}
+
+.profileColumn{
+    flex: 0 0 15%;
+    max-width: 15%;
+}

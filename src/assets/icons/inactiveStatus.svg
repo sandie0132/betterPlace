@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>inactive tik</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,0 C31.045695,-2.02906125e-15 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 1.3527075e-15,31.045695 0,20 C-1.3527075e-15,8.954305 8.954305,2.02906125e-15 20,0 Z" id="path-1"></path>
+    </defs>
+    <g id="🤖-BGV-OPs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OpsTask_AddComments_10" transform="translate(-960.000000, -716.000000)">
+            <g id="pan-details" transform="translate(160.000000, 314.000000)">
+                <g id="button-/-secondary-/-dropdown" transform="translate(584.000000, 402.000000)">
+                    <g id="inactive-tik" transform="translate(216.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#B3B7C4" xlink:href="#path-1"></use>
+                        <polygon id="Path" fill="#FFFFFF" mask="url(#mask-2)" points="18.1818182 25.3636364 12 19.1818182 13.5454545 17.6363636 18.1818182 21.2727273 26.4545455 14 28 15.5454545"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

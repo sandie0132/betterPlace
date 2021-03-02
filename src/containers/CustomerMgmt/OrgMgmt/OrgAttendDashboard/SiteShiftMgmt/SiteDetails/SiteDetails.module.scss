@@ -1,0 +1,49 @@
+@import '../../../../../../theme.scss';
+
+.alignCenter {
+    padding-left: 9%;
+    width: 100%;
+    padding-right: 0%;
+    height: 100vh;
+}
+
+@media (min-width: 1025px) {
+    .alignCenter {
+        padding-right: 25%;
+        padding-left: 11%;
+    }
+}
+
+.Heading{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 24px;
+    align-self: center;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.subText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.allShiftContainer{
+    margin-left: -16px !important;
+    min-height: 182px;
+}
+.addShiftIcon{
+    cursor: pointer;
+    margin-left: 16px;
+}

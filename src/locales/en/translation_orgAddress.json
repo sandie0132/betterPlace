@@ -1,0 +1,47 @@
+{
+    "image_alt_orgAddress": {
+        "add": "add"
+    },
+    "button_orgAddress": {
+        "Save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete" : "delete",
+        "addMore" : "add more"
+    },
+    "input_orgAddress": {
+        "label": {
+            "addressLine1" : "address line 1",
+            "addressLine2" : "address line 2",
+            "city" : "city",
+            "state" : "state",
+            "pincode" : "pincode",
+            "country" : "country",
+            "label" : "address label"
+        },
+        "placeholder": {
+            "addressLine1" : "address line 1",
+            "addressLine2" : "address line 2",
+            "city" : "city",
+            "state" : "state",
+            "pincode" : "pin code",
+            "country" : "country",
+            "label" : "label"
+        }
+    },
+    "warning_orgAddress_cancel" : {
+        "text" : "cancel?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, cancel" ,
+        "cancelText" : "keep"
+
+    },
+    "warning_orgAddress_delete" : {
+        "text" : "delete?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, delete" ,
+        "cancelText" : "cancel, keep"
+
+    },
+    "cardHeader" : "address"
+}

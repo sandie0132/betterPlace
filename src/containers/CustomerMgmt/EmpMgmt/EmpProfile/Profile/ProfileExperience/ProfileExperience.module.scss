@@ -1,0 +1,47 @@
+@import '../../../../../../theme.scss';
+
+.primaryText{
+    color: $primary-label;	
+    font-family: Gilroy-Medium;	
+    font-size: 14px;
+    line-height: 15px;
+    word-break: break-word;
+}
+
+.greyBoldText{
+    color: $secondary-label;	
+    font-family: Gilroy-Bold;	
+    font-size: 14px;	
+    line-height: 17px;
+}
+
+.greySmallText{
+    font-size: 12px;
+    color: $secondary-label;	
+    font-family: Gilroy-Medium;
+}
+
+.secondaryText{
+    font-size: 14px;
+    color: $secondary-label;	
+    font-family: Gilroy-Medium;
+    line-height: 16px;;
+}
+
+.pdfStyle{
+    font-size: 14px;
+    color: $secondary-label;
+    :hover{
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+.pdfStyleLoading{
+    font-size: 14px;
+    color: $secondary-label;
+    :hover{
+        cursor: progress;
+        text-decoration: none;
+    }
+}

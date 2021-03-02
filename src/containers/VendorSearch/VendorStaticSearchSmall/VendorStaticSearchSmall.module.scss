@@ -1,0 +1,47 @@
+@import '../../../theme.scss';
+
+.SearchBar{
+    border-radius: 4px;
+    border: 1px solid $primary-background;
+}
+
+.SearchIcon{
+    height: 14px;
+    width: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.SearchQuery{
+    font-size: 14px;
+    color: $primary-label;
+    outline: none;
+    border: none;
+    background-color: $card-bg;
+    width: 88%;
+}
+
+.Cursor{
+    cursor: pointer;
+}
+
+.SearchDropdown{
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    border-radius: 4px;
+    position: absolute;
+    background: $card-bg;
+    width: 18rem;
+    z-index: 10;
+    min-height: 2rem;
+    max-height: 5rem;
+    overflow-y: auto;
+    overflow-x : auto;
+}
+
+.Option{
+    font-size: 14px;
+    padding: 0.25rem 0.5rem;
+    &:hover{
+        background-color: $primary-background;
+    }
+}

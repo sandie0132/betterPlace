@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="33px" viewBox="0 0 37 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>icon / 48 / info / verification / aadhar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4" y="4" width="40" height="40"></rect>
+    </defs>
+    <g id="👨🏻‍💼-client-admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bgv-report-2" transform="translate(-485.000000, -384.000000)">
+            <g id="IDs" transform="translate(160.000000, 296.000000)">
+                <g id="card-/-verification-copy" transform="translate(312.000000, 64.000000)">
+                    <g id="icon-/-48-/-info-/-verification-/-voter" transform="translate(8.000000, 16.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="container"></g>
+                        <g id="Group-22" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+                            <g transform="translate(24.000000, 24.000000) rotate(-30.000000) translate(-24.000000, -24.000000) translate(8.000000, 12.000000)">
+                                <rect id="Rectangle" fill="#E54C00" x="0.276001974" y="0.98291985" width="23" height="5" rx="2.5"></rect>
+                                <rect id="Rectangle-Copy" fill="#FFFFFF" x="0.240103589" y="9.04509768" width="23" height="5" rx="2.5"></rect>
+                                <rect id="Rectangle-Copy-2" fill="#006835" x="0.570230608" y="18.4733009" width="23" height="5" rx="2.5"></rect>
+                                <circle id="Oval" fill="#71879F" cx="27.0343322" cy="3.05471662" r="2.5"></circle>
+                                <circle id="Oval-Copy" fill="#71879F" cx="27.8644592" cy="11.6168944" r="2.5"></circle>
+                                <circle id="Oval-Copy-2" fill="#71879F" cx="28.6945863" cy="20.1790723" r="2.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

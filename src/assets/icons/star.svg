@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>138658CA-23D2-4EDA-AEA7-F82925BF2BC8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10.472,5.0096 L16,5.8128 L12,9.712 L12.944,15.2176 L8,12.6176 L3.056,15.2176 L4,9.712 L0,5.8128 L5.528,5.0096 L8,0 L10.472,5.0096 Z M8,3.38975212 L6.52415197,6.38061308 L3.223394,6.86020223 L5.61168307,9.18830642 L5.04810705,12.4751964 L8,10.9228255 L10.9518929,12.4751964 L10.3883169,9.18830642 L12.776606,6.86020223 L9.47584803,6.38061308 L8,3.38975212 Z" id="path-1"></path>
+    </defs>
+    <g id="🏂-on-boarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_OPs--all_clients-multy" transform="translate(-1016.000000, -391.000000)">
+            <g id="client-1-copy-3" transform="translate(768.000000, 383.000000)">
+                <g id="logo-coitainer">
+                    <g id="icon-/-16-/-info-/-star" transform="translate(248.000000, 8.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Path" fill="#979797" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

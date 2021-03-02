@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>tick</title>
+    <desc>Created with Sketch.</desc>
+    <g id="🏂-on-boarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-BGV-Client-onboarding_organisation-details_C" transform="translate(-488.000000, -125.000000)" fill="#4BB752" fill-rule="nonzero">
+            <g id="notification-bar" transform="translate(160.000000, 119.000000)">
+                <path d="M334,6 C330.686292,6 328,8.6862915 328,12 C328,15.3137085 330.686292,18 334,18 C337.313708,18 340,15.3137085 340,12 C339.990389,8.69028083 337.309719,6.00961136 334,6 Z M333,14.707 L330.293,12 L331,11.293 L333,13.293 L337,9.293 L337.707,10 L333,14.707 Z" id="tick"></path>
+            </g>
+        </g>
+    </g>
+</svg>

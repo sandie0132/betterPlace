@@ -1,0 +1,49 @@
+@import '../../../theme.scss';
+.Pagination {
+    font-size: 12px;
+    color: $secondary-label;
+    text-align: left;
+    
+    margin-top: 0.55rem;
+}
+
+.PaginationAlign{
+    display: inline-flex;
+}
+
+.PageArrow{
+    display: inline-flex;
+    color:$secondary-label ;
+    position: sticky;
+   
+
+}
+// .ArrowPosition{
+//     //margin-right: 10%;
+//     // padding-left:70px; 
+//     // margin-top: -1px;
+//     // position: fixed;
+// }
+.Arrow{
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+    background: none;
+    border: 0;
+//    margin-bottom : 15px;
+   &:focus{
+       outline: none;
+   }
+}
+
+.PaginationRecords{
+    margin-top: 3px
+}
+
+.ArrowDisable{
+    filter: grayscale(0%);
+    //  margin-bottom: 15px;
+    background: none;
+    border: 0;
+   
+}
+
+

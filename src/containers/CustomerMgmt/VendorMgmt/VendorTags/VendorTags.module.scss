@@ -1,0 +1,137 @@
+@import '../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    // overflow: auto;
+}
+
+.AssignButton{
+    font-size: 12px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.CardLayout{
+    padding: 2rem 2.5rem;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+.HorizontalLine{
+    border-bottom: 1px solid $horizontal-line;
+}
+
+.SearchBorder{
+    border: 1px solid $horizontal-line;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.SearchBar{
+    font-size: 24px;
+    font-family: "Gilroy-Light";
+    color: $primary-label;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.SelectedFilter{
+    font-family: "Gilroy";
+    font-size: 18px;
+}
+
+.GreyText{
+    font-family: "Gilroy";
+    font-size: 14px;
+    color: $secondary-label;
+}
+
+.BlueText{
+    font-family: "Gilroy";
+    font-size: 14px;
+    color: $active-link;
+}
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+    border: none;
+    flex-wrap: nowrap;
+    
+}
+
+.CardPadding{
+    padding: 2rem 3rem;
+}
+
+.Button{
+    
+    margin-top: 1.5rem !important;
+    width: 9rem !important;
+}
+
+.Cursor{
+    cursor: pointer;
+}
+
+.SmallLabel{
+    font-size: 12px;
+    color: $secondary-label;
+    font-family: "Gilroy-Light";
+}
+
+.SelectedFilterTag{
+    color: $card-bg;
+    border-radius: 19.59px;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    background-color: #BFD554;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.WhiteVerticalLine{
+    border-left: 1px solid $card-bg;
+}
+
+.SearchDropdown{
+    background-color: $card-bg;
+    border-radius: 4px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    cursor: pointer;
+    // cursor: pointer;
+    // position: absolute;
+    // top: 11.35rem;
+    // width: 70.7%;
+    overflow: auto;
+    max-height: 6rem;
+}
+
+.DropdownWidth{
+    width: 100%!important;
+}
+
+.SearchInputWidth{
+    width: 92%;
+}
+
+.SearchOption{
+    color: $primary-label;
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    padding: 0.75rem;
+    cursor: pointer;
+    &:hover{
+        background-color: $primary-background;
+    }
+}

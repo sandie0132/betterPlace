@@ -1,0 +1,149 @@
+@import '../../../../theme.scss';
+
+.HeadCard {
+	background-color: $card-bg;
+	border-radius: 4px;
+	margin-top: 24px;
+	padding: 32px;
+}
+
+.BrandTheme{
+	padding: 1.25rem;
+	border-radius: 4px;
+}
+
+.Card {
+	margin-top: 16px;
+	padding-left: 4%;
+	padding-right: 3%;
+}
+
+.LoaderCard {
+	margin-top: 32px;
+	padding-left: 4%;
+	padding-right: 3%;
+}
+
+.box {
+	height: 104px;
+	min-width: 104px;
+	border-radius: 5px;
+	background-color: $secondary-background;
+	text-align: center;
+}
+
+.icon {
+	width: 80%;
+	height: auto;
+	margin-top: 30%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.orgHeading {
+	color: $primary-label;
+	font-family: Gilroy-Light;
+	font-size: 24px;
+	word-break: break-all;
+}
+
+.secondHeading {
+	color: $secondary-label;
+	font-family: Gilroy;
+	font-size: 14px;
+	word-break: break-all;
+}
+
+.tagText {
+	color: $secondary-label;
+	font-family: Gilroy;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.smallButton {
+	background-color: $card-bg;
+    border-radius: 24px;
+    padding: 4px 8px;
+    color: $active-link;
+	font-family: 'Gilroy';
+	font-size: 12px;
+	cursor: pointer;
+	&:hover{
+		background-color: $active-link;
+		color: $card-bg;
+	}
+}
+
+.editImg{
+	background: url('../../../../assets/icons/blueEdit.svg');
+	padding-right: 1rem;
+}
+
+.smallButton:hover .editImg{
+	background: url('../../../../assets/icons/editOrgInactive.svg');
+}
+
+.Link {
+    text-decoration: none;
+    border-radius: 24px;
+    height: max-content;
+	&:hover {
+        text-decoration: none;
+	}
+}
+
+.AlignRight {
+	float: right;
+}
+
+.rightNavContent {
+	font-size: 14px;
+	color: $secondary-label !important;
+	margin-top: 1rem;
+	text-decoration: none;
+	cursor: pointer;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.orgName {
+	font-size: 24px;
+	color: $active-link;
+	margin-top: 24px;
+	font-family: Gilroy-Light;
+}
+
+.rightNavTabs {
+	padding: 8px 10px 8px 10px;
+	border-radius: 10px;
+	&:hover {
+		background-color: rgba(120, 146, 184, 0.123);
+	}
+}
+
+.HorizontalLine {
+	border: 0.5px solid $horizontal-line;
+	margin: 5px 0px 10px 0px;
+}
+
+.show {
+	width: 20rem;
+	overflow: auto;
+	padding-right: 3rem;
+	padding-top: 6.5rem;
+	background-color: inherit !important;
+	box-shadow: none;
+}
+
+.closeButton {
+	position: absolute;
+	top: 2rem;
+	right: 17rem;
+	cursor: pointer;
+}
+
+.removeDisplay {
+	display: none;
+}

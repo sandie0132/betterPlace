@@ -1,0 +1,43 @@
+{
+    "excelRightNav": {
+        "upload": "upload history"
+    },
+    "lockedCard": {
+        "excelUpload": "excel uploading is disabled until current excel processing is completed. please wait until the process is completed.",
+        "currentExcel": "current excel being uploaded by",
+        "img": "img"
+    },
+    "excelWidget": {
+        "empOnboarding": "employee onboarding",
+        "uploading": "uploading",
+        "scanning": "scanning",
+        "processing": "processing",
+        "verifying": "verifying",
+        "error": "error"
+    },
+    "resultCard": {
+        "errors": "errors",
+        "found": "found with error in excel, download them and resolve",
+        "noErrorDownloadFile": "found with error in excel",
+        "success": "successfully processed excel",
+        "rows": "rows with above actions have been processed successfully",
+        "done": "done",
+        "skipLabel": "clicking on done will skip verification and re-initiations for",
+        "row": "rows"
+    },
+    "verificationExcel": {
+        "initiate": "BGV initiate",
+        "initBgv": "initiate BGV",
+        "initiateFor": "bgv initiated for",
+        "failed": "bgv initiation failed for",
+        "init": "initiate bgv for",
+        "reinitiate": "re-initiate",
+        "reinitiateFor": "bgv reinitiated for",
+        "reinitFailed": "bgv reinitiation failed for",
+        "reinit": "reinitiate bgv for",
+        "success": "employees successfully",
+        "employees": "employees",
+        "verify": "verify",
+        "empMarked": "marked for verify service"
+    }
+}

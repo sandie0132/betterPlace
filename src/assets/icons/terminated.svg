@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,0 C18.624447,0.00716484761 23.9928352,5.37555305 24,12 C24,18.627417 18.627417,24 12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,0 12,0 Z M19.328,6.794 L6.794,19.328 C8.31218434,20.4152428 10.1326541,21.0000104 12,21.0000104 C15.3678323,21.0051166 18.4557957,19.1266259 19.999743,16.1335426 C21.5436902,13.1404593 21.2843922,9.53532276 19.328,6.794 L19.328,6.794 Z M11.999,2.999 L11.6946396,3.00469295 C8.4464362,3.10975485 5.497418,4.96407357 4.00025704,7.86645738 C2.4563098,10.8595407 2.71560784,14.4646772 4.672,17.206 L4.672,17.206 L17.206,4.672 C15.6878157,3.58475722 13.8673459,2.99998957 12,2.99998957 L11.999,2.999 Z" id="path-1"></path>
+    </defs>
+    <g id="👨🏻‍💼-client-admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="client-dashboard_01" transform="translate(-185.000000, -2099.000000)">
+            <g id="terminated" transform="translate(161.000000, 1994.000000)">
+                <g id="current" transform="translate(24.000000, 97.000000)">
+                    <g id="warning" transform="translate(0.000000, 8.000000)">
+                        <circle id="Oval" fill="#FDEBEC" cx="28" cy="28" r="28"></circle>
+                        <g id="icon-/-16-/-info-/-action_bar-/-terminate" transform="translate(16.000000, 16.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#7892B8" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#EE3942" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

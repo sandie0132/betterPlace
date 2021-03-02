@@ -1,0 +1,66 @@
+@import '../../../../../theme.scss';
+
+.box {
+	height: 48px;
+	min-width: 48px;
+	border-radius: 5px;
+	background-color: $secondary-background;
+	text-align: center;
+}
+
+.icon {
+	height: auto;
+    margin-top: 27%;
+}
+
+.VendorName{
+    color: #262D33;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-right: 25px;
+}
+  
+.Approval{
+    height: 16px;
+    width: 118px;
+    color: #8697A8;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.Folder{
+    height: 16px;
+//   width: 49px;
+  color: #262D33;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.buttonHover {
+	width: 8rem !important;
+	padding-left: 0rem !important;
+    margin-right: 1.5rem !important;
+    &:hover{
+        font-family: 'Gilroy-Bold' !important;
+    }
+}
+
+.hr2{
+    border:0.5px solid $horizontal-line;
+    margin-top: 15px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    width: 76%;
+    // opacity: 0.18;
+}

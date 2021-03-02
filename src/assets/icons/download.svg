@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="20px" viewBox="0 0 114 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>edit  copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,7.79166667 L12,11 L8.5,11 L8.5,10.0833333 L11,10.0833333 L11,7.79166667 L12,7.79166667 Z M1,7.79166667 L1,10.0833333 L3.5,10.0833333 L3.5,11 L0,11 L0,7.79166667 L1,7.79166667 Z M7.5,2.29166667 L7.5,5.95833333 L9.5,5.95833333 L6,9.625 L2.5,5.95833333 L4.5,5.95833333 L4.5,2.29166667 L7.5,2.29166667 Z M12,0 L12,3.20833333 L11,3.20833333 L11,0.916666667 L8.5,0.916666667 L8.5,0 L12,0 Z M3.5,0 L3.5,0.916666667 L1,0.916666667 L1,3.20833333 L0,3.20833333 L0,0 L3.5,0 Z" id="path-1"></path>
+    </defs>
+    <g id="👨🏻‍💼-client-admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bgv-report-2" transform="translate(-742.000000, -188.000000)">
+            <g id="section" transform="translate(160.000000, 80.000000)">
+                <g id="Group-2" transform="translate(582.000000, 72.000000)">
+                    <g id="edit--copy-2" transform="translate(0.000000, 36.000000)">
+                        <path d="M10,0 L104,0 C109.522847,-1.01453063e-15 114,4.4771525 114,10 C114,15.5228475 109.522847,20 104,20 L10,20 C4.4771525,20 6.76353751e-16,15.5228475 0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="Rectangle" fill="#EBECFD"></path>
+                        <g id="icon-/-12-/-info-/-upload" transform="translate(100.000000, 10.250000) scale(1, -1) translate(-100.000000, -10.250000) translate(94.000000, 5.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#FFFFFF" fill-rule="evenodd" transform="translate(6.000000, 5.500000) scale(1, -1) translate(-6.000000, -5.500000) " xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#0059B2" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="12" height="11"></rect>
+                        </g>
+                        <text id="download-pdf" font-family="Gilroy-Medium, Gilroy" font-size="12" font-weight="400" fill="#0059B2">
+                            <tspan x="8" y="15">download pdf</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

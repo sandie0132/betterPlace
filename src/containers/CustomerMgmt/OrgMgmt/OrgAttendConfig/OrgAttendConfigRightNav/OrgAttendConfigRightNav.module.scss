@@ -1,0 +1,65 @@
+@import "../../../../../theme.scss";
+
+.rightNavPosition {
+    position: fixed;
+    background-color: $card-bg;
+    width: 100%;
+    height: 100vh;
+    z-index: 7;
+}
+
+.orgCard {
+    height: 12rem;
+    width: 21rem;
+}
+
+.labelScroll {
+    max-height: 12rem;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.labelScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.OrgRightNavLabel {
+    color: $card-bg;
+    font-family: Gilroy-Thin;
+    font-size: 40px;
+    width: 20rem;
+}
+
+.navHeading {
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 2rem;
+}
+
+.Hover {
+    max-height: 52%;
+    overflow: auto;
+    padding-bottom: 5rem;
+    cursor: pointer;
+}
+
+.LargeButtonAlign {
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    margin-bottom: 1.5rem !important;
+}
+
+.show {
+    width: 20rem;
+    background-color: $card-bg;
+    box-shadow: -2px 0 4px 0 rgba(0, 0, 0, 0.06);
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 6;
+}
+
+.LargeButtonWidth {
+    min-width: 18rem !important;
+}

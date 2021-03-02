@@ -1,0 +1,33 @@
+{
+    "image_alt_orgSelectService": {
+        "img": "img"
+    },
+    "button_orgSelectService": {
+        "next": "next"
+    },
+    "label": {
+        "l1": "include civil case",
+        "l2": "select scope *",
+        "l3": "state level",
+        "l4": "all over india",
+        "l5": "court type",
+        "l6": "district court",
+        "l7": "high court",
+        "l8": "supreme court",
+        "l9": "apply same to",
+        "l10": "address",
+        "l11": "configure OPS",
+        "l12": "ID verification",
+        "l13": "address verification",
+        "l14": "legal verification",
+        "l15": "career verification",
+        "l16": "health & reference verification",
+        "l17": "address agency"
+    },
+    "cardheading": "select services",
+    "alertPopUp": {
+        "l1": "alert",
+        "l2": "this action cannot be performed",
+        "l3": "okay"
+    }
+}

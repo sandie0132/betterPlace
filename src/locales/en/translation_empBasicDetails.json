@@ -1,0 +1,36 @@
+{
+    "button_empBasicDetails": {
+        "save": "save",
+        "edit":"edit",
+        "cancel":"cancel"
+    },
+    "input_empBasicDetails": {
+        "label": {
+            "firstName": "first name *",
+            "middleName": "middle name",
+            "lastName": "last name",
+            "dob": "date of birth",
+            "gender": "gender",
+            "fatherName": "father's name *",
+            "motherName": "mother's name *",
+            "maritalStatus": "marital status *",
+            "religion": "religion *",
+            "nationality": "nationality *"
+        },
+        "placeholder": {
+            "firstName": "first name",
+            "middleName": "middle name",
+            "lastName": "last name",
+            "dob": "DD-MM-YYYY",
+            "fatherName":"father's name",
+            "motherName":"mother's name"
+        }
+    },
+    "warning_empBasicDetails_cancel" : {
+        "text" : "cancel?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, cancel" ,
+        "cancelText" : "keep"
+    },
+    "cardHeader" : "basic details"
+}

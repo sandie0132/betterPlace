@@ -1,0 +1,245 @@
+@import'../../../../../../../theme.scss';
+
+.Footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: $card-bg;
+    box-shadow: 0 2px 11px 0 rgba(0,0,0,0.11);
+}
+
+.topContainer{
+    height: 52px;
+    padding: 16px 40px;
+    background-color: $card-bg;
+}
+.Heading{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.middleContainer{
+    height: 190px;
+    background-color: $primary-background;
+    width: 100%;
+    margin-left: 0px;
+    padding: 16px 56px;
+}
+
+.firstColumn{
+    flex: 0 0 39%;
+    padding: 8px;
+    border-right : 2px solid $horizontal-line;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.secondColumn{
+    flex: 0 0 39%;
+    padding: 8px;
+    border-right : 2px solid $horizontal-line;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdColumn{
+    flex: 0 0 21%;
+    padding: 8px;
+    // border-right : 2px solid $horizontal-line;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.blackText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.smallText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    padding-bottom: 8px;
+    line-height: 14px;
+}
+.scrollContainer{
+    overflow: auto;
+    max-height: 134px;
+}
+
+
+.bottomContainer{
+    height: 72px;
+    padding: 16px 0px;
+    margin: 0 40px;
+    background-color: $card-bg;
+    color: $secondary-label;
+    font-size: 14px;
+    line-height: 16px;
+    border-top : 2px solid $horizontal-line;
+}
+
+.Number{
+    color: $card-bg;
+    background-color:  $secondary-label;
+    padding: 2px 8px 0px 8px;
+    border-radius: 4px;
+    height: 18px;
+    align-self: center;
+}
+
+.verticalLine{
+    height: 40px;
+    border-left: 2px solid $horizontal-line;
+    //position: absolute;
+    margin-left: 16px;
+    margin-right: 16px;
+    //top: 10px;
+}
+
+.radioButton{
+    width: fit-content;
+    background-color: $card-bg;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+.radioButton span{
+  width: fit-content;
+  position: unset;
+}
+
+.radioButton input{
+  background-color: $primary-background;
+  cursor: pointer;
+  position: unset;
+  margin-left: 8px;
+}
+
+.Button{
+    min-width: 175px !important;
+    background-color: $secondary-background !important;
+    color: $secondary-label !important;
+}
+.Button label{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: auto;
+    padding-top: 2px;
+    width: 160px;
+    text-align: left;
+}
+
+.cancelButton{
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+
+
+////////////dateCard
+.Container{
+    height: 100px;
+    width: 104px;
+    padding: 14px 12px;
+    background-color: $card-bg;
+    color: $secondary-label;
+    font-size: 12px;
+    align-self: center;
+    margin: 0 16px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid $card-bg;
+}
+.pointer{
+    cursor: pointer;
+}
+.selectedContainer{
+    border: 2px solid $success;
+}
+
+.activeDate{
+  color: $primary-label !important;
+  font-size: 24px;
+  font-family: Gilroy-Bold !important;
+}
+
+.disableDate{
+    color: $secondary-label;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+}
+
+.tomorrowContainer{
+    border: 2px dashed $success;
+}
+
+.dateError{
+    border: 2px solid #FF1437;
+    background-color: rgba(238,57,66,0.2);
+}
+
+.tooltip{
+    font-style: normal;
+}
+
+.disabled{
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.box {
+    width: 110px;
+    height: auto;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    position: relative;
+    // margin: 40px;
+    float: left;
+    font-size: 12px;
+    font-family: 'Gilroy-Medium';
+    color: #262D33;
+    background-color: #FFF7E5;
+
+  }
+  
+  .box.arrowTop {
+    margin:11px;
+  }
+  
+  .box.arrowTop::after {
+    content: " ";
+    position: absolute;
+    right: 52px;
+    top: -8px;
+    border-top: none;
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+    border-bottom: 9px solid #FFF7E5;
+    color: #262D33;
+  }
+
+  .emptyMessage{
+    font-size:12px;
+    text-align:center;
+    width:50%;
+    margin:auto;
+    color: $secondary-label;
+  }
+
+  .tooltipClass::before{
+    border: 0 !important;
+}

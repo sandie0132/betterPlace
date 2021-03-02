@@ -1,0 +1,72 @@
+@import '../../../theme.scss';
+
+.redDot {
+	height: 6px;
+	width: 6px;
+	background-color: $danger;
+	border-radius: 50%;
+    display: inline-block;
+    &:hover{
+        box-shadow: 0 0 0 0.5px $danger;
+    }
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	border: 1px solid $success-notification-bgv-border;
+	background-color: $success-notification-bgv;
+    color: $card-link;
+    font-size: 10px;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px 0;
+	position: absolute;
+    z-index: 1;
+    
+    //top position of tooltip
+	width: 158px;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+	margin-bottom: 0.5rem;
+	/* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.greyTooltip {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.greyTooltip .greyTooltiptext {
+	visibility: hidden;
+	border: 1px solid $default-theme;
+	background-color: $default-theme;
+    color: $card-link;
+    font-size: 10px;
+	text-align: center;
+	border-radius: 4px;
+	padding: 5px 0;
+	position: absolute;
+    z-index: 1;
+
+	width: 160px;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+	margin-bottom: 0.25rem;
+}
+
+.greyTooltip:hover .greyTooltiptext {
+	visibility: visible;
+}

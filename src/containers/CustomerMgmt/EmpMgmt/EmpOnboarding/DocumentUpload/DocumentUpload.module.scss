@@ -1,0 +1,100 @@
+@import '../../../../../theme.scss';
+
+
+.cardContainer{
+    background-color: $card-bg;
+    border-radius: 4px;
+}
+
+.headingText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+}
+
+.smallText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.blueText{
+    color: $active-link
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.FileInput{
+    display: none;
+ }
+
+.underline{
+    text-decoration: underline;
+}
+
+.dottedContainer{
+    border: 2px dashed $secondary-background;
+    min-height: 8.25rem;
+    border-radius: 4px;
+}
+
+.loadingIcon{
+    margin-top: 0.5rem;
+    padding-left: 4rem;
+    height: 5rem;
+}
+
+.loadingOuter{
+   width: 290px;
+   height: 5px;
+   background-color: $secondary-background;
+   border-radius: 2.5px;
+   overflow: hidden;
+   align-self: center;
+}
+
+.loadingInner{
+   height: 5px;
+   border-radius: 2.5px;
+   background-color: $active-link;
+}
+
+.loadingElipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    width: fit-content;
+    max-width: 15rem;
+    text-overflow: ellipsis;
+}
+
+.downloadButtonContainer{
+    height: 2.5rem !important;
+    padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+    border-radius: 20px;
+    background-color: $secondary-background;
+    width: max-content;
+}
+
+.closeIcon{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.errorMessage{
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+    font-weight: bold;
+    color: $danger;
+    // min-height: 1.2rem;
+    //position: absolute;
+   // width: 8rem;
+}

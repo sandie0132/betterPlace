@@ -1,0 +1,37 @@
+{
+    "label_orgStatusMgmtSectionLevel": {
+        "IDsection": "ID section status",
+        "addressSection": "address section status",
+        "criminalSection": "legal section status",
+        "careerSection": "career section status",
+        "healthSection": "health & reference section status"
+    },
+    "text_orgStatusMgmtSectionLevel": {
+        "if": "if",
+        "is": "is/are",
+        "green": "green",
+        "thenId": "then make id section",
+        "Green": "Green",
+        "thenAddress": "then make address section",
+        "thenCriminal": "then make legal section",
+        "thenHealth": "then make health & reference section",
+        "thenCareer": "then make career section",
+        "next": "next",
+        "redInfo": "section status is red if atleast one of the sections in profile is red",
+        "greenInfo": "section status is green only if all the sections in profile are green",
+        "yellowInfo": "section status is yellow if atleast one of the sections in profile is yellow"
+    },
+    "image_alt_orgStatusMgmtSectionLevel": {
+        "red": "red",
+        "yellow": "yellow",
+        "green": "green"
+    },
+    "bottomHeading": "editing any of above rules will override following betterplace verification rules",
+
+    "topNav": {
+        "checkLevel": "check level",
+        "sectionLevel": "section level",
+        "profileLevel": "profile level"
+    },
+    "cardHeading": "verification status management"
+}

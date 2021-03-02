@@ -1,0 +1,19 @@
+@import '../../../../../../theme.scss';
+
+.mediumText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.greyText{
+  color: $secondary-label;
+  font-family: Gilroy;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.marginTop{
+  margin-top: 32px;
+}

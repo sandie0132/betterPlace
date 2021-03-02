@@ -1,0 +1,184 @@
+@import '../../../../../theme.scss';
+
+.alignCenter {
+	padding-left: 14%;
+	width: 100%;
+	padding-right: 2%;
+	// padding-top: 1rem;
+	// height: 100vh;
+	// overflow: auto;
+}
+
+.ContainerPadding64 {
+	padding-top: 24px;
+}
+
+// .CardLayout {
+// 	box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+// 	background-color: $card-bg;
+// 	border-radius: 4px;
+// 	margin-bottom: 3rem;
+// 	border: none;
+// 	flex-wrap: nowrap;
+// }
+
+.CardPadding {
+	padding: 1rem 2.5rem 2.5rem 2.5rem;
+	background-color: $card-bg;
+}
+
+.FormBackGround {
+	width: 100%;
+	background-color: $primary-background;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	position: fixed;
+	overflow-y: auto;
+}
+
+.AlignLeft {
+	margin-left: 10rem;
+	margin-right: 2rem;
+}
+
+.smallText {
+	color: $secondary-label;
+	font-family: 'Gilroy-Bold';
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.Arrow {
+	padding-right: 1rem;
+}
+
+.TextSelect {
+	color: $secondary-label;
+	font-family: 'Gilroy-Bold';
+	font-size: 14px;
+}
+
+.Height {
+	height: 20rem;
+}
+
+.ButtonMargin {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.HorizontalLine {
+	border: 1px solid $primary-background;
+	// margin-bottom: 1rem;
+	// margin-top: 0.25rem;
+}
+
+hr {
+	color: $primary-background;
+}
+
+.ShowErrorNotificationCard {
+	display: block;
+	min-height: 1.5rem;
+	background-color: $error-notification;
+}
+
+.HideErrorNotificationCard {
+	display: none;
+}
+
+.ShowSuccessNotificationCard {
+	display: block;
+	min-height: 1.5rem;
+	background-color: $success-notification;
+}
+
+.emptyNotification {
+	background-color: transparent;
+	min-height: 1.5rem;
+}
+
+.PaddingLeftArrow {
+	padding-left: 15%;
+	margin-top: 16px;
+}
+
+.subHeading {
+	font-size: 14px;
+	font-family: 'Gilroy';
+	color: $secondary-label;
+	// margin-top: 1rem;
+}
+
+.activeText {
+	font-size: 14px;
+	font-family: 'Gilroy';
+	color: $active-link;
+	cursor: pointer;
+	margin-top: 1rem;
+}
+
+.NavLink {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+.cardLayout {
+	background-color: $card-bg;
+	border-radius: 4px;
+	margin-bottom: 3rem;
+	border: none;
+	flex-wrap: nowrap;
+    // box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    padding: 2rem 0rem 2rem 2.5rem;
+}
+
+.sectionHeading{
+    font-size: 18px;
+    color: $primary-label;
+    font-family: 'Gilroy-Medium';
+    letter-spacing: 0.3px;
+    font-weight: 700;
+}
+
+
+.formHeader {
+    background-color: $card-bg;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.formHeaderContent{
+    padding: 8px;
+    background-color: $primary-background;
+    width: 100%;
+}
+
+.timeHeading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.linkBg{
+    background-color: $primary-background;
+}
+
+.fixedHeader{
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    background-color: $primary-background;
+	width: 100%;
+	padding-top: 1rem;
+}
+
+.cancelButton{
+    background-color: transparent;
+    min-width: 6rem;
+}

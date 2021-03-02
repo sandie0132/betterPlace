@@ -1,0 +1,20 @@
+{
+    "image_alt_empOnboarding" : {
+        "IdImage" : "IdImage",
+        "close":"close"
+    },
+    "texts_empOnboarding" : {
+        "enterId" : "enter any one of these id number",
+        "idList" : "aadhaar card, pan card, voter id, DL",
+        "noId" : "i don't have an id right now",
+        "consent" : "by clicking next, I am allowing to access my ",
+        "info" : "information"
+    },
+    "inputs_empOnboarding" : {
+        "placeholder" : "enter pan, voter Id, aadhaar, dl"
+    },
+    "buttons_empOnboarding" : {
+        "next" : "next",
+        "onboard" : "onboard employee or download excel"
+    }
+}

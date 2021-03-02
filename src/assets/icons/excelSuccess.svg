@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>E5C3919F-80E4-48D9-AF6D-35FBBA9F5DE7</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M3.36855709,7.03144317 L1.36568547,5.02857156 L0.800000032,5.59425699 L3.08571437,7.87997132 C3.24192409,8.03618104 3.49519008,8.03618104 3.6513998,7.87997132 L9.36568564,2.1656855 L8.80000003,1.60000006 L3.36855709,7.03144317 Z" id="path-1"></path>
+    </defs>
+    <g id="⛑-in-progress-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="excel-uploade_7B" transform="translate(-387.000000, -169.000000)">
+            <g id="Group-2" transform="translate(160.000000, 128.000000)">
+                <g id="Group-6" transform="translate(228.000000, 40.000000)">
+                    <g id="Group-7" transform="translate(0.000000, 2.000000)">
+                        <g id="Group-2">
+                            <circle id="Oval" stroke="#36A852" cx="12" cy="12" r="12"></circle>
+                            <g id="icon-/-12-/-info-/-tick" transform="translate(7.200000, 7.200000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Path" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <rect id="Rectangle" fill="#4BB752" mask="url(#mask-2)" x="0" y="0" width="9.60000038" height="9.60000038"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

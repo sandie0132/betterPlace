@@ -1,0 +1,70 @@
+@import "../../../../../../theme.scss";
+
+.formLayout {
+    background-color: $card-bg;
+    padding: 1rem 2rem 0rem 2rem;
+}
+
+.horizontalLineInactive {
+    border-top: 2px solid $disabled-background;
+    width: 63%;
+    position: absolute;
+    margin-top: 12px;
+}
+
+.formHead {
+    border-radius: 12px;
+    color: $card-bg;
+    background-color: $disabled-background;
+    padding: 4px 8px;
+    // z-index: ;
+    position: relative;
+    font-size: 12px;
+}
+
+.opacityHeadOut {
+    opacity: 1;
+    transition: ease-out 0.2s;
+}
+
+.opacityHeadIn {
+    opacity: 0;
+    display: none;
+    transition: ease-in-out 0.2s;
+}
+
+.formSubHead{
+    color: $primary-label;
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    margin-top: 1rem;
+    letter-spacing: 0.4px;
+
+}
+
+.horizontalLine{
+    margin: 2rem 0rem;
+    border: 0.2px solid $horizontal-line;
+    // width: 50%;
+}
+
+.addHeading{
+    cursor: pointer;
+}
+
+.labelStyle{
+    font-size: 12px;
+    color: $secondary-label;
+}
+
+.alignLabel10px{
+    margin-left: 10px;
+}
+
+.alignLabel6px{
+    margin-left: 6px;
+}
+
+.alignLabel32px{
+    margin-left: 32px;
+}

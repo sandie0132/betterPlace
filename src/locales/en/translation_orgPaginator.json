@@ -1,0 +1,9 @@
+{
+    "image_alt_orgPaginator": {
+        "left": "left",
+        "right" : "right"
+    },
+    "div" : {
+        "of" : "of"
+    }
+}

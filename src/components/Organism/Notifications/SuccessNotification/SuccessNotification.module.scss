@@ -1,0 +1,90 @@
+@import '../../../../theme.scss';
+.SuccessNotificationCard{
+    font-size: 12px;
+    height:5px;
+    padding-top:0.2rem;
+    
+}
+.IconSuccess{
+    height: 12px;
+    padding: 2%;
+    padding-top: 1%;
+    margin-bottom: 0px;
+    
+}
+.IconCancel{
+    padding:0px;
+    padding-right:1rem;
+    cursor: pointer;
+}
+
+.NotificationCard{
+    background-color: $success-notification-bg;
+    border: 2px solid rgba(54,168,82,0.5);
+    color: $secondary-label;
+    font-size: 12px;
+    // line-height: 2rem;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.NotificationCardBGV{
+    background-color: $success-notification-bgv;
+    border: 2px solid $success-notification-bgv-border;
+    color:$success-notification-bgv-font;
+    font-size: 12px;
+    line-height: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.imgClose{
+    cursor: pointer;
+    margin-top: 0.75rem;
+}
+
+.boldFont{
+    font-family: 'Gilroy-Bold';
+}
+
+.GreenCardBorder{
+    background-color: $success-notification;
+    border: 2px solid $success;
+    color: $secondary-label;
+    font-size: 12px;
+    line-height: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.redFont{
+    color: $danger;
+}
+
+.yellowFont{
+    color: $success-notification-bgv-border;
+}
+
+.greenFont{
+    color: $success;
+}
+
+.WhiteCard{
+    background-color: $card-bg;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
+    border-radius: 4px;
+}
+
+.GreyText{
+    font-size: 12px;
+    color: $secondary-label;
+}
+
+.ActiveText{
+    font-size: 12px;
+    color: $active-link;
+    &:hover{
+        cursor: pointer;
+        background-color: $primary-background;
+        border-radius: 4px;
+    }
+}

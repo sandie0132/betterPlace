@@ -1,0 +1,175 @@
+@import '../../../../theme.scss';
+
+.alignCenter{
+  padding-left: 14%;
+  width: 100%; 
+  padding-right: 2%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.CardLayout{
+    padding: 40px;
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.CardLayoutInactive{
+    padding: 40px;
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+}
+
+.Preview{
+  cursor: pointer;
+}
+
+.HorizontalLine{
+  border: 0.5px thin $horizontal-line;
+}
+
+.ProcessHeading{
+  font-size: 24px;
+  margin-bottom: 0%;
+  font-family: 'Gilroy-Light';
+  color: $secondary-label;
+}
+
+.ProcessSubheading{
+  font-size: 12px;
+  margin-bottom: 0%;
+  font-family: 'Gilroy-Light';
+  color: $secondary-label;
+}
+
+.ViewLink{
+  font-size: 12px;
+  margin-bottom: 0%;
+  font-family: 'Gilroy-Light';
+  color: $active-link;
+  cursor: pointer;
+}
+
+.BoldText{
+  font-size: 14px;
+  margin-bottom: 0%;
+  font-family: 'Gilroy-Bold';
+  color: $secondary-label;
+}
+
+.ProcessStatus{
+  border-radius: 50%;
+  border: 2px solid $primary-background;
+  width: 32px;
+  height: 32px;
+}
+
+.FlexContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.SmallWidth{
+  width: 95%;
+}
+
+.LargeWidth{
+  width: 100%;
+}
+
+.SuccessImage{
+  height: 32px;
+  margin-top: 1rem;
+}
+
+//progressbar
+.ProgressBarLayout{
+  width: 35rem;
+  padding-bottom: 0% !important;
+}
+
+.ProgressBarMessage{
+  font-size: 12px;
+  font-family: "Gilroy-Light";
+  color: $card-link;
+}
+
+.ProgressBarLayout{
+  width: 35rem;
+  padding-bottom: 0% !important;
+}
+
+.ProgressBarMessageError{
+  font-size: 12px;
+  font-family: "Gilroy-Light";
+  color: $danger;
+}
+
+.StopButton{
+  margin-top: 2rem !important;
+  min-width: 6.5rem !important;
+  padding-left: 0.8rem !important;
+  padding-right: 0.8rem !important;
+  font-size: 14px !important;
+  color: $danger !important;
+  background-color: $error-notification !important;
+  &:hover{
+      color: $danger !important;
+  }
+}
+
+.StopLabel{
+  line-height: 20px;
+  padding-left: 0.5rem;
+}
+
+.WarningFont{
+  font-size: 14px;
+}
+
+.WarningButton1{
+  background-color: $button-cancel;
+  color: $secondary-label;
+  font-size: 14px;
+  margin-bottom: 0rem;
+}
+
+.WarningButton2{
+  background-color: $active-link;
+  color: $card-bg;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  // width: 12rem;
+}
+
+.WarningButtonExcel{
+  background-color: $active-link;
+  color: $card-bg;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  width: 12rem;
+}
+
+.GreyText{
+  margin-bottom: 0rem;
+  font-size: 12px;
+  color: $secondary-label;
+  font-family: Gilroy;
+}
+
+.DownloadTemp{
+  margin-bottom: 0rem;
+  font-size: 12px;
+  color: $active-link;
+  font-family: Gilroy;
+}
+
+.TextAlign{
+  text-align: center;
+  margin-right: 2rem;
+}

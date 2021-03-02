@@ -1,0 +1,11 @@
+{
+    "image_alt_SuccessNotification" : {
+        "organisationDetails" : "organisation details",
+        "close" : "close",
+        "success" : "success",
+        "greenTick" : "greenTick"
+    },
+    "p" : {
+        "p1" : "all the information saved successfully"
+    }
+}

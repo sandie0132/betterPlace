@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="10px" viewBox="0 0 11 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon / 12 / info / close</title>
+    <defs>
+        <path d="M10,1.29289322 L10.7071068,2 L6.70689322,5.99989322 L10.7071068,10 L10,10.7071068 L5.99989322,6.70689322 L2,10.7071068 L1.29289322,10 L5.29289322,5.99989322 L1.29289322,2 L2,1.29289322 L5.99989322,5.29289322 L10,1.29289322 Z" id="path-1"></path>
+    </defs>
+    <g id="⛑-in-progress-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13" transform="translate(-295.000000, -394.000000)">
+            <g id="Group" transform="translate(159.000000, 16.000000)">
+                <g id="Group-2" transform="translate(41.000000, 363.000000)">
+                    <g id="icon-/-12-/-info-/-close" transform="translate(94.408163, 13.693878)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#7892B8" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

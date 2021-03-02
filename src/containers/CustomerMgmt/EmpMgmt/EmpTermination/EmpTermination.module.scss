@@ -1,0 +1,203 @@
+@import '../../../../theme.scss';
+
+.ContainerPadding64{
+    padding-top: 1rem;   
+}
+
+.ContainerPaddingTop{
+    padding-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.PaddingRight16px{
+    padding-right: 16px; 
+}
+
+.AlignLeft{
+    margin-left: 10rem ;
+    margin-right: 2rem;
+}
+
+.Loader{
+    margin-left: 12rem;
+    margin-right: 0.5rem;
+    margin-top: 11rem;
+}
+
+.CardLayout{
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+.CardPadding{
+    padding: 11px 15px;
+}
+
+.DropDownPadding{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.SubmitPadding{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.SubmitPaddingEdit{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.EditButton{
+        background-color: $secondary-label;
+        border-radius: 20px;
+        padding: 10px;
+        padding-right: 15px;
+        cursor: pointer;
+        font-size: 14px;
+        width:12%;
+        text-align: right;
+        color: $card-bg;
+        &:hover{
+            text-decoration: none;
+            color: $card-bg;
+        }
+}
+
+.MarginLeft{
+    margin-left: 16px !important;
+}
+
+.ShowSuccessNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $success-notification;
+}
+
+.HideSuccessNotificationCard{
+    display: none;
+}
+
+.SuccessNotificationCard{
+    font-size: 12px;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+    
+}
+.HideErrorNotificationCard{
+    display: none;
+} 
+.HorizotalLine{
+    border: 1px solid $horizontal-line;
+}
+.AddMoreButton{
+    font-size: 14px;
+    color: $secondary-label;
+    &:hover{
+        cursor: pointer;
+    }
+   
+}
+.CloseButton{
+    
+   
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+.Label {	
+    color: $active-link;
+    font-family: Gilroy-Medium;	
+    font-size: 14px;	
+    line-height: 17px;
+    padding-left: 5%
+}
+
+.emptyNotification{
+    background-color: transparent;
+    min-height: 1.5rem;
+}
+.fontSize{
+    font-size:14px;
+    padding-left: 0.6rem;
+}
+.IdBackgroundColor{
+    background-color:$secondary-background;
+}
+
+.Arrow{
+    padding-right:1rem;
+}
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy-Bold';	
+    font-size: 14px;	
+    line-height: 30px;
+}
+
+.ConsentFont{
+    color:$secondary-label;	
+    font-size: 14px;
+}
+
+.ConsentLink{
+    color:$active-link;	
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.FormBackGround{
+    width: 100%;
+    background-color:$primary-background;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    right:0;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    
+}
+
+.image{
+    position: absolute;
+    top: 5.6rem;
+    left: 25%;
+    width: 7%;
+}
+
+.Preview{
+    border-radius: 5%;
+    margin-bottom: 0.5rem;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background-color: rgba(243, 247, 253, 0.7)
+   
+}
+
+.loadingLabel{
+    text-align: center;
+    padding-top: 0.6rem;
+    margin-left: 0.6rem;
+    font-size: 18px;
+}
+
+.PaddingLeftArrow{
+    margin-bottom: 24px;
+}

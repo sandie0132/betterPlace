@@ -1,0 +1,38 @@
+@import '../../../theme.scss';
+
+.paddingY{
+    padding-bottom: 24px;
+    padding-top: 1rem;
+    display: inline-flex;
+    // width:100%;
+}
+
+.warninContainer{
+    margin-left: auto;
+    padding-top: 1.5rem;
+}
+
+.warnningImg{
+    margin-right: 0.5rem;
+}
+
+.warningMsg{
+    color: $secondary-label;	
+    font-family: 'Gilroy-Medium';
+    font-size: 0.75rem;
+    margin-right: 1rem;
+}
+
+.greyLabel{
+    color: $secondary-label;
+    font-family: 'Gilroy-Light'
+}
+
+.imgSize {
+    height: 12px;
+    width: 12px;
+}
+
+.containerSize {
+    height: 40px;
+}

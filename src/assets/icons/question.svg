@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon / 12 / action / question</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,0 C2.6915,0 0,2.6915 0,6 C0,9.3085 2.6915,12 6,12 C9.3085,12 12,9.3085 12,6 C12,2.6915 9.3085,0 6,0 Z M5.75,9.5 C5.336,9.5 5,9.164 5,8.75 C5,8.336 5.336,8 5.75,8 C6.164,8 6.5,8.336 6.5,8.75 C6.5,9.164 6.164,9.5 5.75,9.5 Z M7.9055,5.0635 C7.751,5.311 7.4575,5.589 7.0245,5.898 C6.324,6.416 6.343,6.531 6.343,7 L5.1145,7 C5.1145,6.6335 5.1065,6.352 5.3045,6.0095 C5.431,5.79 5.663,5.5565 6,5.3095 C6.4045,5.0205 6.7975,4.742 6.7975,4.257 C6.7975,3.8025 6.4085,3.6405 5.954,3.6405 C5.4905,3.6405 4.962,3.792 4.3685,4.095 L3.863,3.08 C4.9415,2.4755 6.6435,2.202 7.574,2.9595 C8.257,3.516 8.261,4.4945 7.9055,5.0635 Z" id="path-1"></path>
+    </defs>
+    <g id="🏂-on-boarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-BGV-Client-onboarding_organisation-details_C" transform="translate(-441.000000, -79.000000)">
+            <g id="section-title" transform="translate(160.000000, 64.000000)">
+                <g id="icon-/-12-/-action-/-question" transform="translate(281.000000, 15.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#8697A8" fill-rule="nonzero" opacity="0.5" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#8697A8" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

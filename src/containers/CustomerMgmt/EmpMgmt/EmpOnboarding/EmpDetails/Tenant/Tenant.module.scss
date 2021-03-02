@@ -1,0 +1,84 @@
+@import '../../../../../../theme.scss';
+
+.inputField{
+    border: 0;
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 24px;
+    width: 90%;
+    outline: none;
+    overflow: hidden;
+}
+
+.searchContainer{
+    display: inline-block;
+    border: 1px solid $primary-background;	
+    border-radius: 4px;
+    width: 100%;
+}
+
+.HorizontalLine{
+    border: 1px solid $primary-background;
+}
+
+.defaultLabel{
+    color: $secondary-label;
+    font-size: 12px;
+    margin-bottom: 0%;
+    line-height: 35px;
+}
+
+.requiredStar{
+    color: $danger;
+}
+
+// .TagBackground{
+//     background-color: $primary-background;
+//     border-radius: 24px;
+//     height: 2rem;
+//     padding-right: 1rem;
+// }
+
+// .TagLocation{
+//     background-color: #EBECFD;
+//     border-radius: 24px;
+//     height: 2rem;
+//     padding-right: 1rem;
+// }
+
+// .locationLabel{
+//     color: $active-link;
+//     font-size: 12px;
+//     margin-bottom: 0%;
+//     line-height: 35px;
+// }
+
+// .TagRole{
+//     background-color: rgb(228, 195, 240);
+//     border-radius: 24px;
+//     height: 2rem;
+//     padding-right: 1rem;
+// }
+
+// .roleLabel{
+//     color: #976CA7;
+//     font-size: 12px;
+//     margin-bottom: 0%;
+//     line-height: 35px;
+// }
+
+.Cursor{
+    cursor: pointer;
+}
+
+.MarginTop{
+    margin-top: 0.75rem;
+}
+
+.searchBar{
+    background-color: $card-bg !important;
+}
+
+.labelText {
+    font-family: 'Gilroy';
+}

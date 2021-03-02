@@ -1,0 +1,33 @@
+// @import url('../../../theme.scss');
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-Regular.eot');
+  src: url('./assets/fonts/Gilroy-Regular.woff') format("woff"),
+  url('./assets/fonts/Gilroy-Regular.otf') format("opentype"),
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-Bold.eot');
+  src: url('./assets/fonts/Gilroy-Bold.woff') format("woff"),
+  url('./assets/fonts/Gilroy-Bold.otf') format("opentype"),
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('./assets/fonts/Gilroy-Medium.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-Medium.eot');
+  src: url('./assets/fonts/Gilroy-Medium.woff') format("woff"),
+  url('./assets/fonts/Gilroy-Medium.otf') format("opentype"),
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('./assets/fonts/Gilroy-SemiBold.ttf') format('truetype');
+  src: url('./assets/fonts/Gilroy-SemiBold.eot');
+  src: url('./assets/fonts/Gilroy-SemiBold.woff') format("woff"),
+  url('./assets/fonts/Gilroy-SemiBold.otf') format("opentype"),
+}

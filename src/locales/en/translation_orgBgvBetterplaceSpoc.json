@@ -1,0 +1,15 @@
+{
+    "button_bpspoc": {
+        "next": "next"
+    },
+    "image_alt": {
+        "arrow": "arrow",
+        "plus": "plus"
+    },
+    "label": "configure BGV",
+    "cardHeader": "add betterplace spoc",
+    "OpsManager": "Ops Manager",
+    "OpsAnalyst": "Ops Analyst",
+    "add": "add spoc",
+    "search": "search and add spoc for bgv from above"
+}

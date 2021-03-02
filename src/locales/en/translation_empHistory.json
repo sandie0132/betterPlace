@@ -1,0 +1,54 @@
+{
+    "add":"add more",
+    "cardHeader": "employee history",
+    "button_empHistory": {
+        "save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete": "delete"
+    },
+    "image_alt_empHistory":{
+        "add":"add"
+    },
+    "warning_empHistory_cancel" : {
+        "text" : "cancel?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, cancel" ,
+        "cancelText" : "keep"
+    },
+    "warning_empHistory_delete" : {
+        "text" : "delete?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, delete" ,
+        "cancelText" : "keep"
+    },
+    "input_empHistory":{
+        "label":{
+            "workedFor": "work type",
+            "orgName":"organisation name *",
+            "designation":"designation *",
+            "employeeId": "employee id",
+            "joinedOn":"joined on *",
+            "workedUntil" :"worked until",
+            "hrMobile":"hr number",
+            "hrEmail": "hr email id",
+            "hrName":"hr name",
+            "salary": "salary/month",
+            "reportingManagerName": "reporting manager name",
+            "reportingManagerMobile": "reporting manager number",
+            "reportingManagerEmail": "reporting manager email id"
+        },
+        "placeholder":{
+            "orgName":"organisation name",
+            "designation":"designation",
+            "employeeId": "employee id",
+            "hrMobile":"hr number",
+            "hrEmail": "hr email id",
+            "hrName":"hr name",
+            "salary": "salary/month",
+            "reportingManagerName":"r.manager name",
+            "reportingManagerMobile": "r.manager number",
+            "reportingManagerEmail": "r.manager email id"
+        }
+    }
+}

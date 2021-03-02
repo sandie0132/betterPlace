@@ -1,0 +1,12 @@
+@import '../../../../theme.scss';
+
+.FormBackgroundColor{
+  background-color: $card-bg;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+  border-radius: 4px;
+}
+
+.HorizontalLine{
+    border: 1px solid $primary-background;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+}

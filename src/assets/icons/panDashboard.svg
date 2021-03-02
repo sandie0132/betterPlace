@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-dashboard_1__main" transform="translate(-160.000000, -691.000000)">
+            <g id="Insights" transform="translate(160.000000, 418.000000)">
+                <g id="IDs" transform="translate(0.000000, 273.000000)">
+                    <g id="header">
+                        <g id="PAN">
+                            <g id="icon">
+                                <rect id="Rectangle" fill="#F4EEE8" x="0" y="0" width="24" height="24" rx="12"></rect>
+                                <g id="Group-4" transform="translate(6.000000, 7.000000)">
+                                    <polygon id="Path" fill="#9A5A1E" points="7.09090909 -9.76996262e-15 12 -9.76996262e-15 12 9.27272727 0 9.27272727 0 -9.76996262e-15 4.90909091 -9.76996262e-15"></polygon>
+                                    <line x1="7.63636364" y1="3.81818182" x2="9.81818182" y2="3.81818182" id="Path" stroke="#FFFFFF" stroke-linecap="square"></line>
+                                    <line x1="7.63636364" y1="6" x2="9.81818182" y2="6" id="Path" stroke="#FFFFFF" stroke-linecap="square"></line>
+                                    <path d="M1.63636364,7.09090909 C1.63636364,6.18709091 2.36890909,5.45454545 3.27272727,5.45454545 L4.36363636,5.45454545 C5.26745455,5.45454545 6,6.18709091 6,7.09090909 L1.63636364,7.09090909 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="3.81818182" cy="3.81818182" r="1.09090909"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

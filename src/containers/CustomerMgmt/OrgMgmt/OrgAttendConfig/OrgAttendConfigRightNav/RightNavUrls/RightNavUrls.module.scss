@@ -1,0 +1,42 @@
+@import "../../../../../../theme.scss";
+
+.activeCircle {
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 50%;
+}
+
+.inactive {
+    cursor: not-allowed !important;
+    opacity: 0.65;
+}
+
+.sectionHeadActive {
+    color: $active-link;
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    &:hover {
+        color: $active-link;
+    }
+}
+
+.sectionHeadInactive {
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    margin-bottom: 2rem;
+    cursor: not-allowed;
+}
+
+.sectionHeadDone {
+    color: $secondary-label;
+    font-family: "Gilroy";
+    font-size: 14px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    &:hover {
+        color: $active-link;
+    }
+}
+

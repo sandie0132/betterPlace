@@ -1,0 +1,46 @@
+@import '../../../../../theme.scss';
+
+.statusChange {
+	width: 97%;
+    padding: 8px 16px;
+	background-color: $primary-background;
+	// height: 2.5rem;
+}
+
+.statusChangeContent {
+	color: $secondary-label;
+	font-family: Gilroy-Medium;
+	font-size: 12px;
+	line-height: 17px;
+}
+
+@media only screen and (max-width: 780px) {
+	.statusChangeContent {
+		color: $secondary-label;
+		font-family: Gilroy-Medium;
+		font-size: 12px;
+		line-height: 17px;
+	}
+}
+
+.statusRed {
+    font-family: Gilroy-Bold;
+    color: $danger;
+    font-size: 12px;
+}
+
+.statusYellow {
+    font-family: Gilroy-Bold;
+    color: $yellow-case;
+    font-size: 12px;
+}
+
+.statusGreen {
+    font-family: Gilroy-Bold;
+    color: $success;
+    font-size: 12px;
+}
+
+.img16px {
+	height: 16px;
+}

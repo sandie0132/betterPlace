@@ -1,0 +1,49 @@
+@import '../../../theme.scss';
+
+.CardLayout{
+    background-color: $card-bg;
+    border-radius: 4px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    width : 96%;
+}
+
+.Message{
+    color: $card-link;
+    font-size: 12px;
+    font-family: 'Gilroy-Medium';
+    margin-bottom: 0%;
+    padding: 10px;
+}
+
+.ProgressBar{
+    background-color: $active-link;
+    height: 3px;
+    border-radius: inherit;
+    width: 100%;
+}
+
+.Loading {
+    width: 90%;
+    height: 3px;
+    position: relative;
+    background: $card-bg;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .Loading::before {
+    content: '';
+    position: absolute;
+    background: $active-link;
+    height: 3px;
+    bottom: 0;
+    animation: wipe 5s cubic-bezier(.2,.2,.2,.2) forwards;
+  }
+  @keyframes wipe {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }

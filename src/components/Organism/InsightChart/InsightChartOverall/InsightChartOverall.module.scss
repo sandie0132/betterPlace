@@ -1,0 +1,88 @@
+@import "../../../../theme.scss";
+
+text {
+  font-size: 10px;
+}
+
+.chartBg {
+  background-image: url("../../../../assets/icons/waveAni.gif");
+  background-repeat: repeat-y;
+  animation-name: example;
+  animation-duration: 5s;
+  overflow: auto;
+}
+
+@keyframes example {
+  from {
+    max-width: 0px;
+  }
+  to {
+    max-width: 950px;
+  }
+}
+
+.tooltip2 {
+  position: fixed;
+  z-index: 999;
+  opacity: 0;
+  height: fit-content;
+  padding: 5px 10px 3px 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4);
+  pointer-events: none;
+  text-align: center;
+}
+
+.tooltip2.hidden {
+  opacity: 0;
+}
+
+.value2 {
+  font-family: "gilroy-medium";
+  line-height: 14px;
+}
+
+.tab {
+  color: $card-bg;
+  position: absolute;
+  margin-top: 1.75rem;
+  right: 0;
+  margin-right: 4rem;
+  font-size: 16px;
+  font-family: "gilroy-medium";
+  animation: cssAnimation 1s 5s forwards;
+  opacity: 0;
+}
+
+.tabContent {
+  font-size: 24px;
+  color: $primary-label;
+  padding: 4px 16px 2px 16px;
+  border-radius: 16px;
+  background-color: $card-bg;
+  font-family: "gilroy";
+  margin-left: 0.5rem;
+}
+
+.noDataBg {
+  background-color: $primary-background;
+  opacity: 0.9;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.tabNoData {
+  color: $primary-label;
+  opacity: 0.6;
+  font-size: 16px;
+  font-family: "gilroy-medium";
+  animation: cssAnimation 1s 5s forwards;
+  opacity: 0;
+}
+
+@keyframes cssAnimation {
+  to {
+    opacity: 1;
+  }
+}

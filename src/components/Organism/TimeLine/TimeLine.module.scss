@@ -1,0 +1,204 @@
+@import "../../../theme.scss";
+
+
+.LeftBorder{
+  border-left: 2px solid $card-bg;
+  margin-top:0px;
+  padding-top:0px;
+}
+
+.RightBorder{
+    border-right: 2px solid $card-bg;
+    margin-top:0px;
+    padding-top:0px;
+  }
+
+
+
+///////New Styles
+
+.timeLineTextLeft{
+    color: $timeline-text;	
+    font-family: Gilroy;	
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 0px;
+    line-height: 14px;
+    word-break: break-all;
+    
+}
+
+.timelineDownload{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.timelineDownloadLoading{
+    text-decoration: underline;
+    cursor: progress;
+}
+
+.timeLineTextRight{
+    color: $timeline-text;	
+    font-family: Gilroy;	
+    font-size: 12px;
+    text-align: left;
+    position: absolute;
+    margin-bottom: 0px;
+    line-height: 14px;
+    
+}
+
+.timeLineTextRightSmall{
+    color: $timeline-text;	
+    font-family: Gilroy;
+    position: absolute;	
+    font-size: 8px;
+    text-align: left;
+    margin-top: 0.7rem;
+    margin-bottom: 0px;
+}
+
+.RedBorder{
+    border-right: 2px solid $danger;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    height: 1.4rem;
+}
+
+.GreenBorder{
+    border-right: 2px solid $success;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    height: 1.4rem;
+}
+
+.GreyBorder{
+    border-right: 2px solid $secondary-label;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    height: 1.4rem;
+}
+
+.YellowBorder{
+    border-right: 2px solid $warning;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    height: 1.4rem;
+}
+
+.blueLineVertical{
+    border-left: 2px solid $active-link;
+    height: 3.5rem;
+    margin-left: -0.24rem;
+    position: absolute;
+    z-index: 100;
+}
+
+.blueDot{
+    width: 8px;
+    height: 8px;
+    background-color: $active-link;
+    border-radius: 50%;
+    margin-left: -0.44rem;
+    position: absolute;
+    z-index: 999;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.hr1{
+    border:1px solid $card-bg;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.floatIconContainer{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.rowHeight{
+   height: 3.5rem;
+   max-height: 3.5rem;
+}
+
+.leftPaddingTop{
+    padding-top: 0.8rem
+}
+
+.rightPaddingTop{
+    padding-top: 0.96rem
+}
+
+.fullHeight{
+    height: 100%;
+}
+
+.fileDownload{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.tooltipContainer{
+    height: 4rem;
+    min-width: 12rem;
+    background-color: $card-bg;
+    position: relative;
+    z-index: 9999;
+    bottom: 3.5rem;
+    right: 10rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}
+
+///////////Tooltip Arrow design
+.tooltipContainer::after {
+    content: "";
+    position: absolute;
+    top: 99%;
+    left: 72.5%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: $card-bg transparent transparent transparent;
+}
+
+.tooltipHeading{
+    color: $primary-label;	
+    font-family: Gilroy-Medium;	
+    font-size: 14px;	
+    line-height: 16px;
+    margin-bottom: 2px;
+}
+
+.tooltipText{
+    color: $secondary-label;
+    font-family: Gilroy-Medium;	
+    font-size: 12px;		
+    line-height: 14px;
+    margin-bottom: 2px;
+}
+
+.tooltipProfilePic{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.scroll{
+    max-height: 35rem;
+    overflow: auto;
+    // display:flex;
+    // flex-direction: column-reverse;
+}
+
+.timelineHeight{
+    margin-top: 4rem;
+    height: auto;
+    min-height: 35rem;
+    margin-left: 2rem;
+}

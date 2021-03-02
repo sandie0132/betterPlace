@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 20</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="site/shift-management_03" transform="translate(-320.000000, -493.000000)">
+            <g id="personal_details-DL" transform="translate(280.000000, 118.000000)">
+                <g id="shift-name" transform="translate(40.000000, 352.000000)">
+                    <g id="Group-20" transform="translate(0.000000, 23.000000)">
+                        <path d="M4,0 L37,0 C39.209139,-4.05812251e-16 41,1.790861 41,4 L41,36 C41,38.209139 39.209139,40 37,40 L4,40 C1.790861,40 2.705415e-16,38.209139 0,36 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="input-copy" fill="#F3F7FD"></path>
+                        <g id="icon-/-48-/-info-/-verification-/-aadhar" transform="translate(13.000000, 12.000000)" fill="#0059B2" fill-rule="nonzero">
+                            <g id="Mask" transform="translate(0.500000, 0.000000)">
+                                <path d="M7.75,0 C3.47657418,0 0,3.47657418 0,7.75 C0,12.0234258 3.47657418,15.5 7.75,15.5 C12.0234258,15.5 15.5,12.0234258 15.5,7.75 C15.5,3.47657418 12.0234258,0 7.75,0 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

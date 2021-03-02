@@ -1,0 +1,80 @@
+@import '../../../../../theme.scss';
+
+.StickyCard{
+    // position: sticky;
+    // top: 0;
+    // bottom: 10rem;
+    position: absolute;
+    top: 85vh;
+    background-color: $card-bg;
+    font-size: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 4.5rem;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}
+
+.StatusCircle{
+    width: 17%;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.ExcelIcon{
+    height: 24px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.65rem;
+}
+
+.Heading{
+    font-size: 14px;
+    font-family: 'Gilroy-Bold';
+    color: $active-link;
+    margin-bottom: 4%;
+}
+
+.PendingStatus{
+    border-radius: 50%;
+    background-color: $primary-background;
+    width: 14px;
+    height: 14px;
+    // line-height: 1.5rem;
+}
+
+.PendingHr{
+    border: 0.5px dashed $primary-background;
+    width: 0.9rem;
+    margin-top: 0.45rem;
+    margin-bottom: 0%;
+}
+
+.SuccessStatus{
+    line-height: 1.5rem;
+}
+
+.SuccessHr{
+    border: 0.5px dashed $success;
+    width: 0.9rem;
+    margin-top: 0.45rem;
+    margin-bottom: 0%;
+}
+
+.LoadingStatus{
+    font-size: 12px;
+    border-radius: 24px;
+    background-color: $primary-background;
+    color: $secondary-label;
+    font-family: 'Gilroy-Light';
+    line-height: 16px;
+}
+
+.ErrorStatus{
+    font-size: 12px;
+    border-radius: 24px;
+    background-color: $error-notification;
+    color: $danger;
+    font-family: 'Gilroy-Light';
+    line-height: 16px;
+}

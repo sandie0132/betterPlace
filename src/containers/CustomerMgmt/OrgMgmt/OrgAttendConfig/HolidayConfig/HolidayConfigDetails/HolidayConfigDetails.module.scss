@@ -1,0 +1,189 @@
+@import "../../../../../../theme.scss";
+
+.alignCenter {
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 3%;
+    height: 100vh;
+}
+
+@media (min-width: 1025px) {
+    .alignCenter {
+        padding-right: 25%;
+    }
+}
+
+.container {
+    background-color: $card-bg;
+    padding: 0.5rem 2rem 3.5rem 1rem;
+    position: relative;
+    // margin-top: 1.5rem;
+}
+
+.fixedTopHeader{
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    background-color: $primary-background;;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.fixedHeader{
+    padding: 8px;
+    margin-top: 16px;
+    background-color: $card-bg;
+    width: 100%;
+}
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.timeHeading { 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.horizontalLine {
+    border: 1px solid $horizontal-line;
+    width: 98%;
+    margin-left: 1rem;
+}
+
+.datePicker{
+    margin-top: 14px;
+}
+
+.addLocationContainer{
+    padding: 4px 12px 4px 12px;
+    background-color: $primary-background;
+    cursor: pointer;
+    position: relative;
+    width: 8rem;
+    border-radius: 14px;
+    height: 24px;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.addLocationContainerDeactive{
+    padding: 4px 12px 4px 12px;
+    background-color: $secondary-background;
+    color: $secondary-label;
+    cursor: none;
+    position: relative;
+    border-radius: 14px;
+    font-family: Gilroy;
+    font-size: 14px;
+    width: 8rem;
+    line-height: 16px;
+    height: 24px;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.blueText{
+  color: $active-link;
+  font-family: Gilroy;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.addIcon{
+    font-family: Gilroy-SemiBold;
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    font-size: 14px;
+}
+
+.locationNameContainer{
+    padding: 5px 8px 5px 8px;
+    background-color: $secondary-background;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    border-radius: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    color: $secondary-label;
+    margin: 2px 4px 2px 4px;
+}
+
+.closeTag{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.alignRight {
+    align-self: flex-end;
+}
+
+.checkMarkStyle{
+    margin-top: 4px;
+}
+
+.checkBoxText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: $error-notification;
+}
+
+.HideErrorNotificationCard{
+    display: none;
+    margin-top: 1.5rem;
+}
+
+.blankNotification{
+    min-height: 1.5rem;
+    background-color: $card-bg;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    margin-top: 1.5rem;
+}
+
+.removeContainer{
+    height: 112px;
+    border-radius: 0 0 4px 4px;
+    background-color: $card-pvc;
+    width: 100%;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.removeContainerText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.locationInfoText{
+    color: #8697A8;
+    font-size: 14px;
+}

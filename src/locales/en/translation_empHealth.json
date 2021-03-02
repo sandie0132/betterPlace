@@ -1,0 +1,31 @@
+{
+    "button_empHealth": {
+        "save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete": "delete"
+    },
+    "warning_empHealth_cancel" : {
+        "text" : "cancel?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, cancel" ,
+        "cancelText" : "keep"
+    },
+    "input_empHealth":{
+        "label":{
+            "identify":"identification mark"
+        },
+        "placeholder":{
+            "identify":"enter identification mark"
+        }
+    },
+    "cardHeader": "employee health",
+    "weightLabel": "select weight",
+    "heightLabel": "select height",
+    "bgLabel":"select blood group",
+    "image_alt_empHealth":{
+        "height":"height",
+        "bloodGroup":"bloodGroup",
+        "weight":"weight"
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../../../../theme.scss';
+
+.BgSize{
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    height: 8rem;
+}
+
+.Numerator {
+    font-size: 48px;
+}
+
+.Slash {
+    color: $primary-label;
+    font-size: 48px;
+}
+
+.Denominator {
+    font-size: 40px;
+    line-height: 4.7rem;
+}
+
+.Tasks{
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy-Bold';
+    line-height: 2rem;
+    margin-top: 0.25rem;
+}
+
+.Circle{
+    min-height: 12px;
+    min-width: 12px;
+    max-height: 12px;
+    max-width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.SmallLabel{
+    color: $primary-label;
+    line-height: 12px;
+    font-size: 12px;
+}

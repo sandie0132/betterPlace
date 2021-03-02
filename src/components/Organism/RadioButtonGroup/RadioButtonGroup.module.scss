@@ -1,0 +1,15 @@
+@import '../../../theme.scss';
+
+.Label{
+    font-size: 12px;
+    font-family: Gilroy;
+    font-weight: bold;
+    color: $primary-label;
+    display: block;
+    margin-bottom: 8px;
+    min-height: 18px;
+}
+
+.requiredStar{
+    color: $danger;
+}

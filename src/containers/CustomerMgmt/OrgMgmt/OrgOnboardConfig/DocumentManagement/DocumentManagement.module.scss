@@ -1,0 +1,222 @@
+
+@import '../../../../../theme.scss';
+
+.alignCenter{
+    padding-left: 14%;
+    width: 100%; 
+    padding-right: 2%;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  
+  .CardLayout{
+      padding: 40px;
+      background-color: $card-bg;
+      border-radius: 4px;
+      margin-bottom: 1.5rem;
+      height: 35rem;
+  }
+  
+  .CardLayoutInactive{
+      padding: 40px;
+      background-color: $card-bg;
+      border-radius: 4px;
+      margin-bottom: 1.5rem;
+      opacity: 0.5;
+  }
+
+  .Preview{
+    cursor: pointer;
+  }
+
+
+  .sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-Light;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .sectionText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+
+  .verticleLineGreen{
+    height: 5rem;
+    border-left: 2px dashed $success;
+    margin-left: 0.7rem;
+    margin-top: 2rem;
+  }
+
+  .activeCircle{
+    // box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    border-radius: 50%;
+    margin-top: 3.5rem;
+  }
+  
+  .inactiveCircle{
+    position: absolute;
+    z-index: 1;
+    margin-top: 0.5rem;
+  }
+  
+  .verticleLineDisabled{
+    height: 5rem;
+    border-left: 2px dashed $primary-background;
+    margin-left: 0.7rem;
+  }
+  
+  .verticleLineActive{
+    height: 5rem;
+    border-left: 2px dashed $success;
+    margin-left: 0.7rem;
+    // margin-top: 2rem;
+  }
+  
+  .verticleLineDisabledError{
+    height: 5rem;
+    border-left: 2px dashed $primary-background;
+    margin-left: 0.7rem;
+    // margin-top: 2rem;
+  }
+
+
+.stepNumber{
+    background-color: $secondary-background;
+    color: $card-bg;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+
+.numberFont{
+    // padding-left: 35%;
+    padding-top: 5%;
+}
+
+.greyText{
+    color: $secondary-label
+}
+
+.greenText{
+    color: $success;
+}
+
+.redText{
+    color: $danger;
+}
+.blueText{
+  color: $active-link;
+}
+
+.sampleDownloadContainer{
+    height: 40px;
+    width: 221px;
+    border-radius: 20px;
+    background-color:$secondary-background;
+}
+
+.whiteBackground{
+  background: white;
+}
+
+.confirmContainer{
+    height: 40px;
+    width: 96px;
+    border-radius: 20px;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: $secondary-background;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.documentSectionHeightLarge{
+  height: 9rem;
+}
+.documentSectionHeightMid{
+  height: 6rem;
+}
+
+.verticleLineHeightLarge{
+  height: 8rem;
+}
+
+.sampleDownloadLarge{
+  width: 9.3rem;
+  height: 2.5rem !important;
+  padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+}
+
+.sampleDownloadActiveLarge{
+  width: 9.3rem;
+  height: 2.5rem !important;
+  padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+  background-color: $active-link !important;
+}
+
+.sampleDownloadMid{
+  width: 10rem;
+  height: 2.5rem !important;
+  padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+}
+
+.templateDownloadMid{
+  width: 11rem;
+  height: 2.5rem !important;
+  padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+}
+
+.smallText{
+  color: $secondary-label;
+  font-family: Gilroy;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.horizontalLine{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem
+}
+
+.downloadTemplateButtonContainer{
+  height: 2.5rem !important;
+  padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+  border-radius: 20px;
+  background-color: $secondary-background;
+  width: max-content;
+  max-width: 12rem;
+}
+
+@media (min-width: 1500px) {
+  .downloadTemplateButtonContainer{
+    max-width: 16rem;
+  }
+}
+
+.twoLineEllipsis{
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+}
+
+.opacContainer{
+  opacity: 0.5;
+}
+
+.templateDownloadText{
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

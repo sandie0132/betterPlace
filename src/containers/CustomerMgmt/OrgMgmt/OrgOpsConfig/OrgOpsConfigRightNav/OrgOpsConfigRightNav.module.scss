@@ -1,0 +1,36 @@
+@import '../../../../../theme.scss';
+
+.RightNavLabel{
+    padding-left: 2rem;
+    padding-top: 2.5rem;
+}
+
+.proceed{
+    margin-top : 10rem;
+}
+
+.OrgRightNavLabel{
+    color: $card-bg;
+    font-family: Gilroy-Thin;
+    font-size: 48px;
+}
+
+.Hover{
+    cursor: pointer;
+}
+
+.LargeButtonWidth{
+    min-width: 90% !important;
+    margin-bottom: 18rem !important;
+}
+
+.show{
+    width: 20rem;
+    background-color: $card-bg;
+    box-shadow: -2px 0 4px 0 rgba(0,0,0,0.06);
+    overflow: auto;
+}
+
+.MarginLeft{
+    margin-left: 2rem;
+}

@@ -1,0 +1,25 @@
+@import "../../../../../../../theme.scss";
+
+.formSubHead {
+    color: $primary-label;
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.4px;
+}
+
+.HorizontalLine {
+    border: 1px solid $primary-background;
+}
+
+.Cursor {
+    cursor: pointer;
+}
+
+.Preview {
+    border-radius: 5%;
+}
+
+.showOpacity {
+    opacity: 0.3;
+}

@@ -1,0 +1,16 @@
+@import '../../../../theme.scss';
+
+.AlignLoader{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    width: 272px;
+    height: 182px;
+    margin-right: 32px;
+}
+
+.HorizontalLine{
+    border: 1px solid $horizontal-line;
+    width: 85%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}

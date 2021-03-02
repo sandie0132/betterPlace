@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="12px" viewBox="0 0 10 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon / 12 / info / company</title>
+    <defs>
+        <path d="M10.5,0 L1.5,0 C1.22385763,0 1,0.223857625 1,0.5 L1,11.5 C1,11.7761424 1.22385763,12 1.5,12 L10.5,12 C10.7761424,12 11,11.7761424 11,11.5 L11,0.5 C11,0.223857625 10.7761424,0 10.5,0 Z M8,8 C8,9.1045695 7.1045695,10 6,10 C4.8954305,10 4,9.1045695 4,8 L4,6.5 L5,6.5 L5,8 C5,8.55228475 5.44771525,9 6,9 C6.55228475,9 7,8.55228475 7,8 L7,6.5 L8,6.5 L8,8 Z M5.5,7 L5.5,5 C5.5,4.72385763 5.72385763,4.5 6,4.5 C6.27614237,4.5 6.5,4.72385763 6.5,5 L6.5,7 C6.5,7.27614237 6.27614237,7.5 6,7.5 C5.72385763,7.5 5.5,7.27614237 5.5,7 Z M8,5.5 L7,5.5 L7,4 C7,3.44771525 6.55228475,3 6,3 C5.44771525,3 5,3.44771525 5,4 L5,5.5 L4,5.5 L4,4 C4,2.8954305 4.8954305,2 6,2 C7.1045695,2 8,2.8954305 8,4 L8,5.5 Z" id="path-1"></path>
+    </defs>
+    <g id="🏂-Client-Onboarding_OA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="betterplacedetails-03" transform="translate(-433.000000, -217.000000)">
+            <g id="profile-card" transform="translate(160.000000, 120.000000)">
+                <g id="details" transform="translate(152.000000, 32.000000)">
+                    <g id="link" transform="translate(120.000000, 64.000000)">
+                        <g id="icon-/-12-/-info-/-company" transform="translate(0.000000, 1.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#8697A8" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

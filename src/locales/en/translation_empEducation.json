@@ -1,0 +1,44 @@
+{
+    "image_alt_empEducation": {
+        "add":"add"
+    },
+    "button_empEducation": {
+        "save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete": "delete"
+    },
+    "warning_empEducation_cancel" : {
+        "text" : "cancel?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, cancel" ,
+        "cancelText" : "keep"
+    },
+    "warning_empEducation_delete" : {
+        "text" : "delete?",
+        "para" : "Warning: this cannot be undone",
+        "confirmText" : "yes, delete" ,
+        "cancelText" : "keep"
+    },
+    "input_empEducation" : {
+        "label": {
+            "educationType" : "education type *",
+            "school/college": "school/college *",
+            "board/university": "board/university *",
+            "course":"course *",
+            "from": "from",
+            "to":"to",
+            "cgpa/percentage":"cgpa/percentage",
+            "passedYear": "passed year"
+        },
+        "placeholder": {
+            "school/college": "school name/college name",
+            "board/university": "board name/university name",
+            "course":"course",
+            "cgpa/percentage":"cgpa/percentage",
+            "passedYear": "YYYY"
+        }
+    },
+    "cardHeader": "education  details",
+    "label" :"add more"
+}

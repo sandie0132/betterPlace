@@ -1,0 +1,40 @@
+.circle{
+    margin-top: 0.5rem;
+    border-radius:180px;
+  }
+  
+  text {
+    font-family: sans-serif;
+    font-size: 12px;
+    fill: white;
+  }
+  .tooltip {
+    position: absolute;
+    font-size: 12px;
+    z-index: 999;
+    opacity: 0;
+    width: max-content;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4) ;
+    pointer-events: none;
+  }
+  .tooltip.hidden {
+    opacity: 0;
+  }
+  .tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .icon{
+    height: 30px;
+    position: absolute;
+    
+  }
+  .marginLeft{
+    margin-left: 5px;
+  }
+  

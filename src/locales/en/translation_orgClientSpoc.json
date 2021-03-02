@@ -1,0 +1,19 @@
+{
+    "image_alt_orgClientSpoc": {
+        "icon": "icon"
+    },
+    "button_orgClientSpoc": {
+        "next": "next"
+    },
+    "label": {
+        "l1": "configure BGV"
+    },
+    "span": {
+        "s1": "select or add spoc",
+        "s2": "selected spoc",
+        "s3": "can't find the spoc you're looking for? add new from ",
+        "s4": "please select a spoc from the available list above",
+        "s5": "here"
+    },
+    "cardHeader": "add client spoc"
+}

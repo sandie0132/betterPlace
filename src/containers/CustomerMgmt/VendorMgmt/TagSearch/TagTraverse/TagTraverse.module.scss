@@ -1,0 +1,140 @@
+@import '../../../../../theme.scss';
+
+.ContainerPadding64{
+    padding-top: 2rem;
+}
+
+.PaddingRight16px{
+    padding-right: 16px;
+}
+
+.CardLayout{
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+}
+
+.CardPadding{
+    padding: 32px 40px;
+}
+
+.FormPaddingLeft{
+    padding: 0 3rem;
+}
+
+.EditButton{
+    background-color: $secondary-label;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    width:12%;
+    text-align: right;
+    color: $card-bg;
+    &:hover{
+        text-decoration: none;
+        color: $card-bg;
+    }
+}
+
+.MarginLeft{
+    margin-left: 16px !important;
+}
+
+.ShowSuccessNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $success-notification;
+}
+
+.HideSuccessNotificationCard{
+    display: none;
+}
+
+.SuccessNotificationCard{
+    font-size: 12px;
+}
+
+.ShowErrorNotificationCard{
+    display: block;
+    min-height: 1.5rem;
+    background-color: $error-notification;
+}
+
+.HideErrorNotificationCard{
+    display: none;
+}
+
+.searchBar{
+    margin-right: -50px;
+    margin-left: 10px;
+    border:none;
+    outline: none;
+    font-size: 14px;
+    background: none;
+    display: inline;  
+}
+
+.HorizontalLine{
+    border:0.07rem solid $horizontal-line;
+    margin-bottom: 0px;
+}
+
+.tagHead{
+    font-size: 12px;
+    color: $active-link;
+}
+
+.tagHead :hover{
+    outline: $active-link;
+}
+
+.SectionAli{
+    margin-left: 2rem;
+    overflow-y: hidden;
+    overflow-x: visible;
+    height: 15rem;
+    display: inline-flex;
+    //width: 52rem;
+}
+
+.buttonStyle{
+    background: $active-link;
+    //outline: none;
+    border-radius: 20px;
+    border-color: $active-link;
+    color: $card-bg;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    &:onFocus{
+        outline: none;
+    }
+}
+
+.AddButtonStyle{
+    border:0;
+    background: 0;
+    color:$active-link ;
+    font-size: 12px;
+    &:onFocus{
+        outline: none;
+    }
+}
+
+.AddFuncText{
+    margin: 12rem 0;
+    color: rgb(58, 71, 90);
+}
+
+.SecCol{
+    display: inline;
+}
+
+.scroll{
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
+}

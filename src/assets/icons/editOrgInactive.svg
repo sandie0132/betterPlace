@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="⛑-in-progress-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="betterplacedetails-03-copy" transform="translate(-956.000000, -136.000000)">
+            <g id="profile-card" transform="translate(160.000000, 120.000000)">
+                <g id="edit_button" transform="translate(788.000000, 12.000000)">
+                    <g id="Group-2" transform="translate(8.000000, 4.000000)">
+                        <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                        <g id="d-edit" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <g id="Group">
+                                <path d="M9.39130435,12 L0.52173913,12 C0.233590565,12 0,11.7664094 0,11.4782609 L0,2.60869565 C0,2.32054709 0.233590565,2.08695652 0.52173913,2.08695652 L4.69565217,2.08695652 L4.69565217,3.13043478 L1.04347826,3.13043478 L1.04347826,10.9565217 L8.86956522,10.9565217 L8.86956522,7.30434783 L9.91304348,7.30434783 L9.91304348,11.4782609 C9.91304348,11.7664094 9.67945291,12 9.39130435,12 Z" id="Path"></path>
+                                <polygon id="Rectangle" transform="translate(10.021000, 1.978537) rotate(-45.000000) translate(-10.021000, -1.978537) " points="8.91413024 0.719058647 11.1278694 0.719058647 11.1278694 3.23801517 8.91413024 3.23801517"></polygon>
+                                <polygon id="Path" points="7.61008696 2.60869565 3.71791304 6.50086957 2.82730435 9.17269565 5.49913043 8.28208696 9.39130435 4.38991304"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

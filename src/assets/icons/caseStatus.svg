@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>24A621B9-D7DE-4BEA-9FBC-20840A0156D4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M236,0 C247.045695,-2.02906125e-15 256,8.954305 256,20 C256,31.045695 247.045695,40 236,40 C224.954305,40 216,31.045695 216,20 C216,8.954305 224.954305,2.02906125e-15 236,0 Z" id="path-1"></path>
+    </defs>
+    <g id="🤖-BGV-OPs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OpsTask_AddComments_6" transform="translate(-960.000000, -726.000000)">
+            <g id="pan-details" transform="translate(160.000000, 314.000000)">
+                <g id="button-/-secondary-/-dropdown" transform="translate(584.000000, 412.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle" fill="#B3B7C4" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

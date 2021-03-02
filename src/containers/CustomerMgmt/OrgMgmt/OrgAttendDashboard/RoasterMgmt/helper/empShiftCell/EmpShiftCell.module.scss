@@ -1,0 +1,175 @@
+@import "../../../../../../../theme.scss";
+
+.shiftCell {
+    height: 100%;
+}
+
+.add{
+    visibility: hidden;
+    display: none;
+    padding: 10px 0 0 0;
+    :hover > & {
+        visibility: visible;
+        display: inline;
+        float: right;
+      }
+}
+
+.shiftHeading{
+    font-size: 14px;
+    color: $primary-label;
+    padding: 5% 0 0 0;
+    white-space: nowrap; 
+    margin:auto;
+    width: 100px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.shiftTime{
+    font-size: 13px;
+    padding-top: 0px;
+    color: $secondary-label;
+}
+
+.leaveText{
+    font-size: 13px;
+    font-family: 'gilroy-bold';
+    color: $active-link;
+}
+
+.imgWrapper {
+    background: url("../../../../../../../assets/icons/deleteBinIcon.svg") center center no-repeat;
+    background-size: contain;
+    height: 30px; // or a % in responsive layout
+    width: 30px;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+    :hover > & {
+    background: url("../../../../../../../assets/icons/deleteWithBg.svg") center center no-repeat;
+    border-radius: 30px;
+    }
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.multipleShiftBG{
+    padding: 10px 0;
+    position: relative;
+}
+
+.multipleShiftText{
+    font-size: 14px;
+}
+
+.shiftIconSquare{
+    height: 12px;
+    width: 12px;
+    border-radius: 2px;
+    display: inline-block;
+    margin: -2px 2px;
+}
+
+.extraCountTab{
+    display: inline-block;
+    margin: 2px;
+    border-radius: 2px;
+    font-style: normal !important;
+    font-size: 12px;
+    color: $secondary-label;
+    font-family: 'gilroy';
+    border: 1px solid #8697a857;
+    line-height: 14px;
+    padding: 2px 2px 0px 2px;
+}
+
+.alignArrowIcon{
+    text-align: end;
+    margin-right: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.shiftDropdown{
+    position: absolute;
+    background: $card-bg;
+    width: 358px;
+    margin-left: -14rem;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    padding: 14px;
+    max-height: 180px;
+    overflow: auto;
+    text-align: initial !important;
+    font-style: normal !important;
+    z-index: 100;
+}
+
+.shiftCount{
+    color: $secondary-label;
+    font-size: 14px;
+}
+
+.shiftBar{
+    padding: 6px 8px;
+    margin-top: 2px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.dropdownName{
+    font-size: 14px;
+    font-family: 'gilroy';
+    margin: auto 0px auto 8px;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dropdownTime{
+    font-size: 12px;
+    font-family: 'gilroy';
+    color: $secondary-label;
+    margin: auto 6px;
+}
+
+.invertIcon{
+    transform: rotate(180deg);
+}
+
+.edited {
+    font-family: "Gilroy-Bold";
+    font-style: italic;
+}
+
+.delete{
+    padding: 6px 8px;
+    margin-top: 2px;
+    display: inline-flex;
+    width: 100%;
+    background-color: $card-pvc;
+}
+
+.deleteText{
+    color: #EE3942;
+    font-size: 14px;
+}
+
+.deletePill{
+    background-color:$card-bg;
+    padding: 0 8px 0 4px;
+    border-radius: 40px;
+    margin: auto;
+    color: #EE3942;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.cannotCopy{
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

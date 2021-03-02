@@ -1,0 +1,73 @@
+@import '../../../../../theme.scss';
+
+.container{
+  background-color: $card-bg;
+  margin: 0 33px;
+}
+
+.horizontalLine {
+  border-bottom: 1px solid $horizontal-line;
+  width: 97%;
+  margin: 1.5rem 0rem;
+}
+
+.verticalLine {
+  border-left: 1px solid $horizontal-line;
+  height: 2rem;
+  margin-top: 2rem;
+  padding-right: 1rem;
+}
+
+.vendorContainer {
+  background-color: $primary-background;
+  border-radius: 4px;
+  padding: 24px;
+  width: 97%;
+}
+
+.greyHeading {
+  color: $secondary-label;
+  font-size: 14px;
+  font-family: Gilroy;
+  line-height: 16px;
+}
+
+.paddingY{
+  min-width: 17rem;
+}
+
+.greySmallText {
+  font-size: 12px;
+  color: $secondary-label;
+  font-family: Gilroy;
+  line-height: 16px;
+}
+
+.iconHeight {
+  height: 12px;
+  margin-top: 2.6rem;
+}
+
+.blueText {
+  margin-top: 2.45rem;
+  font-size: 14px;
+  color: $active-link;
+  font-family: Gilroy;
+  line-height: 16px;
+}
+
+.cursor {
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.progressCursor {
+  &:hover{
+    cursor: progress;
+  }
+}
+
+.loaderMargin {
+  margin-right: 1.25rem;
+}

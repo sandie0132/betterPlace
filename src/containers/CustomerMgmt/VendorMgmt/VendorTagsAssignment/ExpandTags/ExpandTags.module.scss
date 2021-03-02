@@ -1,0 +1,57 @@
+@import '../../../../../theme.scss';
+
+.ExpandTagsBg{
+    margin-top: 1rem;
+    border-radius: 8px;
+    background-color: $primary-background;
+    min-height: 7rem;
+    max-height: 25rem;
+    padding: 1rem 0.5rem 1rem 1rem;
+    // overflow-y: auto;
+}
+
+
+.TagsBg{
+    margin-top: 1rem;
+    border-radius: 8px;
+    background-color: $primary-background;
+    min-height: 7rem;
+    max-height: 7rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.Overflow{
+    overflow-y: auto;
+    position: relative;
+    background-color: $primary-background;
+    max-height: 12rem;
+}
+
+.SelectedWhiteTag{
+    background-color: $card-bg;
+    color: $primary-label;
+    font-size: 12px;
+    border-radius: 16px;
+    padding: 0.5rem;
+    height: max-content;
+    width: max-content;
+    margin-right: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.FolderIcon{
+    height: 16px;
+    width: 24px;
+}
+
+.Cursor{
+    cursor: pointer;
+}
+
+.Label{
+    color: $primary-label;	
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    margin-bottom: 1rem;
+}

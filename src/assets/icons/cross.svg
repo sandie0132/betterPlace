@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>42045041-C9A8-4517-A3B8-3B5191FF68B6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M6.70710678,6 L10.7071068,10 L10,10.7071068 L6,6.70710678 L2,10.7071068 L1.29289322,10 L5.29289322,6 L1.29289322,2 L2,1.29289322 L6,5.29289322 L10,1.29289322 L10.7071068,2 L6.70710678,6 Z" id="path-1"></path>
+    </defs>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-add-skills-and-preferences_4_hover" transform="translate(-294.000000, -271.000000)">
+            <g id="skills" transform="translate(160.000000, 65.000000)">
+                <g id="personal_details-DL" transform="translate(0.000000, 56.000000)">
+                    <g id="Security-Guard" transform="translate(40.000000, 136.000000)">
+                        <g id="icon-/-12-/-info-/-cross" transform="translate(93.000000, 13.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#8697A8" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

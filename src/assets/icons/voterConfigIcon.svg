@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>voter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="2" width="20" height="20"></rect>
+    </defs>
+    <g id="☄️-versions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="voter">
+            <circle id="Oval" fill="#F3F7FD" cx="16" cy="16" r="16"></circle>
+            <g id="icon-/-48-/-info-/-verification-/-voter" transform="translate(4.000000, 4.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="container"></g>
+                <g id="Group-22" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+                    <g transform="translate(12.000000, 12.000000) rotate(-30.000000) translate(-12.000000, -12.000000) translate(4.000000, 6.000000)">
+                        <rect id="Rectangle" fill="#E54C00" x="0.138000987" y="0.491459925" width="11.5" height="2.5" rx="1.25"></rect>
+                        <rect id="Rectangle-Copy" fill="#FFFFFF" x="0.120051795" y="4.52254884" width="11.5" height="2.5" rx="1.25"></rect>
+                        <rect id="Rectangle-Copy-2" fill="#006835" x="0.285115304" y="9.23665045" width="11.5" height="2.5" rx="1.25"></rect>
+                        <circle id="Oval" fill="#71879F" cx="13.5171661" cy="1.52735831" r="1.25"></circle>
+                        <circle id="Oval-Copy" fill="#71879F" cx="13.9322296" cy="5.80844722" r="1.25"></circle>
+                        <circle id="Oval-Copy-2" fill="#71879F" cx="14.3472931" cy="10.0895361" r="1.25"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

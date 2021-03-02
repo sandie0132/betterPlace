@@ -1,0 +1,15 @@
+@import '../../../theme.scss';
+
+.ColorBox{
+    border-radius: 4px;
+    width: 104px;
+    height: 56px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.whiteFont{
+    font-size: 24px;
+    color: $card-bg;
+}

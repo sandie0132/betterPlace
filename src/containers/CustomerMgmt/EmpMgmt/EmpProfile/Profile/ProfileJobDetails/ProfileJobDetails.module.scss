@@ -1,0 +1,166 @@
+@import '../../../../../../theme.scss';
+
+.BlackText{
+	color: $primary-label;
+    font-family: Gilroy;
+    font-size: 18px;
+    letter-spacing: 0;
+	line-height: 24px;
+	margin-bottom: 0rem;
+}
+
+.GreySubHeading{
+	color: $secondary-label;
+	font-family: Gilroy-Bold;
+	font-size: 14px;
+	line-height: 0px;
+	margin-bottom: 0rem;
+}
+
+.WordBreak{
+	word-break: break-word;
+}
+
+.TagSecondaryText {
+	margin-top: 0.5rem;
+	color: $secondary-label;
+	font-family: Gilroy;
+	font-size: 14px;
+	line-height: 0px;
+	margin-bottom: 0rem;
+}
+
+.EmptyInformation {
+	color: $secondary-label;
+	background-color: $primary-background;
+	font-size: 14px;
+	border-radius: 8px;
+	width: max-content;
+	height: max-content;
+}
+
+.InactiveButtonBg {
+    background-color: $primary-background;
+    margin: 0.5rem 0rem;
+    border-radius: 4px;
+    &:hover {
+        background-color: $secondary-background;
+    }
+}
+
+.InactiveButton {
+    font-family: "Gilroy-Light";
+    font-size: 14px;
+    padding: 6px 8px;
+    color: $secondary-label;
+    &:hover {
+        cursor: pointer;
+        filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+        font-family: "Gilroy-Medium";
+    }
+}
+
+.ActiveButtonBg {
+    background-color: $card-bg;
+    margin: 0.5rem 0rem;
+    border-radius: 4px;
+    &:hover {
+        background-color: $card-bg;
+    }
+}
+
+.ActiveButton {
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    color: $secondary-label;
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.OptionBorder {
+    background-color: $primary-background;
+    padding: 0rem 0.5rem;
+    border-radius: 4px;
+    width: max-content;
+}
+
+.MarginTop{
+	margin-top: 2.5rem;
+}
+
+.MarginBottom{
+	margin-bottom: 2.5rem;
+}
+
+.TagNames{
+    color: $primary-label;
+    font-family: Gilroy-Medium;
+    background-color: $primary-background;
+    font-size: 14px;
+    border-radius: 12px;
+	width: max-content;
+	height: max-content;
+}
+
+.TagLocation{
+    color: $secondary-label;
+    font-family: Gilroy-Medium;
+    background-color: $primary-background;
+    font-size: 12px;
+    border-radius: 12px;
+	width: max-content;
+	height: max-content;
+}
+
+.activePointer{
+    position: absolute;
+    height: 0rem;
+    width: 0rem;
+    border-left: 6px solid $active-link;
+    border-top: 6px solid $active-link;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    transform: rotate(45deg);
+    margin-right: 1rem;
+    margin-top:0.7rem;
+}
+
+.activeHorizontalLine{
+    border: 1px solid $active-link;
+    width: 17.25rem;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.horizontalLine{
+    border: 1px solid $horizontal-line;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.carouselSlider{
+    max-width: 52rem;
+}
+
+.carouselScrollIconLeft{
+    left: -1.5rem;
+    top: 8.5rem;
+}
+
+.carouselScrollIconRight{
+    right: -1.5rem;
+    top: 8.5rem;
+}
+
+.sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    // line-height: 22px;
+}
+
+.jobSectionMargin{
+    margin-top: 0.75rem;
+    margin-bottom: 2.4rem;
+}

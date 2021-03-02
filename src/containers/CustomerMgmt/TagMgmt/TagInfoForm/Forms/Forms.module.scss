@@ -1,0 +1,56 @@
+@import '../../../../../theme.scss';
+
+.duplicateTag{
+    color: $danger;
+    font-size: 12px;
+    margin-left: 0.6rem;
+}
+.searchBar{
+    margin-left: 0.5rem;
+    border:none;
+    outline: none;
+    font-size: 24px;
+    background: none;
+    display: inline-flex; 
+    font-family: 'Gilroy-Light'; 
+    font-weight: normal;
+    width:60%;
+}
+.FlagCardList{
+    display: flex;
+    flex: row;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    margin-bottom:2.5rem;
+}
+.DeleteButtonAlign{
+    margin-top: 40px ;
+}
+.SaveButtonAlign{
+    margin-top: 40px;
+}
+.ButtonAlign{
+    margin-top: 2rem;
+    display: flex;
+    flex: row;
+    justify-content: flex-end;
+    
+}
+.smallText{
+    color: $secondary-label;
+    font-size: 12px;
+    font-family: 'Gilroy-Light';
+    margin-right:0.5rem;
+}
+.MapSearchBox{
+    left:null;
+    right:null;
+}
+
+.Warning{
+    position: absolute;
+    top: 43%;
+    left: 85%;
+    z-index: 10;
+}

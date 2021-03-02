@@ -1,0 +1,8 @@
+@import"../../../theme.scss";
+
+.progressLoader{
+    height: 5.5rem;
+    width: 5.5rem;
+    background-color: $secondary-background ;
+    border-radius: 50%;
+}

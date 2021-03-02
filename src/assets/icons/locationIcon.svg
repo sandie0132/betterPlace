@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="16px" viewBox="0 0 13 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 56.2 (101010) - https://sketch.com -->
+    <title>A7E8188E-8205-4AAE-AD6F-BBA6C2605D2D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8.26086957,0 C5.2,0 2,2.36521739 2,6.26086957 C2,9.94782609 7.56521739,15.5826087 7.77391304,15.7913043 C7.91304348,15.9304348 8.05217391,16 8.26086957,16 C8.46956522,16 8.60869565,15.9304348 8.74782609,15.7913043 C8.95652174,15.5826087 14.5217391,9.94782609 14.5217391,6.26086957 C14.5217391,2.36521739 11.3217391,0 8.26086957,0 Z M8.26086957,8.34782609 C7.07826087,8.34782609 6.17391304,7.44347826 6.17391304,6.26086957 C6.17391304,5.07826087 7.07826087,4.17391304 8.26086957,4.17391304 C9.44347826,4.17391304 10.3478261,5.07826087 10.3478261,6.26086957 C10.3478261,7.44347826 9.44347826,8.34782609 8.26086957,8.34782609 Z" id="path-1"></path>
+    </defs>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-employee-profile" transform="translate(-202.000000, -224.000000)">
+            <g id="section" transform="translate(160.000000, 80.000000)">
+                <g id="icon-/-16-/-info-/-location" transform="translate(40.000000, 144.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#8697A8" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

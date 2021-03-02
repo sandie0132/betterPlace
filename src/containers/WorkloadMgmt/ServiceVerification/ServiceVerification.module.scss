@@ -1,0 +1,103 @@
+@import '../../../theme.scss';
+
+.workloadSection{
+  position: relative;
+  margin-left: 2.5rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+}
+
+.smallText{
+    color:$secondary-label;	
+    font-family: 'Gilroy';	
+    font-size: 14px;	
+    line-height: 30px;
+    padding: 0 0.5rem 0 1rem;
+}
+
+.smallTextActive{
+    color: $active-link;	
+    font-family: 'Gilroy';	
+    font-size: 14px;	
+    line-height: 30px;
+    padding: 0 0.5rem 0 1rem;
+}
+
+.Select{
+    background-color: $secondary-background;
+    border-radius: 20px;
+    padding-top: 0.35rem;
+    height: 2.1rem;
+}
+
+.filterText{
+    color: $active-link;	
+    font-family: "Gilroy";	
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+}
+
+.imgColor{
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+    margin-right: 0.4rem;
+}
+
+.Rotate{
+    transform: rotate(180deg);
+}
+
+.Padding1{
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  color: $secondary-label;	
+  font-family: "Gilroy";	
+  font-size: 14px;
+
+  &:hover{
+    color: $card-link;
+    background-color: $primary-background;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    cursor: pointer;
+  }
+}
+
+.Padding2{
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: $secondary-label;	
+  font-family: "Gilroy";	
+  font-size: 14px;
+
+  &:hover{
+    color: $card-link;
+    background-color: $primary-background;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;
+  }
+}
+
+.Popup{
+    max-width: 20rem;//8.6rem;
+    background-color: $card-bg;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 9999;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}
+
+.hover{
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.customWidth{
+  width: 19%;
+  position: relative;
+}

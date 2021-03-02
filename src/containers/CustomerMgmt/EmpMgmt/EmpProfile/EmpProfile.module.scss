@@ -1,0 +1,105 @@
+@import '../../../../theme.scss';
+
+.NotificationCardBGV{
+    background-color: $success-notification-bgv;
+    border: 2px solid $success-notification-bgv-border;
+    color:$success-notification-bgv-font;
+    font-size: 12px;
+    line-height: 2rem;
+    width: 90.5%;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    // height: 2.4375rem;
+    padding-left: 1rem;
+    height: max-content;
+}
+
+.PaddingLeftArrow{
+    margin-top: 16px !important;
+    padding-left: 2rem !important;
+    margin-bottom: 30px !important;
+}
+
+.scrollPage{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Loader{
+    margin-left: 2.05rem;
+    margin-right: 2rem;
+}
+
+// .animate{
+//     padding: 10px;
+//     background-color: maroon;
+//     border-radius: 20px;
+//     transition: 0.5s;
+//     &:hover{
+//         padding: 30px;
+//     }
+// }
+
+.optionContainer{
+    margin-left: 33px;
+    margin-right: 33px;
+    background-color: $card-bg;
+    position: relative;
+    z-index: 99;
+    padding: 32px 40px 0 40px;
+}
+
+.AlignCenter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.InactiveButtonBg {
+    background-color: $primary-background;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    &:hover {
+        background-color: $secondary-background;
+    }
+}
+
+.InactiveButton {
+    font-family: "Gilroy-Light";
+    font-size: 14px;
+    padding: 10px 16px 10px 14px;
+    color: $secondary-label;
+    &:hover {
+        cursor: pointer;
+        filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+        font-family: "Gilroy-Medium";
+    }
+}
+
+.ActiveButtonBg {
+    background-color: $secondary-background;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    &:hover {
+        background-color: $secondary-background;
+    }
+}
+
+.ActiveButton {
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    color: $secondary-label;
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+    padding: 10px 16px 10px 14px;
+    cursor: pointer;
+}
+
+.borderActive {
+    border-bottom: 1px solid $active-link;
+}
+
+.optionBorder{
+    border-bottom: 1px solid #E5EEF7;
+    width: max-content;
+}

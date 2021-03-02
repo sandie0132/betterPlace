@@ -1,0 +1,27 @@
+{
+    "image_alt_vendorDetails": {
+        "arrow": "arrow",
+        "editEmp": "editEmp",
+        "tick": "tick",
+        "vendorMail": "vendorMail",
+        "vendorPhone": "vendorPhone",
+        "vendorProfile": "vendorProfile"
+    },
+    "cardHeader": "vendor details",
+    "label": "/configure vendor",
+    "heading": {
+        "fetch": "vendor details based on",
+        "verify": "verified by bpss",
+        "companyAddress": "company address",
+        "contact": "contact person",
+        "upload": "upload contract agreement"
+    },
+    "save": "save",
+    "add": "add vendor",
+    "warning_delete": {
+        "text": "delete?",
+        "para": "warning: this cannot be undone",
+        "confirmText": "yes, delete",
+        "cancelText": "keep"
+    }
+}

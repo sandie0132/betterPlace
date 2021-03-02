@@ -1,0 +1,97 @@
+{
+    "image_alt_empProfile": {
+        "profileBasicInfo": {
+            "location": "location",
+            "img": "img",
+            "phone": "phone",
+            "icon": "icon"
+        },
+        "profileAbout": {
+            "img": "img"
+        },
+        "profileExperience": {
+            "img": "img",
+            "icon": "icon"
+        },
+        "profileFamily": {
+            "img": "img"
+        }
+    },
+    "texts_empProfile": {
+        "profileBasicInfo": {
+            "editProfile": "edit profile"
+        },
+        "profileAbout": {
+            "about": "about ",
+            "workingAs": " is currently working as ",
+            "he": " he ",
+            "she": " she ",
+            "hasSkills": " has skills of",
+            "but": " but ",
+            "his": "his ",
+            "her": "her ",
+            "interest": "interest lies in working as a ",
+            "knows": " knows "
+        },
+        "profileExperience": {
+            "experience": "experience",
+            "empId": "emp id:",
+            "to": " to ",
+            "education": "education",
+            "graduation": "graduation in ",
+            "emptyInfo": "not added yet"
+        },
+        "profileFamily": {
+            "family": "family",
+            "references": "references",
+            "healthDetails": "health details",
+            "address": "address",
+            "contact": "contact",
+            "document": "document"
+        },
+        "profileJobDetails": {
+            "details": "employee job details",
+            "myOrg": "my organisation",
+            "vendorOrg": "vendor org",
+            "subVendorOrg": "sub vendor org",
+            "clientOrg": "client org",
+            "superClientOrg": "super client org",
+            "organisation": "organisation",
+            "entityType": "entity type",
+            "empType": "employee type",
+            "empId": "employee id",
+            "status": "status",
+            "joinedOn": "joined on",
+            "defaultLoc": "default location",
+            "defaultRole": "default role",
+            "assignedRoles": "assigned roles",
+            "assignedLocs": "assigned locations",
+            "customTags": "assigned custom tags",
+            "reportingMg": "reporting manager"
+        }
+    },
+    "span_label_empProfile": {
+        "profileAbout": {
+            "fatherName": "father name",
+            "motherName": "mother name",
+            "nationality": "nationality",
+            "maritalStatus": "marital status",
+            "religion": "religion",
+            "emptyInfo": "not added yet",
+            "roles": "roles",
+            "locations": "locations",
+            "custom": "custom"
+        },
+        "profileFamily": {
+            "name": "name",
+            "dob": "dob",
+            "phone": "phone",
+            "weight": "weight",
+            "height": "height",
+            "bloodType": "blood type",
+            "idMark": "identification mark",
+            "emailId": "email address",
+            "emptyInfo": "not added yet"
+        }
+    }
+}

@@ -1,0 +1,120 @@
+@import  '../../../theme.scss';
+@import  '../../../assets/fonts/Gilroy-Light.ttf';
+
+.backdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+.Container {
+    position : absolute;
+    height : max-content;//283px;
+    width : 432px;
+    left : 25%;
+    right : 25%;
+    top : 25%;
+    bottom : 25%;
+    border-radius : 4px;
+    background-color : $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    margin : auto;
+    padding : 25px;
+    text-align : center;
+}
+
+.Icon40InfoContainer {
+    margin-top : 10px;
+    margin-bottom : 30px;
+    margin : auto;    
+}
+
+.Warning {
+    color: $secondary-label;
+} 
+
+.ButtonRectangle {
+    display : inline-block;
+    margin-bottom: 1rem;
+    //margin-top: 25px;
+}
+
+.button {
+    background-color: $danger;
+    border: none;
+    color: $card-bg;
+    padding: 5px 5px;
+    height : 40px;
+    width : 148px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+}
+.AlertButton{
+    background-color: $active-link;
+    border: none;
+    color: $card-bg;
+    padding: 5px 5px;
+    height : 40px;
+    width : 148px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+}
+.buttonCancel {
+    background-color: $button-cancel;
+    border: none;
+    color:$secondary-label;
+    padding: 5px 5px;
+    height : 40px;
+    width : 148px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin:5px;
+}
+
+.buttonOk {
+    background-color: $add-hover;
+    border: none;
+    color:$card-bg;
+    padding: 5px 5px;
+    height : 40px;
+    width : 148px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin:5px;
+}
+
+.popUpText {
+    font-family: 'Gilroy-Light';
+}
+
+.GreyText{
+    font-size: 14px;
+    color: $secondary-label;
+    cursor: pointer;
+}
+
+.hightlightText{
+    background-color: $success-notification-bgv;
+    color: $secondary-label;
+    font-size: 12px;
+    padding: 4px 8px;
+    max-width: 100%;
+    width: fit-content;
+    border-radius: 4px;
+    margin: 16px auto 16px auto;
+}

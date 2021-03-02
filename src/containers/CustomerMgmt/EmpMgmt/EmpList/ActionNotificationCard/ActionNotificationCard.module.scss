@@ -1,0 +1,124 @@
+@import '../../../../../theme.scss';
+
+
+.ModalStyle{
+    width:100%;
+    height: 100%;
+    background-color: rgba(243, 247, 253, 0.637) !important;
+    box-shadow: none !important;   
+}
+.ModalCardLayout{
+    width: 50rem;
+    height: 20rem;
+    margin-top: 1rem;
+    background-color: $card-bg  !important;
+}
+
+.modalAlign{
+    //text-align: center;
+    left: 18rem;
+    top:5rem;
+}
+
+.closeAlign{
+    text-align: center;
+    
+}
+.closeText{
+    font-size: 24px;
+    color: $secondary-label;
+    font-family: 'Gilroy-Light';
+    padding-top: 3rem;
+
+}
+
+.barStyle{
+    width: 90%;
+    z-index: 999;
+    position: absolute;
+    background-color: $card-bg !important;
+    border-bottom: 2px solid $horizontal-line;
+    width:90%;  
+
+
+}
+
+
+.searchBar{
+    
+    width: 20rem !important;
+}
+.CancelButton{
+    background-color: $primary-background;
+    color:$secondary-label;
+    &:hover{
+        background-color: $primary-background;
+        color: $secondary-label;
+        text-decoration: underline;
+    }
+    
+}
+
+.contentHeading{
+    font-family: Gilroy;
+    font-size: 1.5rem;
+    color: $secondary-label;
+    text-align: center;
+}
+
+.contentData{
+    margin-top: 0.9375rem;
+    font-family: Gilroy;
+    font-size: 0.875rem;
+    color: $primary-label;
+    // text-align: center;
+}
+
+.subContentData{
+    font-family: Gilroy;
+    font-size: 0.75rem;
+    color: $secondary-label;
+    // text-align: center;
+}
+
+.box{
+    margin: auto;
+    border-style: groove;
+    box-sizing: border-box;
+    width: 70%;
+}
+.button{
+    margin-top:1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 10.188rem;
+}
+
+.closeButton{
+    border: none;
+    outline: none;
+    background-color: rgba(243, 247, 253, 0.637) !important;
+    float: center;
+    margin-left: 24.5rem;
+    // color: $secondary-label;
+    // padding-bottom: 12px;
+}
+
+.InactiveButton{
+    color: $secondary-label;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.buttonContentData{
+    margin-left: 10.798rem;
+    margin-top: 0.9375rem;
+    font-family: Gilroy;
+    font-size: 0.875rem;
+    color: $secondary-label;
+    text-decoration:underline;
+}
+
+.imgClose{
+    cursor: pointer;
+    margin-left: 24.5rem;
+}

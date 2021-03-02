@@ -1,0 +1,373 @@
+@import '../../../../../theme.scss';
+
+// .LowerCardActive{
+//     box-shadow: 0 0.125rem 1rem 0 rgba(0,0,0,0.11);
+//     background-color: $card-bg;
+//     border-radius: 0.25rem;
+//     margin-bottom: 3rem;
+//     border: none;
+//     flex-wrap: nowrap;
+//     padding: 2.5rem 2.5rem;
+// }
+
+.LowerCardInactive{
+    box-shadow: 0 0.125rem 1rem 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 0.25rem;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+    padding: 2.5rem 2.5rem;
+    opacity: 0.6;
+    color:$inactive-font;
+    user-select: none;
+    pointer-events:none;
+}
+
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    border: none;
+    flex-wrap: nowrap;
+   // font-size: 12px;
+    // font-family: Gilroy-Medium;
+    // font-weight: bold;
+    color: $primary-label
+    
+}
+
+.CardPadding{
+    padding: 32px 40px 40px 40px;
+}
+
+// .NameFont{
+//     color: $primary-label;
+//     font-family: 'Gilroy';
+//     font-size: 1.5rem;
+//     margin-bottom: 0rem;
+//     margin-top: 0rem;
+// }
+
+// .NameFontInactive{
+//     color: $inactive-font;
+//     font-family: 'Gilroy';
+//     font-size: 1.5rem;
+//     margin-bottom: 0rem;
+//     margin-top: 0rem;
+// }
+
+
+
+// .HorizontalCardLine{
+//     border: 0.0625rem solid $horizontal-line;
+//     margin-top: 1.375rem;
+//     margin-bottom: 1.375rem;
+// }
+
+.smallLabel{
+    color: $secondary-label;	
+    font-family: 'Gilroy';
+    font-size: 0.75rem;	
+    line-height: 0.9375rem;
+    margin-bottom: 2rem;
+}
+.MediumLabel{
+    color: $primary-label;	
+    font-family: 'Gilroy';
+    font-size: 14px;	
+    line-height: 0.9375rem;
+}
+
+// .smallLabelInactive{
+//     color: $inactive-font;	
+//     font-family: 'Gilroy';
+//     font-size: 0.75rem;	
+//     line-height: 0.9375rem;
+//     margin-bottom: 2rem;
+// }
+
+// .commentSmallLabel{
+//     color: $secondary-label;	
+//     font-family: 'Gilroy';
+//     font-size: 0.75rem;	
+//     line-height: 0.9375rem;
+// }
+// .commentSmallLabelInactive{
+//     color: $inactive-font;	
+//     font-family: 'Gilroy';
+//     font-size: 0.75rem;	
+//     line-height: 0.9375rem;
+// }
+
+// .OptionWithHeading{
+//     color:$secondary-label;
+//     font-family: 'Gilroy-Light';	
+//     font-size: 0.75rem;
+//     float : left;
+//     line-height: 0.3125rem;
+// }
+
+// .SubHeading{
+//     font-size: 0.875rem;
+//     font-family: 'Gilroy-Medium';
+//     float: left;
+//     justify-content: center;
+// }
+
+// .emptyResult{
+//     font-size: 0.875rem;
+//     font-family: 'Gilroy';
+//     color: $secondary-label;
+//     text-align: center;
+//     margin-top: 2rem;
+// }
+
+.Background{
+    max-width:28rem;
+    color: $secondary-label;
+    background-color: $primary-background;
+    font-size: 0.875rem;
+    font-style: 'Gilroy';
+    // color: $active-link;
+    border-radius: 1.25rem;
+    padding: 0.3125rem 1.25rem 0.3125rem 0.625rem;
+    appearance: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+// .inactiveAddCommentImg{
+//     margin-left: .3rem;
+//     margin-bottom: 0.01rem;
+//     margin-right: 0.2rem;
+// }
+
+// .userInputBackground{
+//     background-color: $primary-background;
+//     color: $secondary-label;
+// }
+
+// .WriteComment{
+//     background-color: $secondary-background;
+//     border: 0.1875rem solid $card-bg;
+//     border-radius: 0.25rem;
+// }
+
+.redBackground{
+    background-color: $error-notification;
+    color: $primary-label;
+}
+.yellowBackground{
+    background-color: $warning-background;
+    color: $primary-label;
+
+}
+.greenBackground{
+    background-color: $success-notification;
+    color: $primary-label;
+}
+
+// .DropDownContainer{
+//     cursor: pointer;
+//     font-size: 0.875rem;
+//     font-style: 'Gilroy';
+//     border-radius: 0.25rem;
+//     width: 14.80rem;
+//     align-items: center;
+//     background-color: $card-bg;
+//     box-shadow: 0 0.25rem 1rem 0 rgba(0,0,0,0.11);
+//     position: absolute;
+//     bottom: 5.5rem;
+//     left: 4.25rem;
+//     z-index: 1;
+// }
+
+
+// .commentCase{
+//     cursor: pointer;
+//     background-color: $secondary-background;
+//     font-size: 0.75rem;
+//     width: 14.6rem;
+//     margin-left: 0.1rem;
+//     margin-top:0.1rem;
+//     padding: 0.1875rem;
+// }
+
+// .inputField{
+//     border: 0.0625rem solid $secondary-background;
+//     background-color: $secondary-background;
+//     font-size: 0.75rem;
+//     height: max-content;
+//     padding-bottom: 2rem;
+//     width: 12rem;
+// }
+ 
+.redStatus{
+    width: 15.1rem; //13rem;
+    background-color: $error-notification;
+    color: $danger;
+    font-size: 0.875rem;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 1.25rem;
+}
+
+.yellowStatus{
+    width: 15.1rem; //13rem;
+    background-color: $warning-background;
+    color: $brown;
+    font-size: 0.875rem;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 1.25rem;
+}
+
+.greenStatus{
+    width: 15.1rem; //13rem;
+    background-color: $success-notification;
+    color: $success;
+    font-size: 0.875rem;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 1.25rem;
+}
+
+.selectStatus{
+    min-width: 15.1rem; //13rem;
+    background-color: $disabled-checkbox;
+    color: $primary-label;
+    font-size: 0.875rem;
+    font-family: 'Gilroy';
+    margin-bottom: 0rem;
+    padding-left: 1rem;
+    border-radius: 1.25rem;
+    margin-right: 1rem;
+}
+
+// .DropDownTextContainer{
+//     // height: 11.25rem;
+//     font-size: 0.875rem;
+//     font-style: 'Gilroy';
+//     border-radius: 0.25rem;
+//     width: 16rem;
+//     background-color: $card-bg;
+//     box-shadow: 0 0.25rem 1rem 0 rgba(0,0,0,0.11);
+//     position: absolute;
+//     bottom: 5.5rem;
+//     height: 7rem;
+//     left: 11rem;
+//     z-index: 1;
+// }
+
+// .Cursor{
+//     margin-bottom: 2.5rem;
+//     margin-left: 0.625rem;
+//     margin-right: 0.625rem;
+// }
+
+// .inactiveStatus{
+//     background-color: $primary-background;
+//     font-size: 0.875rem;
+//     font-style: 'Gilroy';
+//     color:$slider-background;
+//     border-radius: 1.25rem;
+//     margin-bottom: 0rem;
+//     padding-left: 8rem;
+// }
+
+.LockPadding{
+    width: 95%;
+    padding-top: 32px;
+    // padding-right: 32px;
+    position: absolute;
+    z-index: 1;
+    top: 19rem;
+    // right: 1rem;
+}
+
+.userInfoText{
+    position: absolute;
+    right: 5rem;
+    margin-top: 2rem;
+}
+
+.profilePic{
+    position: absolute;
+    right: 0rem;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.lockIcon{
+    position: absolute;
+    right: 0rem;
+    margin-right: -0.5rem;
+    margin-top: 0.2rem;
+}
+
+
+.Reload{
+    background-color: $secondary-background;
+    font-size: 0.75rem;
+    font-style: 'Gilroy';
+    color: $active-link;
+    border-radius: 0.9375rem;
+    margin-bottom : 0rem;
+    line-height: 2rem;
+    z-index: 99;
+    position: absolute;
+    right: 2.5rem;
+    margin-top:2.5rem;
+    cursor: pointer;
+}
+
+
+.TimerValue{
+    font-size : 0.875rem;
+    font-style : 'Gilroy-Medium';
+    margin-left: 2.5rem;
+    margin-top: -1.5rem;
+}
+
+.Timer{
+    position: absolute;
+    margin-top: 2.5rem;
+    right: 2.5rem;
+}
+
+// .crcTimer{
+//     position: absolute;
+//     right: 2.5rem;
+//     z-index: 9999;
+//     top: 2.1rem;
+//     right: 3.3rem;
+// }
+
+.loader{
+    opacity: 1;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .loaderBackground{
+    background-color:$primary-label;
+    opacity: 0.5;
+    height: 40px;	
+    width: 40px;	
+    border-radius: 50%;	
+    object-fit: cover;
+    margin-right: 1rem;
+    position: absolute;
+    margin-top: 1rem;
+    float: right;
+    right: 0rem;
+  }

@@ -1,0 +1,92 @@
+@import "../../../../../../theme.scss";
+
+.alignCenter {
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 2%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.CardLayout {
+    padding: 40px;
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    height: 35rem;
+}
+
+.positionHeading {
+    // position: fixed;
+    // width: 63%;
+    margin-top: 1rem;
+    background-color: $primary-background;
+    z-index: 7;
+}
+
+.FormLayout {
+    width: 100.2%;
+    padding-top: 5rem;
+}
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.timeHeading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cancelButton {
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.formPadding {
+    padding: 4rem 2rem 1rem 2rem;
+    background-color: $card-bg;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.headingBold {
+    color: $heading-red;
+    font-size: 24px;
+    font-family: "gilroy-bold";
+}
+
+.websiteBox {
+    border: 2px solid $secondary-background;
+    border-radius: 16px;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    margin-top: -2px;
+}
+
+.headingBoldBlack {
+    color: $page-title;
+    font-size: 20px;
+    font-family: "gilroy-bold";
+}
+
+.textSmall {
+    font-size: 12px;
+    color: $active-link;
+    font-family: "gilroy";
+}
+
+.borderRight {
+    border-right: 2px solid $secondary-background;
+}
+
+.errorMsg {
+    font-size: 14px;
+    color: $danger;
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,14 @@
+@import '../../../../theme.scss';
+
+.MainDiv{
+    background-color: $card-bg;
+    border-radius: 4px;
+    min-height: 25.1vh;
+    margin-top: 5rem;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}
+
+.SecondDiv{
+    background-color: $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+}

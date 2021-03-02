@@ -1,0 +1,197 @@
+@import  '../../../../../theme.scss';
+@import  '../../../../../assets/fonts/Gilroy-Light.ttf';
+
+.backdrop {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background-color: rgba(243, 247, 253, 0.9);
+}
+
+.countcircle {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color:$primary-background;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    // padding-left: 0.5rem;
+    // padding-top : 0.7rem;
+    // margin-left: 0.2rem;
+    // margin-top : 0.28rem;
+    font-size: 10px;
+}
+.HorizontalLine {
+    background-color: $horizontal-line;
+    height: 2px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profilePicCircleSingle{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.profilePicUrl {
+	height: 2.2rem;
+	width: 2.2rem;
+	border-radius: 50%;
+	margin-left: 0.2rem;
+}
+
+.EntityInfo{
+    margin-top: 1.5rem;
+}
+.terminationPopup{
+    width: 45.5rem;
+    background-color: $error-notification;
+    left: 0rem;
+    bottom: 0rem;
+    padding: 1.30rem 3.375rem 1.62rem 3.375rem;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+    // border-bottom-right-radius: 4px;
+    // border-bottom-left-radius: 4px;
+}
+
+.terminatePopLabel{
+    color: $primary-label;	
+    font-family: Gilroy;	
+    font-size: 14px;	
+    line-height: 17px;
+    margin-bottom: 1rem;
+}
+
+
+.Container {
+    height : 37.2rem;
+    width : 45.5rem;
+    left : 25%;
+    right : 25%;
+    text-align: left;
+    border-radius : 4px;
+    background-color : $card-bg;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    margin-left : auto;
+    margin-right: auto;
+    margin-top : 1.4rem;
+}
+
+.CardPadding{
+    padding: 0rem 3rem 0rem 3rem;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.closeStyle{
+    margin-top: 6%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.radioBtn{
+    width: max-content;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.Label{
+    color: $secondary-label !important;	
+    font-family: Gilroy;	
+    font-size: 12px;	
+    line-height: 15px;
+}
+
+.terminateButtonActive{
+    position: relative !important;
+    /* bottom: 2.5rem !important; */
+    background-color: $danger !important;
+    min-width: 6rem !important;
+    top: 1rem !important;
+    &:hover{
+        background-color: $danger !important;
+    }
+}
+
+.terminateButtonDisable{
+    position: relative !important;
+    background-color: $disable-bg !important;
+    min-width: 6rem !important;
+    top: 1rem !important;
+    &:hover{
+        background-color: $disable-bg !important;
+    }
+}
+
+.hoverDiv{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.terminatePadding{
+    padding-left: 3rem;
+}
+
+.requiredStar{
+    color: $danger;
+}
+
+.mediumText {
+    font-size: 18px;
+    line-height: 18px;
+    color: $primary-label;
+    font-family: Gilroy-Medium;
+    text-align: center;
+}
+
+.LightText {
+    font-size: 18px;
+    line-height: 18px;
+    color: $primary-label;
+    font-family: Gilroy-Light;
+}
+
+.greyText {
+    font-size: 12px;
+    line-height: 14px;
+    color: $secondary-label;
+    font-family: Gilroy;
+}
+
+.boldText{
+    font-size: 14px;
+    line-height: 18px;
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+}
+
+.redBg {
+    background-color: $error-notification;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 14px;
+}
+
+.redWarning {
+    color: $danger;
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.redBoldText {
+    color: $danger;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 18px;
+}

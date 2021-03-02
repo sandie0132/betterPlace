@@ -1,0 +1,503 @@
+@import "../../../../theme.scss";
+
+.customWidth {
+	width: 60%;
+}
+
+.alignCenter {
+	padding-left: 3%;
+	width: 100%;
+	padding-right: 1%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 100vh;
+}
+
+.BellIcon {
+	margin-top: 4px;
+}
+
+.NotificationBell {
+	&:hover {
+		cursor: pointer;
+	}
+	padding: 8px 10px 0px 8px;
+	margin-right: 6px;
+}
+
+.notificationBellActive {
+	margin-right: 6px;
+	padding: 8px 10px 0px 8px;
+	border-radius: 4px 4px 0px 0px;
+	position: relative;
+	background-color: $card-bg;
+	z-index: 100;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.NotificationCount {
+	line-height: 17px;
+	background-color: $danger;
+	color: $card-bg;
+	min-width: 16px;
+	height: 16px;
+	border-radius: 3px;
+	font-size: 12px;
+	margin-left: -4px;
+	margin-top: -4px;
+	border: 1px solid $card-bg;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.NotificationCountZero {
+	line-height: 17px;
+	background-color: $secondary-label;
+	color: $card-bg;
+	width: 16px;
+	height: 16px;
+	border-radius: 3px;
+	font-size: 12px;
+	margin-left: -4px;
+	margin-top: -4px;
+	border: 1px solid $card-bg;
+}
+
+.Align {
+	display: inline-flex;
+	color: $secondary-label;
+	line-height: 30px;
+	width: 100%;
+}
+
+.hr1 {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 2%;
+	margin-right: 1%;
+	opacity: 0.18;
+	background-color: $secondary-label;
+	color: $secondary-label !important;
+}
+
+.searchIcon {
+	background: none;
+	outline: none;
+	border: 0px;
+	display: inline-flex;
+	&:focus {
+		background: none;
+		outline: none;
+		border: 10px;
+		border-color: $search-border;
+	}
+}
+
+.Focus {
+	border-bottom: 1px solid $active-link;
+}
+
+.NoFocus {
+	border-bottom: 1px solid $primary-background;
+}
+
+.searchBar {
+	border: none;
+	outline: none;
+	background-color: $primary-background;
+	color: $card-link;
+	font-size: 24px;
+	font-family: "Gilroy-Thin";
+	width: 88%;
+}
+
+.Container {
+	display: block;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.Container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.Checkmark {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 4px;
+	background-color: $card-bg;
+}
+
+.Container:hover input ~ .Checkmark {
+	background-color: $card-bg;
+}
+
+.Container input:checked ~ .Checkmark {
+	background-color: $active-link;
+}
+
+.Checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.Container input:checked ~ .Checkmark:after {
+	display: block;
+}
+
+.Container .Checkmark:after {
+	left: 5px;
+	top: 2px;
+	width: 5px;
+	height: 9px;
+	border: solid $card-bg;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.Line {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 4px;
+	border: 1px solid;
+	background-color: $card-bg;
+}
+
+.Container:hover input ~ .Line {
+	background-color: $card-bg;
+}
+
+.Container input:checked ~ .Line {
+	background-color: $secondary-label;
+}
+
+.Line:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.Container input:checked ~ .Line:after {
+	display: block;
+}
+
+.Container .Line:after {
+	left: 3px;
+	width: 7px;
+	height: 10px;
+	border: solid $card-bg;
+	border-width: 0 3px 0 0;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.actionContent {
+	color: $secondary-label;
+	font-family: "Gilroy-Medium";
+	height: 2.5rem;
+	padding-left: 1%;
+	position: relative;
+	margin-right: 2px;
+}
+
+.mainDiv {
+	margin-left: 1rem;
+	&:hover {
+		filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+	}
+}
+
+.mainDivTerminate {
+	margin-left: 1rem;
+	&:hover {
+		filter: invert(100%) sepia(76%) saturate(2896%) hue-rotate(340deg) brightness(98%) contrast(90%);
+	}
+}
+
+.InactiveButton {
+	color: $secondary-label;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: "Gilroy-Light";
+	font-size: 12px;
+	margin-left: 6px;
+	margin-right: 6px;
+	&:hover {
+		cursor: pointer;
+		border-bottom: 2px solid $secondary-label;
+		padding-bottom: 10px;
+		font-family: "Gilroy-Medium";
+	}
+}
+
+.InactiveTermiButton {
+	// background-color: $primary-background;
+	color: $secondary-label;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: "Gilroy-Light";
+	font-size: 12px;
+	margin-left: 6px;
+	margin-right: 6px;
+	&:hover {
+		cursor: pointer;
+		border-bottom: 2px solid $secondary-label;
+		padding-bottom: 10px;
+		font-family: "Gilroy-Medium";
+	}
+}
+
+.ActiveButton {
+	font-family: "Gilroy-Medium";
+	font-size: 12px;
+	margin-top: 6px;
+	background-color: $secondary-background;
+	color: $active-link;
+	padding: 6px;
+	margin-left: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.ActiveTermiButton {
+	font-family: "Gilroy-Medium";
+	font-size: 12px;
+	margin-top: 6px;
+	background-color: $error-notification;
+	color: $danger;
+	padding: 6px;
+	margin-left: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.ActiveTabs {
+	border: none;
+	outline: none;
+	background-color: $card-bg;
+	color: $secondary-label;
+	padding-bottom: 12px;
+	padding-top: 2px;
+	font-family: "Gilroy-Light";
+	font-size: 12px;
+	margin-left: 6px;
+	margin-right: 6px;
+	z-index: 2;
+	position: relative;
+}
+
+.filterIcon {
+	margin-left: 0.5rem;
+}
+
+.FilterRowOpen {
+	width: 80px;
+	height: 45px;
+	margin-left: 82%;
+	position: absolute;
+	background-color: $card-bg;
+	box-shadow: 1px -2px 0px $card-bg;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.smallTextHead {
+	color: $secondary-label;
+	font-family: "Gilroy-Bold";
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.width {
+	width: 99%;
+	padding-left: 2rem;
+}
+
+.SearchBy {
+	color: $card-link;
+	font-size: 14px;
+	margin-bottom: 0%;
+	line-height: 30px;
+}
+
+.SearchOption {
+	border-radius: 20px;
+	background-color: $secondary-background;
+	height: 2rem;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: $active-link;
+	min-width: 11rem;
+	font-size: 14px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.DropdownIcon {
+	transform: rotate(180deg);
+	margin-top: 0.75rem;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.searchDropdown {
+	min-width: 11rem;
+	// padding-left: 10px;
+	// padding-right: 10px;
+	background-color: $card-bg;
+	color: $active-link;
+	font-size: 14px;
+	border-radius: 20px;
+	box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+	z-index: 20;
+	position: absolute;
+	right: 0px;
+}
+
+.HorizontalLine {
+	border: 0.5px solid $primary-background;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+}
+
+.Options {
+	color: $active-link;
+	font-size: 14px;
+	width: 100%;
+	&:hover {
+		color: $card-link;
+		cursor: pointer;
+		background-color: $primary-background;
+	}
+}
+
+.NoResultLine1 {
+	font-size: 14px;
+	color: $secondary-label;
+	font-family: "Gilroy-Light";
+}
+
+.BoldText {
+	font-size: 14px;
+	color: $secondary-label;
+	font-family: "Gilroy-Bold";
+}
+
+.NoResultLine2 {
+	font-size: 14px;
+	color: $active-link;
+	font-family: "Gilroy-Light";
+	cursor: pointer;
+}
+
+.NoResultPage {
+	margin-top: 20%;
+	text-align: center;
+}
+
+.emptyFilterPage {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.ArrowlinkWidth {
+	width: 3rem;
+}
+
+.svg {
+	cursor: pointer;
+	filter: brightness(0.6) sepia(1) hue-rotate(190deg) saturate(4);
+}
+
+.selectAllBar {
+	padding: 10px;
+	background-color: $card-bg;
+	width: 98%;
+	text-align: center;
+}
+
+.selectAllEmp {
+	padding: 10px;
+	font-size: 12px;
+	color: $active-link;
+	&:hover {
+		background-color: $primary-background;
+		cursor: pointer;
+	}
+}
+
+.selectEmpText {
+	padding: 10px;
+	font-size: 12px;
+	color: $secondary-label;
+}
+
+.BoldTextSmall {
+	font-size: 12px;
+	// color: $secondary-label;
+	font-family: "Gilroy-Bold";
+}
+
+.alignProgress {
+	margin-left: -20px;
+}
+
+.opacity {
+	opacity: 0.3;
+	cursor: not-allowed;
+}
+
+.inactiveTooltip {
+	color: $page-title;
+	border-radius: 6px;
+	position: absolute;
+	background-color:#FFF7E5;
+	padding: 1rem;
+	z-index: 9;
+	font-size: 10px;
+	font-family: 'Gilroy';
+	font-weight:700;
+	font-style: italic;
+	// width: 18rem;
+	border: 1px solid rgba(255,184,3,0.15);
+	// left: 10%;
+}
+
+.inactiveTooltip::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent rgba(255,184,3,0.15) transparent;
+}
+
+
+.pointerEvent{
+	pointer-events: none;
+}
+
+.dash {
+    height: 1rem;
+}

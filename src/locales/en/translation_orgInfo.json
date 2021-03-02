@@ -1,0 +1,34 @@
+{
+    "image_alt_orgInfo": {
+        "img": "img",
+        "vendorProfile":"vendor profile",
+        "vendorMail":"vendor mail",
+        "vendorPhone":"vendor phone"
+    },
+    "button_orgInfo": {
+        "goTo" : "go to client"
+    },
+    "text" : {
+        "t1" : "organisation list",
+        "t2" : "company address",
+        "t3" : "contact person"
+    },
+    "label" : {
+        "l1" : "{{legalName}}",
+        "l2" : "{{addressLine1}}",
+        "l3" : "{{addressLine2}}",
+        "l4" : "{{city}}",
+        "l5" : "{{state}}",
+        "l6" : "{{pincode}}",
+        "l7" : "{{fullName}}",
+        "l8" : "{{label}  {designation}}",
+        "l9" : "{{phone}}",
+        "l10" : "{{email}}"
+    },
+    "input_orgInfo": {
+        "label": {
+        },
+        "placeholder": {
+        }
+    }
+}

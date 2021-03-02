@@ -1,0 +1,29 @@
+{
+    "label_orgStatusMgmtProfileLevel": {
+        "profile": "overall profile status"
+    },
+    "text_orgStatusMgmtProfileLevel": {
+        "if": "if",
+        "is": "is/are",
+        "green": "green",
+        "thenProfile": "then overall profile is",
+        "Green": "Green",
+        "save": "save",
+        "redInfo": "profile status is red if atleast one of the sections in profile is red",
+        "greenInfo": "profile status is green only if all the sections in profile are green",
+        "yellowInfo": "profile status is yellow if atleast one of the sections in profile is yellow"
+    },
+    "status": {
+        "idStatus" : "ID verification",
+        "addressStatus": "address verification",
+        "legalStatus": "legal verification",
+        "careerStatus": "career verification",
+        "healthStatus": "health & reference verification"
+    },
+    "image_alt_orgStatusMgmtProfileLevel": {
+        "red": "red",
+        "yellow": "yellow",
+        "green": "green"
+    },
+    "bottomHeading": "editing any of above rules will override following betterplace verification rules"
+}

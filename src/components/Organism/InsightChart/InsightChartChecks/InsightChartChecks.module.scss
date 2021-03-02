@@ -1,0 +1,163 @@
+@import "../../../../theme.scss";
+
+.legends {
+  font-size: 12px;
+  color: $secondary-label;
+  margin-left: 4%;
+}
+
+.yAxisMark {
+  color: $horizontal-line;
+}
+
+.yAxisMark text {
+  font-size: 10px;
+  color: $secondary-label;
+  font-family: "gilroy-light";
+}
+
+.chart {
+  max-width: 92%;
+  overflow: auto;
+  min-width: 92%;
+  background-color: $card-bg;
+}
+
+.tooltip {
+  position: fixed;
+  font-size: 10px;
+  z-index: 999;
+  opacity: 0;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+.tooltip.hidden {
+  opacity: 0;
+}
+.tooltip p {
+  margin: 0;
+  font-family: 'gilroy-light';
+  font-size: 10px;
+}
+
+.value {
+  margin-left: 0.5rem;
+}
+
+.xaxis {
+  display: inline-flex;
+  margin-left: 1rem;
+  background-color: $card-bg;
+}
+
+.profile {
+  text-align: center;
+  font-size: 12px;
+  color: $secondary-label;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  letter-spacing: 0.25px;
+}
+
+text {
+  font-size: 10px;
+}
+
+.contentTab {
+  line-height: 14px;
+  letter-spacing: 0.25px;
+}
+
+.initiated {
+  height: 12px;
+  width: 12px;
+  background-color: #0b60b5;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.red {
+  height: 12px;
+  width: 12px;
+  background-color: #ee434c;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.75rem;
+}
+.yellow {
+  height: 12px;
+  width: 12px;
+  background-color: #ffb803;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.75rem;
+}
+.green {
+  height: 12px;
+  width: 12px;
+  background-color: #55bb5c;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.75rem;
+}
+
+.inprogress {
+  height: 12px;
+  width: 12px;
+  background-color: #edf3f9;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.75rem;
+}
+
+.xLabel {
+  font-size: 12px;
+  width: 4.4rem;
+  margin-right: 1.8rem;
+  text-align: center;
+}
+
+.noDataTab {
+  font-size: 16px;
+  background-color: $primary-background;
+  color: $secondary-label;
+  padding: 5px 20px;
+  border-radius: 45px;
+  width: max-content;
+  position: absolute;
+  margin-top: 5.5rem;
+  left: 42%;
+}
+
+.line {
+  fill: none;
+  stroke: #ffab00;
+  stroke-width: 3;
+}
+
+.overlay {
+fill: none;
+pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+  fill: #ffab00;
+  stroke: #fff;
+}
+
+.focus circle {
+fill: none;
+stroke: steelblue;
+}

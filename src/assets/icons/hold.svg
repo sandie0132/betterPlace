@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>icon / 16 / info / onhold</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.9319874,10.4813068 L6.43198745,0.981306824 C6.33552086,0.836787295 6.17324503,0.75 5.99948745,0.75 C5.82572987,0.75 5.66345404,0.836787295 5.56698745,0.981306824 L0.0669874498,10.4813068 C-0.022283291,10.6359281 -0.0223321955,10.8264179 0.0668591417,10.981085 C0.156050479,11.135752 0.32094625,11.2311238 0.49948745,11.2313068 L11.4994874,11.2313068 C11.6780286,11.2311238 11.8429244,11.135752 11.9321158,10.981085 C12.0213071,10.8264179 12.0212582,10.6359281 11.9319874,10.4813068 L11.9319874,10.4813068 Z M6.60248745,4.23130682 L6.36598745,7.53130682 L5.63298745,7.53130682 L5.40998745,4.23130682 L6.60248745,4.23130682 Z M5.99948745,9.73130682 C5.59438659,9.73130682 5.26598745,9.40290769 5.26598745,8.99780682 C5.26598745,8.59270596 5.59438659,8.26430682 5.99948745,8.26430682 C6.40458831,8.26430682 6.73298745,8.59270596 6.73298745,8.99780682 C6.73298745,9.40290769 6.40458831,9.73130682 5.99948745,9.73130682 Z" id="path-1"></path>
+    </defs>
+    <g id="👨🏻‍💼-client-admin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bgv-report-7" transform="translate(-470.000000, -566.000000)">
+            <g id="pan-details" transform="translate(280.000000, 96.000000)">
+                <g id="comments" transform="translate(40.000000, 440.000000)">
+                    <g id="comment-copy" transform="translate(138.000000, 20.000000)">
+                        <g id="icon-/-12-/-info-/-onhold" transform="translate(12.000000, 10.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#8697A8" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

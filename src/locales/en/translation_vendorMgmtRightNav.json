@@ -1,0 +1,11 @@
+{
+    "Heading": "vendor configuration",
+    "label": {
+        "l1": "vendor details",
+        "l2": "function & role",
+        "l3": "location & sites"
+    },
+    "button_vendorMgmtRightNav": {
+        "vendor": "go to vendor"
+    }
+}

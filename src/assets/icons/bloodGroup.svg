@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>020F3A38-6277-49F5-8409-4C48D148E563</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-add-employee-health-details_1" transform="translate(-744.000000, -194.000000)">
+            <g id="personal_details-DL" transform="translate(160.000000, 116.000000)">
+                <g id="blod" transform="translate(584.000000, 78.000000)">
+                    <rect id="Rectangle" fill="#F3F7FD" x="0" y="0" width="80" height="80" rx="8"></rect>
+                    <g id="blood" transform="translate(11.000000, 11.000000)">
+                        <rect id="Rectangle" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="58" height="58"></rect>
+                        <g id="blood-drop" transform="translate(8.000000, 0.000000)" fill-rule="nonzero">
+                            <path d="M21.9178235,52.9565014 C12.7206608,52.9558709 5.21063884,45.6652737 5.17660356,36.7044033 L10.3533319,36.7044033 C10.3872377,42.8860661 15.5710837,47.9126468 21.9178235,47.9130251 L22,47.9130251 L22,0 C22,0 8.14608528,18.3233277 4.38110961,23.8340821 C1.82820427,27.5709198 -0.0181129916,31.8880095 0,36.7229381 C0.0449105245,48.5173596 9.89456727,58.0433516 22,58 L22,52.9565014 L21.9178235,52.9565014 Z" id="Path" fill="#8697A8"></path>
+                            <path d="M20.8442083,48.0347567 C14.8375333,48.0343843 9.93144309,43.0858987 9.89935393,37 L5,37 C5.03221164,45.8217478 12.1398389,52.9993793 20.8442083,53 L21,53 L21,48.0347567 L20.8442083,48.0347567 Z" id="Path" fill="#FFFFFF"></path>
+                            <path d="M38.6188904,23.8340821 C35.904091,19.8604532 21,0 21,0 L21,58 C33.1054327,58.0433516 42.9552189,48.5173596 43,36.7229381 C43.018113,31.8880095 41.1717957,27.5709198 38.6188904,23.8340821 Z" id="Path" fill="#8697A8"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

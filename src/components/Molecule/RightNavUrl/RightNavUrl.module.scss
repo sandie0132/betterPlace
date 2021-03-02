@@ -1,0 +1,143 @@
+@import '../../../theme.scss';
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../../../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+    src: url('../../../assets/fonts/Gilroy-Bold.eot');
+    src: url('../../../assets/fonts/Gilroy-Bold.woff') format("woff"),
+  }
+
+  @font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../../../assets/fonts/Gilroy-Medium.ttf') format('truetype');
+    src: url('../../../assets/fonts/Gilroy-Medium.eot');
+    src: url('../../../assets/fonts/Gilroy-Medium.woff') format("woff"),
+  }
+
+.divHeight{
+    height: 3.5rem;  
+}
+
+.subDivheight{
+  margin-bottom: 1.5rem;
+}
+
+.DefaultLink{
+    border-radius: 30px;
+    height: 40px;
+    width: auto;
+    color: $active-link;
+    font-family: Gilroy-Bold;
+    font-size: 14px;   
+    outline: none;
+    &:focus{
+      outline: none;
+    }
+}
+
+.DisabledLink{
+    // padding: 10px;
+    border-radius: 30px;
+    height: 40px;
+    font-family: Gilroy;
+    font-size: 14px;
+    width:fit-content ;
+    color: $secondary-label;
+    cursor: disabled;
+    outline: none;
+    &:focus{
+      outline: none;
+    }
+}
+.activeCircle{
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+  border-radius: 50%;
+  margin-top: 3.5rem;
+}
+
+.activeCircleSmall{
+  box-shadow: 0 0px 4px 0 rgba(0,0,0,0.2);
+  border-radius: 50%;
+  margin-top: 3.5rem;
+}
+
+.inactiveCircle{
+  position: absolute;
+  z-index: 999;
+  margin-top: 3.5rem;
+}
+
+.verticleLineDisabled{
+  border-left: 2px solid $primary-background;
+  height: 3.5rem;
+  margin-left: 0.5rem;
+  // opacity: 0.1;
+}
+
+.verticleLineActive{
+  border-left: 2px solid $active-link;
+  height: 3.5rem;
+  margin-left: 0.5rem;
+}
+
+.iconMarginLeft{
+  margin-left: 0.05rem;
+  position: absolute;
+  z-index: 999;
+  margin-top:3.5rem;
+}
+
+.LabelNext{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 1rem;
+    line-height: 1.3rem;
+    margin-top: 3.5rem;
+    cursor: not-allowed;
+    width: 13rem;
+}
+
+.LabelCurrent{
+  color: $active-link;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 1rem;
+  line-height: 1.3rem;
+  margin-top: 3.5rem;
+  cursor: pointer;
+  width: 13rem;
+  &:hover{
+    color: $active-link
+  }
+}
+
+.LabelPrev{
+  color: $primary-label;
+  font-family: Gilroy;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 1rem;
+  line-height: 1.3rem;
+  margin-top: 3.5rem;
+  width: 13rem;
+  cursor: pointer;
+  &:hover{
+    color: $active-link
+  }
+}
+
+.endIconLabelMargin{
+  margin-left: 1.7rem
+}
+
+.subSectionIcon{
+  height: 8px;
+  width: 8px;
+  top: 5px;
+}
+.cursorPointer{
+  cursor: pointer;
+}

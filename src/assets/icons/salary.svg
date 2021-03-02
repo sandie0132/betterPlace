@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>C611ED78-E1DC-4929-AC87-EBD54B1E1C63</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-all-employee-B2" transform="translate(-13.000000, -440.000000)" fill-rule="nonzero">
+            <g id="left-bar">
+                <g id="side-bar">
+                    <g id="salary" transform="translate(13.000000, 440.000000)">
+                        <path d="M12,3.01980663e-14 C5.372583,3.01980663e-14 3.01980663e-14,5.372583 3.01980663e-14,12 C3.01980663e-14,18.627417 5.372583,24 12,24 C18.627417,24 24,18.627417 24,12 C24,8.81740212 22.7357179,5.76515517 20.4852814,3.51471863 C18.2348448,1.26428208 15.1825979,3.01980663e-14 12,3.01980663e-14 Z" id="Path-Copy-4" fill="#F3F7FD"></path>
+                        <g id="mobile-phone" transform="translate(7.000000, 6.000000)" fill="#8697A8">
+                            <path d="M8,0 L2,0 C0.8954305,0 0,0.8954305 0,2 L0,10 C0,11.1045695 0.8954305,12 2,12 L8,12 C9.1045695,12 10,11.1045695 10,10 L10,2 C10,0.8954305 9.1045695,0 8,0 Z M8,10 L2,10 L2,2 L8,2 L8,10 Z" id="Shape"></path>
+                            <rect id="Rectangle" x="3" y="3" width="4" height="5"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

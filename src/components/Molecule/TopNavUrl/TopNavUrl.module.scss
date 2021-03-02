@@ -1,0 +1,86 @@
+@import '../../../theme.scss';
+
+.AlignCenter{
+    text-align: center;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    // height: 100vh;
+    // overflow: auto;
+    
+}
+.arrow_up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-bottom: 5px solid #0059B2;
+  margin-left: 6rem;
+  margin-top: -0.3rem;
+  // position: absolute;
+  margin-left: 46%;
+}
+.svg {
+  // height: auto;
+  border-bottom: 2px solid #0059B2;
+   width: inherit;
+}
+.svg:hover {
+	cursor: pointer;
+  //filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);  
+}
+.textCenter{
+    text-align: center;
+}
+.verticleLineActive {
+    position: absolute;
+    z-index: -1;
+    top: 0.6rem;
+    height: 2px;
+    width: 12rem;
+    background-color: $active-link; 
+    margin-left: 10px;
+    
+
+}
+.verticleLineInactive {
+    position: absolute;
+    z-index: -1;
+    top: 0.6rem;
+    height: 2px;
+    width: 12rem;
+    background-color: $card-bg; 
+    margin-left: 10px;
+}
+
+.LabelNext{
+    color: $secondary-label;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    padding-top: 0.5rem;
+    cursor: not-allowed;
+    
+}
+
+.LabelCurrent{
+  color: $active-link;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  padding-top: 0.5rem;
+  cursor: pointer;
+  &:hover{
+    color: $active-link;
+  }
+  
+}
+
+.LabelPrev{
+  color: $primary-label;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  padding-top: 0.5rem;
+  cursor: pointer;
+  &:hover{
+    color: $active-link;
+  }
+}

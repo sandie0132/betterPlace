@@ -1,0 +1,17 @@
+{
+    "image_alt_tagSearch": {
+        "search": "search",
+        "close": "close",
+        "right": "right",
+        "arrow": "arrow",
+        "lock": "lock"
+    },
+    "button_tagSearchModal": {
+        "done": "done",
+        "cancel": "cancel"
+    },
+    "placeholder": "select or search tags here",
+    "location": "location",
+    "function": "function",
+    "custom": "custom"
+}

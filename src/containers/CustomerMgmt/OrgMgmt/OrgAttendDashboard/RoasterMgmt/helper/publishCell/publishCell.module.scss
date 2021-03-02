@@ -1,0 +1,87 @@
+@import '../../../../../../../theme.scss';
+
+
+.cellTextAlignSec{
+    text-align: center;
+}
+
+.tabGreen{
+    font-size: 14px;
+    background-color: $success;
+    color: #FFFFFF;
+    padding: 10px 40px 10px 15px;
+    border-radius: 50px;
+}
+
+.tabGrey{
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: #c0c0c3;
+    padding: 10px 20px 10px 5px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: not-allowed;
+}
+
+
+.tabEnable{
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color:  $active-link;
+    padding: 10px 20px 10px 5px;
+    border-radius: 50px;
+    display: inline-flex;
+    cursor: pointer;
+    font-family: 'Gilroy-Medium';
+}
+
+.publishIcons{
+    height: 16px;
+	width: 16px;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+
+
+.tabLoading{
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color:  $active-link;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Gilroy-Medium';
+    display: inline-block;
+    padding: 8px 20px 8px 15px;
+
+}
+
+.iconBG{
+    background-color: $greyBg;
+    padding: 3px 8px 4px 6px;
+    border-radius: 0px 14.5px 14.5px 0px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.iconBGEnable{
+    background-color: #EBB0C2;
+    padding: 3px 8px 4px 6px;
+    border-radius: 0px 14.5px 14.5px 0px;
+    display: inline-block;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.inlineBlock{
+    display: inline-block;
+    margin: 0 0 0 4px;
+}
+
+.tooltip{
+    font-style: normal;
+}
+
+.tooltipClass::before{
+    border: 0 !important;
+}

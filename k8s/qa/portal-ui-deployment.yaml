@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: portal-ui-qa-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: portal-ui-qa
+  template:
+    metadata:
+      labels:
+        app: portal-ui-qa
+    spec:
+      containers:
+        - name: portal-ui-qa-container
+          image: asia.gcr.io/engineering-274207/betterplace/portal-ui:qa
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+      restartPolicy: Always

@@ -1,0 +1,55 @@
+@import '../../../theme.scss';
+
+.pdfIcon {
+	width: 50%;
+	margin-left: 27%;
+	margin-top: 58%;
+}
+
+.jpgIcon {
+	width: 46%;
+	margin-left: 27%;
+	margin-top: 59%;
+}
+
+.pdfFileName {
+	margin-top: 1rem;
+	width: 4rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-left: 12%;
+	font-family: Gilroy-Medium;
+	font-size: 12px;
+	line-height: 15px;
+	color: $secondary-label;
+	//text-align: center;
+}
+
+.Thumbnail {
+	background-color: $primary-background;
+	padding-left: 1.78rem;
+	padding-right: 1.78rem;
+	position: relative;
+	cursor: pointer;
+	//  object-fit: cover;
+	// background-size: 50px 50px;
+}
+
+.ThumbnailLoading {
+	background-color: $primary-background;
+	padding-left: 1.78rem;
+	padding-right: 1.78rem;
+	position: relative;
+	cursor: progress;
+	//  object-fit: cover;
+	// background-size: 50px 50px;
+}
+
+.Close {
+	//  margin-bottom: 8%;
+	//  margin-left: 99%;
+	position: absolute;
+	margin-left: 4.8rem;
+	cursor: pointer;
+}

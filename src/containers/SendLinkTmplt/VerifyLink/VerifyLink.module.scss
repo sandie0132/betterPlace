@@ -1,0 +1,252 @@
+@import '../../../theme.scss';
+
+
+/////common classes 
+
+
+.RadioButtonContainer{
+    border-radius: 20px;
+    background-color: $primary-background;
+    height:2.5rem;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.smallRadioWidth{
+   min-width: 5.625rem;
+}
+.largeRadioWidth{
+   min-width: 9.75rem;
+}
+
+.RadioButtonActiveContainer{
+    background-color: $secondary-background;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.RadioButton
+{
+    appearance: none;
+    // display: inline-block;
+    position: relative;
+    background-color: $card-bg;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    top: 0.75rem;
+    right: 0.8rem;
+    float: right;
+    border-radius: 50%;
+    cursor: pointer;     
+    margin-right: 0%;
+    outline: none;
+}
+
+.RadioButton:checked::before
+{
+    background-color: $card-bg;
+}
+
+.RadioButton:checked
+{
+    content: url('../../../assets/icons/royalBlueTick.svg');     
+}
+
+.LabelDisabled{
+    //padding: 10%;
+    position: relative;
+    float: left;
+    margin-top: 0.75rem;
+    margin-left: 16px;
+    color: $disabled-label;
+    font-family: Gilroy-Medium;	
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.LabelActive{
+    position: relative;
+    float: left;
+    margin-top: 0.75rem;
+    margin-left: 16px;
+    color: $active-link;	
+    font-family: Gilroy-Medium;	
+    font-size: 14px;	
+    line-height: 16px;
+}
+
+
+.checkBoxText{
+    cursor: pointer;
+}
+
+.ActiveButton{
+    height: 48px;
+    width: 129px;
+    border-radius: 12px;
+    //background-color: #0059B2;
+    color: 14px;
+    line-height: 16px;
+    font-family: Gilroy;
+    color: $card-bg;
+    background-color: $active-link;
+    &:hover {
+        text-decoration: none;
+        color: $card-bg;
+        background-color: $add-hover;
+      }
+      &:active {
+        text-decoration: none;
+        color: $card-bg;
+        background-color: $add-active;
+    }
+}
+
+.DisabledButton{
+    height: 48px;
+    width: 129px;
+    border-radius: 12px;
+    color: 14px;
+    line-height: 16px;
+    font-family: Gilroy;
+    color: $card-bg;
+    background-color: $disable-bg;
+}
+
+.bottomLine{
+    box-sizing: border-box;	
+    width: 24rem;	
+    border: 1px solid $verifylink-bottomline;	
+    opacity: 0.2;
+}
+
+@media (min-width: 576px){
+    .bottomLine{ width: 33rem;}
+}
+@media (min-width: 768px){
+    .bottomLine{
+        width: 42rem;
+    }
+}
+@media (min-width: 992px){
+    .bottomLine{
+        width: 61rem;
+    }
+}
+
+.bottomText{
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 16px;
+}
+.bottomTextContainer{
+    max-width: 24rem;
+}
+@media (min-width: 576px){
+    .bottomTextContainer{ max-width: 28rem;}
+}
+@media (min-width: 768px){
+    .bottomTextContainer{ max-width: 38rem;}
+}
+@media (min-width: 992px){
+    .bottomTextContainer{ max-width: 768px;}
+}
+
+.activeLink{
+    color: $verifylink-active-link;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+/////info card classes
+.infoCard{
+    // width: 493px;	
+    border-radius: 24px;	
+    background-color: $card-bg;	
+    box-shadow: 0 13px 10px -10px $infocard;
+}
+
+.infoContainer{
+    max-width: 24rem;
+}
+@media (min-width: 576px){
+    .infoContainer{ min-width: 30.5rem;} 
+}
+
+.cardPadding{
+    padding:24px;
+}
+
+.infoProfilePic{
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+}
+
+.infoHeading{
+    font-family: Gilroy;	
+    font-size: 24px;	
+    color: $primary-label;
+    line-height: 29px;
+    margin-bottom: 0px;
+}
+
+.infoSecondHeading{
+    color: $secondary-label;	
+    font-family: Gilroy;	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 16px;
+    margin-bottom: 0px;
+}
+
+.infoLineContainer{
+    display: inline-flex;
+    margin-top: 0.7rem;
+}
+
+
+///////verify info classes
+
+.verifyLabel{
+    color: $secondary-label;	
+    font-family: Gilroy-Bold;	
+    font-size: 14px;	
+    line-height: 17px;
+}
+
+.verifyContainer{
+    max-width: 24rem;
+}
+@media (min-width: 576px){
+    .verifyContainer{ max-width: 31rem;} 
+}
+
+.verifyTextArea{
+    box-sizing: border-box;	
+    height: 101px;	
+    max-width: 348px;
+    padding: 12px;
+    font-size: 12px;
+    resize: none;
+    border: 1px solid rgba(134, 151, 168, 0.2);	
+  //  opacity: 0.07;	
+    border-radius: 12px;
+}
+
+@media (min-width: 576px){
+    .verifyTextArea{
+        max-width: 446px;
+    }
+}

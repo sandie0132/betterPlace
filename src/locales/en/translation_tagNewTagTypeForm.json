@@ -1,0 +1,16 @@
+{
+    "image_alt_tagNewTagTypeForm": {
+        "img" : "img"
+    },
+    "button_tagNewTagTypeForm": {
+        "done" : "done"
+    },
+    "li" : {
+        "l1" : "or choose below",
+        "l2" : "  add group",
+        "l3" : "  add area",
+        "l4" : "  add building",
+        "l5" : "  add site"
+    },
+    "placeholder":"name this section"
+}

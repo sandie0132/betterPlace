@@ -1,0 +1,140 @@
+@import '../../../../theme.scss';
+.LineInput{
+    display: inline-block;
+}
+.verticalLine{
+    width: 1px;
+    height: 39.5rem;
+    background: $active-link;  
+    transform: translateX(-10px);
+    margin-block-end: 0.5em;
+}
+
+.Section{
+    display: inline-flex;
+}
+.TagInput{
+    border: 1px solid  $active-link;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    background: $card-bg url(../../../../assets/icons/addTag.svg) no-repeat 10px 7px;
+    padding-left: 30px;
+    position: relative;
+    font-size: 12px;
+    transform: translateX(-2.5rem);
+    top:25rem;
+    z-index: 1;
+    &:focus{
+        outline: none;
+    }
+}
+
+.SectionInput{
+    //border: 1px solid  $active-link;
+    padding: 5px;
+    //border-radius: 4px;
+    width: 10rem;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    background: $card-bg;
+    padding-left: 10px;
+    position: relative;
+    font-size: 12px;
+    transform: translateX(-2.5rem);
+    top:25rem;
+    &:focus{
+        outline: none;
+    }
+}
+
+.DoneButton{
+    background: $active-link;
+    color:$card-bg;
+    font-size: 12px;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    position: relative;
+    border: 1px solid  $active-link;
+    top:25rem;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    transform: translateX(-3rem);
+    z-index: inherit;  
+    
+}
+.verticalLineDefault{
+    width: 1px;
+    height: 39.5rem;
+    background: $active-link;  
+    transform: translateX(1rem);
+    margin-block-end: 0.5em;
+}
+.DoneButtonDefault{
+    background: $active-link;
+    color:$card-bg;
+    font-size: 12px;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    position: relative;
+    border: 1px solid  $active-link;
+    top:25rem;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    transform: translateX(-1rem);
+    z-index: inherit;  
+    
+}
+.TagInputDefault{
+    border: 1px solid  $active-link;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.11);
+    background: $card-bg url(../../../../assets/icons/addTag.svg) no-repeat 10px 7px;
+    padding-left: 30px;
+    position: relative;
+    font-size: 12px;
+    //transform: translateX(1rem);
+    top:25rem;
+    &:focus{
+        outline: none;
+    }
+}
+.dropdown{
+    position: absolute;
+    background-color:$card-bg;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 5rem;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    //z-index: 9999;
+    display:inline-table;
+    margin-left: 2px;
+}
+
+.UnorderedList{  
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.List{
+    font-size: 12px;
+    width:100%;
+    text-align: left;
+    padding-left: 2px;
+    margin-top: 5px;
+    &:hover{
+        background-color: $secondary-background;
+        cursor: pointer;
+    }
+}
+
+.SectionPlaceholder{
+    font-size: 12px;
+    width:100%;
+    text-align: left;
+    color: $secondary-label;    
+}

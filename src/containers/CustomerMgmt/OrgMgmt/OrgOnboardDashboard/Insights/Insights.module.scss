@@ -1,0 +1,185 @@
+@import "../../../../../theme.scss";
+
+.heading {
+    font-size: 24px;
+    color: $primary-label;
+    font-family: Gilroy-Light;
+}
+
+.cardBg {
+    margin-top: 1rem;
+    background-color: $card-bg;
+    padding: 2rem 1.5rem;
+    // margin-right: 0.65rem;
+}
+
+.blueCardBG{
+    padding: 1.5rem 1rem;
+    background-color: $secondary-background;
+}
+
+.mediumTextBold{
+    color: $page-title;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    letter-spacing: normal;
+}
+
+.smallBoldGrey{
+    color: $disabled-label;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+}
+
+.smallBold{
+    color: $page-title;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+}
+
+.borderLeft{
+    border-left: 1.5px solid $card-bg;
+    padding: 0rem 1rem;
+}
+
+.borderLeftGrey{
+    border-left: 1.5px solid $vertical-line;
+}
+
+.paddingLeft{
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+.largeNumber{
+    color: $page-title;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 40px;
+}
+
+.largeMediumGrey{
+    color: $secondary-label;
+    font-family: 'Gilroy';
+    font-weight:700;
+    font-size: 32px;
+    line-height: 48px;
+    
+}
+
+.alignCenter{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.displayInline{
+    display: inline-block;
+}
+
+.imgBg{
+    // padding: 10px 8px;
+    border-radius: 50%;
+    background-color: $warning-background;
+    height: 40px;
+    width: 40px;
+    padding: 7px 12px;
+}
+
+.largeMedium{
+    color: $page-title;
+    font-family: 'Gilroy';
+    font-weight:700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.smallCard{
+    border: 1px solid $vertical-line;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 3rem;
+}
+
+.mediumBold{
+    color: $page-title;
+    font-family: 'Gilroy';
+    font-weight:700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.smallText{
+    color: $page-title;
+    font-family: 'Gilroy';
+    font-weight:700;
+    font-size: 14px;
+}
+
+
+.smallGrey{
+    color: $secondary-label;
+    font-family: 'Gilroy';
+    font-weight:700;
+    font-size: 14px;
+}
+
+.smallGreyBold{
+    color: $secondary-label;
+    font-family: 'Gilroy-SemiBold';
+    font-weight:700;
+    font-size: 14px;
+}
+
+.button{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    cursor:  pointer !important;
+}
+
+.greyItalic{
+    font-size: 14px;
+    color: $secondary-label;
+    font-family: 'Gilroy';
+    font-weight:700;
+    font-style: italic;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 225px;
+    bottom: 118%;
+    left: -10rem;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    color: $page-title;
+	border-radius: 6px;
+	position: absolute;
+	background-color:#FFF7E5;
+	padding: 1rem;
+	z-index: 9;
+	font-size: 10px;
+	font-family: 'Gilroy';
+	font-weight:700;
+	font-style: italic;
+	border: 1px solid rgba(255,184,3,0.15);
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+	position: absolute;
+	top: 100%;
+    left: 77%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: rgba(255,184,3,0.15) transparent transparent  transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

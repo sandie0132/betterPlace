@@ -1,0 +1,16 @@
+{
+    "image_alt_orgReportDashboard": {
+        "todo": "todo",
+        "active": "active",
+        "colorStatus": "colorStatus",
+        "access":"access"
+    },
+    "orgName": "org name",
+    "progress": "overall progress",
+    "checkLevel": "checks level progress",
+    "l1": "to do's",
+    "l2": "insights",
+    "l3": "red",
+    "l4": "yellow",
+    "l5": "green"
+}

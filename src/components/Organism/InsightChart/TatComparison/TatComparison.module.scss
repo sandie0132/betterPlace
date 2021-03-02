@@ -1,0 +1,115 @@
+@import "../../../../theme.scss";
+
+text {
+  font-size: 10px;
+}
+
+.chartBackground {
+  background-color: $card-bg;
+  margin-right: 0.65rem;
+}
+.chart {
+  max-width: 92%;
+  overflow-x: auto;
+  min-width: 92%;
+  overflow-y: hidden;
+  background-color: $card-bg;
+}
+
+.yAxisMark {
+  color: $horizontal-line;
+}
+
+.yAxisMark text {
+  font-size: 10px;
+  color: $secondary-label;
+  font-family: "gilroy-light";
+}
+
+.legends {
+  font-size: 12px;
+  color: $secondary-label;
+  margin-left: 4%;
+}
+
+.lessThanAgree {
+  height: 12px;
+  width: 12px;
+  background-color: #bfd554;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.75rem;
+  margin-top: 2px;
+}
+
+.moreThanAgree {
+  height: 12px;
+  width: 12px;
+  background-color: #ff8095;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 2px;
+}
+
+.yAxisProfiles {
+  // font-size: 14px;
+  fill: $secondary-label;
+  font-family: "gilroy-light";
+}
+
+.days {
+  text-align: center;
+  font-size: 12px;
+  color: $secondary-label;
+  // margin-top: 1rem;
+  padding-bottom: 1rem;
+  letter-spacing: 0.25px;
+}
+
+.rotateImg {
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+}
+
+.noDataTab {
+  font-size: 16px;
+  background-color: $primary-background;
+  color: $secondary-label;
+  padding: 5px 20px;
+  border-radius: 45px;
+  width: max-content;
+  position: absolute;
+  margin-top: 5rem;
+  left: 42%;
+}
+
+
+.tooltip {
+  position: fixed;
+  font-size: 10px;
+  z-index: 999;
+  opacity: 0;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+.tooltip.hidden {
+  opacity: 0;
+}
+.tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+
+.value {
+  margin-left: 0.5rem;
+}

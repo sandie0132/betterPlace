@@ -1,0 +1,46 @@
+{
+    "image_alt_empSkillsPreference" : {
+        "addMore" : "add more"
+    },
+    "cardHeaders_empSkillsPreference" : {
+        "skills" : "skills",
+        "preferences" : "preferences",
+        "languages" : "languages known"
+    },
+    "buttons_empSkillsPreference" : {
+        "cancel" : "cancel",
+        "save" : "save",
+        "delete" : "delete"
+    },
+    "inputs_empSkillsPreference" : {
+        "label" : {
+            "skillsTag" : "add skills",
+            "preferencesTag" : "add preferences",
+            "language" : "language",
+            "speak" : "speak",
+            "write" : "write",
+            "read" : "read",
+            "motherTongue" : "mother tongue"
+        },
+        "placeholder" : {
+            "skillsTag" : "add skills",
+            "preferencesTag" : "add preferences"
+        }
+    },
+    "customSelectOptions_empSkillsPreference" : {
+        "value" : {
+            "select" : "",
+            "english" : "english",
+            "hindi" : "hindi",
+            "tamil" : "tamil",
+            "telugu" : "telugu"
+        },
+        "label" : {
+            "select" : "select language",
+            "english" : "english",
+            "hindi" : "hindi",
+            "tamil" : "tamil",
+            "telugu" : "telugu"
+        }
+    }
+}

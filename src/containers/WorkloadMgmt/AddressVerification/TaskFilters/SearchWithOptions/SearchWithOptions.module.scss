@@ -1,0 +1,115 @@
+@import '../../../../../theme.scss';
+
+.Dropdown{
+    background-color: $card-bg;
+    border-radius: 4px;
+    width: 93.5%; //12.5rem;
+    font-size: 14px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    z-index: 20;
+    position: absolute;
+    // top: 2.3rem;
+    max-height: 8rem;
+    overflow-y: auto;
+}
+
+.hover{
+    &:hover{
+      cursor: pointer;
+    }
+}
+
+.SelectedOption{
+    border-radius: 4px;
+    background-color: $card-bg;
+    padding: 8px;
+    color: $primary-label;
+    font-size: 14px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.SelectedOptionWithBorder{
+    border-radius: 4px;
+    background-color: $card-bg;
+    padding: 8px;
+    color: $primary-label;
+    font-size: 14px;
+    border: 1px solid $primary-background;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.DropdownIconUp{
+    margin-top: 0.35rem;
+}
+
+.DropdownIconDown{
+    margin-top: 0.35rem;
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.FirstOption{
+    color: $secondary-label ;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+    // margin-top: 3rem;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+}
+
+.LastOption{
+    color:$secondary-label ;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+}
+
+.Options{
+    color: $secondary-label;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+    }
+}
+
+.SearchField{
+    border: 1px solid $secondary-background;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    color: $secondary-label;
+    position: inherit;
+    width: 91%;
+    margin: 0.5rem;
+    &:focus{
+        border: 1px solid $active-link;
+    }
+}
+
+.NoBorder{
+    border: none;
+    width: inherit;
+}
+
+.HorizontalLine{
+    border: 1px solid $primary-label;
+}

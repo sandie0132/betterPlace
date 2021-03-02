@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>analytics</title>
+    <g id="🎭-all-employees_OA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Employee-details-excel-generation_05" transform="translate(-589.000000, -562.000000)">
+            <g id="analytics" transform="translate(589.000000, 562.000000)">
+                <rect id="Rectangle" fill="#FFF7E5" x="0" y="0" width="24" height="24" rx="12"></rect>
+                <g id="Group" transform="translate(6.000000, 6.000000)">
+                    <path d="M4.42857143,2.85714286 C4.90195836,2.85714286 5.28571429,3.24089879 5.28571429,3.71428571 L5.28571429,11.4285714 L5.28571429,11.4285714 L3.57142857,11.4285714 L3.57142857,3.71428571 C3.57142857,3.24089879 3.9551845,2.85714286 4.42857143,2.85714286 Z" id="Rectangle" fill="#76B5B5" fill-rule="nonzero"></path>
+                    <path d="M7,5.71428571 C7.47338693,5.71428571 7.85714286,6.09804164 7.85714286,6.57142857 L7.85714286,11.4285714 L7.85714286,11.4285714 L6.14285714,11.4285714 L6.14285714,6.57142857 C6.14285714,6.09804164 6.52661307,5.71428571 7,5.71428571 Z" id="Rectangle" fill="#458BC4" fill-rule="nonzero"></path>
+                    <path d="M9.57142857,2.85714286 C10.0448155,2.85714286 10.4285714,3.24089879 10.4285714,3.71428571 L10.4285714,11.4285714 L10.4285714,11.4285714 L8.71428571,11.4285714 L8.71428571,3.71428571 C8.71428571,3.24089879 9.09804164,2.85714286 9.57142857,2.85714286 Z" id="Rectangle" fill="#76B5B5" fill-rule="nonzero"></path>
+                    <path d="M1.85714286,0 C2.33052979,-8.6959768e-17 2.71428571,0.383755929 2.71428571,0.857142857 L2.71428571,11.4285714 L2.71428571,11.4285714 L1,11.4285714 L1,0.857142857 C1,0.383755929 1.38375593,8.6959768e-17 1.85714286,0 Z" id="Rectangle" fill="#458BC4" fill-rule="nonzero"></path>
+                    <rect id="Rectangle" fill="#BFD554" x="0" y="11" width="12" height="1" rx="0.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

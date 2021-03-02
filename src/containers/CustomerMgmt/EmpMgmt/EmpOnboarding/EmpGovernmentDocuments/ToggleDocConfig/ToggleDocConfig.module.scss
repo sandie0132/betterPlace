@@ -1,0 +1,40 @@
+@import '../../../../../../theme.scss';
+
+.container{
+    background-color: $card-bg;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid rgba(134, 151, 168, 0.123);
+    margin-top: 1rem;
+}
+
+.heading{
+    color: $primary-label;
+    font-size: 16px;
+    font-family: 'gilroy-bold';
+}
+
+.toggleContainer{
+    display: inline-flex;
+    margin-top: 1rem;
+}
+
+.active{
+    color: $active-link;
+    font-size: 14px;
+    font-family: 'gilroy';
+    // display: inline-block;
+}
+
+.inactive{
+    color: $secondary-label;
+    font-size: 14px;
+    font-family: 'gilroy';
+    // display: inline-block;
+}
+
+.toggleButton{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

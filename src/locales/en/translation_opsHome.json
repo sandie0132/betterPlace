@@ -1,0 +1,21 @@
+{
+    "image_alt_opsHome": {
+        "sunriseIcon": "sunriseIcon",
+        "thumbsup": "thumbsup"
+    },
+    "todo": "todo's",
+    "gMorning": "good morning ",
+    "gAfternoon": "good afternoon ",
+    "gEvening": "good evening ",
+    "line1": "We appreciate your efforts, you are doing good from the previous week, keep doing the great work!",
+    "line2": "below are the progress and task for you",
+    "tasksToDo": "task to do",
+
+    "idVerification": "ID verification",
+    "manual":"manual address verification",
+    "addressVerification":"address verification",
+    "legalVerification":"legal verification",
+    "careerVerification":"career verification",
+    "healthRef":"health and reference verification",
+    "agency":"address verification"
+}

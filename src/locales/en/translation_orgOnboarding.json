@@ -1,0 +1,24 @@
+{
+    "image_alt_orgOnboarding": {
+        "IdImage": "IdImage"
+    },
+    "button_orgOnboarding": {
+        "next" : "next",
+        "buttonLabel" : "{{buttonLabel}}"
+    },
+    "text" : {
+        "t1" : "enter any one of these id number",
+        "t2" : "pan number, tin number, cin number",
+        "t3" : "i don't have an id right now",
+        "t4" : "by clicking next, I am allowing to access my",
+        "t5" : "information"
+    },
+    "input_orgOnboarding": {
+        "label": {
+            
+        },
+        "placeholder": {
+            "enter" : "enter pan, tin, cin number"
+        }
+    }
+}

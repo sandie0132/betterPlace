@@ -1,0 +1,142 @@
+@import '../../../../../theme.scss';
+
+.EditButton{
+    padding-left: 1.5rem;
+    padding-right: 0rem;
+ }
+
+.dropdown{
+    position: absolute;
+    background-color:$card-bg;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 5rem;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    //z-index: 9999;
+    display:inline-table;
+    margin-left: 2px;
+    &:hover{
+        background-color: $card-bg;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+.UnorderedList{  
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.List{
+    width:100%;
+    text-align: left;
+    padding-left: 5px;
+    &:hover{
+        background-color: $card-bg;
+        border-radius: 4px;
+        color: red;
+    }
+}
+
+.FlagCard{
+    background-color: $secondary-background;
+    padding: 0.5rem;
+    // padding-right: 3rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 4px;
+    border: 1px solid $secondary-background;
+    min-width: 10rem;
+    max-width: 11rem;
+}
+
+.TagText{
+    color: $primary-label;
+    font-size: 14px;
+    font-family: 'Gilroy';
+}
+
+.ContainerPadding64{
+    padding-top: 1rem; 
+    margin-left: 0.8rem;
+    //margin-right: 1rem;  
+}
+
+.ModalPage{
+    width: 100%;
+    height: 100%; 
+}
+
+.ModalForm{
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    text-align: center;
+    background-color: $disabled-checkbox;
+}
+
+.TagSaveButton{
+    margin-left: 50%;
+    margin-top: 2.5rem;
+}
+
+.TagModalCard{
+    background-color: white;
+    margin-top: 1rem;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    width: 60%;
+    margin-left: 20%;
+}
+
+.ModalMessage{
+    font-size: 24px;
+    font-family: Gilroy-Light;
+    color: $secondary-label;
+}
+
+.CardLayout{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    border: none;
+    flex-wrap: nowrap;
+}
+
+.CardPadding{
+    padding: 2rem;
+}
+
+.Button{
+    //justify-content:flex-end;
+    // margin-left: 0.5rem;
+    //margin-top: 2rem;
+    width: 9rem;
+}
+
+.AddCardText{
+    font-size: 24px;
+    font-family: Gilroy-Light;
+    color: $secondary-label
+}
+
+.formBackground{
+    width: 100%;
+    background-color:$primary-background;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    right:0;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.PaddingLeftArrow{
+    margin-top: 16px !important;
+    padding-left: 16.5% !important;
+}

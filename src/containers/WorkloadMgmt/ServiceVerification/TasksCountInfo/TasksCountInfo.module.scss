@@ -1,0 +1,33 @@
+@import '../../../../theme.scss';
+
+.UpperCard{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    margin-top: 24px;
+    border: none;
+    flex-wrap: nowrap;
+    padding: 30px 40px;
+}
+
+.Font{
+    font-size: 14px;
+    font-family: 'Gilroy-Bold';
+}
+
+.Numbers{
+    margin-left: 0.25rem;
+    color: $card-link;
+    font-family: 'Gilroy-Light';
+    font-size: 48px;
+    margin-bottom: 0rem;
+}
+
+.postalService{
+    margin-top: 1.5rem;
+}
+
+.height {
+    height: 80px;
+}

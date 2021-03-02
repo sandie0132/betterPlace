@@ -1,0 +1,19 @@
+{
+    "button_orgRightNav": {
+        "goTo" : "go to org"
+    },
+    "Cardheading" : "add organisation",
+    "link" : 
+    {
+        "orgDetails" : "organisation details",
+        "contactPerson" : "contact person",
+        "additionalAddress" : "additional address",
+        "accessManagement" : "access management",
+        "functionRole" : "function & role",
+        "locationSites" : "location & sites",
+        "customTags" : "custom tags",
+        "documents" : "documents" , 
+        "vendors" : "vendors",
+        "clients" : "clients"
+    }
+}

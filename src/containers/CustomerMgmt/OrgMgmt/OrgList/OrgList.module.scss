@@ -1,0 +1,297 @@
+@import '../../../../theme.scss';
+.alignCenter{
+    padding-left: 3%;
+    width: 100%;
+    // margin-top: 1rem;
+    padding-right: 5%;
+    // height: 100vh;
+    overflow: auto;
+}
+
+@media (min-width: 1025px) {
+    .alignCenter{
+        padding-right: 25%;
+    }
+}
+
+.WelcomeMessage{
+    font-size: 14px;
+    line-height: 24px;	
+    text-align: center;
+}
+
+.submit{
+    height: 30px;
+    font-size: 12px;
+    margin-top:10%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: $active-link;
+    color: $card-bg;
+}
+
+.ContainerMarginLeft{
+    margin-left: 1rem;
+    // margin-right:1%;
+}
+
+.HideSection{
+    display: none;
+}
+
+.CardLayout{
+    background-color: $card-bg;
+    border: none;
+}
+
+.CardPaddingTop{
+    padding-top: 1.75rem;
+}
+
+.DefaultLogoStyle{
+    border-radius: 5px 5px 0 0;  
+    padding-top: 2rem;
+}
+
+.OrgNameCardStyle{
+    background: $card-bg;
+    font-size: 24px;
+    min-height: 3rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.hr1{
+    border:0.5px solid $card-bg;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding-bottom: 0px;
+}
+
+li {
+    display: block;
+    text-align: center;
+    padding: 1% 1% 0% 1%;
+    font-size: 14px;
+    text-decoration: none;
+    padding-bottom:2px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li:first-child{
+    padding: none;
+}
+
+.floatright{
+    float: right;
+}
+
+.vl {
+    border-left: 2px solid ;
+    display: inline;
+    padding-right: 2px;
+  }
+
+.NavLinkfont{
+    color: $secondary-label;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-size: 14px;
+    border:0;
+    background-color: rgba(250, 250, 252, 0);
+    &:hover{
+        text-decoration: none;
+        color: $active-link;
+        border:2px;
+        border-color: $card-bg;
+        width: relative;
+    }
+    &:active{
+        text-decoration: none;
+        color: $active-link;
+        border:0;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+// .NavLinkfontActive{
+//     padding-top: 8px;
+//     padding-bottom: 7px; 
+//     filter: brightness(0.6) sepia(1) hue-rotate(190deg) saturate(5);  
+// }
+
+.NavLinkfontActive{
+    padding-top: 8px;
+    padding-bottom: 14px; 
+    border-bottom:2px solid $secondary-label;
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.NavHead{
+    color:$secondary-label;
+}
+
+.svg {
+	width: 50px;
+    height: auto;
+}
+
+.svg:hover {
+	cursor: pointer;
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);  
+}
+
+.cardLink{
+    color: $card-link;
+    &:hover{
+        text-decoration: none;
+        color: $card-link;
+        box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11); 
+    }
+}
+
+.Align{
+    display: inline-flex;
+    padding-top: 4%;
+    color: $secondary-label;
+    line-height: 30px;
+    width:100%;
+}
+
+.searchIcon{
+    background: none;
+    outline: none;
+    border: 0px;
+    padding-bottom: 48px;
+    
+    &:focus{
+        background: none;
+        outline: none;
+        border: 10px;
+        border-color:$search-border;
+    }
+}
+
+.searchBar{
+    margin-right: 10px;
+    margin-left: 10px;
+    border:none;
+    outline: none;
+    background: none;
+    display: inline-flex;
+    font-family: Gilroy;	
+    font-size: 24px;	
+    line-height: 24px;
+    font-family: 'Gilroy-Thin';
+}
+
+::placeholder{
+    color:$secondary-label;
+}
+
+.Starred{
+    float : right;
+    margin-right : -5px;
+    margin-top : -10px;
+}
+
+.TabAlign{
+    margin-left: auto;
+}
+
+.LinkButton{
+    justify-content:flex-end;
+    border-radius: 20px;
+    padding:10px;
+    background-color: $active-link;
+    color:$card-bg;
+    font-size:12px;
+    &:hover{
+        text-decoration: none;
+        color:$card-bg;
+        background-color: $add-hover;
+    }
+    &:active{
+        text-decoration: none;
+        color:$card-bg;
+        background-color: $add-active;
+    }
+}
+
+.Pagination {
+    
+    line-height: 12px;
+}
+
+.ActiveTabLink{
+    border-bottom-color: $active-link;
+    border-bottom-style: solid;
+    border-width: 2px;
+    color: $active-link;
+    padding-bottom: 10px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.InactiveTabLink{
+    color: $secondary-label;
+    padding-bottom: 10px;
+    &:hover{
+        cursor: pointer;
+        filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+    }
+}
+
+.ActiveTabLinkImage{
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.Info{
+    color: $card-link;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    font-family: 'Gilroy';
+}
+
+.NoClient{
+    color: $card-link;
+    font-size: 40px;
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+    font-family: 'Gilroy';
+}
+
+.NoResult{
+    font-size: 14px;
+    color: $secondary-label;
+    font-family: 'Gilroy-Light';
+}
+
+.BoldText{
+    font-size: 14px;
+    color: $secondary-label;
+    font-family: 'Gilroy-Bold';
+}
+
+.NoResultPage{
+    margin-top: 5%;
+    text-align: center;
+}

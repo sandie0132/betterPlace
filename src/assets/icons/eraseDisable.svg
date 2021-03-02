@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="32px" viewBox="0 0 29 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>erase</title>
+    <g id="roster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Publish-functionalitv2_01" transform="translate(-1054.000000, -60.000000)">
+            <g id="Group-3" transform="translate(160.000000, 56.000000)">
+                <g id="erase" transform="translate(894.000000, 4.000000)">
+                    <path d="M4,0 L29,0 L29,0 L29,32 L4,32 C1.790861,32 2.705415e-16,30.209139 0,28 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle" fill="#E6EDF5"></path>
+                    <g id="eraser-33-copy" transform="translate(6.000000, 8.000000)" stroke="#7D97AC">
+                        <line x1="4.95238095" y1="4.95238095" x2="11.047619" y2="11.047619" id="Path"></line>
+                        <path d="M4.95238095,15.6190476 L0.696380952,11.3630476 C0.101333333,10.768 0.101333333,9.80342857 0.696380952,9.20838095 L9.04152381,0.863238095 C9.63657143,0.268190476 10.6011429,0.268190476 11.1961905,0.863238095 L15.1367619,4.80380952 C15.7318095,5.39885714 15.7318095,6.36342857 15.1367619,6.95847619 L6.47619048,15.6190476" id="Path"></path>
+                        <line x1="1.14285714" y1="15.6190476" x2="14.8571429" y2="15.6190476" id="Path" stroke-linecap="square"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

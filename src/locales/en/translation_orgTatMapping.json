@@ -1,0 +1,22 @@
+{
+    "image_alt_orgTatMapping": {
+        "img": "img",
+        "IdIcon" : "IdIcon"
+    },
+    "button_orgTatMapping": {
+        "next": "next"
+    },
+    "label" :
+    {
+        "l1" : "configure OPS",
+        "l2" : "verifications",
+        "l3" : "turn around time (TAT)",
+        "l4" : "ID verification",
+        "l5" : "address verification",
+        "l6" : "legal verification",
+        "l7" : "career verification",
+        "l8" : "health & reference verification",
+        "l9" : "court verification"
+    },
+    "cardHeader" : "tat mapping"
+}

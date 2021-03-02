@@ -1,0 +1,229 @@
+@import "../../../theme.scss";
+
+.AddButton {
+  justify-content: flex-end;
+}
+
+.welcomeMessage{
+  color: $primary-label;	
+  font-family: 'Gilroy';	
+  font-size: 14px;
+}
+
+.ContainerPadding64{
+  padding-top: 3rem; 
+  padding-bottom: 2rem;  
+}
+.OrgName{
+  color: $active-link;	
+  font-family: 'Gilroy-Light';	
+  font-size: 24px;
+  font-weight: normal;
+  margin-left: 1rem;
+}
+
+.NavLinkfontActive{
+  padding-top: 8px;
+  padding-bottom: 14px; 
+  border-bottom:2px solid $secondary-label;
+  filter: brightness(0.6) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.NavHead{
+  color:$secondary-label;
+}
+
+.svg {
+	width: 50px;
+    height: auto;
+}
+.svg:hover {
+	cursor: pointer;
+    filter: brightness(0.6) sepia(1) hue-rotate(190deg) saturate(5);  
+}
+
+.NavLinkfont{
+  color: $secondary-label;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  font-size: 14px;
+  border:0;
+  background-color: rgba(250, 250, 252, 0);
+  font-family: 'Gilroy-Medium';
+  &:hover{
+      text-decoration: none;
+      color: $active-link;
+      border:2px;
+      border-color: $card-bg;
+      width: relative;
+     
+  }
+  &:active{
+      text-decoration: none;
+      color: $active-link;
+      border:0;
+  }
+  
+  &:focus{
+      outline: none;
+  }
+}
+
+.hr1{
+  border:0.5px solid white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.welcomeText{
+  color: $primary-label;	
+  font-family: 'Gilroy';	
+  font-size: 24px;
+}
+
+.LinkButton{
+  justify-content:flex-end;
+  border-radius: 20px;
+  padding:5px;
+  background-color: $secondary-background;
+  color: $active-link;
+  font-size:14px;
+  font-weight:bold;
+  &:hover {
+    text-decoration: none;
+    background-color: $secondary-background;
+    color: $active-link;
+  }
+  &:active{
+    text-decoration: none;
+    color:$active-link;
+    background-color: $secondary-background;
+  }
+}
+
+// .PlusColor{
+//   background-color: $secondary-background;
+// }
+
+.ListRightBar{
+  color: $secondary-label;	
+  font-family: 'Gilroy';
+  font-size: 14px;
+  background-color: $primary-background;
+}
+
+.Width{
+  width:8rem;
+  display: flex;
+  flex:row;
+  flex-wrap:nowrap;
+}
+
+.smallRightArrow{
+  transform: rotate(-90deg);
+}
+
+.Height{
+  height: 45%;
+}
+
+.RightBorder{
+  border-right: 1px solid $card-bg;
+  margin-top:0px;
+  padding-top:0px;
+}
+
+.OnboardText{
+  color: $secondary-label;	
+  font-family: 'Gilroy';	
+  font-size: 12px;
+  text-align: right;
+  line-height: 0.8rem;
+}
+
+.PurpleTag{
+  border-right: 2px solid $dashboard-intro-backgound;
+}
+
+.smallUserIcon{
+  z-index: 9999;
+  margin-left: 0.2rem;
+}
+
+.greenOval{
+  box-sizing: border-box;	
+  border-radius: 16px;
+  height: 6px;	
+  width: 6px;	
+  border: 1px solid $primary-background;	
+  background-color: $success;
+}
+
+.purpleLine{
+  border-left: 2px solid $active-link;
+  margin-top:0px;
+  padding-top:0px;
+  height: 20%;
+}
+
+.purpleOval{
+  box-sizing: border-box;	
+  border-radius: 16px;
+  height: 8px;	
+  width: 8px;		
+  background-color: $active-link;
+}
+
+.WhiteOval{
+  box-sizing: border-box;	
+  border-radius: 16px;
+  height: 8px;	
+  width: 8px;		
+  background-color:$card-bg;
+}
+
+.timelineHeight{
+  max-height: 20rem
+}
+
+.alignCenter{
+  width: 100%;
+  padding-right: 3%;
+  // height: 100vh;
+  // overflow: auto;
+  margin-left: 2.5rem;
+}
+
+@media (min-width: 1025px) {
+  .alignCenter{
+      padding-right: 25%;
+  }
+}
+
+.DocType{
+  font-size: 14px;
+  font-family: 'Gilroy-Bold';
+  color: $secondary-label;
+  // margin-top: 1rem;
+}
+
+.HorizontalLine{
+  border: 1px solid $horizontal-line;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 85%;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.MarginBottom{
+  margin-bottom: 2.5rem;
+}
+
+.centerContent{
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

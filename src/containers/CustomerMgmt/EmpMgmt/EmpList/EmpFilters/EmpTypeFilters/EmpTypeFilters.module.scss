@@ -1,0 +1,105 @@
+@import '../../../../../../theme.scss';
+
+.RadioButton {
+    background-color: $card-bg;
+    width: 13px;
+    height: 13px;
+    // float: right;
+    border-radius: 50%;
+    cursor: pointer;     
+    margin-right: 0%;
+    outline: none;
+    appearance: none;
+    margin-top:0.3rem;
+    border: 1px solid $secondary-label;
+}
+
+.RadioButton:checked::before
+{
+    background-color: $card-bg;
+}
+
+.RadioButton:checked
+{
+     background-color: $card-bg;
+     border: 3px solid $active-link;
+}
+
+.ToText{
+    font-size: 12px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 4%;
+    color: $secondary-label;
+}
+.DateInput{
+    width: 7.5rem !important;
+}
+
+.FilterBox{
+    overflow-x: hidden;
+}
+.Headings{
+    font-size: 12px;
+    font-family: 'Gilroy-SemiBold';
+    color: $secondary-label;
+    margin-top: .8rem;
+}
+.checkBoxStyle{
+    margin-top: 2px !important;
+}
+.FilterHeadings{
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: $primary-label;
+}
+
+.SearchHead{
+    height: 2.5rem; //3rem;
+    width: 100%;
+}
+.FilterSearch{
+    font-size: 14px;
+    margin-top: 1rem;
+    // margin-left: 0.1rem;
+    border: none;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+}
+
+.ClearFilter{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    color: $secondary-label;
+    line-height: 22px;
+    // padding-top: 0.25rem;
+    text-decoration: underline;
+    &:hover{
+        cursor: pointer
+    }
+ }
+
+ .HorizontalLine{
+    border: 0.5px solid $secondary-label;
+    background-color: $secondary-label;
+    opacity: 0.18;
+}
+
+.smallLabel{
+    color: $card-link;	
+    font-family: 'Gilroy';
+    font-size: 12px;	
+    line-height: 25px;
+    margin-bottom: 0%;
+}
+
+.filterContainer{
+    height: calc(100vh - 13rem);
+    overflow: auto;
+}
+
+.imgSize{
+    height: 21px !important;
+    padding-left: 0.8rem !important;
+    margin-top: 1.15rem !important;
+}

@@ -1,0 +1,150 @@
+@import '../../../../../../../theme.scss';
+
+.alignCenter {
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 3%;
+    height: 100vh;
+}
+
+@media (min-width: 1025px) {
+    .alignCenter {
+        padding-right: 25%;
+    }
+}
+
+.Input{
+    width: 272px !important;
+}
+
+.Heading{
+    color: $primary-label;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+
+.container {
+    background-color: $card-bg;
+    padding: 32px 40px 40px 32px;
+    position: relative;
+    // margin-top: 1.5rem;
+}
+.containerExtraPaddingBotton{
+    padding-bottom: 72px !important;
+}
+
+.fixedTopHeader{
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    background-color: $primary-background;;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.fixedHeader{
+    padding: 8px;
+    margin-top: 16px;
+    background-color: $card-bg;
+    width: 100%;
+}
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.timeHeading { 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.horizontalLine {
+    border: 1px solid $horizontal-line;
+    width: 100%;
+}
+
+.checkMarkStyle{
+    margin-top: 4px;
+}
+
+.checkBoxText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.removeContainer{
+    height: 112px;
+    border-radius: 0 0 4px 4px;
+    background-color: $card-pvc;
+    width: 100%;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.removeContainerText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.noButton{
+    min-width: 4rem !important;
+    background-color: $card-bg !important;
+    color: $primary-label !important;
+    margin-right: 1rem !important;
+    height: 2rem !important;
+    &:hover{
+        background-color: $card-bg !important;
+        color: $primary-label !important;
+    }
+}
+.yesButton{
+    min-width: 4rem !important;
+    background-color: $danger !important;
+    color: $card-bg !important;
+    height: 2rem !important;
+    &:hover{
+        background-color: $danger !important;
+        color: $card-bg !important;
+    }
+}
+
+.cancelButtonActive{
+    background-color: transparent;
+    min-width: 6rem;
+    cursor: pointer;
+}
+.cancelButtonActive label{
+    cursor: pointer;
+}
+
+.cancelButtonDisable{
+    background-color: transparent;
+    min-width: 6rem;
+    cursor: unset;
+}
+.cancelButtonDisable label{
+    cursor: unset;
+}

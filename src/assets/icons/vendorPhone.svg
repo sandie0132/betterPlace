@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>08EBD7E4-BC7F-4748-8E00-04CF987EA9E1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M9.98486154,9.31168103 L8.7001513,10.5776766 L5.420122,7.29764719 L6.68611754,6.01293689 C6.84270747,5.85364644 6.88750617,5.61551744 6.7995067,5.41021291 L5.48122005,2.3332932 C5.37351015,2.08250891 5.09829088,1.94852983 4.83446146,2.01844561 L2.41255697,2.65804859 C2.16332005,2.72253631 1.99207512,2.95116775 2.00028277,3.20848146 C2.15431487,6.02333372 3.32470047,8.68662607 5.29407288,10.7037257 C7.31181684,12.6733831 9.97596866,13.8436071 12.7915186,13.9969656 C13.0488323,14.0051732 13.2774637,13.8339283 13.3419514,13.5846913 L13.9815544,11.1627868 C14.0514702,10.8989573 13.9174911,10.623738 13.6667068,10.5160281 L10.5897872,9.19774143 C10.3837689,9.10888364 10.1444365,9.15396262 9.98486154,9.31168103 Z" id="path-1"></path>
+    </defs>
+    <g id="👾-Vendor-Management" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-vendor-by-searching-or-suggestion_03-Copy" transform="translate(-262.000000, -587.000000)">
+            <g id="section" transform="translate(160.000000, 128.000000)">
+                <g id="Group-5" transform="translate(80.000000, 402.000000)">
+                    <g id="icon-/-16-/-info-/-location-copy-2-icon-/-24-/-info-/-call" transform="translate(28.000000, 63.000000) scale(-1, -1) rotate(-180.000000) translate(-28.000000, -63.000000) translate(20.000000, 55.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Path" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,51 @@
+@import"../../../../../../../theme.scss";
+
+
+.dropdownMenu{
+    width: 20.5rem;
+}
+
+.horizontalLineInactive {
+    border-top: 2px solid $horizontal-line;
+    // width: 63%;
+    // position: absolute;
+    margin-top: 12px;
+}
+
+.headingBold{
+    font-size: 14px;
+    font-family: 'gilroy-semiBold';
+    color: $page-title;
+}
+
+.headingGrey{
+    font-size: 14px;
+    font-family: 'gilroy';
+    color: $secondary-label;
+}
+
+.hide{
+    display: none;
+}
+
+.disable {
+    opacity: 0.3;
+}
+
+.smallText{
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    color:$page-title;
+    display: block;
+    margin-bottom: 8px;
+    min-height: 18px;
+}
+
+.required{
+    color: $danger;
+}
+
+.checkMarkStyle{
+    margin-top: 4px;
+}

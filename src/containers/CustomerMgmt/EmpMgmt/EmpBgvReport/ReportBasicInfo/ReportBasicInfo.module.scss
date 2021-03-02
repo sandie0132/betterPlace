@@ -1,0 +1,284 @@
+@import '../../../../../theme.scss';
+
+// .ProfileCard {
+// background-color:$card-bg;
+// border-radius:4px;
+// box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11), 0 2px 11px 0 rgba(0,0,0,0.11);
+// }
+
+.Name {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 17rem;
+}
+
+.BasicInfo {
+	color: $primary-label;
+	font-family: 'Gilroy';
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.VerticalLine {
+	border-left: 1.5px solid $primary-label;
+	// margin: 0;
+	// display: inline;
+	height: 1.5rem;
+}
+
+.ShareGreen {
+	color: $card-bg;
+	padding: 0px 8px 0px 8px;
+	background-color: $success;
+	border-radius: 1rem;
+	font-size: 14px;
+	border: none;
+	font-family: 'Gilroy';
+}
+
+.ShareRed {
+	color: $card-bg;
+	padding: 0px 10px 0px 10px;
+	background-color: $danger;
+	border-radius: 1rem;
+	font-size: 14px;
+	border: none;
+	font-family: 'Gilroy';
+}
+
+.ShareYellow {
+	color: $card-bg;
+	padding: 0px 10px 0px 10px;
+	background-color: $warning;
+	border-radius: 1rem;
+	font-size: 14px;
+	border: none;
+	font-family: 'Gilroy';
+}
+
+.ShareGrey {
+	color: $card-bg;
+	padding: 0px 10px 0px 10px;
+	background-color: $secondary-label;
+	border-radius: 1rem;
+	font-size: 14px;
+	border: none;
+	font-family: 'Gilroy';
+}
+
+.TagText {
+	color: $page-title;
+	font-family: 'Gilroy';
+	font-size: 14px;
+	line-height: 1px;
+	font-weight: 500;
+}
+
+.Hired {
+	background-color: $legal-comment-bg;
+	border-radius: 2rem;
+	font-weight: 500;
+	font-family: 'Gilroy';
+	color: $primary-label;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 5px 7px 5px 7px;
+	// margin-top: 0.5rem;
+}
+
+.HeadCard {
+	border-radius: 4px;
+	// justify-content: space-between;
+}
+
+.Card {
+	padding-top: 2.5rem;
+}
+
+.IconSize {
+	width: 1.5rem;
+}
+
+.TagSecondaryText {
+	color: $secondary-label;
+	font-family: 'Gilroy';
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.PicSize {
+	width: 15rem;
+	height: 12rem;
+}
+
+.Space {
+	word-spacing: 2rem;
+}
+
+.Share {
+	// height: 24px;	
+	// width: 7rem;	
+	margin-left: "25vw";
+	border-radius: 20px;
+	background-color: $secondary-background;
+	cursor: pointer;
+}
+
+.Disabled {
+	margin-left: "25vw";
+	border-radius: 20px;
+	background-color: $secondary-background;
+	pointer-events: none;
+	opacity: 0.4;
+}
+
+.ShareProfile {
+	height: 24px;
+	width: 5rem;
+	border-radius: 10rem;
+	background-color: $secondary-label;
+	text-align: center;
+}
+
+.shareFontResult {
+	color: $card-bg;
+	font-family: Gilroy-Medium;
+	font-size: 12px;
+	line-height: 15px;
+	padding: 8px;
+}
+
+.ShareFontProfile {
+	// height: 12px;	
+	// width: 31px;	
+	color: $card-bg;
+	font-family: Gilroy-Medium;
+	font-size: 12px;
+	line-height: 15px;
+	cursor: pointer;
+}
+
+.ShareFont {
+	// height: 12px;	
+	// width: 31px;	
+	color: $active-link;
+	font-family: Gilroy;
+	font-size: 12px;
+	line-height: 25px;
+	cursor: pointer;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 0px;
+}
+
+.BgShare {
+	font-family: 'Gilroy-Medium';
+	color: $active-link;
+	font-size: 12px;
+}
+
+.Notify {
+	height: 2.5rem;
+	width: 100%;
+	background-color: $primary-background;
+}
+
+.Label {
+	margin-top: 0.75rem;
+	color: $secondary-label;
+	font-family: Gilroy;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 780px) {
+	.Label {
+		margin-top: 0.75rem;
+		color: $secondary-label;
+		font-family: Gilroy;
+		font-size: 12px;
+		line-height: 17px;
+		text-align: center;
+	}
+}
+
+.Shadow {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11), 0 2px 11px 0 rgba(0, 0, 0, 0.11);
+}
+
+.Bold {
+	font-family: Gilroy-bold;
+}
+
+.space {
+	// justify-content: space-around;
+	margin-top: 2rem;
+	padding-top: 2rem;
+	// padding-bottom: auto;
+}
+
+@media (max-width: 1200px) {
+	.Media {
+		display: none;
+	}
+}
+
+.downloadTab {
+	background-color: $primary-background;
+	font-size: 14px;
+	color: $secondary-label;
+	padding: 6px 14px 4px 14px;
+	border-radius: 25px;
+	cursor: pointer;
+	border-bottom: 1px solid $primary-background;
+}
+
+.downloadTabOpen {
+	background-color: $card-bg;
+	font-size: 14px;
+	color: $secondary-label;
+	padding: 6px 14px 4px 14px;
+	border-radius: 18px 18px 0px 0px;
+	border-bottom: 1px solid $primary-background;
+	z-index: 100;
+	position: inherit;
+	cursor: pointer;
+	box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+}
+
+.downloadMenu {
+	background-color: $card-bg;
+	border-radius: 0px 0px 18px 18px;
+	position: absolute;
+	font-size: 14px;
+	width: 15.1rem;
+	z-index: 99;
+	box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.11);
+}
+
+.downloadOption {
+	color: $secondary-label;
+	&:hover {
+		background-color: $primary-background !important;
+		cursor: pointer;
+	}
+}
+
+.downloadOptionLast {
+	color: $secondary-label;
+	&:hover {
+		background-color: $primary-background !important;
+		cursor: pointer;
+		border-bottom-left-radius: 18px;
+		border-bottom-right-radius: 18px;
+	}
+}
+
+.over {
+	padding: 8px 12px 8px 14px;
+	&:hover {
+		filter: brightness(25%);
+	}
+}

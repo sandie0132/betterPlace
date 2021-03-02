@@ -1,0 +1,80 @@
+@import '../../../../theme.scss';
+
+.Card{
+    //margin-top:10%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.HeadCard{
+    background-color:$card-bg;
+    border-radius:4px;
+
+}
+
+.orgName{
+    font-size: 24px;
+    color: $active-link;
+    margin-top: 0.5rem;
+    // margin-bottom: 2rem;
+    font-family: Gilroy-Light;
+}
+
+.actionContent {
+    color: $secondary-label;	
+    font-family: 'Gilroy-Medium';
+    height: 2.6rem;
+    margin-left: 1rem;
+}
+.ActiveButton{
+    border: none;
+    outline: none;
+    font-family: 'Gilroy-Light';
+    font-size: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color:$secondary-background;
+    color: $active-link;
+    padding-bottom: 6px;
+    padding-top:6px;
+    border-radius: 5px;
+}
+.InactiveButton{
+    border: none;
+    outline: none;
+    background-color:$primary-background;
+    color: $secondary-label;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Gilroy-Light';
+    font-size: 14px;
+    
+    margin-right: 3rem;
+    &:hover{
+        color: $active-link;
+        border-bottom: 2px solid $active-link;
+        padding-bottom: 10px;
+    }
+}
+.hr1{
+    width: 100%; 
+    margin-top : 0px;
+    margin-bottom : 0px;
+    margin-left : 2%; 
+    //opacity: 0.7;
+    background-color: $card-bg;
+    color: $card-bg !important;
+    border: none;
+    height: 1px;
+}
+
+.heading{
+    font-size: 24px;
+    color: $primary-label;
+    font-family: Gilroy-Light;
+}
+
+.PaddingLeftArrow{
+    margin-top: 16px;
+    padding-left: 15%;
+}

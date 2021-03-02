@@ -1,0 +1,171 @@
+@import "../../../../../../theme.scss";
+
+.card {
+  background-color: $card-bg;
+  padding: 2rem 0rem;
+  margin-bottom: 2rem;
+}
+
+.legends {
+  font-size: 14px;
+  color: $page-title;
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  // margin-left: 4%;
+}
+
+.dropdownMenu {
+  width: 7.5rem;
+}
+
+.groupBydropdownMenu{
+  width: 7.5rem;
+}
+
+.contentTab {
+  line-height: 14px;
+  letter-spacing: 0.25px;
+}
+
+.initiated {
+  height: 12px;
+  width: 12px;
+  background-color: #0b60b5;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.inprogress {
+  height: 12px;
+  width: 12px;
+  background-color: #a4ceff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.75rem;
+}
+
+.green {
+  height: 4px;
+  width: 14px;
+  margin: auto 0.5rem auto 0.75rem;
+  background-color: #01acff;
+  display: inline-block;
+}
+
+.profile {
+  text-align: center;
+  font-size: 12px;
+  color: $secondary-label;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  letter-spacing: 0.25px;
+}
+
+.dropdownWidth {
+  width: 7.5rem;
+}
+
+.vsDropdown {
+  width: 9rem;
+}
+
+.dropdownColor {
+  background-color: $card-bg !important;
+}
+
+.sortDropdownColor {
+  background-color: $card-bg !important;
+  width: 8rem;
+}
+
+.dropdownDefaultColor {
+  color: $secondary-label !important;
+  background-color: $card-bg !important;
+  width: 8.5rem;
+}
+
+.sortDropdownMenu{
+  width: 8rem;
+}
+
+.chartTopNav {
+  padding-left: 2.5rem;
+  display: inline-flex;
+  //
+  width: 100%;
+}
+
+.topNavText {
+  padding-left: 8px;
+  size: 14px;
+  color: $secondary-label;
+  padding-top: 5px;
+}
+
+.noDataTab {
+  font-size: 16px;
+  background-color: $primary-background;
+  color: $secondary-label;
+  padding: 5px 20px;
+  border-radius: 45px;
+  width: max-content;
+  // position: absolute;
+  margin-top: 5.5rem;
+  margin-bottom: 5.5rem;
+  // left: 42%;
+}
+
+.filterIconBg {
+  padding: 8px 10px 2px 10px;
+  border-radius: 4px;
+  background-color: $card-bg;
+  border: 1px solid $horizontal-line;
+  width: 3rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.filterIconBgActive {
+  padding: 7px 10px;
+  // border-radius: 4px;
+  background-color: $card-bg;
+  // border: 1px solid $horizontal-line;
+
+  z-index: 1;
+  width: 3rem;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 12px 0 15px -8px rgba(0, 0, 0, 0.07), -12px 0 8px -8px rgba(0, 0, 0, 0.07);
+  // box-shadow:0px -11px 16px -1px rgba(0, 0, 0, 0.07);
+}
+
+.filterActive {
+  filter: brightness(0.3) sepia(9) hue-rotate(190deg) saturate(6);
+}
+
+.filterCount {
+  background-color: $active-link;
+  color: $card-bg;
+  font-size: 10px;
+  font-family: "Gilroy-Medium";
+  position: absolute;
+  padding: 2px 3px 1px 2px;
+  // border-radius: 2px;
+  line-height: 12px;
+  margin-left: 12px;
+  margin-top: -6px;
+  z-index: 1;
+  border: 0.1px solid $card-bg;
+  min-width: 16px;
+  text-align: center;
+}
+
+.alignSortBy{
+  margin-top: 1rem;
+  padding-left: 2.5rem;
+}

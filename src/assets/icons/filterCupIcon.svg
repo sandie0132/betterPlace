@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>61307304-62F9-4E3B-9B84-5A19F8F4BA22</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.525490 0 0 0 0 0.592157 0 0 0 0 0.658824 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="📟--dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="onboard_dashboard_01" transform="translate(-973.000000, -1452.000000)">
+            <g id="Group-2-Copy" transform="translate(160.000000, 1413.000000)">
+                <g id="header-copy" transform="translate(24.000000, 24.000000)">
+                    <g id="Group-23" transform="translate(777.000000, 0.000000)">
+                        <g id="filter" transform="translate(12.500000, 4.000000)" filter="url(#filter-1)">
+                            <g transform="translate(0.000000, 11.307692)">
+                                <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="19.2" height="19.6923077"></rect>
+                                <g id="filter-copy-2" transform="translate(1.200000, 1.230769)" fill="#0059B2" fill-rule="nonzero">
+                                    <path d="M6.50445943,8.02433102 C6.78454102,8.39219743 6.70081246,8.08566316 6.70081246,15.4182182 C6.70081246,16.0743867 7.52563447,16.4499315 8.10696479,16.0574501 C10.5910744,14.357561 11.087388,14.2103449 11.087388,13.415239 C11.087388,8.07185474 11.0187689,8.37235375 11.2837411,8.02433102 L15.3176471,3.04072398 L2.47058824,3.04072398 L6.50445943,8.02433102 Z" id="Path"></path>
+                                    <path d="M16.2083176,0.401063696 C16.0666724,0.153751479 15.7888563,0 15.483019,0 L1.31316221,0 C0.652664509,0 0.264029784,0.679157396 0.642913571,1.17262792 C0.646027029,1.17736833 0.599906806,1.11982847 1.33129553,2.02714932 L15.4648514,2.02714932 C16.0881245,1.2539322 16.5047461,0.919857988 16.2083176,0.401063696 Z" id="Path"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

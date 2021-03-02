@@ -1,0 +1,94 @@
+@import '../../../../../theme.scss';
+
+.Padding {
+	padding: 2rem 2rem 0rem 2rem;
+}
+
+.BasicInfoCard {
+	padding: 1rem;
+	display: flex;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.DefaultBackground {
+	background-color: $secondary-background;
+}
+
+.GreenBackground {
+	background-color: $success-notification;
+}
+
+.RedBackground {
+	background-color: $error-notification;
+}
+
+.YellowBackground {
+	background-color: $warning-background;
+}
+
+.SmallBoldText {
+	font-size: 12px;
+	font-family: 'Gilroy-Bold';
+	color: $primary-label;
+}
+
+.Profile {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+}
+
+.PrimaryLabel {
+	font-size: 14px;
+	color: $primary-label;
+	font-family: 'Gilroy';
+}
+
+.GreyText {
+	font-size: 12px;
+	color: $secondary-label;
+	font-family: 'Gilroy-Light';
+	word-break: break-all;
+}
+
+.VerticalLine {
+	border-right: 2px solid $card-bg;
+	height: 4.5rem;
+	margin-left: 0.5rem;
+}
+
+.MainText {
+	font-size: 24px;
+	color: $primary-label;
+	font-family: 'Gilroy';
+}
+
+.HorizontalLine {
+	border: 1px solid $primary-background;
+	margin-top: 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.ReAssignButton{
+	background-color: $card-bg;
+	color: $active-link;
+	font-size: 12px;
+	border-radius: 15px;
+	padding: 4px 8px;
+	min-height: 1.7rem;
+    max-height: 1.7rem;
+    line-height: 20px;
+}
+
+.Cursor{
+	cursor: pointer;
+}
+
+.smallBoldText{
+    font-size: 12px;
+    font-family: 'Gilroy-Bold';
+    color: $primary-label;
+}

@@ -1,0 +1,73 @@
+@import'../../../../../../theme.scss';
+
+.Text{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    align-self: center;
+}
+
+.boldText{
+    font-family: Gilroy-SemiBold !important;
+}
+
+.blueText{
+    color: $active-link;
+}
+
+.icon{
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 22px;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.daysContainer{
+    border-radius: 20px;
+    padding: 8px 12px;
+    background-color: $primary-background;
+    color: $active-link;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    align-self: center;
+}
+
+.horizontalLine{
+    height: 1px;
+    width: 92%;
+    opacity: 0.18;
+    background-color: $secondary-label;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+.progressInitial{
+    height: 32px;
+    border-left: 1px solid $secondary-label;
+    opacity: 0.18;
+    position: absolute;
+    left: 12px;
+    top: 34px;
+}
+.progressMiddle{
+    height: 64px;
+    border-left: 1px solid $secondary-label;
+    opacity: 0.18;
+    position: absolute;
+    left: 12px;
+}
+.progressEnd{
+    height: 32px;
+    border-left: 1px solid $secondary-label;
+    opacity: 0.18;
+    position: absolute;
+    left: 12px;
+}

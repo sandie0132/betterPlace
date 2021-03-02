@@ -1,0 +1,11 @@
+{
+    "button_orgClientRightNav": {
+        "goTo": "go to clients"
+    },
+    "link" : {
+        "clientDetails"  : "client details" ,
+        "functionRole" : "function & role",
+        "locationSites" : "location & sites"
+    },
+    "cardheading" : "client configuration"
+}

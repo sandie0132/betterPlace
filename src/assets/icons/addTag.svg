@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>5FC129D9-10DC-4177-92EE-D894C7315DED</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M7,5 L12,5 L12,7 L7,7 L7,12 L5,12 L5,7 L0,7 L0,5 L5,5 L5,0 L7,0 L7,5 Z" id="path-1"></path>
+    </defs>
+    <g id="🏂-on-boarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-BGV-Client-onboarding_fun&amp;role_C2" transform="translate(-593.000000, -531.000000)">
+            <g id="cta" transform="translate(581.000000, 521.000000)">
+                <g id="Group-2">
+                    <g id="icon-/-12-/-action-/-add" transform="translate(12.000000, 10.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#0059B2" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#0059B2" mask="url(#mask-2)" x="0" y="0" width="12" height="12"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,152 @@
+@import "../../../../../../theme.scss";
+
+.alignCenter {
+    padding-left: 0%;
+    width: 100%;
+    padding-right: 0%;
+}
+
+.CardLayout {
+    padding: 25px;
+    background-color: $card-bg;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    // margin-top: 1rem;
+    // height: 35rem;
+}
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.downloadFileButton {
+    width: 10.5rem;
+    height: 2.5rem !important;
+    padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+}
+
+.innerLoadingContainer {
+    height: 18rem;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    width: 40rem;
+    margin: 16px;
+    z-index: 1;
+}
+
+.timeHeading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cancelButton {
+    background-color: transparent;
+    min-width: 6rem;
+}
+
+.positionHeading {
+    position: fixed;
+    width: 63%;
+    background-color: $primary-background;
+    z-index: 99;
+}
+
+.searchBar {
+    background-color: $card-bg !important;
+}
+.requiredStar {
+    color: $danger;
+}
+
+.defaultLabel {
+    color: $page-title;
+    font-size: 12px;
+    margin-bottom: 0%;
+    line-height: 35px;
+}
+
+.dropdownMenu {
+    width: 20.5rem;
+}
+
+.horizontalLineInactive {
+    border-top: 2px solid $horizontal-line;
+    // width: 63%;
+    // position: absolute;
+    margin-top: 12px;
+}
+
+.headingBold {
+    font-size: 14px;
+    font-family: "gilroy-semiBold";
+    color: $page-title;
+}
+
+.headingGrey {
+    font-size: 14px;
+    font-family: "gilroy";
+    color: $secondary-label;
+}
+
+.blueHeading {
+    color: $active-link;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+}
+
+.text {
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+}
+
+.downloadButtonContainer {
+    height: 2.5rem !important;
+    padding: 0.5rem 0.5rem 0rem 0.5rem !important;
+    border-radius: 20px;
+    background-color: $active-link;
+    min-width: 13.5rem;
+    width: max-content;
+    &:hover{
+        background-color: $add-hover
+    }
+}
+
+.alignDownloadCard {
+    text-align: center;
+}
+
+.headingBlue {
+    color: $active-link;
+    font-family: Gilroy-SemiBold;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 29px;
+    text-align: center;
+}
+
+.subHeading {
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer !important;
+}

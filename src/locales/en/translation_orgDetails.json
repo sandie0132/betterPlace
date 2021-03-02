@@ -1,0 +1,62 @@
+{
+    "image_alt_orgDetails": {
+        "editId": "editId"
+    },
+    "button_orgDetails": {
+        "Save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete": "delete"
+    },
+    "input_orgDetails": {
+        "label": {
+            "idCardtype": "{{idCardType}} Number",
+            "orgName": "organisation name",
+            "legalName": "legal name",
+            "website": "organisation website",
+            "addressLine1": "organisation registered address",
+            "fullName": "contact person",
+            "orgType": "organisation type",
+            "industry": "industry",
+            "contactType": "contact type",
+            "city": "city",
+            "state": "state",
+            "pincode": "pincode",
+            "country": "country",
+            "designation": "designation",
+            "phoneNumber": "mobile",
+            "email": "email",
+            "brandColor": "select brand color"
+        },
+        "placeholder": {
+            "orgName": "enter org name",
+            "legalName": "enter legal name",
+            "website": "https://www.company.com",
+            "addressLine1": "address line 1",
+            "addressLine2": "address line 2",
+            "city": "city",
+            "state": "state",
+            "pincode": "pin code",
+            "country": "country",
+            "fullName": "enter name",
+            "phoneNumber": "+91 1234554321",
+            "email": "name.last@company.com",
+            "designation": "enter designation",
+            "label": "label"
+        }
+    },
+    "warning_orgDetails_cancel": {
+        "text": "cancel?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, cancel",
+        "cancelText": "keep"
+    },
+    "warning_orgDetails_delete": {
+        "text": "deactivate organisation?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, deactivate",
+        "cancelText": "cancel, keep org"
+    },
+    "cardHeader": "organisation details",
+    "allClients": "all clients"
+}

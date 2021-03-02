@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>2888A03E-1D2B-4146-864C-961FCAD8F4DB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8,0 C12.416298,0.00477656508 15.9952234,3.58370203 16,8 C16,12.418278 12.418278,16 8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 Z M12.8853333,4.52933333 L4.52933333,12.8853333 C5.54145623,13.6101619 6.75510276,14.000007 8,14.000007 C10.2452216,14.003411 12.3038638,12.751084 13.333162,10.7556951 C14.3624601,8.76030621 14.1895948,6.35688184 12.8853333,4.52933333 L12.8853333,4.52933333 Z M8,1.99999305 L7.75134157,2.00475639 C5.60369842,2.09037322 3.65801403,3.32281934 2.66683802,5.24430492 C1.67871179,7.15987824 1.79849946,9.45149707 2.96359052,11.2486596 L3.11466667,11.4706667 L11.4706667,3.11466667 C10.4585438,2.38983815 9.24489724,1.99999305 8,1.99999305 Z" id="path-1"></path>
+    </defs>
+    <g id="🚀-Initiate-BGV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-420.000000, -186.000000)">
+            <g id="icon-/-16-/-info-/-action_bar-/-terminate-2" transform="translate(420.000000, 186.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#8697A8" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#EE3942" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+@import '../../../../../../theme.scss';
+
+.HorizontalLine{
+    border: 1px solid $primary-background;
+}
+
+.defaultLabel{
+    color: $secondary-label;
+    font-size: 12px;
+    margin-bottom: 0%;
+    line-height: 35px;
+}
+
+.TagBackground{
+    background-color: $primary-background;
+    border-radius: 24px;
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+.labelText {
+    font-family: 'Gilroy';
+}
+
+.Cursor{
+    cursor: pointer;
+}
+
+.MarginTop{
+    margin-top: 0.75rem;
+}
+
+.searchBar{
+    background-color: $card-bg !important;
+}
+.requiredStar{
+    color: $danger;
+}

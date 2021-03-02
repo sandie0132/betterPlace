@@ -1,0 +1,184 @@
+@import '../../theme.scss';
+
+.alignCenter{
+    padding-left: 40px;
+    width: 100%;
+    padding-right: 2%;
+    margin-top: 1rem;
+    height: 100vh;
+    overflow: auto;
+}
+
+.CardLayout{
+    background-color: $card-bg;
+    border-radius: 4px;
+    padding: 40px;
+    margin-top: 2rem;
+    &:hover{
+        box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    }
+}
+
+.CardPadding{
+    padding: 20px 40px 40px 30%;
+    position: relative;
+}
+
+.Name{
+    color: $card-link;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.Designation{
+    color: $card-link;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.Subheading{
+    color: $secondary-label;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.ResetPassword{
+    color: $active-link;
+    font-size: 12px;
+    line-height: 16px;
+    :hover{
+        cursor: pointer;
+    }
+}
+
+.ImageContainer{
+    border-radius: 50%;
+    height: 8rem;
+    
+    margin-left: 1rem;
+}
+
+.ModalPage{
+    width: 70%;
+    margin: 5% 10% 25% 15% ;
+}
+
+.ModalForm{
+    max-height: 46rem;
+    overflow-y: scroll;
+    padding: 20px
+}
+
+.Container{
+    // text-align: center;
+    width : 35rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.Close{
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.Heading{
+    font-size: 48px;
+    font-family: Gilroy-Thin;
+}
+
+.inputField{
+    width: 35rem;
+    height: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid $primary-background;
+    font-size: 24px;
+    outline: none;
+    padding-left: 10px;
+    color: $page-title;
+    &::placeholder{
+        color: $secondary-label;
+        font-family: Gilroy-Light;
+    }
+    &:focus{
+        border-color: $active-link;
+    }
+}
+
+.inputs{
+   float: center;
+}
+
+.label{
+    color:$secondary-label;
+    font-size: 14px;
+}
+
+.labelRight{
+    color:$secondary-label;
+    font-size: 14px;
+    float: right;
+}
+
+.hr{
+    margin-top: 2rem;
+    border-top: 2px solid $horizontal-line;
+}
+
+.AlignButton{
+    text-align: center;
+    margin-top: 2rem;
+}
+.buttonNext{
+    width: 16rem;
+    line-height: 1.5;
+    // background-color: $active-link;
+    padding: 10px;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    font-family: Gilroy-Light;
+    &:focus{
+        outline: none;
+    }
+}
+.buttonNextEnable{
+    background-color: $active-link;
+    cursor: pointer;
+    &:hover{
+        background-color: $add-hover;
+    }
+}
+.buttonNextDisable{
+    background-color: $disable-bg;
+    &:hover{
+        cursor: not-allowed;
+
+    }
+}
+
+.nextText{
+    color: $card-bg;
+    font-size: 24px;
+    padding-right: 30px;
+    float:left;
+    padding-left: 1rem;
+}
+
+.arrow{
+    float: right;
+    padding-right: 1rem;
+    margin-top: 12px;
+}
+
+.infoText{
+    font-size: 14px;
+    margin-left: 0.5rem;
+}
+
+.warning{
+    border: 1px solid red !important;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="36px" viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon / 12 / info / verified / green</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M39.7732915,34.9376894 L21.4399582,3.27102275 C21.1184029,2.78929098 20.5774834,2.5 19.9982915,2.5 C19.4190996,2.5 18.8781801,2.78929098 18.5566248,3.27102275 L0.223291499,34.9376894 C-0.0742776367,35.4530936 -0.0744406517,36.0880597 0.222863806,36.6036166 C0.520168263,37.1191735 1.06982083,37.4370793 1.66495817,37.4376894 L38.3316248,37.4376894 C38.9267622,37.4370793 39.4764147,37.1191735 39.7737192,36.6036166 C40.0710237,36.0880597 40.0708606,35.4530936 39.7732915,34.9376894 L39.7732915,34.9376894 Z M22.0082915,14.1043561 L21.2199582,25.1043561 L18.7766248,25.1043561 L18.0332915,14.1043561 L22.0082915,14.1043561 Z M19.9982915,32.4376894 C18.6479553,32.4376894 17.5532915,31.3430256 17.5532915,29.9926894 C17.5532915,28.6423532 18.6479553,27.5476894 19.9982915,27.5476894 C21.3486277,27.5476894 22.4432915,28.6423532 22.4432915,29.9926894 C22.4432915,31.3430256 21.3486277,32.4376894 19.9982915,32.4376894 Z" id="path-1"></path>
+    </defs>
+    <g id="🖥-Ops_analyst-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="disabled-excel" transform="translate(-192.000000, -154.000000)">
+            <g id="lock-notification" transform="translate(160.000000, 136.000000)">
+                <g id="Group-23" transform="translate(32.000000, 12.000000)">
+                    <g id="icon-/-12-/-info-/-onhold" transform="translate(0.000000, 4.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" fill-rule="evenodd" mask="url(#mask-2)" x="0" y="0" width="40" height="40"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

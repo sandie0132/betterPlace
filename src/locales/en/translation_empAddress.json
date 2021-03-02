@@ -1,0 +1,61 @@
+{
+    "image_alt_empAddress": {
+        "add": "add",
+        "warning": "warning"
+    },
+    "button_empAddress": {
+        "save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete": "delete"
+    },
+    "warning_empAddress_cancel": {
+        "text": "cancel?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, cancel",
+        "cancelText": "keep"
+    },
+    "warning_empAddress_delete": {
+        "text": "delete?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, delete",
+        "cancelText": "keep"
+    },
+    "input_empAddress": {
+        "label": {
+            "addressType": "address type *",
+            "pincode": "pincode *",
+            "houseType": "house type *",
+            "landmark": "landmark",
+            "city": "city *",
+            "state": "state *",
+            "addressLabel": "name this address *",
+            "doorNo": "door no.",
+            "street": "street",
+            "locality": "locality *",
+            "poName": "post office",
+            "district": "district *",
+            "relationship": "relationship",
+            "personName": "name",
+            "contact": "mobile number"
+        },
+        "placeholder": {
+            "pincode": "pincode",
+            "landmark": "landmark",
+            "city": "city",
+            "state": "state",
+            "addressLabel": "address label",
+            "doorNo": "door no.",
+            "street": "street",
+            "locality": "locality",
+            "poName": "post office",
+            "district": "district",
+            "relationship": "relationship",
+            "personName": "name",
+            "contact": "mobile number"
+        }
+    },
+    "cardHeader": "address",
+    "label": "add more",
+    "contactPerson": "contact person available on this address"
+}

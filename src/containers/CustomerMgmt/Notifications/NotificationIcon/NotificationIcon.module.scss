@@ -1,0 +1,54 @@
+@import "../../../../theme.scss";
+
+.BellIcon {
+	margin-top: 4px;
+}
+
+.NotificationBell {
+	&:hover {
+		cursor: pointer;
+	}
+	padding: 8px 10px 0px 8px;
+	// margin-right: 2px;
+}
+
+.notificationBellActive {
+	// margin-right: 2px;
+	padding: 8px 10px 0px 8px;
+	border-radius: 4px 4px 0px 0px;
+	position: relative;
+	background-color: $card-bg;
+	z-index: 100;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.NotificationCount {
+	line-height: 14px;
+	background-color: $danger;
+	color: $card-bg;
+	min-width: 18px;
+	height: 19px;
+	border-radius: 3px;
+	font-size: 12px;
+	margin-left: -4px;
+	margin-top: -6px;
+	border: 1px solid $card-bg;
+	padding: 2px 4px;
+	text-align:center;
+}
+
+.NotificationCountZero {
+	line-height: 14px;
+	background-color: $secondary-label;
+	color: $card-bg;
+	min-width: 18px;
+	height: 17px;
+	border-radius: 3px;
+	font-size: 12px;
+	margin-left: -4px;
+	margin-top: -6px;
+	border: 1px solid $card-bg;
+	text-align: center;
+}

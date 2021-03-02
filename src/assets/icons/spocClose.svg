@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="8px" viewBox="0 0 8 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>060AAB61-8B3F-42C7-AE54-775295495CD6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M6.6666664,0.861928781 L7.1380709,1.33333328 L4.47092878,3.99992878 L7.1380709,6.6666664 L6.6666664,7.1380709 L3.99992878,4.47092878 L1.33333328,7.1380709 L0.861928781,6.6666664 L3.52792878,3.99992878 L0.861928781,1.33333328 L1.33333328,0.861928781 L3.99992878,3.52792878 L6.6666664,0.861928781 Z" id="path-1"></path>
+    </defs>
+    <g id="BGV-configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bgv-configuration-2_mapping" transform="translate(-683.000000, -436.000000)">
+            <g id="section" transform="translate(160.000000, 120.000000)">
+                <g id="tag" transform="translate(436.000000, 308.000000)">
+                    <g id="icon-/-12-/-info-/-close" transform="translate(87.000000, 8.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#8697A8" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#8697A8" mask="url(#mask-2)" x="0" y="0" width="8" height="8"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

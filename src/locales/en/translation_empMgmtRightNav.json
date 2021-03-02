@@ -1,0 +1,16 @@
+{
+    "label_empMgmtRightNav": {
+        "empOnboarding": "employee onboarding",
+        "basicDetails": "basic details",
+        "contactDetails": "contact details",
+        "details": " details",
+        "documents": "documents",
+        "empHistory": "employment history",
+        "eduDetails": "education details",
+        "empHealth": "employee health",
+        "skills": "skills & preferences",
+        "social": "social",
+        "family": "family & references",
+        "goto": "go to employees"
+    }
+}

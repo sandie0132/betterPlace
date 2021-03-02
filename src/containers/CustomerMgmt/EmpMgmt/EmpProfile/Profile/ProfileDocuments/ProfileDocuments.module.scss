@@ -1,0 +1,110 @@
+@import "../../../../../../theme.scss";
+
+.emptyInfo{
+    color: $secondary-label;
+    background-color: $primary-background;
+    font-size: 14px;
+    border-radius: 8px;
+    width: max-content;
+  }
+
+.InactiveButtonBg {
+    background-color: $primary-background;
+    margin: 0.5rem 0rem;
+    border-radius: 4px;
+    &:hover {
+        background-color: $secondary-background;
+    }
+}
+
+.InactiveButton {
+    font-family: "Gilroy-Light";
+    font-size: 14px;
+    padding: 6px 8px;
+    color: $secondary-label;
+    &:hover {
+        cursor: pointer;
+        filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+        font-family: "Gilroy-Medium";
+    }
+}
+
+.ActiveButtonBg {
+    background-color: $card-bg;
+    margin: 0.5rem 0rem;
+    border-radius: 4px;
+    &:hover {
+        background-color: $card-bg;
+    }
+}
+
+.ActiveButton {
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    color: $secondary-label;
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.optionBorder {
+    background-color: $primary-background;
+    padding: 0rem 0.5rem;
+    border-radius: 4px;
+    width: max-content;
+}
+
+.companyDocCard {
+    height: 92px;
+    width: 148px;
+    border-radius: 8px;
+    background-color: $blue;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 8px;
+}
+
+.cardText {
+    font-family: "Gilroy-SemiBold";
+    font-size: 24px;
+    line-height: 28px;
+    color: $card-bg;
+}
+
+.cardTextSmall {
+    color: $card-bg;
+    font-size: 8px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 10px;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+
+.AlignCenterDocs{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.displayCards{
+    display: inline-block;
+}
+
+.cursor{
+    cursor: pointer !important;
+}
+
+.cursorLoad{
+    cursor: progress !important;
+}
+
+.downloadHoverIcon{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 2.1rem 3.9rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    z-index: 1;
+}

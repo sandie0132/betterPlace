@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>FE707D0E-7240-49F4-8E53-7C6374D06459</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="19.5"></rect>
+        <rect id="path-3" x="2.66666667" y="2.66666667" width="26.6666667" height="26.6666667"></rect>
+    </defs>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-add-Documents_3" transform="translate(-160.000000, -1821.000000)">
+            <g id="Group" transform="translate(160.000000, 1821.000000)">
+                <g id="section-title">
+                    <g id="icon-/-40-/-info-/-container-with-icon">
+                        <g id="icon-/-40-/-info-/-container">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use fill="#9A5A1E" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="icon-/-24-/-info-/-form" transform="translate(4.000000, 4.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="container"></g>
+                            <g id="Group-22" mask="url(#mask-4)">
+                                <g transform="translate(16.000000, 16.000000) rotate(-30.000000) translate(-16.000000, -16.000000) translate(5.333333, 8.000000)">
+                                    <rect id="Rectangle" fill="#E54C00" x="0.184001307" y="0.655279915" width="15.3333333" height="3.33333333" rx="1.66666667"></rect>
+                                    <rect id="Rectangle-Copy" fill="#FFFFFF" x="0.160069058" y="6.0300649" width="15.3333333" height="3.33333333" rx="1.66666667"></rect>
+                                    <rect id="Rectangle-Copy-2" fill="#006835" x="0.380153735" y="12.315534" width="15.3333333" height="3.33333333" rx="1.66666667"></rect>
+                                    <circle id="Oval" fill="#71879F" cx="18.0228882" cy="2.03647776" r="1.66666667"></circle>
+                                    <circle id="Oval-Copy" fill="#71879F" cx="18.5763067" cy="7.74459648" r="1.66666667"></circle>
+                                    <circle id="Oval-Copy-2" fill="#71879F" cx="19.1297239" cy="13.4527143" r="1.66666667"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

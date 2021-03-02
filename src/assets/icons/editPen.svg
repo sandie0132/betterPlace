@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <defs>
+        <path d="M1.22471396,8.60973451 L3.07002288,10.3938053 L0.763386728,11.0946903 C0.598627002,11.1265487 0.466819222,10.999115 0.499771167,10.839823 L1.22471396,8.60973451 Z M8.01281465,1.91946903 L9.98993135,3.83097345 L3.597254,10.0115044 L1.6201373,8.1 L8.01281465,1.91946903 Z M10.6819222,0.167256637 L11.8022883,1.25044248 C12.0329519,1.47345133 12.0329519,1.85575221 11.8022883,2.07876106 L10.4512586,3.38495575 L8.47414188,1.47345133 L9.82517162,0.167256637 C10.0558352,-0.0557522124 10.4512586,-0.0557522124 10.6819222,0.167256637 Z" id="path-1"></path>
+    </defs>
+    <g id="roster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="roster_18A" transform="translate(-1400.000000, -286.000000)">
+            <g id="Group-7" transform="translate(1400.000000, 286.000000)">
+                <g id="icon-/-24-/-info-/-arrow-/-down" transform="translate(12.000000, 12.000000) scale(1, -1) translate(-12.000000, -12.000000) " fill="#E5EEF7">
+                    <path d="M0,0 L20,0 C22.209139,-4.05812251e-16 24,1.790861 24,4 L24,20 C24,22.209139 22.209139,24 20,24 L0,24 L0,24 L0,0 Z" id="Rectangle"></path>
+                </g>
+                <g id="icon-/-12-/-info-/-edit" transform="translate(6.000000, 6.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#0059B2" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

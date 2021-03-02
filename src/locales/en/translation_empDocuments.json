@@ -1,0 +1,173 @@
+{
+    "button_empDocuments": {
+        "save": "save",
+        "edit": "edit",
+        "cancel": "cancel",
+        "delete": "delete"
+    },
+    "warning_empDocuments_cancel": {
+        "text": "cancel?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, cancel",
+        "cancelText": "keep"
+    },
+    "warning_empDocuments_delete": {
+        "text": "delete?",
+        "para": "Warning: this cannot be undone",
+        "confirmText": "yes, delete",
+        "cancelText": "keep"
+    },
+    "emp_Aadhaar": {
+        "cardHeader": "aadhaar card",
+        "input_aadhaar": {
+            "label": {
+                "documentNumber": "aadhar card number *",
+                "name": "name *",
+                "dob": "date of birth",
+                "fatherName": "father's name",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode"
+            },
+            "placeholder": {
+                "documentNumber": "aadhaar card number",
+                "name": "name",
+                "fatherName": "father's name",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode"
+            }
+        },
+        "warning_msg": "aadhaar number or dob is miising",
+        "missing_aadhaar_number_warning_msg": "enter aadhaar number"
+    },
+    "emp_Consent": {
+        "cardHeader": "consent form"
+    },
+    "emp_Dl": {
+        "cardHeader": "driving license",
+        "input_dl": {
+            "label": {
+                "documentNumber": "driving license number *",
+                "name": "name *",
+                "dob": "date of birth",
+                "fatherName": "father's name",
+                "issuedOn": "issued on",
+                "validFrom": "valid from",
+                "validTo": "valid to",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode"
+            },
+            "placeholder": {
+                "documentNumber": "driving license number",
+                "name": "name",
+                "fatherName": "father's name",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode"
+            }
+        },
+        "warning_msg": "driving license number, name or dob is missing",
+        "missing_dl_number_warning_msg": "enter driving license number"
+    },
+    "emp_Pan": {
+        "cardHeader": "pan card",
+        "input_pan": {
+            "label": {
+                "documentNumber": "pan card number *",
+                "name": "name *",
+                "dob": "date of birth",
+                "fatherName": "father's name"
+            },
+            "placeholder": {
+                "documentNumber": "pan card number",
+                "name": "name",
+                "fatherName": "father's name"
+            }
+        },
+        "warning_msg": "pan number, name or dob are missing",
+        "missing_pan_number_warning_msg": "enter pan card number"
+    },
+    "emp_Passport": {
+        "cardHeader": "passport",
+        "input_passport": {
+            "label": {
+                "documentNumber": "passport number *",
+                "name": "name *",
+                "dob": "date of birth",
+                "fatherName": "father's name",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode",
+                "issuedOn": "issued on",
+                "validFrom": "valid from",
+                "validTo": "valid to"
+            },
+            "placeholder": {
+                "documentNumber": "passport number",
+                "name": "name",
+                "fatherName": "father's name",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode",
+                "issuedOn": "issued on",
+                "validFrom": "valid from",
+                "validTo": "valid to"
+            }
+        },
+        "warning_msg": "enter passport details"
+    },
+    "emp_Rc": {
+        "cardHeader": "registration certificate",
+        "input_rc": {
+            "label": {
+                "documentNumber": "vehicle number *",
+                "name": "owner name *",
+                "chassisNumber": "chassis number",
+                "engineNumber": "engine number",
+                "insuranceUpto": "insurance upto",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode",
+                "validUpto": "validity"
+            },
+            "placeholder": {
+                "documentNumber": "vehicle number",
+                "name": "name",
+                "chassisNumber": "chassis number",
+                "engineNumber": "engine number",
+                "insuranceUpto": "insurance upto",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode"
+            }
+        },
+        "warning_msg": "registration certificate number or name is missing",
+        "missing_rc_number_warning_msg": "enter registration certificate number"
+    },
+    "emp_Voter": {
+        "cardHeader": "voter card",
+        "input_voter": {
+            "label": {
+                "documentNumber": "voter card number *",
+                "name": "name *",
+                "dob": "date of birth",
+                "fatherName": "father's name",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode"
+            },
+            "placeholder": {
+                "documentNumber": "voter card number",
+                "name": "name",
+                "fatherName": "father's name",
+                "addressLine1": "address line 1",
+                "addressLine2": "address line 2",
+                "pincode": "pincode"
+            }
+        },
+        "warning_msg": "voter card number or name is missing",
+        "missing_voter_number_warning_msg": "enter voter card number"
+    }
+}

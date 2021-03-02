@@ -1,0 +1,195 @@
+@import '../../../theme.scss';
+
+.black1{
+    background-color: #262D33;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.blue{
+    background-color: #0059B2;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.grey{
+    background-color: #88ABD3;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.green{
+    background-color: #4BB752;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.yellow{
+    background-color: #FFB803;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.purple{
+    background-color: #7C2E9E;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.red{
+    background-color: #EE3942;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.brown{
+    background-color: #8D6D55;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.black2{
+    background-color: #A84567;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.palletteBG{
+    background-color: $primary-background;
+    padding : 5px;
+    display: inline-flex;
+    border-radius: 12px;
+}
+
+.Label{
+    color: $primary-label;
+    font-size: 12px;
+    font-family: Gilroy-Medium;
+}
+
+.selectedBlack1{
+    border: 2px solid $black1-outline;
+    padding: 2px;
+}
+
+.selectedBlue{
+    border: 2px solid $blue-outline;
+    padding: 2px;
+}
+
+.selectedGrey{
+    border: 2px solid $grey-outline;
+    padding: 2px;
+}
+
+.selectedGreen{
+    border: 2px solid $green-outline;
+    padding: 2px;
+}
+
+.selectedYellow{
+    border: 2px solid $yellow-outline;
+    padding: 2px;
+}
+
+.selectedPurple{
+    border: 2px solid $purple-outline;
+    padding: 2px;
+}
+
+.selectedRed{
+    border: 2px solid $red-outline;
+    padding: 2px;
+}
+
+.selectedBrown{
+    border: 2px solid $brown-outline;
+    padding: 2px;
+}
+
+.selectedBlack2{
+    border: 2px solid $black2-outline;
+    padding: 2px;
+}
+
+.enableBlack1{
+    &:hover{
+        border:2px solid $black1-outline;
+    }
+}
+
+.enableBlue{
+    &:hover{
+        border:2px solid $blue-outline;
+    }
+}
+
+.enableGrey{
+    &:hover{
+        border:2px solid $grey-outline;
+    }
+}
+
+.enableGreen{
+    &:hover{
+        border:2px solid $green-outline;
+    }
+}
+
+.enableYellow{
+    &:hover{
+        border:2px solid $yellow-outline;
+    }
+}
+
+.enablePurple{
+    &:hover{
+        border:2px solid $purple-outline;
+    }
+}
+
+.enableRed{
+    &:hover{
+        border:2px solid $red-outline;
+    }
+}
+
+.enableBrown{
+    &:hover{
+        border:2px solid $brown-outline;
+    }
+}
+
+.enableBlack2{
+    &:hover{
+        border:2px solid $black2-outline;
+    }
+}
+
+.disable{
+    cursor: not-allowed;
+}
+
+.Tick{
+    position: relative;
+    bottom: 0.25rem;
+    left: 0.18rem;
+}

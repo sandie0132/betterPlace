@@ -1,0 +1,35 @@
+@import '../../../../theme.scss';
+
+.sliderContainer {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.itemsContainer{
+    display: flex;
+}
+
+.iconLeft {
+    position: absolute;
+    left: 1rem;
+    transform: rotate(180deg);
+    z-index: auto; //10;
+}
+
+.iconRight {
+    position: absolute;
+    right: 1rem;
+    z-index: auto; //10;
+}
+
+.hover{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.iconInActive{
+    opacity: 0.4;
+}

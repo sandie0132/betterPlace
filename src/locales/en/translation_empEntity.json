@@ -1,0 +1,66 @@
+{
+    "entityType": "entity type *",
+    "entityType_Business": {
+        "label": {
+            "businessAssociateId": "business associate id",
+            "status": "status *",
+            "joiningDate": "joining date ",
+            "kitNumber": "kit number",
+            "searchLocation": "other locations",
+            "searchRole": "other roles",
+            "searchCustom": "custom tag",
+            "defaultLocation": "default location *",
+            "defaultRole": "default role *"
+        },
+        "placeholder": {
+            "businessAssociateId": "IBPS111",
+            "kitNumber": "2345376773",
+            "joiningDate": "DD-MM-YYYY",
+            "searchLocation": "start searching location here",
+            "searchRole": "start searching role here",
+            "searchCustom": "start searching custom tags here",
+            "defaultLocation": "add default location",
+            "defaultRole": "add default role"
+        }
+    },
+    "entityType_Employee": {
+        "label": {
+            "employeeType": "employee type *",
+            "employeeId": "employee id",
+            "status": "status *",
+            "joiningDate": "joining date *",
+            "searchLocation": "other locations",
+            "searchRole": "other roles",
+            "searchCustom": "custom tag",
+            "defaultLocation": "default location *",
+            "defaultRole": "default role *"
+        },
+        "placeholder": {
+            "employeeId": "IBPS 1234",
+            "joiningDate": "DD-MM-YYYY",
+            "searchLocation": "start searching location here",
+            "searchRole": "start searching role here",
+            "searchCustom": "start searching custom tags here",
+            "defaultLocation": "add default location",
+            "defaultRole": "add default role"
+        }
+    },
+    "entityType_Tenant": {
+        "label": {
+            "tenantId": "tenant id",
+            "moveInDate": "move in date ",
+            "moveOutDate": "move out date ",
+            "searchLocation": "other locations",
+            "searchCustom": "custom tag",
+            "defaultLocation": "default location *"
+        },
+        "placeholder": {
+            "tenantId": "IBSS2122",
+            "moveInDate": "DD-MM-YYYY",
+            "moveOutDate": "DD-MM-YYYY",
+            "searchLocation": "start searching location here",
+            "searchCustom": "start searching custom tags here",
+            "defaultLocation": "add default location"
+        }
+    }
+}

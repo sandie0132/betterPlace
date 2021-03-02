@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>5356FD03-1ABE-48AA-84A5-18EE35802998</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="👽-GBV-Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BGV-Client-zomato-all-employee-B2" transform="translate(-13.000000, -376.000000)" fill-rule="nonzero">
+            <g id="left-bar">
+                <g id="side-bar">
+                    <g id="daily" transform="translate(13.000000, 376.000000)">
+                        <path d="M12,3.01980663e-14 C5.372583,3.01980663e-14 3.01980663e-14,5.372583 3.01980663e-14,12 C3.01980663e-14,18.627417 5.372583,24 12,24 C18.627417,24 24,18.627417 24,12 C24,8.81740212 22.7357179,5.76515517 20.4852814,3.51471863 C18.2348448,1.26428208 15.1825979,3.01980663e-14 12,3.01980663e-14 Z" id="Path-Copy-3" fill="#F3F7FD"></path>
+                        <g id="calendar" transform="translate(6.000000, 6.000000)" fill="#8697A8">
+                            <path d="M11,2 L10,2 L10,0 L8,0 L8,2 L4,2 L4,0 L2,0 L2,2 L1,2 C0.44771525,2 0,2.44771525 0,3 L0,11 C0,11.5522847 0.44771525,12 1,12 L11,12 C11.5522847,12 12,11.5522847 12,11 L12,3 C12,2.44771525 11.5522847,2 11,2 Z M10,10 L2,10 L2,5 L10,5 L10,10 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+@import '../../../../../theme.scss';
+
+.SuccessBackground{
+    background-color: $success-notification;
+    color: $card-link;
+    padding: 1.5rem;
+}
+
+.ErrorMessage{
+    font-size: 24px;
+    margin-bottom: 0px;
+    font-family: 'Gilroy-Light';
+}
+
+.ErrorMessageSubheading{
+    font-size: 12px;
+    margin-bottom: 0px;
+    font-family: 'Gilroy-Light';
+}
+
+.RedirectButton{
+    min-width: 6rem !important;
+    margin-top: 0.5rem !important;
+    color: $primary-label !important;
+    &:hover{
+        color: $primary-label !important;
+    }
+}
+
+.ErrorBackground{
+    background-color: $error-notification;
+    color: $card-link;
+    padding: 1.5rem;
+}
+
+.SkipLabel{
+    margin: 0rem;
+    background-color: $card-bg;
+    border-radius: 16px;
+    color: $warning;
+    font-size: 12px;
+}

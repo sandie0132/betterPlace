@@ -1,0 +1,130 @@
+@import '../../../../../theme.scss';
+
+.Footer{
+    background-color: $card-bg;
+    color: $secondary-label;
+    width: 100%;
+    padding: 16px 24px 5px 24px;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    font-size: 14px;
+    border-top : 1px solid $horizontal-line;
+    z-index: 5;
+}
+
+.verticalLine{
+    height: 3rem;
+    border-left: 2px solid $primary-background;
+    position: absolute;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    top: 10px;
+}
+
+.Number{
+    color: $card-bg;
+    background-color: $active-link;
+    padding: 2px 6px 0px 6px;
+    border-radius: 4px;
+}
+
+.AlignRight{
+    float: right;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.8rem;
+}
+
+*:focus {outline:none !important}
+
+.SearchField{
+    border: 1px solid $secondary-background;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: $secondary-label;
+    position: inherit;
+    &:focus{
+        border: 1px solid $active-link;
+    }
+}
+
+.SearchDropdown{
+    background-color: $card-bg;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    width: 11.25rem;
+    position: absolute;
+    bottom: 3.3rem;
+    left: 16.7rem;
+    max-height: 9rem;
+    overflow-y: auto;
+}
+
+.Options{
+    color: $secondary-label ;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+    &:hover{
+        background-color: $primary-background;
+        color: $primary-label;
+        cursor: pointer;
+    }
+}
+
+.BorderField{
+    border: 1px solid $secondary-background;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: $primary-label;
+    position: inherit;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.DropdownIconDown{
+    filter: brightness(0.5) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.Icon{
+    float: right;
+    margin-top: 0.35rem;
+}
+
+.DisplayBlock{
+    display: inline-block;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.VerifDropdown{
+    background-color: $card-bg;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    width: 12rem;
+    position: absolute;
+    bottom: 3.3rem;
+    // left: 16.9rem;
+    max-height: 9rem;
+    overflow-y: auto;
+    margin-left: 1rem;
+}
+
+.AgencyDropdown{
+    background-color: $card-bg;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    width: 12rem;
+    position: absolute;
+    bottom: 3.3rem;
+    // left: 18rem;
+    max-height: 9rem;
+    overflow-y: auto;
+    margin-left: 14rem;
+}

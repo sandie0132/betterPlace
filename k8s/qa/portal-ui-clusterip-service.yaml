@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: portal-ui-qa-service
+spec:
+  selector:
+    app: portal-ui-qa
+  type: ClusterIP
+  ports:
+  - protocol: TCP
+    port: 8050
+    targetPort: 80

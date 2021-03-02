@@ -1,0 +1,247 @@
+
+/**
+THEME COLORS
+ - The following colors are used across the application. 
+ - If required define new variable to introduce new colors.
+**/
+//Background Colors 
+
+//HomeBackground
+$primary-background: #F4F7FB; 
+//Dropdown,selected-label-on-rightnav
+$secondary-background: #E5EEF7;//#EBECFD;
+//Slider background Color
+$slider-background: #F0EDFA;
+//Dashboard IntroCard Color
+$disabled-background: #C3CBD4;
+$dashboard-intro-backgound: #6A54CD;
+
+//Labels with and without values
+$primary-label:#262D33;
+$secondary-label: #8697A8;
+$disabled-label: #8697A8; 
+
+////Headings
+$heading-red: #AC0000;
+
+//Selected component and buttons
+$active-link: #0059B2; 
+
+//Page Titles
+$page-title:#212529;
+
+//Form and Navbar-background 
+$card-bg :#FFFFFF;
+
+//Notifications
+$error-notification:#FDEBEC;
+$success-notification:#EDF7ED;
+$success-notification-bg: #EAF6ED;
+
+$success-notification-bgv:#FFF7E5;
+$success-notification-bgv-border:#FDE9AF;
+$success-notification-bgv-font:#94969D;
+
+$error-notification-bgv:#FDEBEC;
+$error-notification-bgv-border: #E98893;
+$error-notification-bgv-font:#8697A8;
+//Informational Colors
+$danger:#EE3942; 
+$success:#4BB752;
+$warning:#FFB803;
+
+//Loader
+//list tile form primary
+$loader-primary:#F0F3F8;
+//list-secondary,formloader-sec,
+$loader-secondary:#F3F6FE;
+//form-loader-heading-secondary, tile-secondary
+$tile-loader-secondary:#EAE0F8;
+$emp-right-nav-primary: #F4F7FB;
+$emp-right-nav-secondary: #FFFFFF;
+
+//task card court
+$card-court : #EDF7ED;
+$card-pan : #E8EEF8;
+$card-aadhaar : #E2EFEB;
+$card-voter : #E9E6E6;
+$card-dl : #F4F2E4;
+$card-rc: #F0EDFA;
+$card-pvc: #FBE9EB;
+$card-manual: #E6EFF0;
+$card-postal: #F6ECEF;
+
+///tast onboard
+$card-additional: #F4F0F6;
+$card-employment: #FFF5E5;
+$card-company: #F8FAED;
+$card-government: #FEF6F4;
+
+$box-additional: #976CA7;
+$box-employment: #FFA200;
+$box-company: #BFD554;
+$box-government: #F5A996;
+
+
+// reports page yellow case
+$yellow-case: #FEBC02;
+
+//employee report-related
+$legal-comment-bg: #F3F7FD;
+
+//Extra Colors
+//cancelpopup
+$button-cancel:#EEEEEE;
+//add client 
+$add-hover:#1A69B9;
+$add-active:#004F9F;
+//button disable
+$disable-bg: #C7C7C7;
+//search border
+$search-border:#E9E9E9;
+//timeline
+$timeline-text: #7892B8;
+//checkbox 
+$disabled-checkbox: #F4F7FB;
+
+//employee report-related
+$legal-comment-bg: #F3F7FD;
+
+//EmpBasicDetails
+$horizontal-line:#E4EAF1;
+$vertical-line: #EEEFEF;
+
+//orgcard
+$card-link: #000000;
+
+//tagColumn SectionStyle
+$section-border:#E1E8F3;
+
+
+//scrollbar
+$scrollbar: #C2CBD3;
+$scrollbar-blue: #CCDEF0;
+
+
+/////Notification
+$warning-background: #FFF7E5;	
+$disable : rgba(204, 204, 204, 0);
+
+$uploadDoc-bg : #2980b9;
+
+$loading : #ddd;
+
+$brown : #9A5A1E;
+$blue: #009CF0;
+$purple: #976CA7;
+$orange: #FFA200;
+
+
+
+$outline : #B6C5DB;
+
+$lightBlack : #131415;
+$inactive-font : #B8B9BB;
+$inactive-comment-background:#FBFCFE;
+$inactive-add-comment-background:#F8F9FB;
+
+$default-arc : #CFD1DA;
+
+//address verification - workload mgmt
+// $batchErrorBackground : #F0FAFB;
+// $batchInitialBackground : #FFFAE6;
+$task-filter-open: #FFCE06;
+$task-filter-total: #88ABD3;
+$task-filter-pincode: #B7DDFF;
+$insights-pink: #FF8095;
+$insights-green: #BFD554;
+$insights-orange: #FF8100;
+
+//address verification-task count
+$default-background : #E8E9ED;
+$picked-background : #F4F0F6;
+$failed-background : #FFF2F4;
+$open-background : #FFFAE6;
+
+$default-numerator : #1B2B4C;
+
+//brand colors - orgdetails
+$black1-outline: #D4D5D6;
+$blue-outline: #CCDEF0;
+$grey-outline: #E7EEF6;
+$green-outline: #DBF1DC;
+$yellow-outline: #FFF1CD;
+$purple-outline: #E5D5EC;
+$red-outline: #FCD7D9;
+$brown-outline: #E8E2DD;
+$black2-outline: #EEDAE1;
+
+//org profile bgColor theme
+$black1-theme: #E9EAEB;
+$blue-theme: #E5EFF8;
+$grey-theme: #F3F7FB;
+$green-theme: #EDF8EE;
+$yellow-theme: #FFF8E6;
+$purple-theme: #F2EAF6;
+$red-theme: #FEEBEC;
+$brown-theme: #F4F1EE;
+$black2-theme: #F7EDF0;
+$default-theme: #F4F7FB;
+
+//verify-link
+$verifylink-bottomline: #172B4F;
+$infocard: #DCE3F1;
+$verifylink-active-link: #283DFF;
+
+//digital signature
+$digital-signature: #FFF7E3;
+
+$greyBg: #F4F5F5;
+
+:export{
+    activeLink : $active-link;
+    secondaryBackground : $secondary-background;
+    secondaryLabel : $secondary-label;
+    primaryBackground : $primary-background;
+    primaryLabel : $primary-label;
+    danger:$danger; 
+    success:$success;
+    warning:$warning;
+    errorNotification : $error-notification;
+    successNotification : $success-notification;
+    warningBackground : $warning-background;
+    uploadDocBg : $uploadDoc-bg;
+    loading : $loading;
+    loaderPrimary : $loader-primary;
+    loaderSecondary : $loader-secondary;
+    tileLoaderSecondary : $tile-loader-secondary;
+    empRightNavLoaderPrimary: $emp-right-nav-primary;
+    empRightNavLoaderSecondary: $emp-right-nav-secondary;
+    defaultArc : $default-arc;
+    disabledLabel: $disabled-label;
+
+    black1Theme: $black1-theme;
+    blueTheme: $blue-theme;
+    greyTheme: $grey-theme;
+    greenTheme: $green-theme;
+    yellowTheme: $yellow-theme;
+    purpleTheme: $purple-theme;
+    redTheme: $red-theme;
+    brownTheme: $brown-theme;
+    black2Theme: $black2-theme;
+    defaultTheme: $default-theme;
+
+    // address-verification task count
+    defaultBackground : $default-background;
+    pickedBackground : $picked-background;
+    failedBackground : $failed-background;
+    openBackground : $open-background;
+    closedBackground : $success-notification;
+    defaultNumerator : $default-numerator;
+    pickedNumerator : $purple;
+    failedNumerator : $insights-pink;
+    closedNumerator : $success;
+    openNumerator : $task-filter-open;
+    defaultDenominator : $task-filter-total;
+    
+}

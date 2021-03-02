@@ -1,0 +1,79 @@
+@import '../../../../theme.scss';
+.FolderAlign{
+    display: inline-flex;
+    color: $card-link;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    height: 40px;
+    width:15rem;
+    padding-top: 0.55rem;
+    padding-left: 0.55rem;
+    z-index: 0;
+    &:hover{
+        background-color: $card-bg;
+        border-radius: 4px;
+        cursor: pointer;
+        width:15rem;
+    }   
+}
+.EditButton{
+   //xmargin-left:1.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color:$secondary-label;
+    z-index: 999;
+}
+.FolderActive{
+    background-color: $card-bg;
+    //border: 1px dotted rgba(120, 146, 184, 0.356);
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    width: 15rem !important ;
+}
+.FolderSelected{
+    background-color: $secondary-background;
+    //border: 1px dotted rgba(120, 146, 184, 0.356);
+    border-radius: 4px;
+    cursor: pointer;
+
+    width: 15rem !important ;
+}
+.dropdown{
+    position: absolute;
+    background-color:$card-bg;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 5rem;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+    z-index: 999;
+    display:inline-table;
+    margin-left: 2px;
+}
+.dropdown::after{
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.UnorderedList{  
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.List{
+    width:100%;
+    text-align: left;
+    padding-left: 5px;
+}
+  
+.List:hover {
+    color: $active-link;   
+    background-color:$primary-background;    
+    cursor: pointer;
+  }

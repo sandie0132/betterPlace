@@ -1,0 +1,30 @@
+@import '../../../../../../../theme.scss';
+
+.countBar{
+    width: 5px;
+    margin:2px 4px 2px 4px;
+    border-radius: 3px;
+}
+
+.extra{
+    background-color: $primary-background;
+    padding: 3px;
+    // padding-bottom: 3px;
+    border-radius: 12px;
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    color: $secondary-label;
+    text-align: center;
+    margin: 10px 0 0 5px;
+
+}
+
+.empty{
+    font-size: 14px;
+    width: 20px;
+    margin: 3px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}

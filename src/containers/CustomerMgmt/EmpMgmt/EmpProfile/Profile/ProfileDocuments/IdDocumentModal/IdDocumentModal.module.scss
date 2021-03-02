@@ -1,0 +1,66 @@
+@import "../../../../../../../theme.scss";
+
+.alignModal {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: none !important;
+    box-shadow: none !important;
+    // margin-left: auto;
+    // margin-right: auto;
+}
+
+.closeImg{
+    cursor: pointer;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+}
+
+.modalContainer{
+    padding: 2rem 2.5rem;
+    background-color: $card-bg;
+    margin-left: 18%;
+    margin-right: 18%;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.11);
+    text-align: start;
+}
+
+.textLarge{
+    font-size: 18px;
+    color: $primary-label;
+    line-height: 28px;
+    font-family: Gilroy-Medium;
+}
+
+.textSmall{
+    font-size: 12px;
+    line-height: 14px;
+    color: $secondary-label;
+    font-family: Gilroy-Medium;
+}
+
+.HorizontalLine{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid $horizontal-line;
+}
+
+
+.pdfStyle{
+    font-size: 14px;
+    color: $secondary-label;
+    :hover{
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+.pdfStyleLoading{
+    font-size: 14px;
+    color: $secondary-label;
+    :hover{
+        cursor: progress;
+        text-decoration: none;
+    }
+}

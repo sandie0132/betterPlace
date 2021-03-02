@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>0CA02B36-1BC9-45F5-B28C-CB560B740B90</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="8 0 10.472 5.0096 16 5.8128 12 9.712 12.944 15.2176 8 12.6176 3.056 15.2176 4 9.712 0 5.8128 5.528 5.0096"></polygon>
+    </defs>
+    <g id="🏂-on-boarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_OPs--all_clients-multy" transform="translate(-408.000000, -391.000000)">
+            <g id="client-1-copy" transform="translate(160.000000, 383.000000)">
+                <g id="logo-coitainer">
+                    <g id="icon-/-16-/-info-/-star" transform="translate(248.000000, 8.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Path" fill="#D8D8D8" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#0059B2" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

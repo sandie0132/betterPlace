@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>4A46F0EB-AA0C-4D4A-9F47-4DCCCC154EE5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M14.7272727,3.54545455 L14.7272727,15 L4.54545455,15 L4.54545455,13.7272727 L13.4545455,13.7272727 L13.4545455,3.54545455 L14.7272727,3.54545455 Z M12.1818182,1 L12.1818182,12.4545455 L2,12.4545455 L2,1 L12.1818182,1 Z M10.9090909,2.27272727 L3.27272727,2.27272727 L3.27272727,11.1818182 L10.9090909,11.1818182 L10.9090909,2.27272727 Z" id="path-1"></path>
+    </defs>
+    <g id="🤖-BGV-OPs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OpsTask_AddComments_1" transform="translate(-352.000000, -424.000000)">
+            <g id="pan-details" transform="translate(160.000000, 314.000000)">
+                <g id="Group-6" transform="translate(40.000000, 106.000000)">
+                    <g id="icon-/-24-/-info-/-copy" transform="translate(150.000000, 3.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#0059B2" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#0059B2" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+@import "../../../theme.scss";
+
+.AddButton {
+  justify-content: flex-end !important;
+  border-radius: 20px !important;
+  padding: 10px !important;
+  background-color: $active-link !important;
+  color: $card-bg !important;
+  &:hover {
+    text-decoration: none !important;
+    color: $card-bg !important;
+    background-color: $add-hover !important;
+  }
+  &:active {
+    text-decoration: none !important;
+    color: $card-bg !important;
+    background-color: $add-active !important;
+  }
+}
+
+.WelcomeMessageMargin {
+  margin: 16rem 0;
+}

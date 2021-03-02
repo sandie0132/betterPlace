@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>99FB58BF-591B-4DB2-9015-37B7A183F743</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M15.9093166,13.9750758 L8.57598327,1.3084091 C8.44736114,1.11571639 8.23099338,1 7.9993166,1 C7.76763982,1 7.55127206,1.11571639 7.42264993,1.3084091 L0.0893165997,13.9750758 C-0.0297110547,14.1812374 -0.0297762607,14.4352239 0.0891455222,14.6414466 C0.208067305,14.8476694 0.427928333,14.9748317 0.665983266,14.9750758 L15.3326499,14.9750758 C15.5707049,14.9748317 15.7905659,14.8476694 15.9094877,14.6414466 C16.0284095,14.4352239 16.0283443,14.1812374 15.9093166,13.9750758 L15.9093166,13.9750758 Z M8.8033166,5.64174243 L8.48798327,10.0417424 L7.51064993,10.0417424 L7.2133166,5.64174243 L8.8033166,5.64174243 Z M7.9993166,12.9750758 C7.45918211,12.9750758 7.0213166,12.5372103 7.0213166,11.9970758 C7.0213166,11.4569413 7.45918211,11.0190758 7.9993166,11.0190758 C8.53945109,11.0190758 8.9773166,11.4569413 8.9773166,11.9970758 C8.9773166,12.5372103 8.53945109,12.9750758 7.9993166,12.9750758 Z" id="path-1"></path>
+    </defs>
+    <g id="🚀-Initiate-BGV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="initiate-BGV_missing_data_7" transform="translate(-888.000000, -933.000000)">
+            <g id="PAN" transform="translate(160.000000, 920.000000)">
+                <g id="header_missing-data" transform="translate(728.000000, 12.000000)">
+                    <g id="icon-/-16-/-info-/-onhold">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="#EE3942" mask="url(#mask-2)" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

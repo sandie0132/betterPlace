@@ -1,0 +1,91 @@
+@import "../../../../../../theme.scss";
+
+.cardBgGov {
+    background-color: #f7fbff;
+    // padding: 5px;
+    border-radius: 12px;
+    border: 1px solid rgba(183, 221, 255, 0.5);
+    width: 177px;
+    margin-right: 1rem;
+    &:hover{
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11), 0 2px 11px 0 rgba(0, 0, 0, 0.11);
+        border: none !important;
+    }
+}
+
+.govIcon {
+    height: 34px;
+    width: 34px;
+    background-color: #b7ddff;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.cardPadding {
+    padding: 16px 6px 16px 16px;
+    height: 8.5rem;
+}
+
+.subSectionHeading {
+    padding-top: 8px;
+    font-size: 12px;
+    color: #8697a8;
+    font-family: "gilroy-light";
+}
+
+.label {
+    font-size: 16px;
+    font-family: "gilroy-bold";
+    color: #262d33;
+    line-height: 18px;
+    padding-top: 8px;
+    word-break: normal;
+}
+.smallLabel {
+    font-size: 12px;
+    color: #455d71;
+    font-family: "gilroy-SemiBold";
+    font-weight: 700;
+}
+
+.bottomSectionGov {
+    display: flex;
+    background-color: #b7ddff;
+    border-radius: 0px 0px 12px 12px;
+    padding: 10px 16px;
+}
+
+.cardBgDoc {
+    background-color: #faf7ff;
+    // padding: 5px;
+    border-radius: 12px;
+    border: 1px solid rgba(205, 184, 255, 0.5);
+    width: 177px;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    &:hover{
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11), 0 2px 11px 0 rgba(0, 0, 0, 0.11);
+        border: none !important;
+    }
+}
+
+.bottomSectionDoc {
+    display: flex;
+    background-color: #cdb8ff;
+    border-radius: 0px 0px 12px 12px;
+    padding: 10px 16px;
+}
+
+.checkBoxAlign{
+    margin-top: -4px !important;
+}
+
+.checkMarkStyle{
+    margin-top: 2px;
+}
+
+.shadow{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11), 0 2px 11px 0 rgba(0, 0, 0, 0.11);
+    border : none !important;
+}

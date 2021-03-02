@@ -1,0 +1,12 @@
+{
+    "image_alt_orgClientTags": {
+        "img": "img"
+    },
+   "label" : {
+       "l1" : " / configure client"
+   },
+   "div" :{
+       "d1" : "no tags are assigned"
+   },
+    "cardheading" : "client configuration"
+}

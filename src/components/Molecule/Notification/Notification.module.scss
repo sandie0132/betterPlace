@@ -1,0 +1,24 @@
+@import "../../../theme.scss";
+
+.notificationContainer{
+    // height: 56px;
+    // margin-top: 8px;
+    background-color: $primary-background;
+    // position: absolute;
+    // width: 98%;
+    align-self: center;
+}
+
+.autosaveText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    // line-height: 16px;
+}
+
+.notificationText{
+    color: $primary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    // line-height: 16px;
+}

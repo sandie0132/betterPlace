@@ -1,0 +1,143 @@
+@import "../../../../../../theme.scss";
+
+.alignCenter {
+    padding-left: 14%;
+    width: 100%;
+    padding-right: 3%;
+    margin-top: 1rem;
+    height: 100vh;
+}
+
+.fixedTopHeader{
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    background-color: $primary-background;;
+    width: 100%;
+    padding-top: 16px;
+}
+
+.fixedHeader{
+    padding: 8px;
+    margin-top: 16px;
+    background-color: $card-bg;
+    width: 100%;
+}
+
+.formHeader {
+    background-color: $primary-background;
+    padding: 8px;
+    font-family: "Gilroy-Light";
+}
+
+.timeHeading { 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media (min-width: 1025px) {
+    .alignCenter {
+        padding-right: 25%;
+    }
+}
+
+.container {
+    background-color: $card-bg;
+    padding: 2rem 2rem 2rem 1rem;
+}
+
+.sectionHeading{
+    color: $primary-label;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.horizontalLine {
+    border: 1px solid $horizontal-line;
+    width: 98%;
+    margin-left: 1rem;
+}
+
+.addLocationContainer{
+    padding: 4px 12px 4px 12px;
+    background-color: $primary-background;
+    cursor: pointer;
+    position: relative;
+    width: 8rem;
+    border-radius: 14px;
+    height: 24px;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.addLocationContainerDeactive{
+    padding: 4px 12px 4px 12px;
+    background-color: $secondary-background;
+    color: $secondary-label;
+    cursor: none;
+    position: relative;
+    border-radius: 8px;
+    font-family: Gilroy;
+    font-size: 14px;
+    width: 8rem;
+    line-height: 16px;
+    height: 24px;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.blueText{
+  color: $active-link;
+  font-family: Gilroy;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.addIcon{
+    font-family: Gilroy-SemiBold;
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    font-size: 14px;
+}
+
+.locationNameContainer{
+    padding: 5px 8px 5px 8px;
+    background-color: $secondary-background;
+    cursor: pointer;
+    position: relative;
+    border-radius: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    color: $secondary-label;
+    margin: 2px 4px 2px 4px;
+    display: flex;
+}
+
+.closeTag{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.alignLeft {
+    text-align: end;
+}
+
+.checkMarkStyle{
+    margin-top: 4px;
+}
+
+.checkBoxText{
+    color: $secondary-label;
+    font-family: Gilroy;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+
+.locationInfoText{
+    color: #8697A8;
+    font-size: 14px;
+}

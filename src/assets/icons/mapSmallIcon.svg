@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>A8AB3B52-0DE0-4CE9-BCE1-8092560C3C70</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="2" width="20" height="20"></rect>
+    </defs>
+    <g id="BGV-configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bgv-configuration-1_select-services" transform="translate(-212.000000, -478.000000)">
+            <g id="section" transform="translate(160.000000, 120.000000)">
+                <g id="Security-Guard-Copy-7" transform="translate(40.000000, 346.000000)">
+                    <g id="icon-/-48-/-info-/-verification-/-aadhaar" transform="translate(8.000000, 8.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="container"></g>
+                        <g id="square-pin" mask="url(#mask-2)" fill-rule="nonzero">
+                            <g transform="translate(4.500000, 4.000000)">
+                                <path d="M14.9565214,16 L0.347826079,16 C0.219599995,16 0.101732171,15.9293496 0.0410991295,15.8162365 C-0.0193634778,15.7031235 -0.0127408693,15.5658957 0.0584208682,15.4592383 L2.8410295,11.2853254 C2.9055721,11.1885185 3.01409732,11.130435 3.13043471,11.130435 L12.1739128,11.130435 C12.2902501,11.130435 12.3987754,11.1885185 12.4633145,11.2853254 L15.2459231,15.4592383 C15.3170849,15.5658957 15.3237075,15.7031235 15.2632449,15.8162365 C15.2026153,15.9293496 15.0847475,16 14.9565214,16 Z" id="Path" fill="#9BCED3"></path>
+                                <path d="M7.652174,0 C4.77069911,0 2.43478251,2.33589563 2.43478251,5.21739125 C2.43478251,8.33013209 6.38545047,12.3466607 7.41121051,13.3370573 C7.54636182,13.4675477 7.75798617,13.4675477 7.89313748,13.3370573 C8.91889752,12.3466607 12.8695655,8.33013209 12.8695655,5.21739125 C12.8695655,2.33589563 10.5336489,0 7.652174,0 Z" id="Path" fill="#E86C60"></path>
+                                <circle id="Oval" fill="#FFFFFF" cx="7.65217388" cy="5.21739113" r="1.73913038"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+    "cardHeader": "vendor management",
+    "image_alt_vendorCard": {
+        "arrow": "arrow"
+    },
+    "insights": "insights",
+    "vendors": "vendors",
+    "clients": "clients",
+    "searchPlaceholder": "search for vendor/client",
+    "awaiting": "awaiting approvals",
+    "active": "active "
+}
